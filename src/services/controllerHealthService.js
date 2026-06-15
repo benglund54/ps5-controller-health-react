@@ -1,30 +1,95 @@
 /**
  * controllerHealthService.js
  *
- * Frontend mock service layer for the PS5 Controller Health demo.
- *
- * All functions return Promises so they can be swapped for real
- * Salesforce / Data Cloud / Agentforce API calls in a later phase
- * without changing call sites.
- *
- * NO backend calls are made here. All data is read from local mock files.
- * Replace the import and the data lookups inside each function when
- * integrating with a real backend.
- *
- * Integration readiness:
- *   - Replace mock data lookups with fetch() / axios / Apex REST calls
- *   - Add auth headers (e.g. Connected App OAuth token) at that point
- *   - Keep the same function signatures so React components need no changes
+ * Frontend service layer for PS5 Controller Health demo.
+ * - Default source: local mock data
+ * - Optional source: local middleware API (`/api/*`)
+ * - Never authenticates to Salesforce directly from React
  */
 
-import { playerPersonas } from "../data/playerPersonas";
-import { controllerHealthJourneys } from "../data/controllerHealthJourneys";
+import { playerPersonas } from "../data/playerPersonas.js";
+import { controllerHealthJourneys } from "../data/controllerHealthJourneys.js";
 
 // ── Simulated network latency (ms) ──────────────────────────────────────────
 const MOCK_DELAY_MS = 180;
+const API_TIMEOUT_MS = 2500;
+const PLAYER_ID_PATTERN = /^PLAYER00[1-4]$/i;
 
 function delay(ms = MOCK_DELAY_MS) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function getEnv() {
+  const viteEnv = import.meta?.env ?? {};
+  const processEnv = globalThis.process?.env ?? {};
+  return {
+    source: String(
+      viteEnv.VITE_CONTROLLER_HEALTH_SOURCE ??
+        processEnv.VITE_CONTROLLER_HEALTH_SOURCE ??
+        "mock"
+    )
+      .toLowerCase()
+      .trim(),
+    apiBase:
+      viteEnv.VITE_CONTROLLER_HEALTH_API_BASE ??
+      processEnv.VITE_CONTROLLER_HEALTH_API_BASE ??
+      "http://localhost:4010"
+  };
+}
+
+export function isMiddlewareSourceEnabled() {
+  return getEnv().source === "middleware";
+}
+
+function sanitizePlayerId(playerId) {
+  return String(playerId ?? "").trim().toUpperCase();
+}
+
+function getBasePersona(playerId) {
+  return (
+    playerPersonas.find((p) => p.ownerId.toUpperCase() === playerId.toUpperCase()) ?? null
+  );
+}
+
+function mapProfileToPersona(playerId, profileResponse) {
+  const base = getBasePersona(playerId);
+  if (!base || !profileResponse?.player || !profileResponse?.device) {
+    return base;
+  }
+  const player = profileResponse.player;
+  const device = profileResponse.device;
+  return {
+    ...base,
+    ownerId: playerId,
+    displayName: player.displayName ?? base.displayName,
+    psnAccount: player.psnAccount ?? base.psnAccount,
+    loyaltyTier: player.loyaltyTier ?? base.loyaltyTier,
+    psPlusTier: player.psPlusTier ?? base.psPlusTier,
+    controllerModel: device.controllerModel ?? base.controllerModel,
+    serial: device.serialNumber ?? base.serial
+  };
+}
+
+async function fetchWithTimeout(path, options = {}) {
+  const { apiBase } = getEnv();
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
+  try {
+    const response = await fetch(`${apiBase}${path}`, {
+      ...options,
+      signal: controller.signal,
+      headers: {
+        "content-type": "application/json",
+        ...(options.headers ?? {})
+      }
+    });
+    if (!response.ok) {
+      throw new Error(`Middleware request failed: ${response.status}`);
+    }
+    return await response.json();
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 // ── Telemetry mock data ──────────────────────────────────────────────────────
@@ -83,10 +148,19 @@ const mockTelemetry = {
  * @returns {Promise<object|null>}
  */
 export async function getPlayerProfile(playerId) {
+  const normalizedId = sanitizePlayerId(playerId);
+  if (isMiddlewareSourceEnabled()) {
+    try {
+      const payload = await fetchWithTimeout(`/api/players/${normalizedId}`);
+      const persona = mapProfileToPersona(normalizedId, payload);
+      if (persona) return persona;
+    } catch {
+      // fallback to local mock below
+    }
+  }
+
   await delay();
-  const profile = playerPersonas.find(
-    (p) => p.ownerId.toUpperCase() === playerId.toUpperCase()
-  );
+  const profile = getBasePersona(normalizedId);
   if (!profile) return null;
   return { ...profile };
 }
@@ -98,8 +172,32 @@ export async function getPlayerProfile(playerId) {
  * @returns {Promise<object>}
  */
 export async function getControllerTelemetry(playerId) {
+  const normalizedId = sanitizePlayerId(playerId);
+  if (isMiddlewareSourceEnabled()) {
+    try {
+      const payload = await fetchWithTimeout(
+        `/api/players/${normalizedId}/controller-health`
+      );
+      if (payload?.healthSignal && payload?.device) {
+        return {
+          rightStickDriftScore: payload.healthSignal.rightStickDriftScore ?? 0,
+          leftStickDriftScore: payload.healthSignal.leftStickDriftScore ?? 0,
+          disconnectFrequencyScore: payload.healthSignal.disconnectFrequencyScore ?? 0,
+          firmwareVersion: payload.device.firmwareVersion ?? "unknown",
+          firmwareLatest: payload.device.firmwareLatest ?? "unknown",
+          batteryHealthPercent: payload.healthSignal.batteryHealthPercent ?? 0,
+          sessionHoursLast30Days: payload.healthSignal.sessionHoursL30d ?? 0,
+          issueConfidence: payload.healthSignal.issueConfidence ?? "UNKNOWN",
+          warrantyStatus: payload.device.warrantyStatus ?? "UNKNOWN"
+        };
+      }
+    } catch {
+      // fallback to local mock below
+    }
+  }
+
   await delay();
-  const telemetry = mockTelemetry[playerId.toUpperCase()];
+  const telemetry = mockTelemetry[normalizedId];
   if (!telemetry) {
     return {
       rightStickDriftScore: 0,
@@ -120,9 +218,30 @@ export async function getControllerTelemetry(playerId) {
  * @returns {Promise<{journey: object, recommendationType: string}>}
  */
 export async function getControllerRecommendation(playerId) {
+  const normalizedId = sanitizePlayerId(playerId);
+  if (isMiddlewareSourceEnabled()) {
+    try {
+      const payload = await fetchWithTimeout("/api/controller-health/recommendation", {
+        method: "POST",
+        body: JSON.stringify({ playerId: normalizedId })
+      });
+      const fallbackJourney =
+        controllerHealthJourneys[normalizedId] ?? controllerHealthJourneys.PLAYER003;
+      if (payload?.recommendation?.type) {
+        return {
+          recommendationType: payload.recommendation.type,
+          journey: fallbackJourney,
+          meta: payload.meta ?? null
+        };
+      }
+    } catch {
+      // fallback to local mock below
+    }
+  }
+
   await delay();
   const journey =
-    controllerHealthJourneys[playerId.toUpperCase()] ??
+    controllerHealthJourneys[normalizedId] ??
     controllerHealthJourneys.PLAYER003;
   return {
     recommendationType: journey.recommendationType,
@@ -141,9 +260,31 @@ export async function getControllerRecommendation(playerId) {
  * @returns {Promise<{status: "demo_only", message: string}>}
  */
 export async function submitDemoResolution(playerId, selectedOption, meta = {}) {
+  const normalizedId = sanitizePlayerId(playerId);
+  if (isMiddlewareSourceEnabled()) {
+    try {
+      const payload = await fetchWithTimeout("/api/controller-health/resolve-preview", {
+        method: "POST",
+        body: JSON.stringify({
+          playerId: normalizedId,
+          selectedOption,
+          meta
+        })
+      });
+      if (payload?.previewOnly === true) {
+        return {
+          status: "demo_only",
+          message: payload.message ?? "Demo resolution recorded. No real action was taken."
+        };
+      }
+    } catch {
+      // fallback to local mock below
+    }
+  }
+
   await delay(280);
   console.info("[controllerHealthService] submitDemoResolution — preview mode", {
-    playerId,
+    playerId: normalizedId,
     selectedOption,
     meta,
     note: "No real order, payment, or case was created."
@@ -161,9 +302,13 @@ export async function submitDemoResolution(playerId, selectedOption, meta = {}) 
  * @returns {Promise<object|null>}  Returns the matching persona or null.
  */
 export async function lookupPlayer(query) {
-  await delay(120);
   const normalized = query.trim().toLowerCase();
   if (!normalized) return null;
+  if (isMiddlewareSourceEnabled() && PLAYER_ID_PATTERN.test(normalized)) {
+    const profile = await getPlayerProfile(normalized.toUpperCase());
+    if (profile) return profile;
+  }
+  await delay(120);
   return (
     playerPersonas.find(
       (p) =>
