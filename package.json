@@ -12,7 +12,10 @@
     "server:start": "node server/index.js",
     "test:middleware:mock": "node scripts/smoke-middleware.mjs mock",
     "test:middleware:salesforce": "node scripts/smoke-middleware.mjs salesforce",
-    "test:middleware:fallback": "node scripts/smoke-middleware.mjs fallback"
+    "test:middleware:fallback": "node scripts/smoke-middleware.mjs fallback",
+    "test:frontend:mock": "node --loader ./scripts/asset-loader.mjs scripts/smoke-frontend-service.mjs mock",
+    "test:frontend:middleware": "node --loader ./scripts/asset-loader.mjs scripts/smoke-frontend-service.mjs middleware",
+    "test:frontend:fallback": "node --loader ./scripts/asset-loader.mjs scripts/smoke-frontend-service.mjs fallback"
   },
   "dependencies": {
     "express": "^5.1.0",
