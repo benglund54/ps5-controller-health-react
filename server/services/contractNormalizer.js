@@ -1,6 +1,10 @@
 import crypto from "node:crypto";
 
-export function buildCanonicalResponse(playerId, mockContext) {
+export function buildCanonicalResponse(
+  playerId,
+  mockContext,
+  options = { source: "MOCK", fallbackUsed: false }
+) {
   const generatedAt = new Date().toISOString();
 
   return {
@@ -45,9 +49,9 @@ export function buildCanonicalResponse(playerId, mockContext) {
       confirmationCopy: mockContext.recommendation.confirmationCopy
     },
     meta: {
-      source: "MOCK",
+      source: options.source ?? "MOCK",
       agentforceSessionId: null,
-      fallbackUsed: false,
+      fallbackUsed: Boolean(options.fallbackUsed),
       previewOnly: true,
       generatedAt
     }

@@ -10,6 +10,8 @@ app.get("/health", (_req, res) => {
   res.json({
     ok: true,
     mode: env.sourceMode,
+    dataSource: env.dataSource,
+    sfAlias: env.sfAlias,
     previewOnly: true
   });
 });

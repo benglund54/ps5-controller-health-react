@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "check:sf": "node scripts/check-sf-connectivity.mjs",
-    "server:start": "node server/index.js"
+    "server:start": "node server/index.js",
+    "test:middleware:mock": "node scripts/smoke-middleware.mjs mock",
+    "test:middleware:salesforce": "node scripts/smoke-middleware.mjs salesforce",
+    "test:middleware:fallback": "node scripts/smoke-middleware.mjs fallback"
   },
   "dependencies": {
     "express": "^5.1.0",

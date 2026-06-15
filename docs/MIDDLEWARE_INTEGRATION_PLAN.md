@@ -41,9 +41,18 @@ These env vars are scaffolded for future phases:
 
 - `MIDDLEWARE_PORT` (default `4010`)
 - `MIDDLEWARE_SOURCE_MODE` (default `MOCK_ONLY`)
+- `MIDDLEWARE_DATA_SOURCE` (`mock|salesforce`, default `mock`)
+- `MIDDLEWARE_SF_ALIAS` (default `ps5-controller-demo`)
 - `MIDDLEWARE_ENABLE_CRM_READS` (`true|false`, currently false)
 - `MIDDLEWARE_ENABLE_DATACLOUD_READS` (`true|false`, currently false)
 - `MIDDLEWARE_ENABLE_AGENTFORCE` (`true|false`, currently false)
+
+## Salesforce Read-Service Phase
+
+- When `MIDDLEWARE_DATA_SOURCE=salesforce`, middleware attempts read-only CRM queries via `sf data query` against `MIDDLEWARE_SF_ALIAS`.
+- If CRM reads fail for any reason, middleware falls back to mock context and returns `meta.source="PARTIAL_FALLBACK"` with `fallbackUsed=true`.
+- Telemetry remains mock-backed until Data Cloud integration phase.
+- No write operations are allowed in this phase.
 
 ## Guardrails Enforced
 
