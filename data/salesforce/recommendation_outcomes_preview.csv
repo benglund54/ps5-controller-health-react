@@ -1,0 +1,2 @@
+outcomeId,sessionId,externalPlayerId,recommendationType,optionsPresented,selectedOption,selectedPaymentMethod,resolutionStatus,previewOnly,agentforceSessionId,timestamp,notes
+OUTCOME-EXAMPLE-001,SESSION-UUID-001,PLAYER001,INCLUDED_REPLACEMENT,"[""dualsense"",""edge"",""limited""]",dualsense,,PREVIEW_ONLY,true,,2024-06-10T14:22:00Z,Example row only — no real record created

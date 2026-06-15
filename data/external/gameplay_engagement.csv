@@ -1,0 +1,9 @@
+engagementId,externalPlayerId,periodStart,periodEnd,sessionCount,totalHoursPlayed,avgSessionMinutes,topGenre,topTitleCategory,psStoreVisits,trophiesEarned,friendActivityCount,shareCount
+ENG-001-001,PLAYER001,2024-05-01,2024-05-31,18,32.5,108,Action-Adventure,First Party,4,12,8,2
+ENG-001-002,PLAYER001,2024-06-01,2024-06-10,8,14.2,107,Action-Adventure,First Party,2,5,3,1
+ENG-002-001,PLAYER002,2024-05-01,2024-05-31,24,51.0,128,Action-RPG,First Party,7,28,15,6
+ENG-002-002,PLAYER002,2024-06-01,2024-06-10,12,22.8,114,Action-RPG,First Party,3,12,6,2
+ENG-003-001,PLAYER003,2024-05-01,2024-05-31,10,18.5,111,Puzzle,Indie,2,7,4,1
+ENG-003-002,PLAYER003,2024-06-01,2024-06-10,4,7.2,108,Puzzle,Indie,1,2,1,0
+ENG-004-001,PLAYER004,2024-05-01,2024-05-31,14,29.0,124,Fighting,First Party,5,19,9,4
+ENG-004-002,PLAYER004,2024-06-01,2024-06-10,6,13.1,131,Fighting,First Party,2,8,4,1

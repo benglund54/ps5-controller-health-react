@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entitlement_Type__c</fullName>
+    <label>Entitlement Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>FREE_REPLACEMENT</fullName><default>false</default><label>Free Replacement</label></value>
+            <value><fullName>DISCOUNTED_UPGRADE</fullName><default>false</default><label>Discounted Upgrade</label></value>
+            <value><fullName>FIRMWARE_ONLY</fullName><default>false</default><label>Firmware Only</label></value>
+            <value><fullName>MODULE_REPLACEMENT</fullName><default>false</default><label>Module Replacement</label></value>
+        </valueSetDefinition>
+    </valueSet>
+    <description>Type of resolution the player is eligible for. Maps to recommendation.type in the React response contract.</description>
+</CustomField>

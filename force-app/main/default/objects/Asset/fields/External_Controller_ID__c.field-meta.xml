@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Controller_ID__c</fullName>
+    <externalId>true</externalId>
+    <label>External Controller ID</label>
+    <length>20</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+    <description>Stable external key for controller/device records. Values: CTRL-001 through CTRL-004. Used as upsert key when loading from CSV seed data.</description>
+</CustomField>

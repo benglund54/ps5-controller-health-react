@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recommendation_Type__c</fullName>
+    <label>Recommendation Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>INCLUDED_REPLACEMENT</fullName><default>false</default><label>Included Replacement</label></value>
+            <value><fullName>PERSONALIZED_UPGRADE</fullName><default>false</default><label>Personalized Upgrade</label></value>
+            <value><fullName>FIRMWARE_TROUBLESHOOTING</fullName><default>false</default><label>Firmware Troubleshooting</label></value>
+            <value><fullName>STICK_MODULE_PATH</fullName><default>false</default><label>Stick Module Path</label></value>
+        </valueSetDefinition>
+    </valueSet>
+    <description>The recommendation type that was surfaced to this player in this session. Maps to recommendation.type in the response contract.</description>
+</CustomField>

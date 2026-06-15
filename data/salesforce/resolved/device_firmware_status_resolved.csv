@@ -1,0 +1,5 @@
+External_Controller_ID__c,Name,Controller_Serial_Number__c,Player_ID__c,Current_Firmware_Version__c,Latest_Firmware_Version__c,Update_Available__c,Last_Checked_At__c,Update_Channel__c
+CTRL-001,CTRL-001,ZCT1W-0A1B2C3D,PLAYER001,3.02,3.02,false,2024-06-10T08:00:00Z,stable
+CTRL-002,CTRL-002,ZCT1W-4E5F6G7H,PLAYER002,3.02,3.02,false,2024-06-10T08:00:00Z,stable
+CTRL-003,CTRL-003,ZCT1W-8I9J0K1L,PLAYER003,2.98,3.02,true,2024-06-10T08:00:00Z,stable
+CTRL-004,CTRL-004,ZCT2E-2M3N4O5P,PLAYER004,3.02,3.02,false,2024-06-10T08:00:00Z,stable

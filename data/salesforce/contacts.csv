@@ -1,0 +1,5 @@
+externalPlayerId,firstName,lastName,email,phone,psnHandle,mailingStreet,mailingCity,mailingState,mailingPostalCode,mailingCountry,loyaltyTier__c,psPlusTier__c,accountCreatedDate
+PLAYER001,Sarah,Jeffries,sarah.jeffries@example.com,+1-415-555-0101,sarahj_plays,1234 PlayStation Way,San Mateo,CA,94402,US,Gold,Premium,2019-03-12
+PLAYER002,Marcus,Chen,marcus.chen@example.com,+1-415-555-0202,marcus_chen84,5678 Console Avenue,San Francisco,CA,94102,US,Platinum,Premium,2017-08-05
+PLAYER003,Nina,Patel,nina.patel@example.com,+1-408-555-0303,nina_streams,91 Streaming Blvd,San Jose,CA,95112,US,Silver,Extra,2021-11-20
+PLAYER004,Alex,Rivera,alex.rivera@example.com,+1-650-555-0404,alex_edge,42 Edge Lane,Palo Alto,CA,94301,US,Gold,Extra,2020-06-14

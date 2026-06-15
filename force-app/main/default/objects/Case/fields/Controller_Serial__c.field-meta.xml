@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Controller_Serial__c</fullName>
+    <label>Controller Serial Number</label>
+    <length>30</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <description>Serial number of the controller referenced in this support case. Used to link to the corresponding Asset record during read operations. Not a formal lookup; used for cross-reference and reporting.</description>
+</CustomField>

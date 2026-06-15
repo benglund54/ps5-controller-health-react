@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entitlement_Source__c</fullName>
+    <label>Entitlement Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>WARRANTY</fullName><default>false</default><label>Warranty</label></value>
+            <value><fullName>LOYALTY</fullName><default>false</default><label>Loyalty Program</label></value>
+            <value><fullName>PS_PLUS</fullName><default>false</default><label>PS Plus</label></value>
+        </valueSetDefinition>
+    </valueSet>
+    <description>Business reason the entitlement was granted. WARRANTY for Sarah, Nina, Alex. LOYALTY for Marcus (Platinum tier personalized offer).</description>
+</CustomField>

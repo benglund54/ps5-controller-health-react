@@ -1,0 +1,7 @@
+External_Entitlement_ID__c,Name,Player_ID__c,Entitlement_Type__c,Eligible_Product__c,Promotional_Price__c,Entitlement_Source__c,Valid_From__c,Valid_To__c,Is_Active__c,Notes__c
+ENT-001,ENT-001,PLAYER001,FREE_REPLACEMENT,01tHn00000YgDGCIA3,0.00,WARRANTY,2024-01-01,2025-12-31,true,In-warranty included replacement for right stick drift
+ENT-002A,ENT-002A,PLAYER002,DISCOUNTED_UPGRADE,01tHn00000YgDGDIA3,129.99,LOYALTY,2024-01-01,2025-12-31,true,Platinum loyalty promotional upgrade to DualSense Edge
+ENT-002B,ENT-002B,PLAYER002,DISCOUNTED_UPGRADE,01tHn00000YgDGCIA3,49.99,LOYALTY,2024-01-01,2025-12-31,true,Platinum loyalty discounted standard replacement
+ENT-002C,ENT-002C,PLAYER002,DISCOUNTED_UPGRADE,01tHn00000YgDGEIA3,109.99,LOYALTY,2024-01-01,2025-12-31,true,Platinum loyalty promotional limited edition option
+ENT-003,ENT-003,PLAYER003,FIRMWARE_ONLY,,,WARRANTY,2024-01-01,2025-12-31,true,In-warranty but issue is firmware-related; no replacement offer at this time
+ENT-004,ENT-004,PLAYER004,MODULE_REPLACEMENT,01tHn00000YgDGFIA3,59.99,WARRANTY,2024-01-01,2025-12-31,true,DualSense Edge stick module replacement path

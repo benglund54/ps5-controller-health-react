@@ -1,0 +1,11 @@
+notificationId,externalPlayerId,notificationDate,channel,notificationType,messagePreview,wasOpened,wasDismissed,responseAction,deliveryStatus
+NOTIF-001-001,PLAYER001,2024-05-14,push,controller_health_tip,Keep your controller updated for the best experience.,true,false,viewed,delivered
+NOTIF-001-002,PLAYER001,2024-05-28,email,ps_plus_renewal,Your PS Plus Premium subscription renews in 30 days.,true,false,none,delivered
+NOTIF-001-003,PLAYER001,2024-06-05,push,controller_health_alert,We noticed something unusual with your controller.,true,false,tapped_cta,delivered
+NOTIF-002-001,PLAYER002,2024-04-20,push,loyalty_reward,Platinum member: you have a new reward waiting.,true,false,tapped_cta,delivered
+NOTIF-002-002,PLAYER002,2024-05-10,push,controller_health_tip,Your DualSense has logged high usage. Check its status.,true,false,dismissed,delivered
+NOTIF-002-003,PLAYER002,2024-06-01,email,personalized_offer,Based on your activity we have a recommendation for you.,false,false,none,delivered
+NOTIF-003-001,PLAYER003,2024-05-22,push,controller_health_alert,Your controller has been disconnecting more than expected.,true,true,dismissed,delivered
+NOTIF-003-002,PLAYER003,2024-06-03,push,firmware_update,A firmware update is available for your DualSense.,false,false,none,delivered
+NOTIF-004-001,PLAYER004,2024-05-30,push,controller_health_tip,Your DualSense Edge is registered and ready.,true,false,none,delivered
+NOTIF-004-002,PLAYER004,2024-06-08,push,controller_health_alert,We noticed changes in your right stick module behavior.,true,false,tapped_cta,delivered

@@ -1,0 +1,4 @@
+caseId,externalPlayerId,controllerSerialNumber,openedDate,closedDate,subject,description,resolution,caseStatus,caseType
+CASE-001,PLAYER001,ZCT1W-0A1B2C3D,2023-07-15,2023-07-18,Right trigger feels loose,Player reported right trigger feeling mechanically loose during extended gameplay sessions.,Resolved with firmware update to v2.94. Trigger sensitivity recalibrated.,Closed,Technical
+CASE-002,PLAYER002,ZCT1W-4E5F6G7H,2022-08-03,2022-08-05,Controller disconnecting intermittently,Player reported controller losing Bluetooth connection every 20-30 minutes during gameplay.,Resolved by USB reset and re-pairing procedure. Advised player to update firmware.,Closed,Technical
+CASE-003,PLAYER003,ZCT1W-8I9J0K1L,2023-03-10,2023-03-11,Controller not recognized by PS5,Player reported PS5 console not detecting controller over USB during startup.,Resolved by firmware reinstall via USB recovery mode.,Closed,Technical

@@ -1,0 +1,13 @@
+affinityId,externalPlayerId,productCategory,affinityScore,recentPurchaseCount,wishlistCount,psStoreProductViews,lastInteractionDate,inferredUpgradeInterest
+AFF-001-001,PLAYER001,Controller-Standard,0.78,1,0,3,2024-04-15,LOW
+AFF-001-002,PLAYER001,Controller-Premium,0.31,0,0,1,2024-03-20,LOW
+AFF-001-003,PLAYER001,Gaming-Headset,0.55,0,1,4,2024-05-10,MEDIUM
+AFF-002-001,PLAYER002,Controller-Standard,0.64,1,0,2,2024-01-18,LOW
+AFF-002-002,PLAYER002,Controller-Premium,0.88,0,1,9,2024-05-28,HIGH
+AFF-002-003,PLAYER002,Controller-Limited,0.72,0,1,6,2024-06-01,MEDIUM
+AFF-002-004,PLAYER002,Gaming-Accessories,0.81,2,3,11,2024-06-05,HIGH
+AFF-003-001,PLAYER003,Controller-Standard,0.45,1,0,1,2023-05-05,LOW
+AFF-003-002,PLAYER003,Gaming-Headset,0.38,0,0,2,2024-02-14,LOW
+AFF-004-001,PLAYER004,Controller-Premium,0.91,1,0,7,2024-06-08,HIGH
+AFF-004-002,PLAYER004,Controller-Module,0.84,0,1,5,2024-06-09,HIGH
+AFF-004-003,PLAYER004,Gaming-Accessories,0.76,1,2,8,2024-06-07,HIGH

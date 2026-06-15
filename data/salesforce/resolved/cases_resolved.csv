@@ -1,0 +1,4 @@
+External_Case_ID__c,ContactId,Controller_Serial__c,Subject,Description,Status,Type,Origin
+CASE-001,003Hn00002ro6zOIAQ,ZCT1W-0A1B2C3D,Right trigger feels loose,Player reported right trigger feeling mechanically loose during extended gameplay sessions.,Closed,Technical,Web
+CASE-002,003Hn00002ro785IAA,ZCT1W-4E5F6G7H,Controller disconnecting intermittently,Player reported controller losing Bluetooth connection every 20-30 minutes during gameplay.,Closed,Technical,Web
+CASE-003,003Hn00002ro786IAA,ZCT1W-8I9J0K1L,Controller not recognized by PS5,Player reported PS5 console not detecting controller over USB during startup.,Closed,Technical,Web

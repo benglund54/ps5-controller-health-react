@@ -1,0 +1,5 @@
+ProductCode,Name,Family,Description,IsActive
+DS-STANDARD,DualSense Wireless Controller,Controller-Standard,Standard wireless controller for PS5 with haptic feedback and adaptive triggers.,true
+DS-EDGE,DualSense Edge Wireless Controller,Controller-Premium,High-performance wireless controller with replaceable stick modules and customizable controls.,true
+DS-LIMITED,DualSense Limited Edition Controller,Controller-Limited,Limited edition DualSense wireless controller with exclusive design.,true
+DS-EDGE-MODULE,DualSense Edge Stick Module,Controller-Accessory,Replacement stick module for DualSense Edge controllers.,true

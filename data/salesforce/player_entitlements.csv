@@ -1,0 +1,7 @@
+entitlementId,externalPlayerId,entitlementType,eligibleProductCode,promotionalPrice,entitlementSource,validFrom,validTo,isActive,notes
+ENT-001,PLAYER001,FREE_REPLACEMENT,DS-STANDARD,0.00,WARRANTY,2024-01-01,2025-12-31,true,In-warranty included replacement for right stick drift
+ENT-002A,PLAYER002,DISCOUNTED_UPGRADE,DS-EDGE,129.99,LOYALTY,2024-01-01,2025-12-31,true,Platinum loyalty promotional upgrade to DualSense Edge
+ENT-002B,PLAYER002,DISCOUNTED_UPGRADE,DS-STANDARD,49.99,LOYALTY,2024-01-01,2025-12-31,true,Platinum loyalty discounted standard replacement
+ENT-002C,PLAYER002,DISCOUNTED_UPGRADE,DS-LIMITED,109.99,LOYALTY,2024-01-01,2025-12-31,true,Platinum loyalty promotional limited edition option
+ENT-003,PLAYER003,FIRMWARE_ONLY,,,WARRANTY,2024-01-01,2025-12-31,true,In-warranty but issue is firmware-related; no replacement offer at this time
+ENT-004,PLAYER004,MODULE_REPLACEMENT,DS-EDGE-MODULE,59.99,WARRANTY,2024-01-01,2025-12-31,true,DualSense Edge stick module replacement path

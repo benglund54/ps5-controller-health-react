@@ -57,55 +57,129 @@ All non-`NO_ACTION` outcomes remain pending human review.
 - Carryover of Pronto food-delivery entities, refunds, recovery language, or order workflows.
 
 ## Technical architecture
-- Frontend: React + Vite single-page app.
-- State approach: lightweight component state/hooks for persona, toast lifecycle, right-panel visibility, and persona-session navigation counters.
-- Data source sequence:
-  1. Deterministic local persona fixtures and decision engine.
-  2. Optional mock/CSV fallback adapter for demo resilience.
-  3. Future server API boundary for Salesforce/Data Cloud/Agentforce (server-side only).
-- Service boundary: frontend consumes a normalized response contract only.
+
+### Frontend (Phase 1 — complete)
+- React + Vite single-page app.
+- Lightweight component state/hooks for persona, toast lifecycle, overlay visibility, and navigation counters.
+- Mock async service layer (`src/services/controllerHealthService.js`) with identical function signatures to future real calls.
+- Frontend never authenticates to Salesforce. No credentials in the browser.
+
+### Full target architecture (Phase 2+)
+
+```
+PS5 / React Frontend (browser)
+        │  fetch() — no SF credentials
+        ▼
+Node.js / Express Middleware (server)
+        ├── GET  /api/players/:playerId
+        ├── GET  /api/players/:playerId/controller-health
+        ├── POST /api/controller-health/recommendation
+        └── POST /api/controller-health/resolve-preview
+                │
+        ┌───────┴────────────────────────────────────┐
+        │                                            │
+Salesforce Core                              Data Cloud
+(customer / business / service records)     (behavioral / telemetry / unified profile)
+        │                                            │
+        ├── Contact (Player profile)                 ├── Controller Health Profile DMO
+        ├── Asset (Registered controller)            ├── Engagement Profile DMO
+        ├── Product2 + Pricebook                     ├── Player Entitlement DMO
+        ├── Player_Entitlement__c                    ├── Firmware Status DMO
+        ├── Device_Firmware_Status__c                └── Unified Individual
+        ├── Case (read-only history)                          │
+        └── Recommendation_Outcome__c                         │
+            (preview log only;                       Snowflake (zero-copy connector)
+             no real actions ever created)           ├── PS5_TELEMETRY.CONTROLLER.HEALTH_SIGNALS
+                                                     └── PS5_ENGAGEMENT.PLAYER.WEEKLY_ROLLUPS
+```
+
+### Data ownership model
+
+| Data type | Lives in | Rationale |
+|---|---|---|
+| Player profile (name, address, PSN handle) | Salesforce Contact | CRM is authoritative for customer identity |
+| Registered controller | Salesforce Asset | Business record of device ownership |
+| Products and pricing | Salesforce Product2 + Pricebook | Standard CRM product catalog |
+| Historical support cases | Salesforce Case | Read-only CRM history |
+| Warranty / replacement eligibility | Salesforce Player_Entitlement__c | Business eligibility rule output |
+| Firmware state | Salesforce Device_Firmware_Status__c | Synced from external system |
+| Controller telemetry signals | Snowflake → Data Cloud | High-volume time-series; not appropriate for CRM |
+| Device session events | Snowflake → Data Cloud | Billions of rows at scale; zero-copy ingestion |
+| Gameplay engagement | Snowflake → Data Cloud | Behavioral data; used for personalization only |
+| Notification history | External → Data Cloud | Prevents duplicate outreach |
+| Player product affinity | External → Data Cloud | Drives Marcus upgrade recommendation language |
+| Recommendation outcome (preview log) | Salesforce Recommendation_Outcome__c | Analytics only; `previewOnly: true` enforced |
+
+### Data Cloud identity resolution
+- Primary match key: `player_id` (exact; stable across all systems)
+- Secondary match keys: `psn_handle`, `email`
+- `controller_serial` links to Device DMO, not Individual
+- One Unified Individual per player (PLAYER001–PLAYER004)
+
+### Agentforce integration
+- Agentforce receives a unified player context from middleware
+- Returns only player-safe recommendation copy
+- Internal fields (LTV, churn, scoring) are never forwarded to the frontend
+- Middleware strips internal fields before returning the response contract
 
 ## Data model summary
-Primary model blocks:
-- Persona profile: `ownerId`, `displayName`, `serial`, telemetry and issue fields.
-- Decision payload: recommendation enum, confidence/severity, review requirement.
-- UI payload: title, subtitle, actions (`view_details`, `later`, plus persona-specific simulated next-step actions).
 
-Reference sources:
-- `controller-health-react-handoff/reference-data/controllerHealthPersonas.js`
-- `controller-health-react-handoff/reference-data/controllerHealthDecisionEngine.js`
-- `controller-health-react-handoff/RESPONSE_CONTRACT.md`
+### Salesforce seed files (`data/salesforce/`)
+| File | Object | Purpose |
+|---|---|---|
+| `contacts.csv` | Contact | Player profiles; upsert on `externalPlayerId` |
+| `assets.csv` | Asset | Registered controllers; upsert on `controllerSerialNumber` |
+| `products.csv` | Product2 | Controller product catalog; `productFamily` maps to `Product2.Family` (values: Controller-Standard, Controller-Premium, Controller-Limited, Controller-Accessory) |
+| `pricebook_entries.csv` | PricebookEntry | MSRP + promotional + warranty/service pricing (3 pricebooks, 9 entries total) |
+| `cases.csv` | Case | Historical support cases (read-only context; PLAYER004 has no case by design) |
+| `player_entitlements.csv` | Player_Entitlement__c | Replacement / discount / firmware-only / module eligibility; all 4 players have explicit `entitlementSource` |
+| `device_firmware_status.csv` | Device_Firmware_Status__c | Current vs latest firmware per device |
+| `recommendation_outcomes_preview.csv` | Recommendation_Outcome__c | Preview log (example row only; write-back not enabled yet) |
+
+### External / Data Cloud seed files (`data/external/`)
+| File | Data Cloud DMO | Purpose |
+|---|---|---|
+| `controller_telemetry_events.csv` | Controller Health Profile | Weekly aggregated drift + disconnect signals |
+| `device_session_events.csv` | Controller Health Profile | Per-session input/disconnect event counts |
+| `gameplay_engagement.csv` | Engagement Profile | Monthly engagement rollups per player |
+| `notification_history.csv` | Notification History | Prior outreach; prevents duplicate alerts |
+| `player_product_affinity.csv` | Engagement Profile | Product interest signals for upgrade recommendations |
+
+### Snowflake candidates (`data/snowflake/`)
+| File | Snowflake table | Purpose |
+|---|---|---|
+| `controller_telemetry_events_snowflake.csv` | PS5_TELEMETRY.CONTROLLER.HEALTH_SIGNALS | Full 8-week signal history; daily partition |
+| `gameplay_engagement_snowflake.csv` | PS5_ENGAGEMENT.PLAYER.WEEKLY_ROLLUPS | Full 9-week engagement history; weekly partition |
+
+Snowflake files include richer column sets (cumulative hours, platform version, ingested_at) representing the realistic production schema. Data Cloud ingests these via zero-copy connector or external table, not file upload.
 
 ## Response contract summary
-The normalized response includes:
-- top-level metadata (`source`, `decisionTime`, `ownerId`, `serial`)
-- `decision` object (warranty, telemetry/risk, issue details, recommendation, human-review flags, customer-facing copy)
-- `ui` object (title/subtitle and allowed action labels)
 
-Recommendation enum:
-- `FREE_REPLACEMENT`
-- `DISCOUNT_REPLACEMENT`
-- `REPAIR_REVIEW`
-- `TROUBLESHOOTING`
-- `NO_ACTION`
+See `docs/RESPONSE_CONTRACT.md` for the full v2 contract.
+
+Recommendation types:
+- `INCLUDED_REPLACEMENT` — Sarah: in-warranty, free replacement
+- `PERSONALIZED_UPGRADE` — Marcus: out-of-warranty, loyalty promo checkout
+- `FIRMWARE_TROUBLESHOOTING` — Nina: firmware update, no replacement offer
+- `STICK_MODULE_PATH` — Alex: DualSense Edge stick module replacement
 
 ## Demo guardrails
 - Recommendation-only behavior everywhere.
-- Human review required for all non-`NO_ACTION` outcomes.
-- No operational side effects.
+- `previewOnly: true` enforced by middleware on all resolve calls.
+- No real orders, payments, claims, cases, shipments, refunds, or credits.
 - No client-side Salesforce authentication.
-- Preserve mock/CSV fallback so demo remains stable offline.
+- Mock fallback always available; demo runs offline.
+- Internal fields (LTV, churn risk, scoring thresholds) never exposed to frontend.
 
 ## Acceptance criteria
-- PS5-style home shell and visual polish are established using copied assets where available and handoff style references.
+- PS5-style home shell and visual polish established.
 - Persona switching drives deterministic recommendation paths.
-- Proactive toast appears only after exactly 5 valid left/right tile navigation events on home screen.
-- Proactive toast does not appear on picker or immediately on home load.
-- Later/dismiss prevents retrigger for the current persona session.
-- Switching persona resets navigation count and proactive state for the new persona session.
-- Right-side detail/action panel supports persona-specific simulated flows without leaving console UI.
-- No quick-test modal/CTA/path exists.
+- Proactive toast appears after exactly 5 valid tile navigation events.
+- Toast does not appear on picker or immediately on home load.
+- Later/dismiss prevents retrigger for the current session.
+- Switching persona resets navigation count and proactive state.
+- Overlay supports persona-specific simulated flows without leaving console UI.
 - All user-facing copy follows recommendation-only language constraints.
 - App runs with local deterministic data and fallback pattern; no backend dependency required.
-- No Pronto-domain logic appears in UI, data, or terminology.
 - Integration boundaries are documented as server-side only for future phases.
+- No Pronto-domain logic appears in UI, data, or terminology.

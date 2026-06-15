@@ -1,0 +1,10 @@
+productCode,pricebookName,currencyCode,unitPrice,isActive,notes
+DS-STANDARD,Standard Price Book,USD,69.99,true,MSRP
+DS-EDGE,Standard Price Book,USD,169.99,true,MSRP
+DS-LIMITED,Standard Price Book,USD,139.99,true,MSRP
+DS-EDGE-MODULE,Standard Price Book,USD,59.99,true,MSRP
+DS-STANDARD,Demo Promotional Pricebook,USD,49.99,true,Loyalty promotional price for Marcus (PLAYER002)
+DS-EDGE,Demo Promotional Pricebook,USD,129.99,true,Loyalty promotional price for Marcus (PLAYER002)
+DS-LIMITED,Demo Promotional Pricebook,USD,109.99,true,Loyalty promotional price for Marcus (PLAYER002)
+DS-STANDARD,Warranty Replacement Pricebook,USD,0.00,true,In-warranty free replacement price for Sarah (PLAYER001)
+DS-EDGE-MODULE,Warranty Replacement Pricebook,USD,59.99,true,Standard service price for DualSense Edge stick module replacement — Alex (PLAYER004)

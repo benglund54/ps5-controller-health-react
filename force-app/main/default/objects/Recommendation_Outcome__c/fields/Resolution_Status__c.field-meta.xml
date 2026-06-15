@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Status__c</fullName>
+    <label>Resolution Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>PREVIEW_ONLY</fullName><default>true</default><label>Preview Only</label></value>
+        </valueSetDefinition>
+    </valueSet>
+    <description>Always PREVIEW_ONLY in this demo phase. No real resolution, order, claim, shipment, payment, or refund is triggered by any record in this object. Additional values may be added in future approved phases.</description>
+</CustomField>

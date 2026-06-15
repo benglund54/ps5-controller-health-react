@@ -1,0 +1,5 @@
+externalControllerId,externalPlayerId,controllerSerialNumber,productCode,controllerModel,purchaseDate,registrationDate,warrantyMonths,warrantyExpiryDate,warrantyStatus,assetStatus
+CTRL-001,PLAYER001,ZCT1W-0A1B2C3D,DS-STANDARD,DualSense Wireless Controller,2023-09-10,2023-09-10,12,2024-09-10,IN_WARRANTY,Purchased
+CTRL-002,PLAYER002,ZCT1W-4E5F6G7H,DS-STANDARD,DualSense Wireless Controller,2021-11-20,2022-01-18,12,2022-11-20,OUT_OF_WARRANTY,Purchased
+CTRL-003,PLAYER003,ZCT1W-8I9J0K1L,DS-STANDARD,DualSense Wireless Controller,2023-11-01,2023-11-05,12,2024-11-01,IN_WARRANTY,Purchased
+CTRL-004,PLAYER004,ZCT2E-2M3N4O5P,DS-EDGE,DualSense Edge Wireless Controller,2022-10-28,2022-11-02,12,2023-10-28,OUT_OF_WARRANTY,Purchased
