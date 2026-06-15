@@ -1,0 +1,43 @@
+---
+description: Player-facing copy rules for the PS5 Controller Health demo. Enforces safe, frictionless language and bans internal/operational terminology.
+alwaysApply: true
+---
+
+# PS5 Demo Copy Guardrails
+
+## Allowed player-facing phrases
+- Eligible replacement option
+- Included replacement
+- Upgrade options available
+- Recommended option
+- Confirm replacement
+- Confirm delivery details
+- Demo checkout
+- Confirmation
+- Estimated delivery
+- Tracking preview
+- Email confirmation preview
+- We'll continue monitoring
+- You're eligible for...
+- Based on your controller status and PlayStation activity...
+
+## Banned player-facing phrases
+Never use these in any component, journey data, or UI string:
+
+- support review requested
+- pending support review
+- our team will review
+- case created / case routed
+- claim created
+- eligibility review
+- LTV / churn risk / internal score / scoring threshold
+- approved / issued / ordered / shipped / on the way / completed (as final confirmations)
+- Salesforce / Data Cloud / Agentforce / CRM
+
+## Confirmation steps
+Final confirmation must include one of:
+- "confirmed for this demo"
+- "No real payment was processed"
+- "Demo status only"
+
+Never imply a real transaction, shipment, or case was opened.

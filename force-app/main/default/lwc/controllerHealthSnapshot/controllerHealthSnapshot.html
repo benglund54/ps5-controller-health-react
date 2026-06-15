@@ -1,0 +1,57 @@
+<template>
+  <lightning-card title="Controller Health Snapshot" icon-name="utility:health_check">
+    <div class="snapshot-wrap slds-p-around_medium">
+      <template if:true={hasSummary}>
+        <p class="eyebrow">PlayStation Controller Health</p>
+        <h2 class="title">{summary.playerName}</h2>
+        <p class="subtitle">Recommended next step for this Contact</p>
+
+        <dl class="slds-list_horizontal slds-wrap slds-m-top_small">
+          <div class="field slds-item slds-size_1-of-1 slds-medium-size_1-of-2">
+            <dt>Player Id</dt>
+            <dd>{summary.playerId}</dd>
+          </div>
+          <div class="field slds-item slds-size_1-of-1 slds-medium-size_1-of-2">
+            <dt>Controller model</dt>
+            <dd>{summary.controllerModel}</dd>
+          </div>
+          <div class="field slds-item slds-size_1-of-1 slds-medium-size_1-of-2">
+            <dt>Serial number</dt>
+            <dd>{summary.serialNumber}</dd>
+          </div>
+          <div class="field slds-item slds-size_1-of-1 slds-medium-size_1-of-2">
+            <dt>Issue detected</dt>
+            <dd>{summary.issueDetected}</dd>
+          </div>
+          <div class="field slds-item slds-size_1-of-1 slds-medium-size_1-of-2">
+            <dt>Warranty status</dt>
+            <dd>{summary.warrantyStatus}</dd>
+          </div>
+          <div class="field slds-item slds-size_1-of-1 slds-medium-size_1-of-2">
+            <dt>Recommendation</dt>
+            <dd>{summary.recommendation}</dd>
+          </div>
+        </dl>
+
+        <div class="message slds-m-top_small">
+          {summary.customerMessage}
+        </div>
+
+        <template if:true={hasRecentCases}>
+          <div class="slds-m-top_small">
+            <p class="section-label">Recent support cases</p>
+            <ul class="slds-list_dotted slds-m-left_medium">
+              <template for:each={summary.recentCaseNumbers} for:item="caseNumber">
+                <li key={caseNumber}>{caseNumber}</li>
+              </template>
+            </ul>
+          </div>
+        </template>
+      </template>
+
+      <template if:true={errorMessage}>
+        <p>{errorMessage}</p>
+      </template>
+    </div>
+  </lightning-card>
+</template>

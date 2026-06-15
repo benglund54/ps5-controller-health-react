@@ -1,0 +1,32 @@
+---
+description: React component and CSS conventions for the PS5 Controller Health demo. Covers persona data flow, overlay architecture, and styling patterns.
+globs: src/**/*.jsx,src/**/*.css
+alwaysApply: false
+---
+
+# React & CSS Conventions
+
+## Component structure
+- Persona journey content lives in `src/data/controllerHealthJourneys.js` — add copy there, not inline in components
+- Controller option pricing logic belongs in `ControllerHealthStepCard.jsx` (`getPricingDetails`)
+- Avoid creating new top-level components; prefer extending existing ones unless the scope clearly warrants a new file
+
+## State rules
+- Proactive toast lifecycle state (`navigationCount`, `hasTriggered`, `isVisible`, `dismissed`) is local to `Ps5HomeScreen.jsx`
+- Overlay step state (`stepIndex`, `selectedOptionId`) is local to `ControllerHealthOverlay.jsx`
+- Do not lift these to `App.jsx` without discussing first
+
+## Keyboard handling
+- Always prevent keyboard events from propagating outside the overlay when it is open
+- Never use `event.repeat` to count navigation moves; use the `useRef` pressedArrowKeys set
+
+## CSS
+- All styles live in `src/styles/ps5-console.css` — no inline `style` objects for anything beyond dynamic positioning
+- Glassmorphism base: `background: rgba(15,15,18,0.82)` + `backdrop-filter: blur(24px) saturate(1.6)`
+- Use `clamp()` for all font sizes and responsive dimensions
+- Animations must have a `@media (prefers-reduced-motion: reduce)` override
+- `z-index` ladder: toast 1400, overlay-shell 1500, overlay 1600
+
+## Images
+- Always set `object-fit: contain` on controller images
+- The thumbstick glow `.stick-glow` is positioned at `left: 66.9%; top: 56.8%` relative to `.issue-controller-wrap` — do not change without testing on a rendered page

@@ -1,0 +1,311 @@
+:root {
+  --ps5-bg-deep: #071022;
+  --ps5-panel: rgba(8, 15, 34, 0.88);
+  --ps5-panel-border: rgba(255, 255, 255, 0.2);
+  --ps5-text: rgba(246, 251, 255, 0.98);
+  --ps5-subtext: rgba(214, 228, 246, 0.8);
+  --ps5-accent: #5ab8ff;
+  --ps5-accent-soft: rgba(90, 184, 255, 0.3);
+  --ps5-warn: #ffc980;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ps5-app-bg {
+  min-height: 100vh;
+  color: var(--ps5-text);
+  background-color: var(--ps5-bg-deep);
+  background-position: center, center, center, center, center, center;
+  background-size: cover, cover, cover, cover, cover, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.ps5-shell {
+  width: min(1240px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 24px 0 32px;
+}
+
+.ps5-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ps5-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.ps5-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #6ac5ff, #377dff);
+  box-shadow: 0 0 16px rgba(94, 181, 255, 0.9);
+}
+
+.ps5-top-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ps5-card {
+  border: 1px solid var(--ps5-panel-border);
+  border-radius: 24px;
+  background: linear-gradient(165deg, var(--ps5-panel), rgba(7, 14, 31, 0.94));
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+}
+
+.ps5-hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 20px;
+}
+
+.ps5-eyebrow {
+  margin: 0 0 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ps5-subtext);
+}
+
+.ps5-title {
+  margin: 0;
+  font-size: clamp(30px, 3.8vw, 48px);
+  line-height: 1.05;
+  font-weight: 350;
+}
+
+.ps5-subtitle {
+  margin: 8px 0 0;
+  color: var(--ps5-subtext);
+  line-height: 1.4;
+}
+
+.ps5-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ps5-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  background: linear-gradient(180deg, rgba(90, 184, 255, 0.95), rgba(76, 93, 255, 0.95));
+  color: #eef8ff;
+}
+
+.ps5-profile-name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.ps5-profile-meta {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--ps5-subtext);
+}
+
+.ps5-tile-row {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 16px;
+}
+
+.ps5-tile {
+  border-radius: 18px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(7, 15, 34, 0.56);
+}
+
+.ps5-tile.active {
+  border-color: rgba(97, 190, 255, 0.65);
+  box-shadow: inset 0 0 0 1px rgba(97, 190, 255, 0.45);
+}
+
+.ps5-tile h2 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.ps5-tile p {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: var(--ps5-subtext);
+}
+
+.ps5-content {
+  display: grid;
+  gap: 14px;
+}
+
+.ps5-persona-block,
+.ps5-toast,
+.ps5-health-card {
+  padding: 16px;
+}
+
+.ps5-section-label {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ps5-subtext);
+}
+
+.ps5-persona-list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ps5-persona-btn {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  padding: 7px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--ps5-text);
+  cursor: pointer;
+  display: grid;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.ps5-persona-btn.active {
+  border-color: rgba(109, 194, 255, 0.9);
+  background: rgba(109, 194, 255, 0.2);
+}
+
+.ps5-persona-btn small {
+  color: var(--ps5-subtext);
+}
+
+.ps5-health-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+
+.ps5-health-header h3,
+.ps5-toast h2 {
+  margin: 4px 0 0;
+  font-size: 22px;
+}
+
+.ps5-chip {
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  padding: 4px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.ps5-chip.warn {
+  border-color: rgba(255, 201, 128, 0.55);
+  color: var(--ps5-warn);
+}
+
+.ps5-chip.muted {
+  color: var(--ps5-subtext);
+}
+
+.ps5-health-grid {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.ps5-health-grid small {
+  color: var(--ps5-subtext);
+}
+
+.ps5-health-grid p {
+  margin: 4px 0 0;
+}
+
+.ps5-message {
+  margin: 12px 0 0;
+  line-height: 1.45;
+}
+
+.ps5-legal-note {
+  margin: 8px 0 0;
+  color: var(--ps5-subtext);
+  font-size: 14px;
+}
+
+.ps5-action-row {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ps5-btn {
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  padding: 9px 14px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ps5-text);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ps5-btn.primary {
+  border-color: rgba(90, 184, 255, 0.55);
+  background: linear-gradient(180deg, var(--ps5-accent-soft), rgba(90, 184, 255, 0.16));
+}
+
+.ps5-btn:focus-visible,
+.ps5-persona-btn:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 2px;
+}
+
+.ps5-feedback {
+  margin: 0;
+  border-radius: 14px;
+  border: 1px solid rgba(90, 184, 255, 0.35);
+  background: rgba(90, 184, 255, 0.12);
+  padding: 10px 14px;
+  color: var(--ps5-text);
+}
+
+@media (max-width: 920px) {
+  .ps5-shell {
+    width: min(1240px, calc(100% - 24px));
+  }
+
+  .ps5-hero {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ps5-tile-row,
+  .ps5-health-grid {
+    grid-template-columns: 1fr;
+  }
+}

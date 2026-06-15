@@ -1,0 +1,27 @@
+---
+description: Hard guardrails for the PS5 Controller Health demo. No backend integration, no real transactions, no commits without approval.
+alwaysApply: true
+---
+
+# Demo Constraints
+
+## Never do these
+- Add Salesforce, Data Cloud, Agentforce, or any backend API integration
+- Create real orders, cases, claims, payments, refunds, credits, coupons, or shipments
+- Install npm dependencies
+- Commit or push without explicit user approval
+- Delete files (deprecate/bypass instead)
+- Mutate files inside `controller-health-react-handoff/`
+
+## Trigger logic — do not touch
+The 5-navigation proactive toast trigger lives in `src/components/Ps5HomeScreen.jsx`.
+The rule: `navigationCount >= 5` with `!hasTriggered && !dismissed`.
+Do not change this threshold or the keydown/keyup distinct-press logic without explicit approval.
+
+## Assets
+- Only import images from `assets/` using Vite static imports.
+- Never use numbered reference screenshots (1.png–7.png) as runtime assets.
+- Allowed controller images: `ps5-controller.png`, `dualsense-edge.png`, `dualsense-limited-astro-bot.png`
+
+## Validation
+After every substantive edit, run `npm run build` and confirm exit code 0.
