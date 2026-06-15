@@ -1,0 +1,601 @@
+External_Case_ID__c,Player_ID__c,Controller_Serial__c,Subject,Description,Status,Type,Origin
+CASE-000001,PLAYER692,ZCT1W-N4391499,Controller not charging,Synthetic support record for PLAYER692: Controller not charging.,Closed,Technical,Email
+CASE-000002,PLAYER970,ZCT2E-W9718383,Input lag noticed,Synthetic support record for PLAYER970: Input lag noticed.,Closed,Technical,Email
+CASE-000003,PLAYER233,ZCT2E-A2923507,Intermittent disconnects,Synthetic support record for PLAYER233: Intermittent disconnects.,New,Technical,Email
+CASE-000004,PLAYER514,ZCT2E-W4017812,Right stick drift concern,Synthetic support record for PLAYER514: Right stick drift concern.,Closed,Technical,Phone
+CASE-000005,PLAYER912,ZCT1W-U7933281,Intermittent disconnects,Synthetic support record for PLAYER912: Intermittent disconnects.,Closed,Technical,Email
+CASE-000006,PLAYER169,ZCT1W-K3709058,Input lag noticed,Synthetic support record for PLAYER169: Input lag noticed.,Closed,Technical,Web
+CASE-000007,PLAYER921,ZCT2E-V4770193,Trigger feels loose,Synthetic support record for PLAYER921: Trigger feels loose.,Closed,Technical,Web
+CASE-000008,PLAYER382,ZCT1W-V8924368,Intermittent disconnects,Synthetic support record for PLAYER382: Intermittent disconnects.,Closed,Technical,Web
+CASE-000009,PLAYER894,ZCT2E-X7761231,Controller not charging,Synthetic support record for PLAYER894: Controller not charging.,New,Technical,Email
+CASE-000010,PLAYER651,ZCT1W-R9267840,Controller not charging,Synthetic support record for PLAYER651: Controller not charging.,New,Technical,Email
+CASE-000011,PLAYER030,ZCT1W-D6456436,Right stick drift concern,Synthetic support record for PLAYER030: Right stick drift concern.,Closed,Technical,Web
+CASE-000012,PLAYER111,ZCT2E-L2396638,Trigger feels loose,Synthetic support record for PLAYER111: Trigger feels loose.,Closed,Technical,Phone
+CASE-000013,PLAYER716,ZCT2E-E6759540,Intermittent disconnects,Synthetic support record for PLAYER716: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000014,PLAYER769,ZCT2E-E8889191,Right stick drift concern,Synthetic support record for PLAYER769: Right stick drift concern.,New,Technical,Email
+CASE-000015,PLAYER133,ZCT2E-X7192680,Intermittent disconnects,Synthetic support record for PLAYER133: Intermittent disconnects.,New,Technical,Phone
+CASE-000016,PLAYER458,ZCT2E-V3624846,Right stick drift concern,Synthetic support record for PLAYER458: Right stick drift concern.,Closed,Technical,Web
+CASE-000017,PLAYER412,ZCT1W-U7311740,Controller not charging,Synthetic support record for PLAYER412: Controller not charging.,New,Technical,Phone
+CASE-000018,PLAYER739,ZCT2E-G2951710,Controller not charging,Synthetic support record for PLAYER739: Controller not charging.,New,Technical,Web
+CASE-000019,PLAYER030,ZCT1W-D6456436,Right stick drift concern,Synthetic support record for PLAYER030: Right stick drift concern.,New,Technical,Email
+CASE-000020,PLAYER978,ZCT2E-N8270949,Right stick drift concern,Synthetic support record for PLAYER978: Right stick drift concern.,Closed,Technical,Phone
+CASE-000021,PLAYER109,ZCT1W-J3230889,Trigger feels loose,Synthetic support record for PLAYER109: Trigger feels loose.,Closed,Technical,Phone
+CASE-000022,PLAYER227,ZCT2E-Q9318172,Right stick drift concern,Synthetic support record for PLAYER227: Right stick drift concern.,Closed,Technical,Web
+CASE-000023,PLAYER477,ZCT1W-B7199749,Trigger feels loose,Synthetic support record for PLAYER477: Trigger feels loose.,New,Technical,Web
+CASE-000024,PLAYER053,ZCT1W-X3120109,Intermittent disconnects,Synthetic support record for PLAYER053: Intermittent disconnects.,Closed,Technical,Email
+CASE-000025,PLAYER912,ZCT1W-U7933281,Input lag noticed,Synthetic support record for PLAYER912: Input lag noticed.,New,Technical,Web
+CASE-000026,PLAYER213,ZCT2E-A3190232,Input lag noticed,Synthetic support record for PLAYER213: Input lag noticed.,New,Technical,Web
+CASE-000027,PLAYER825,ZCT2E-E7200314,Controller not charging,Synthetic support record for PLAYER825: Controller not charging.,Closed,Technical,Phone
+CASE-000028,PLAYER111,ZCT2E-L2396638,Intermittent disconnects,Synthetic support record for PLAYER111: Intermittent disconnects.,Closed,Technical,Email
+CASE-000029,PLAYER747,ZCT1W-C9354503,Input lag noticed,Synthetic support record for PLAYER747: Input lag noticed.,Closed,Technical,Phone
+CASE-000030,PLAYER020,ZCT1W-G4659722,Controller not charging,Synthetic support record for PLAYER020: Controller not charging.,Closed,Technical,Web
+CASE-000031,PLAYER492,ZCT1W-P6820377,Controller not charging,Synthetic support record for PLAYER492: Controller not charging.,Closed,Technical,Phone
+CASE-000032,PLAYER800,ZCT1W-V3046457,Input lag noticed,Synthetic support record for PLAYER800: Input lag noticed.,Closed,Technical,Phone
+CASE-000033,PLAYER600,ZCT2E-W7994575,Trigger feels loose,Synthetic support record for PLAYER600: Trigger feels loose.,Closed,Technical,Email
+CASE-000034,PLAYER373,ZCT1W-V4937559,Intermittent disconnects,Synthetic support record for PLAYER373: Intermittent disconnects.,Closed,Technical,Email
+CASE-000035,PLAYER854,ZCT1W-B4357530,Intermittent disconnects,Synthetic support record for PLAYER854: Intermittent disconnects.,New,Technical,Phone
+CASE-000036,PLAYER383,ZCT1W-L5078093,Trigger feels loose,Synthetic support record for PLAYER383: Trigger feels loose.,Closed,Technical,Email
+CASE-000037,PLAYER130,ZCT2E-M2279932,Intermittent disconnects,Synthetic support record for PLAYER130: Intermittent disconnects.,Closed,Technical,Email
+CASE-000038,PLAYER956,ZCT1W-F4676504,Right stick drift concern,Synthetic support record for PLAYER956: Right stick drift concern.,New,Technical,Email
+CASE-000039,PLAYER048,ZCT1W-D7327627,Intermittent disconnects,Synthetic support record for PLAYER048: Intermittent disconnects.,Closed,Technical,Web
+CASE-000040,PLAYER312,ZCT2E-A6079496,Right stick drift concern,Synthetic support record for PLAYER312: Right stick drift concern.,New,Technical,Phone
+CASE-000041,PLAYER644,ZCT1W-R1574162,Controller not charging,Synthetic support record for PLAYER644: Controller not charging.,Closed,Technical,Web
+CASE-000042,PLAYER692,ZCT1W-N4391499,Trigger feels loose,Synthetic support record for PLAYER692: Trigger feels loose.,Closed,Technical,Email
+CASE-000043,PLAYER603,ZCT2E-A7779356,Intermittent disconnects,Synthetic support record for PLAYER603: Intermittent disconnects.,New,Technical,Phone
+CASE-000044,PLAYER682,ZCT2E-H8277403,Right stick drift concern,Synthetic support record for PLAYER682: Right stick drift concern.,Closed,Technical,Email
+CASE-000045,PLAYER842,ZCT2E-N1427236,Intermittent disconnects,Synthetic support record for PLAYER842: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000046,PLAYER126,ZCT1W-A1747019,Intermittent disconnects,Synthetic support record for PLAYER126: Intermittent disconnects.,New,Technical,Web
+CASE-000047,PLAYER467,ZCT2E-E8335724,Input lag noticed,Synthetic support record for PLAYER467: Input lag noticed.,Closed,Technical,Phone
+CASE-000048,PLAYER732,ZCT2E-E8514591,Controller not charging,Synthetic support record for PLAYER732: Controller not charging.,New,Technical,Phone
+CASE-000049,PLAYER724,ZCT1W-Q1509048,Trigger feels loose,Synthetic support record for PLAYER724: Trigger feels loose.,Closed,Technical,Email
+CASE-000050,PLAYER009,ZCT1W-K4672603,Trigger feels loose,Synthetic support record for PLAYER009: Trigger feels loose.,New,Technical,Web
+CASE-000051,PLAYER429,ZCT1W-K3707912,Input lag noticed,Synthetic support record for PLAYER429: Input lag noticed.,Closed,Technical,Web
+CASE-000052,PLAYER221,ZCT2E-W8564486,Trigger feels loose,Synthetic support record for PLAYER221: Trigger feels loose.,Closed,Technical,Phone
+CASE-000053,PLAYER265,ZCT1W-W5176591,Input lag noticed,Synthetic support record for PLAYER265: Input lag noticed.,Closed,Technical,Web
+CASE-000054,PLAYER442,ZCT1W-Q7204577,Controller not charging,Synthetic support record for PLAYER442: Controller not charging.,Closed,Technical,Web
+CASE-000055,PLAYER244,ZCT2E-V2723751,Right stick drift concern,Synthetic support record for PLAYER244: Right stick drift concern.,Closed,Technical,Email
+CASE-000056,PLAYER789,ZCT1W-K5414310,Right stick drift concern,Synthetic support record for PLAYER789: Right stick drift concern.,New,Technical,Email
+CASE-000057,PLAYER446,ZCT1W-B6392918,Trigger feels loose,Synthetic support record for PLAYER446: Trigger feels loose.,Closed,Technical,Email
+CASE-000058,PLAYER771,ZCT2E-S8244130,Intermittent disconnects,Synthetic support record for PLAYER771: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000059,PLAYER558,ZCT2E-G6414413,Intermittent disconnects,Synthetic support record for PLAYER558: Intermittent disconnects.,Closed,Technical,Web
+CASE-000060,PLAYER563,ZCT1W-Q9066612,Trigger feels loose,Synthetic support record for PLAYER563: Trigger feels loose.,Closed,Technical,Phone
+CASE-000061,PLAYER682,ZCT2E-H8277403,Controller not charging,Synthetic support record for PLAYER682: Controller not charging.,Closed,Technical,Phone
+CASE-000062,PLAYER393,ZCT2E-P6945304,Right stick drift concern,Synthetic support record for PLAYER393: Right stick drift concern.,Closed,Technical,Web
+CASE-000063,PLAYER430,ZCT1W-T5172556,Input lag noticed,Synthetic support record for PLAYER430: Input lag noticed.,Closed,Technical,Phone
+CASE-000064,PLAYER667,ZCT2E-F2680038,Input lag noticed,Synthetic support record for PLAYER667: Input lag noticed.,Closed,Technical,Phone
+CASE-000065,PLAYER098,ZCT2E-G9951610,Right stick drift concern,Synthetic support record for PLAYER098: Right stick drift concern.,Closed,Technical,Email
+CASE-000066,PLAYER638,ZCT1W-E9701033,Intermittent disconnects,Synthetic support record for PLAYER638: Intermittent disconnects.,Closed,Technical,Email
+CASE-000067,PLAYER361,ZCT1W-E1254735,Input lag noticed,Synthetic support record for PLAYER361: Input lag noticed.,Closed,Technical,Web
+CASE-000068,PLAYER901,ZCT2E-F8578703,Trigger feels loose,Synthetic support record for PLAYER901: Trigger feels loose.,New,Technical,Phone
+CASE-000069,PLAYER384,ZCT2E-L2936374,Trigger feels loose,Synthetic support record for PLAYER384: Trigger feels loose.,Closed,Technical,Web
+CASE-000070,PLAYER155,ZCT1W-C4555258,Intermittent disconnects,Synthetic support record for PLAYER155: Intermittent disconnects.,Closed,Technical,Web
+CASE-000071,PLAYER199,ZCT1W-V7900127,Right stick drift concern,Synthetic support record for PLAYER199: Right stick drift concern.,Closed,Technical,Web
+CASE-000072,PLAYER276,ZCT2E-A6916088,Input lag noticed,Synthetic support record for PLAYER276: Input lag noticed.,Closed,Technical,Phone
+CASE-000073,PLAYER384,ZCT2E-L2936374,Trigger feels loose,Synthetic support record for PLAYER384: Trigger feels loose.,New,Technical,Web
+CASE-000074,PLAYER388,ZCT2E-X3317607,Trigger feels loose,Synthetic support record for PLAYER388: Trigger feels loose.,Closed,Technical,Email
+CASE-000075,PLAYER380,ZCT1W-N2316088,Input lag noticed,Synthetic support record for PLAYER380: Input lag noticed.,Closed,Technical,Web
+CASE-000076,PLAYER853,ZCT2E-R1394484,Intermittent disconnects,Synthetic support record for PLAYER853: Intermittent disconnects.,New,Technical,Phone
+CASE-000077,PLAYER467,ZCT1W-V4588635,Right stick drift concern,Synthetic support record for PLAYER467: Right stick drift concern.,Closed,Technical,Web
+CASE-000078,PLAYER550,ZCT2E-L7093060,Intermittent disconnects,Synthetic support record for PLAYER550: Intermittent disconnects.,Closed,Technical,Email
+CASE-000079,PLAYER002,ZCT1W-4E5F6G7H,Trigger feels loose,Synthetic support record for PLAYER002: Trigger feels loose.,Closed,Technical,Web
+CASE-000080,PLAYER070,ZCT2E-V9191751,Trigger feels loose,Synthetic support record for PLAYER070: Trigger feels loose.,Closed,Technical,Phone
+CASE-000081,PLAYER581,ZCT1W-G7099530,Trigger feels loose,Synthetic support record for PLAYER581: Trigger feels loose.,Closed,Technical,Web
+CASE-000082,PLAYER020,ZCT1W-G4659722,Input lag noticed,Synthetic support record for PLAYER020: Input lag noticed.,Closed,Technical,Web
+CASE-000083,PLAYER369,ZCT2E-E4815456,Input lag noticed,Synthetic support record for PLAYER369: Input lag noticed.,Closed,Technical,Phone
+CASE-000084,PLAYER760,ZCT2E-U7476923,Right stick drift concern,Synthetic support record for PLAYER760: Right stick drift concern.,Closed,Technical,Phone
+CASE-000085,PLAYER309,ZCT2E-K5856148,Right stick drift concern,Synthetic support record for PLAYER309: Right stick drift concern.,Closed,Technical,Web
+CASE-000086,PLAYER082,ZCT1W-D1354875,Trigger feels loose,Synthetic support record for PLAYER082: Trigger feels loose.,Closed,Technical,Email
+CASE-000087,PLAYER734,ZCT2E-K1924685,Input lag noticed,Synthetic support record for PLAYER734: Input lag noticed.,Closed,Technical,Phone
+CASE-000088,PLAYER808,ZCT2E-S5788268,Trigger feels loose,Synthetic support record for PLAYER808: Trigger feels loose.,New,Technical,Email
+CASE-000089,PLAYER808,ZCT2E-M5039461,Controller not charging,Synthetic support record for PLAYER808: Controller not charging.,Closed,Technical,Email
+CASE-000090,PLAYER467,ZCT2E-E8335724,Trigger feels loose,Synthetic support record for PLAYER467: Trigger feels loose.,Closed,Technical,Email
+CASE-000091,PLAYER653,ZCT1W-J4097522,Input lag noticed,Synthetic support record for PLAYER653: Input lag noticed.,Closed,Technical,Email
+CASE-000092,PLAYER666,ZCT1W-T7084360,Trigger feels loose,Synthetic support record for PLAYER666: Trigger feels loose.,Closed,Technical,Phone
+CASE-000093,PLAYER623,ZCT2E-A7735482,Intermittent disconnects,Synthetic support record for PLAYER623: Intermittent disconnects.,New,Technical,Phone
+CASE-000094,PLAYER535,ZCT1W-B7278644,Trigger feels loose,Synthetic support record for PLAYER535: Trigger feels loose.,Closed,Technical,Email
+CASE-000095,PLAYER456,ZCT1W-A6231815,Controller not charging,Synthetic support record for PLAYER456: Controller not charging.,Closed,Technical,Email
+CASE-000096,PLAYER246,ZCT1W-C4207127,Right stick drift concern,Synthetic support record for PLAYER246: Right stick drift concern.,Closed,Technical,Web
+CASE-000097,PLAYER594,ZCT2E-D4056477,Intermittent disconnects,Synthetic support record for PLAYER594: Intermittent disconnects.,Closed,Technical,Email
+CASE-000098,PLAYER707,ZCT2E-R8317957,Input lag noticed,Synthetic support record for PLAYER707: Input lag noticed.,Closed,Technical,Web
+CASE-000099,PLAYER947,ZCT1W-H2683872,Controller not charging,Synthetic support record for PLAYER947: Controller not charging.,New,Technical,Web
+CASE-000100,PLAYER267,ZCT2E-H7787380,Intermittent disconnects,Synthetic support record for PLAYER267: Intermittent disconnects.,Closed,Technical,Email
+CASE-000101,PLAYER446,ZCT1W-B6392918,Intermittent disconnects,Synthetic support record for PLAYER446: Intermittent disconnects.,Closed,Technical,Email
+CASE-000102,PLAYER693,ZCT2E-Q7064346,Right stick drift concern,Synthetic support record for PLAYER693: Right stick drift concern.,Closed,Technical,Phone
+CASE-000103,PLAYER542,ZCT2E-R4533909,Intermittent disconnects,Synthetic support record for PLAYER542: Intermittent disconnects.,New,Technical,Email
+CASE-000104,PLAYER658,ZCT2E-G7805792,Intermittent disconnects,Synthetic support record for PLAYER658: Intermittent disconnects.,Closed,Technical,Web
+CASE-000105,PLAYER135,ZCT2E-C2898577,Right stick drift concern,Synthetic support record for PLAYER135: Right stick drift concern.,Closed,Technical,Web
+CASE-000106,PLAYER051,ZCT2E-V2662054,Input lag noticed,Synthetic support record for PLAYER051: Input lag noticed.,New,Technical,Email
+CASE-000107,PLAYER840,ZCT1W-U3156470,Right stick drift concern,Synthetic support record for PLAYER840: Right stick drift concern.,New,Technical,Phone
+CASE-000108,PLAYER449,ZCT1W-D8142094,Input lag noticed,Synthetic support record for PLAYER449: Input lag noticed.,Closed,Technical,Web
+CASE-000109,PLAYER650,ZCT2E-E6416968,Controller not charging,Synthetic support record for PLAYER650: Controller not charging.,New,Technical,Phone
+CASE-000110,PLAYER655,ZCT2E-E6501987,Input lag noticed,Synthetic support record for PLAYER655: Input lag noticed.,Closed,Technical,Web
+CASE-000111,PLAYER691,ZCT1W-W7812644,Intermittent disconnects,Synthetic support record for PLAYER691: Intermittent disconnects.,Closed,Technical,Email
+CASE-000112,PLAYER500,ZCT2E-V6668656,Trigger feels loose,Synthetic support record for PLAYER500: Trigger feels loose.,Closed,Technical,Web
+CASE-000113,PLAYER210,ZCT1W-W7576872,Right stick drift concern,Synthetic support record for PLAYER210: Right stick drift concern.,Closed,Technical,Web
+CASE-000114,PLAYER935,ZCT1W-J3087576,Input lag noticed,Synthetic support record for PLAYER935: Input lag noticed.,Closed,Technical,Email
+CASE-000115,PLAYER155,ZCT1W-C4555258,Intermittent disconnects,Synthetic support record for PLAYER155: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000116,PLAYER822,ZCT2E-G7985116,Input lag noticed,Synthetic support record for PLAYER822: Input lag noticed.,Closed,Technical,Email
+CASE-000117,PLAYER920,ZCT2E-N1464145,Controller not charging,Synthetic support record for PLAYER920: Controller not charging.,Closed,Technical,Web
+CASE-000118,PLAYER878,ZCT2E-G4939600,Controller not charging,Synthetic support record for PLAYER878: Controller not charging.,Closed,Technical,Web
+CASE-000119,PLAYER890,ZCT1W-A9464291,Controller not charging,Synthetic support record for PLAYER890: Controller not charging.,Closed,Technical,Web
+CASE-000120,PLAYER138,ZCT2E-T9996153,Controller not charging,Synthetic support record for PLAYER138: Controller not charging.,New,Technical,Web
+CASE-000121,PLAYER657,ZCT1W-W1572338,Intermittent disconnects,Synthetic support record for PLAYER657: Intermittent disconnects.,Closed,Technical,Web
+CASE-000122,PLAYER305,ZCT1W-S8445994,Controller not charging,Synthetic support record for PLAYER305: Controller not charging.,Closed,Technical,Web
+CASE-000123,PLAYER555,ZCT1W-L5193310,Trigger feels loose,Synthetic support record for PLAYER555: Trigger feels loose.,New,Technical,Web
+CASE-000124,PLAYER617,ZCT2E-J1388196,Input lag noticed,Synthetic support record for PLAYER617: Input lag noticed.,Closed,Technical,Phone
+CASE-000125,PLAYER922,ZCT2E-W3638806,Controller not charging,Synthetic support record for PLAYER922: Controller not charging.,New,Technical,Web
+CASE-000126,PLAYER993,ZCT2E-V5115393,Right stick drift concern,Synthetic support record for PLAYER993: Right stick drift concern.,Closed,Technical,Phone
+CASE-000127,PLAYER845,ZCT1W-C3347324,Right stick drift concern,Synthetic support record for PLAYER845: Right stick drift concern.,Closed,Technical,Web
+CASE-000128,PLAYER981,ZCT1W-Q7768131,Intermittent disconnects,Synthetic support record for PLAYER981: Intermittent disconnects.,New,Technical,Web
+CASE-000129,PLAYER606,ZCT2E-L4346251,Trigger feels loose,Synthetic support record for PLAYER606: Trigger feels loose.,Closed,Technical,Phone
+CASE-000130,PLAYER275,ZCT2E-M5317440,Intermittent disconnects,Synthetic support record for PLAYER275: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000131,PLAYER670,ZCT2E-Q6400942,Intermittent disconnects,Synthetic support record for PLAYER670: Intermittent disconnects.,Closed,Technical,Web
+CASE-000132,PLAYER094,ZCT1W-B6396217,Intermittent disconnects,Synthetic support record for PLAYER094: Intermittent disconnects.,Closed,Technical,Email
+CASE-000133,PLAYER460,ZCT1W-D4631285,Right stick drift concern,Synthetic support record for PLAYER460: Right stick drift concern.,Closed,Technical,Phone
+CASE-000134,PLAYER309,ZCT2E-K5856148,Intermittent disconnects,Synthetic support record for PLAYER309: Intermittent disconnects.,Closed,Technical,Email
+CASE-000135,PLAYER333,ZCT1W-D9367003,Controller not charging,Synthetic support record for PLAYER333: Controller not charging.,Closed,Technical,Phone
+CASE-000136,PLAYER859,ZCT1W-Q9586664,Input lag noticed,Synthetic support record for PLAYER859: Input lag noticed.,Closed,Technical,Email
+CASE-000137,PLAYER886,ZCT1W-N2371426,Input lag noticed,Synthetic support record for PLAYER886: Input lag noticed.,New,Technical,Web
+CASE-000138,PLAYER268,ZCT2E-V5831479,Trigger feels loose,Synthetic support record for PLAYER268: Trigger feels loose.,Closed,Technical,Phone
+CASE-000139,PLAYER389,ZCT2E-D2367443,Intermittent disconnects,Synthetic support record for PLAYER389: Intermittent disconnects.,New,Technical,Email
+CASE-000140,PLAYER782,ZCT2E-U4050662,Right stick drift concern,Synthetic support record for PLAYER782: Right stick drift concern.,Closed,Technical,Email
+CASE-000141,PLAYER546,ZCT1W-V3797337,Input lag noticed,Synthetic support record for PLAYER546: Input lag noticed.,Closed,Technical,Email
+CASE-000142,PLAYER929,ZCT2E-G6620341,Input lag noticed,Synthetic support record for PLAYER929: Input lag noticed.,Closed,Technical,Email
+CASE-000143,PLAYER069,ZCT2E-W9649141,Trigger feels loose,Synthetic support record for PLAYER069: Trigger feels loose.,Closed,Technical,Web
+CASE-000144,PLAYER301,ZCT2E-B2420343,Trigger feels loose,Synthetic support record for PLAYER301: Trigger feels loose.,Closed,Technical,Phone
+CASE-000145,PLAYER483,ZCT2E-C3895499,Right stick drift concern,Synthetic support record for PLAYER483: Right stick drift concern.,Closed,Technical,Phone
+CASE-000146,PLAYER545,ZCT2E-K6290495,Controller not charging,Synthetic support record for PLAYER545: Controller not charging.,Closed,Technical,Web
+CASE-000147,PLAYER421,ZCT1W-R9206984,Right stick drift concern,Synthetic support record for PLAYER421: Right stick drift concern.,Closed,Technical,Phone
+CASE-000148,PLAYER047,ZCT2E-J3455003,Trigger feels loose,Synthetic support record for PLAYER047: Trigger feels loose.,Closed,Technical,Phone
+CASE-000149,PLAYER185,ZCT1W-C8189612,Trigger feels loose,Synthetic support record for PLAYER185: Trigger feels loose.,Closed,Technical,Phone
+CASE-000150,PLAYER593,ZCT1W-L5618572,Controller not charging,Synthetic support record for PLAYER593: Controller not charging.,Closed,Technical,Web
+CASE-000151,PLAYER451,ZCT2E-E8015348,Trigger feels loose,Synthetic support record for PLAYER451: Trigger feels loose.,Closed,Technical,Email
+CASE-000152,PLAYER603,ZCT2E-A7779356,Input lag noticed,Synthetic support record for PLAYER603: Input lag noticed.,New,Technical,Email
+CASE-000153,PLAYER254,ZCT1W-G1220253,Intermittent disconnects,Synthetic support record for PLAYER254: Intermittent disconnects.,Closed,Technical,Web
+CASE-000154,PLAYER416,ZCT2E-W4937877,Input lag noticed,Synthetic support record for PLAYER416: Input lag noticed.,New,Technical,Email
+CASE-000155,PLAYER095,ZCT2E-K2871139,Input lag noticed,Synthetic support record for PLAYER095: Input lag noticed.,Closed,Technical,Web
+CASE-000156,PLAYER147,ZCT1W-K2866744,Intermittent disconnects,Synthetic support record for PLAYER147: Intermittent disconnects.,New,Technical,Web
+CASE-000157,PLAYER048,ZCT1W-D7327627,Intermittent disconnects,Synthetic support record for PLAYER048: Intermittent disconnects.,Closed,Technical,Email
+CASE-000158,PLAYER527,ZCT1W-Q6446430,Controller not charging,Synthetic support record for PLAYER527: Controller not charging.,Closed,Technical,Web
+CASE-000159,PLAYER799,ZCT1W-E8730320,Trigger feels loose,Synthetic support record for PLAYER799: Trigger feels loose.,Closed,Technical,Email
+CASE-000160,PLAYER143,ZCT1W-H1937270,Controller not charging,Synthetic support record for PLAYER143: Controller not charging.,Closed,Technical,Phone
+CASE-000161,PLAYER128,ZCT1W-H1402667,Intermittent disconnects,Synthetic support record for PLAYER128: Intermittent disconnects.,Closed,Technical,Web
+CASE-000162,PLAYER774,ZCT1W-X2628473,Trigger feels loose,Synthetic support record for PLAYER774: Trigger feels loose.,Closed,Technical,Email
+CASE-000163,PLAYER556,ZCT1W-M1381170,Right stick drift concern,Synthetic support record for PLAYER556: Right stick drift concern.,Closed,Technical,Phone
+CASE-000164,PLAYER151,ZCT2E-F2295356,Controller not charging,Synthetic support record for PLAYER151: Controller not charging.,Closed,Technical,Email
+CASE-000165,PLAYER774,ZCT1W-E9165219,Right stick drift concern,Synthetic support record for PLAYER774: Right stick drift concern.,New,Technical,Email
+CASE-000166,PLAYER603,ZCT2E-A7779356,Intermittent disconnects,Synthetic support record for PLAYER603: Intermittent disconnects.,New,Technical,Phone
+CASE-000167,PLAYER998,ZCT1W-F9072754,Intermittent disconnects,Synthetic support record for PLAYER998: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000168,PLAYER898,ZCT1W-Q7372844,Trigger feels loose,Synthetic support record for PLAYER898: Trigger feels loose.,Closed,Technical,Web
+CASE-000169,PLAYER604,ZCT1W-Q5600435,Intermittent disconnects,Synthetic support record for PLAYER604: Intermittent disconnects.,Closed,Technical,Web
+CASE-000170,PLAYER111,ZCT2E-L2396638,Input lag noticed,Synthetic support record for PLAYER111: Input lag noticed.,Closed,Technical,Phone
+CASE-000171,PLAYER501,ZCT2E-U7723471,Input lag noticed,Synthetic support record for PLAYER501: Input lag noticed.,Closed,Technical,Web
+CASE-000172,PLAYER301,ZCT2E-B2420343,Trigger feels loose,Synthetic support record for PLAYER301: Trigger feels loose.,New,Technical,Web
+CASE-000173,PLAYER558,ZCT1W-G8737309,Trigger feels loose,Synthetic support record for PLAYER558: Trigger feels loose.,Closed,Technical,Phone
+CASE-000174,PLAYER534,ZCT1W-P2953294,Intermittent disconnects,Synthetic support record for PLAYER534: Intermittent disconnects.,New,Technical,Web
+CASE-000175,PLAYER562,ZCT2E-C7997602,Controller not charging,Synthetic support record for PLAYER562: Controller not charging.,Closed,Technical,Email
+CASE-000176,PLAYER988,ZCT1W-F1628491,Input lag noticed,Synthetic support record for PLAYER988: Input lag noticed.,Closed,Technical,Web
+CASE-000177,PLAYER807,ZCT1W-L4820432,Right stick drift concern,Synthetic support record for PLAYER807: Right stick drift concern.,Closed,Technical,Phone
+CASE-000178,PLAYER726,ZCT1W-D9349199,Input lag noticed,Synthetic support record for PLAYER726: Input lag noticed.,New,Technical,Email
+CASE-000179,PLAYER819,ZCT2E-L4317803,Controller not charging,Synthetic support record for PLAYER819: Controller not charging.,Closed,Technical,Web
+CASE-000180,PLAYER256,ZCT1W-H7100930,Trigger feels loose,Synthetic support record for PLAYER256: Trigger feels loose.,New,Technical,Phone
+CASE-000181,PLAYER646,ZCT1W-D1250625,Intermittent disconnects,Synthetic support record for PLAYER646: Intermittent disconnects.,New,Technical,Email
+CASE-000182,PLAYER166,ZCT2E-B7503423,Intermittent disconnects,Synthetic support record for PLAYER166: Intermittent disconnects.,Closed,Technical,Web
+CASE-000183,PLAYER607,ZCT2E-D2248676,Right stick drift concern,Synthetic support record for PLAYER607: Right stick drift concern.,New,Technical,Phone
+CASE-000184,PLAYER470,ZCT2E-P4586632,Input lag noticed,Synthetic support record for PLAYER470: Input lag noticed.,New,Technical,Email
+CASE-000185,PLAYER682,ZCT2E-H8277403,Controller not charging,Synthetic support record for PLAYER682: Controller not charging.,New,Technical,Phone
+CASE-000186,PLAYER490,ZCT2E-P4790986,Intermittent disconnects,Synthetic support record for PLAYER490: Intermittent disconnects.,Closed,Technical,Web
+CASE-000187,PLAYER484,ZCT2E-T6883514,Controller not charging,Synthetic support record for PLAYER484: Controller not charging.,New,Technical,Email
+CASE-000188,PLAYER310,ZCT2E-N7472998,Trigger feels loose,Synthetic support record for PLAYER310: Trigger feels loose.,New,Technical,Phone
+CASE-000189,PLAYER960,ZCT2E-J4120898,Controller not charging,Synthetic support record for PLAYER960: Controller not charging.,Closed,Technical,Web
+CASE-000190,PLAYER042,ZCT1W-T4418574,Input lag noticed,Synthetic support record for PLAYER042: Input lag noticed.,New,Technical,Email
+CASE-000191,PLAYER401,ZCT2E-R8363801,Right stick drift concern,Synthetic support record for PLAYER401: Right stick drift concern.,Closed,Technical,Email
+CASE-000192,PLAYER310,ZCT2E-N7472998,Trigger feels loose,Synthetic support record for PLAYER310: Trigger feels loose.,Closed,Technical,Web
+CASE-000193,PLAYER258,ZCT2E-F6153067,Right stick drift concern,Synthetic support record for PLAYER258: Right stick drift concern.,Closed,Technical,Email
+CASE-000194,PLAYER862,ZCT1W-K1207372,Intermittent disconnects,Synthetic support record for PLAYER862: Intermittent disconnects.,Closed,Technical,Email
+CASE-000195,PLAYER162,ZCT1W-K3704873,Controller not charging,Synthetic support record for PLAYER162: Controller not charging.,Closed,Technical,Email
+CASE-000196,PLAYER837,ZCT2E-P1183106,Trigger feels loose,Synthetic support record for PLAYER837: Trigger feels loose.,Closed,Technical,Email
+CASE-000197,PLAYER097,ZCT1W-E3019210,Right stick drift concern,Synthetic support record for PLAYER097: Right stick drift concern.,Closed,Technical,Email
+CASE-000198,PLAYER826,ZCT1W-Q7207712,Right stick drift concern,Synthetic support record for PLAYER826: Right stick drift concern.,Closed,Technical,Email
+CASE-000199,PLAYER050,ZCT2E-D9874478,Intermittent disconnects,Synthetic support record for PLAYER050: Intermittent disconnects.,Closed,Technical,Web
+CASE-000200,PLAYER976,ZCT2E-J9166743,Controller not charging,Synthetic support record for PLAYER976: Controller not charging.,Closed,Technical,Email
+CASE-000201,PLAYER334,ZCT1W-K2254551,Right stick drift concern,Synthetic support record for PLAYER334: Right stick drift concern.,Closed,Technical,Phone
+CASE-000202,PLAYER107,ZCT1W-S8641031,Controller not charging,Synthetic support record for PLAYER107: Controller not charging.,Closed,Technical,Email
+CASE-000203,PLAYER793,ZCT2E-P6739966,Input lag noticed,Synthetic support record for PLAYER793: Input lag noticed.,Closed,Technical,Web
+CASE-000204,PLAYER190,ZCT2E-D7818036,Controller not charging,Synthetic support record for PLAYER190: Controller not charging.,Closed,Technical,Phone
+CASE-000205,PLAYER611,ZCT2E-D8916176,Intermittent disconnects,Synthetic support record for PLAYER611: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000206,PLAYER594,ZCT2E-R3736881,Intermittent disconnects,Synthetic support record for PLAYER594: Intermittent disconnects.,Closed,Technical,Web
+CASE-000207,PLAYER043,ZCT2E-W4231751,Trigger feels loose,Synthetic support record for PLAYER043: Trigger feels loose.,Closed,Technical,Phone
+CASE-000208,PLAYER443,ZCT1W-G9217672,Controller not charging,Synthetic support record for PLAYER443: Controller not charging.,Closed,Technical,Web
+CASE-000209,PLAYER699,ZCT2E-H4673793,Right stick drift concern,Synthetic support record for PLAYER699: Right stick drift concern.,Closed,Technical,Phone
+CASE-000210,PLAYER145,ZCT1W-M3370243,Intermittent disconnects,Synthetic support record for PLAYER145: Intermittent disconnects.,Closed,Technical,Email
+CASE-000211,PLAYER254,ZCT1W-G1220253,Controller not charging,Synthetic support record for PLAYER254: Controller not charging.,Closed,Technical,Email
+CASE-000212,PLAYER556,ZCT1W-M1381170,Input lag noticed,Synthetic support record for PLAYER556: Input lag noticed.,Closed,Technical,Web
+CASE-000213,PLAYER305,ZCT1W-S8445994,Intermittent disconnects,Synthetic support record for PLAYER305: Intermittent disconnects.,New,Technical,Phone
+CASE-000214,PLAYER625,ZCT2E-H6479762,Intermittent disconnects,Synthetic support record for PLAYER625: Intermittent disconnects.,New,Technical,Phone
+CASE-000215,PLAYER798,ZCT1W-C1161820,Trigger feels loose,Synthetic support record for PLAYER798: Trigger feels loose.,Closed,Technical,Phone
+CASE-000216,PLAYER442,ZCT1W-Q7204577,Trigger feels loose,Synthetic support record for PLAYER442: Trigger feels loose.,Closed,Technical,Phone
+CASE-000217,PLAYER918,ZCT2E-W7068696,Controller not charging,Synthetic support record for PLAYER918: Controller not charging.,Closed,Technical,Web
+CASE-000218,PLAYER497,ZCT2E-A3663391,Trigger feels loose,Synthetic support record for PLAYER497: Trigger feels loose.,Closed,Technical,Web
+CASE-000219,PLAYER428,ZCT2E-T2064762,Trigger feels loose,Synthetic support record for PLAYER428: Trigger feels loose.,Closed,Technical,Phone
+CASE-000220,PLAYER798,ZCT1W-C1161820,Input lag noticed,Synthetic support record for PLAYER798: Input lag noticed.,Closed,Technical,Email
+CASE-000221,PLAYER013,ZCT1W-H1881916,Intermittent disconnects,Synthetic support record for PLAYER013: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000222,PLAYER741,ZCT1W-V5331630,Trigger feels loose,Synthetic support record for PLAYER741: Trigger feels loose.,Closed,Technical,Web
+CASE-000223,PLAYER074,ZCT2E-N7279870,Input lag noticed,Synthetic support record for PLAYER074: Input lag noticed.,Closed,Technical,Email
+CASE-000224,PLAYER201,ZCT2E-G4739295,Input lag noticed,Synthetic support record for PLAYER201: Input lag noticed.,Closed,Technical,Email
+CASE-000225,PLAYER793,ZCT2E-P6739966,Input lag noticed,Synthetic support record for PLAYER793: Input lag noticed.,Closed,Technical,Web
+CASE-000226,PLAYER421,ZCT1W-R9206984,Input lag noticed,Synthetic support record for PLAYER421: Input lag noticed.,Closed,Technical,Web
+CASE-000227,PLAYER912,ZCT1W-E6038921,Trigger feels loose,Synthetic support record for PLAYER912: Trigger feels loose.,Closed,Technical,Web
+CASE-000228,PLAYER650,ZCT2E-E6416968,Trigger feels loose,Synthetic support record for PLAYER650: Trigger feels loose.,New,Technical,Phone
+CASE-000229,PLAYER952,ZCT2E-F7778101,Controller not charging,Synthetic support record for PLAYER952: Controller not charging.,New,Technical,Phone
+CASE-000230,PLAYER040,ZCT2E-J7405244,Input lag noticed,Synthetic support record for PLAYER040: Input lag noticed.,Closed,Technical,Phone
+CASE-000231,PLAYER378,ZCT1W-D4548039,Controller not charging,Synthetic support record for PLAYER378: Controller not charging.,Closed,Technical,Phone
+CASE-000232,PLAYER986,ZCT1W-E4263058,Trigger feels loose,Synthetic support record for PLAYER986: Trigger feels loose.,Closed,Technical,Phone
+CASE-000233,PLAYER744,ZCT2E-E4740892,Controller not charging,Synthetic support record for PLAYER744: Controller not charging.,Closed,Technical,Phone
+CASE-000234,PLAYER082,ZCT1W-D1354875,Trigger feels loose,Synthetic support record for PLAYER082: Trigger feels loose.,New,Technical,Email
+CASE-000235,PLAYER420,ZCT2E-X2904822,Intermittent disconnects,Synthetic support record for PLAYER420: Intermittent disconnects.,Closed,Technical,Web
+CASE-000236,PLAYER410,ZCT1W-L1643521,Intermittent disconnects,Synthetic support record for PLAYER410: Intermittent disconnects.,Closed,Technical,Email
+CASE-000237,PLAYER556,ZCT1W-M1381170,Input lag noticed,Synthetic support record for PLAYER556: Input lag noticed.,Closed,Technical,Email
+CASE-000238,PLAYER233,ZCT2E-A2923507,Right stick drift concern,Synthetic support record for PLAYER233: Right stick drift concern.,Closed,Technical,Phone
+CASE-000239,PLAYER968,ZCT2E-E1009619,Input lag noticed,Synthetic support record for PLAYER968: Input lag noticed.,New,Technical,Phone
+CASE-000240,PLAYER473,ZCT2E-S1218011,Input lag noticed,Synthetic support record for PLAYER473: Input lag noticed.,Closed,Technical,Web
+CASE-000241,PLAYER397,ZCT2E-Q3964907,Intermittent disconnects,Synthetic support record for PLAYER397: Intermittent disconnects.,New,Technical,Email
+CASE-000242,PLAYER390,ZCT2E-W4323637,Input lag noticed,Synthetic support record for PLAYER390: Input lag noticed.,Closed,Technical,Web
+CASE-000243,PLAYER800,ZCT1W-V3046457,Input lag noticed,Synthetic support record for PLAYER800: Input lag noticed.,Closed,Technical,Web
+CASE-000244,PLAYER844,ZCT1W-S1937161,Right stick drift concern,Synthetic support record for PLAYER844: Right stick drift concern.,Closed,Technical,Web
+CASE-000245,PLAYER380,ZCT1W-N2316088,Intermittent disconnects,Synthetic support record for PLAYER380: Intermittent disconnects.,Closed,Technical,Web
+CASE-000246,PLAYER730,ZCT2E-X2657259,Controller not charging,Synthetic support record for PLAYER730: Controller not charging.,Closed,Technical,Web
+CASE-000247,PLAYER569,ZCT2E-V1599695,Input lag noticed,Synthetic support record for PLAYER569: Input lag noticed.,New,Technical,Email
+CASE-000248,PLAYER495,ZCT1W-R3345711,Intermittent disconnects,Synthetic support record for PLAYER495: Intermittent disconnects.,Closed,Technical,Web
+CASE-000249,PLAYER694,ZCT2E-T3984802,Right stick drift concern,Synthetic support record for PLAYER694: Right stick drift concern.,Closed,Technical,Phone
+CASE-000250,PLAYER620,ZCT1W-C2545911,Controller not charging,Synthetic support record for PLAYER620: Controller not charging.,Closed,Technical,Email
+CASE-000251,PLAYER216,ZCT1W-W1388238,Trigger feels loose,Synthetic support record for PLAYER216: Trigger feels loose.,New,Technical,Web
+CASE-000252,PLAYER098,ZCT2E-G9951610,Right stick drift concern,Synthetic support record for PLAYER098: Right stick drift concern.,New,Technical,Phone
+CASE-000253,PLAYER399,ZCT2E-K6415686,Trigger feels loose,Synthetic support record for PLAYER399: Trigger feels loose.,Closed,Technical,Phone
+CASE-000254,PLAYER760,ZCT2E-U7476923,Trigger feels loose,Synthetic support record for PLAYER760: Trigger feels loose.,Closed,Technical,Phone
+CASE-000255,PLAYER016,ZCT2E-N2204993,Right stick drift concern,Synthetic support record for PLAYER016: Right stick drift concern.,Closed,Technical,Web
+CASE-000256,PLAYER039,ZCT2E-J3155739,Trigger feels loose,Synthetic support record for PLAYER039: Trigger feels loose.,Closed,Technical,Phone
+CASE-000257,PLAYER453,ZCT2E-S5215097,Right stick drift concern,Synthetic support record for PLAYER453: Right stick drift concern.,Closed,Technical,Phone
+CASE-000258,PLAYER362,ZCT1W-T5963118,Trigger feels loose,Synthetic support record for PLAYER362: Trigger feels loose.,New,Technical,Web
+CASE-000259,PLAYER888,ZCT2E-T7626337,Controller not charging,Synthetic support record for PLAYER888: Controller not charging.,New,Technical,Web
+CASE-000260,PLAYER368,ZCT1W-Q4016609,Intermittent disconnects,Synthetic support record for PLAYER368: Intermittent disconnects.,Closed,Technical,Email
+CASE-000261,PLAYER489,ZCT1W-N5816345,Input lag noticed,Synthetic support record for PLAYER489: Input lag noticed.,Closed,Technical,Web
+CASE-000262,PLAYER877,ZCT2E-R4400718,Controller not charging,Synthetic support record for PLAYER877: Controller not charging.,New,Technical,Email
+CASE-000263,PLAYER276,ZCT2E-A6916088,Controller not charging,Synthetic support record for PLAYER276: Controller not charging.,New,Technical,Web
+CASE-000264,PLAYER027,ZCT1W-D2956687,Right stick drift concern,Synthetic support record for PLAYER027: Right stick drift concern.,New,Technical,Phone
+CASE-000265,PLAYER198,ZCT2E-V2664720,Right stick drift concern,Synthetic support record for PLAYER198: Right stick drift concern.,New,Technical,Phone
+CASE-000266,PLAYER454,ZCT2E-E3755459,Intermittent disconnects,Synthetic support record for PLAYER454: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000267,PLAYER071,ZCT1W-N6948065,Input lag noticed,Synthetic support record for PLAYER071: Input lag noticed.,Closed,Technical,Phone
+CASE-000268,PLAYER797,ZCT1W-F7264416,Intermittent disconnects,Synthetic support record for PLAYER797: Intermittent disconnects.,New,Technical,Web
+CASE-000269,PLAYER999,ZCT2E-B8308548,Right stick drift concern,Synthetic support record for PLAYER999: Right stick drift concern.,Closed,Technical,Phone
+CASE-000270,PLAYER221,ZCT2E-W8564486,Controller not charging,Synthetic support record for PLAYER221: Controller not charging.,Closed,Technical,Email
+CASE-000271,PLAYER345,ZCT1W-U1168605,Right stick drift concern,Synthetic support record for PLAYER345: Right stick drift concern.,Closed,Technical,Phone
+CASE-000272,PLAYER593,ZCT1W-L5618572,Input lag noticed,Synthetic support record for PLAYER593: Input lag noticed.,Closed,Technical,Phone
+CASE-000273,PLAYER117,ZCT1W-Q4104255,Right stick drift concern,Synthetic support record for PLAYER117: Right stick drift concern.,Closed,Technical,Web
+CASE-000274,PLAYER817,ZCT1W-E6313738,Right stick drift concern,Synthetic support record for PLAYER817: Right stick drift concern.,Closed,Technical,Phone
+CASE-000275,PLAYER828,ZCT2E-T6716959,Input lag noticed,Synthetic support record for PLAYER828: Input lag noticed.,Closed,Technical,Email
+CASE-000276,PLAYER117,ZCT1W-Q4104255,Right stick drift concern,Synthetic support record for PLAYER117: Right stick drift concern.,Closed,Technical,Email
+CASE-000277,PLAYER259,ZCT2E-D2848835,Right stick drift concern,Synthetic support record for PLAYER259: Right stick drift concern.,New,Technical,Phone
+CASE-000278,PLAYER529,ZCT1W-C9975562,Controller not charging,Synthetic support record for PLAYER529: Controller not charging.,Closed,Technical,Web
+CASE-000279,PLAYER275,ZCT2E-M5317440,Controller not charging,Synthetic support record for PLAYER275: Controller not charging.,Closed,Technical,Phone
+CASE-000280,PLAYER609,ZCT2E-R5191722,Trigger feels loose,Synthetic support record for PLAYER609: Trigger feels loose.,New,Technical,Email
+CASE-000281,PLAYER740,ZCT1W-M7743748,Right stick drift concern,Synthetic support record for PLAYER740: Right stick drift concern.,Closed,Technical,Email
+CASE-000282,PLAYER508,ZCT1W-R7611016,Trigger feels loose,Synthetic support record for PLAYER508: Trigger feels loose.,Closed,Technical,Web
+CASE-000283,PLAYER251,ZCT2E-J6400776,Right stick drift concern,Synthetic support record for PLAYER251: Right stick drift concern.,New,Technical,Web
+CASE-000284,PLAYER949,ZCT2E-A5558760,Intermittent disconnects,Synthetic support record for PLAYER949: Intermittent disconnects.,New,Technical,Web
+CASE-000285,PLAYER265,ZCT1W-W5176591,Controller not charging,Synthetic support record for PLAYER265: Controller not charging.,Closed,Technical,Web
+CASE-000286,PLAYER947,ZCT1W-H2683872,Intermittent disconnects,Synthetic support record for PLAYER947: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000287,PLAYER315,ZCT1W-M6692359,Controller not charging,Synthetic support record for PLAYER315: Controller not charging.,Closed,Technical,Web
+CASE-000288,PLAYER833,ZCT1W-H1051224,Intermittent disconnects,Synthetic support record for PLAYER833: Intermittent disconnects.,New,Technical,Email
+CASE-000289,PLAYER821,ZCT2E-V5854015,Controller not charging,Synthetic support record for PLAYER821: Controller not charging.,New,Technical,Web
+CASE-000290,PLAYER819,ZCT2E-T5658522,Input lag noticed,Synthetic support record for PLAYER819: Input lag noticed.,Closed,Technical,Email
+CASE-000291,PLAYER936,ZCT1W-G5275016,Right stick drift concern,Synthetic support record for PLAYER936: Right stick drift concern.,Closed,Technical,Phone
+CASE-000292,PLAYER705,ZCT2E-T6259401,Controller not charging,Synthetic support record for PLAYER705: Controller not charging.,Closed,Technical,Email
+CASE-000293,PLAYER880,ZCT1W-B5806959,Intermittent disconnects,Synthetic support record for PLAYER880: Intermittent disconnects.,New,Technical,Phone
+CASE-000294,PLAYER467,ZCT2E-E8335724,Controller not charging,Synthetic support record for PLAYER467: Controller not charging.,Closed,Technical,Email
+CASE-000295,PLAYER279,ZCT2E-M4461265,Controller not charging,Synthetic support record for PLAYER279: Controller not charging.,Closed,Technical,Email
+CASE-000296,PLAYER483,ZCT2E-C3895499,Controller not charging,Synthetic support record for PLAYER483: Controller not charging.,New,Technical,Email
+CASE-000297,PLAYER313,ZCT1W-F7002009,Intermittent disconnects,Synthetic support record for PLAYER313: Intermittent disconnects.,New,Technical,Phone
+CASE-000298,PLAYER598,ZCT1W-U3593718,Intermittent disconnects,Synthetic support record for PLAYER598: Intermittent disconnects.,New,Technical,Phone
+CASE-000299,PLAYER557,ZCT1W-F8680087,Right stick drift concern,Synthetic support record for PLAYER557: Right stick drift concern.,New,Technical,Web
+CASE-000300,PLAYER110,ZCT1W-G9969014,Intermittent disconnects,Synthetic support record for PLAYER110: Intermittent disconnects.,Closed,Technical,Email
+CASE-000301,PLAYER191,ZCT1W-W8538483,Input lag noticed,Synthetic support record for PLAYER191: Input lag noticed.,Closed,Technical,Web
+CASE-000302,PLAYER856,ZCT2E-S3754469,Right stick drift concern,Synthetic support record for PLAYER856: Right stick drift concern.,Closed,Technical,Email
+CASE-000303,PLAYER868,ZCT1W-M4612279,Input lag noticed,Synthetic support record for PLAYER868: Input lag noticed.,Closed,Technical,Email
+CASE-000304,PLAYER650,ZCT2E-E6416968,Right stick drift concern,Synthetic support record for PLAYER650: Right stick drift concern.,New,Technical,Email
+CASE-000305,PLAYER048,ZCT1W-D7327627,Right stick drift concern,Synthetic support record for PLAYER048: Right stick drift concern.,New,Technical,Phone
+CASE-000306,PLAYER491,ZCT1W-R6958480,Right stick drift concern,Synthetic support record for PLAYER491: Right stick drift concern.,Closed,Technical,Phone
+CASE-000307,PLAYER114,ZCT2E-W4458774,Right stick drift concern,Synthetic support record for PLAYER114: Right stick drift concern.,New,Technical,Phone
+CASE-000308,PLAYER891,ZCT1W-K5057290,Right stick drift concern,Synthetic support record for PLAYER891: Right stick drift concern.,Closed,Technical,Email
+CASE-000309,PLAYER986,ZCT1W-E4263058,Right stick drift concern,Synthetic support record for PLAYER986: Right stick drift concern.,New,Technical,Email
+CASE-000310,PLAYER535,ZCT1W-B7278644,Intermittent disconnects,Synthetic support record for PLAYER535: Intermittent disconnects.,Closed,Technical,Email
+CASE-000311,PLAYER813,ZCT2E-K9205525,Right stick drift concern,Synthetic support record for PLAYER813: Right stick drift concern.,Closed,Technical,Phone
+CASE-000312,PLAYER805,ZCT1W-S1105921,Trigger feels loose,Synthetic support record for PLAYER805: Trigger feels loose.,Closed,Technical,Web
+CASE-000313,PLAYER582,ZCT1W-L9513036,Right stick drift concern,Synthetic support record for PLAYER582: Right stick drift concern.,Closed,Technical,Email
+CASE-000314,PLAYER467,ZCT1W-V4588635,Intermittent disconnects,Synthetic support record for PLAYER467: Intermittent disconnects.,New,Technical,Web
+CASE-000315,PLAYER686,ZCT2E-D5903591,Intermittent disconnects,Synthetic support record for PLAYER686: Intermittent disconnects.,New,Technical,Web
+CASE-000316,PLAYER592,ZCT2E-S5760630,Trigger feels loose,Synthetic support record for PLAYER592: Trigger feels loose.,Closed,Technical,Email
+CASE-000317,PLAYER451,ZCT2E-E8015348,Input lag noticed,Synthetic support record for PLAYER451: Input lag noticed.,Closed,Technical,Web
+CASE-000318,PLAYER519,ZCT2E-A9156065,Trigger feels loose,Synthetic support record for PLAYER519: Trigger feels loose.,Closed,Technical,Web
+CASE-000319,PLAYER095,ZCT2E-K2871139,Trigger feels loose,Synthetic support record for PLAYER095: Trigger feels loose.,Closed,Technical,Email
+CASE-000320,PLAYER328,ZCT1W-E1087850,Input lag noticed,Synthetic support record for PLAYER328: Input lag noticed.,New,Technical,Web
+CASE-000321,PLAYER893,ZCT1W-C5251915,Intermittent disconnects,Synthetic support record for PLAYER893: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000322,PLAYER320,ZCT1W-X2782083,Trigger feels loose,Synthetic support record for PLAYER320: Trigger feels loose.,New,Technical,Email
+CASE-000323,PLAYER847,ZCT2E-L2167300,Intermittent disconnects,Synthetic support record for PLAYER847: Intermittent disconnects.,Closed,Technical,Email
+CASE-000324,PLAYER438,ZCT2E-P2561327,Controller not charging,Synthetic support record for PLAYER438: Controller not charging.,Closed,Technical,Email
+CASE-000325,PLAYER022,ZCT2E-F1880336,Trigger feels loose,Synthetic support record for PLAYER022: Trigger feels loose.,Closed,Technical,Web
+CASE-000326,PLAYER422,ZCT2E-J9514225,Right stick drift concern,Synthetic support record for PLAYER422: Right stick drift concern.,Closed,Technical,Email
+CASE-000327,PLAYER215,ZCT1W-N5370124,Controller not charging,Synthetic support record for PLAYER215: Controller not charging.,Closed,Technical,Email
+CASE-000328,PLAYER380,ZCT1W-N2316088,Right stick drift concern,Synthetic support record for PLAYER380: Right stick drift concern.,New,Technical,Phone
+CASE-000329,PLAYER929,ZCT1W-L6438575,Controller not charging,Synthetic support record for PLAYER929: Controller not charging.,Closed,Technical,Phone
+CASE-000330,PLAYER698,ZCT1W-H3600666,Intermittent disconnects,Synthetic support record for PLAYER698: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000331,PLAYER083,ZCT1W-X4967894,Controller not charging,Synthetic support record for PLAYER083: Controller not charging.,Closed,Technical,Web
+CASE-000332,PLAYER034,ZCT1W-S6009306,Controller not charging,Synthetic support record for PLAYER034: Controller not charging.,New,Technical,Phone
+CASE-000333,PLAYER616,ZCT2E-Q4819874,Trigger feels loose,Synthetic support record for PLAYER616: Trigger feels loose.,Closed,Technical,Web
+CASE-000334,PLAYER149,ZCT2E-T5329433,Controller not charging,Synthetic support record for PLAYER149: Controller not charging.,Closed,Technical,Email
+CASE-000335,PLAYER066,ZCT2E-F7262661,Right stick drift concern,Synthetic support record for PLAYER066: Right stick drift concern.,Closed,Technical,Web
+CASE-000336,PLAYER294,ZCT2E-T4076474,Trigger feels loose,Synthetic support record for PLAYER294: Trigger feels loose.,New,Technical,Phone
+CASE-000337,PLAYER858,ZCT1W-L5367811,Trigger feels loose,Synthetic support record for PLAYER858: Trigger feels loose.,Closed,Technical,Web
+CASE-000338,PLAYER669,ZCT1W-N5974384,Intermittent disconnects,Synthetic support record for PLAYER669: Intermittent disconnects.,New,Technical,Email
+CASE-000339,PLAYER065,ZCT1W-S6927248,Controller not charging,Synthetic support record for PLAYER065: Controller not charging.,New,Technical,Phone
+CASE-000340,PLAYER313,ZCT2E-E8850178,Trigger feels loose,Synthetic support record for PLAYER313: Trigger feels loose.,New,Technical,Web
+CASE-000341,PLAYER566,ZCT1W-R4524641,Trigger feels loose,Synthetic support record for PLAYER566: Trigger feels loose.,Closed,Technical,Web
+CASE-000342,PLAYER370,ZCT1W-H2920094,Input lag noticed,Synthetic support record for PLAYER370: Input lag noticed.,Closed,Technical,Phone
+CASE-000343,PLAYER799,ZCT1W-E8730320,Right stick drift concern,Synthetic support record for PLAYER799: Right stick drift concern.,Closed,Technical,Phone
+CASE-000344,PLAYER314,ZCT2E-S7553588,Trigger feels loose,Synthetic support record for PLAYER314: Trigger feels loose.,Closed,Technical,Phone
+CASE-000345,PLAYER554,ZCT1W-E9445000,Trigger feels loose,Synthetic support record for PLAYER554: Trigger feels loose.,Closed,Technical,Email
+CASE-000346,PLAYER1000,ZCT2E-R1513307,Input lag noticed,Synthetic support record for PLAYER1000: Input lag noticed.,New,Technical,Phone
+CASE-000347,PLAYER644,ZCT1W-R1574162,Right stick drift concern,Synthetic support record for PLAYER644: Right stick drift concern.,Closed,Technical,Phone
+CASE-000348,PLAYER945,ZCT1W-P4707319,Trigger feels loose,Synthetic support record for PLAYER945: Trigger feels loose.,Closed,Technical,Phone
+CASE-000349,PLAYER695,ZCT1W-C7788683,Trigger feels loose,Synthetic support record for PLAYER695: Trigger feels loose.,Closed,Technical,Web
+CASE-000350,PLAYER744,ZCT2E-E4740892,Trigger feels loose,Synthetic support record for PLAYER744: Trigger feels loose.,New,Technical,Web
+CASE-000351,PLAYER798,ZCT1W-C1161820,Right stick drift concern,Synthetic support record for PLAYER798: Right stick drift concern.,Closed,Technical,Phone
+CASE-000352,PLAYER910,ZCT1W-D1404486,Input lag noticed,Synthetic support record for PLAYER910: Input lag noticed.,Closed,Technical,Email
+CASE-000353,PLAYER693,ZCT2E-Q7064346,Trigger feels loose,Synthetic support record for PLAYER693: Trigger feels loose.,Closed,Technical,Phone
+CASE-000354,PLAYER043,ZCT2E-W4231751,Input lag noticed,Synthetic support record for PLAYER043: Input lag noticed.,Closed,Technical,Web
+CASE-000355,PLAYER662,ZCT1W-D4810526,Trigger feels loose,Synthetic support record for PLAYER662: Trigger feels loose.,Closed,Technical,Email
+CASE-000356,PLAYER345,ZCT1W-U1168605,Controller not charging,Synthetic support record for PLAYER345: Controller not charging.,Closed,Technical,Web
+CASE-000357,PLAYER517,ZCT1W-M2701295,Right stick drift concern,Synthetic support record for PLAYER517: Right stick drift concern.,New,Technical,Email
+CASE-000358,PLAYER566,ZCT1W-R4524641,Right stick drift concern,Synthetic support record for PLAYER566: Right stick drift concern.,New,Technical,Phone
+CASE-000359,PLAYER401,ZCT2E-R8363801,Intermittent disconnects,Synthetic support record for PLAYER401: Intermittent disconnects.,New,Technical,Web
+CASE-000360,PLAYER877,ZCT2E-R4400718,Trigger feels loose,Synthetic support record for PLAYER877: Trigger feels loose.,Closed,Technical,Email
+CASE-000361,PLAYER043,ZCT2E-W4231751,Input lag noticed,Synthetic support record for PLAYER043: Input lag noticed.,Closed,Technical,Web
+CASE-000362,PLAYER252,ZCT1W-J5969984,Right stick drift concern,Synthetic support record for PLAYER252: Right stick drift concern.,Closed,Technical,Phone
+CASE-000363,PLAYER868,ZCT1W-M4612279,Right stick drift concern,Synthetic support record for PLAYER868: Right stick drift concern.,Closed,Technical,Email
+CASE-000364,PLAYER930,ZCT2E-V8110991,Right stick drift concern,Synthetic support record for PLAYER930: Right stick drift concern.,New,Technical,Email
+CASE-000365,PLAYER693,ZCT2E-Q7064346,Intermittent disconnects,Synthetic support record for PLAYER693: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000366,PLAYER540,ZCT2E-W6515543,Right stick drift concern,Synthetic support record for PLAYER540: Right stick drift concern.,New,Technical,Email
+CASE-000367,PLAYER749,ZCT2E-F2402709,Right stick drift concern,Synthetic support record for PLAYER749: Right stick drift concern.,Closed,Technical,Web
+CASE-000368,PLAYER860,ZCT1W-G6009840,Trigger feels loose,Synthetic support record for PLAYER860: Trigger feels loose.,Closed,Technical,Phone
+CASE-000369,PLAYER190,ZCT2E-D7818036,Right stick drift concern,Synthetic support record for PLAYER190: Right stick drift concern.,Closed,Technical,Web
+CASE-000370,PLAYER375,ZCT2E-K3400475,Trigger feels loose,Synthetic support record for PLAYER375: Trigger feels loose.,New,Technical,Email
+CASE-000371,PLAYER419,ZCT1W-X8128056,Intermittent disconnects,Synthetic support record for PLAYER419: Intermittent disconnects.,New,Technical,Email
+CASE-000372,PLAYER615,ZCT2E-M8479960,Input lag noticed,Synthetic support record for PLAYER615: Input lag noticed.,New,Technical,Web
+CASE-000373,PLAYER177,ZCT2E-X2568722,Controller not charging,Synthetic support record for PLAYER177: Controller not charging.,Closed,Technical,Web
+CASE-000374,PLAYER884,ZCT1W-B6762197,Right stick drift concern,Synthetic support record for PLAYER884: Right stick drift concern.,Closed,Technical,Phone
+CASE-000375,PLAYER161,ZCT1W-A7410771,Input lag noticed,Synthetic support record for PLAYER161: Input lag noticed.,Closed,Technical,Web
+CASE-000376,PLAYER062,ZCT2E-T6789156,Right stick drift concern,Synthetic support record for PLAYER062: Right stick drift concern.,Closed,Technical,Email
+CASE-000377,PLAYER823,ZCT1W-L6211203,Input lag noticed,Synthetic support record for PLAYER823: Input lag noticed.,Closed,Technical,Email
+CASE-000378,PLAYER672,ZCT2E-E3412422,Input lag noticed,Synthetic support record for PLAYER672: Input lag noticed.,Closed,Technical,Web
+CASE-000379,PLAYER729,ZCT2E-G7782771,Right stick drift concern,Synthetic support record for PLAYER729: Right stick drift concern.,Closed,Technical,Email
+CASE-000380,PLAYER855,ZCT1W-U9245415,Right stick drift concern,Synthetic support record for PLAYER855: Right stick drift concern.,Closed,Technical,Web
+CASE-000381,PLAYER920,ZCT2E-N1464145,Intermittent disconnects,Synthetic support record for PLAYER920: Intermittent disconnects.,Closed,Technical,Email
+CASE-000382,PLAYER466,ZCT2E-M6230495,Right stick drift concern,Synthetic support record for PLAYER466: Right stick drift concern.,Closed,Technical,Phone
+CASE-000383,PLAYER113,ZCT2E-A2785812,Right stick drift concern,Synthetic support record for PLAYER113: Right stick drift concern.,Closed,Technical,Web
+CASE-000384,PLAYER582,ZCT1W-L9513036,Trigger feels loose,Synthetic support record for PLAYER582: Trigger feels loose.,Closed,Technical,Web
+CASE-000385,PLAYER998,ZCT1W-F9072754,Trigger feels loose,Synthetic support record for PLAYER998: Trigger feels loose.,New,Technical,Web
+CASE-000386,PLAYER882,ZCT2E-X7842181,Controller not charging,Synthetic support record for PLAYER882: Controller not charging.,New,Technical,Web
+CASE-000387,PLAYER226,ZCT2E-R4342651,Intermittent disconnects,Synthetic support record for PLAYER226: Intermittent disconnects.,Closed,Technical,Email
+CASE-000388,PLAYER002,ZCT1W-4E5F6G7H,Input lag noticed,Synthetic support record for PLAYER002: Input lag noticed.,Closed,Technical,Web
+CASE-000389,PLAYER234,ZCT2E-M3433361,Right stick drift concern,Synthetic support record for PLAYER234: Right stick drift concern.,Closed,Technical,Web
+CASE-000390,PLAYER093,ZCT2E-H6366039,Controller not charging,Synthetic support record for PLAYER093: Controller not charging.,Closed,Technical,Phone
+CASE-000391,PLAYER674,ZCT2E-E7735054,Right stick drift concern,Synthetic support record for PLAYER674: Right stick drift concern.,Closed,Technical,Email
+CASE-000392,PLAYER280,ZCT2E-W2810792,Trigger feels loose,Synthetic support record for PLAYER280: Trigger feels loose.,Closed,Technical,Phone
+CASE-000393,PLAYER892,ZCT1W-T2620464,Trigger feels loose,Synthetic support record for PLAYER892: Trigger feels loose.,New,Technical,Phone
+CASE-000394,PLAYER412,ZCT1W-U7311740,Intermittent disconnects,Synthetic support record for PLAYER412: Intermittent disconnects.,Closed,Technical,Web
+CASE-000395,PLAYER857,ZCT1W-W5721396,Trigger feels loose,Synthetic support record for PLAYER857: Trigger feels loose.,Closed,Technical,Email
+CASE-000396,PLAYER060,ZCT2E-S9932346,Input lag noticed,Synthetic support record for PLAYER060: Input lag noticed.,New,Technical,Phone
+CASE-000397,PLAYER051,ZCT2E-F6791040,Trigger feels loose,Synthetic support record for PLAYER051: Trigger feels loose.,Closed,Technical,Phone
+CASE-000398,PLAYER860,ZCT1W-B7500366,Trigger feels loose,Synthetic support record for PLAYER860: Trigger feels loose.,New,Technical,Phone
+CASE-000399,PLAYER792,ZCT2E-B5534607,Intermittent disconnects,Synthetic support record for PLAYER792: Intermittent disconnects.,Closed,Technical,Email
+CASE-000400,PLAYER048,ZCT1W-D7327627,Intermittent disconnects,Synthetic support record for PLAYER048: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000401,PLAYER750,ZCT2E-V7222701,Trigger feels loose,Synthetic support record for PLAYER750: Trigger feels loose.,Closed,Technical,Phone
+CASE-000402,PLAYER955,ZCT2E-Q8115851,Trigger feels loose,Synthetic support record for PLAYER955: Trigger feels loose.,Closed,Technical,Web
+CASE-000403,PLAYER402,ZCT2E-V2780388,Input lag noticed,Synthetic support record for PLAYER402: Input lag noticed.,Closed,Technical,Email
+CASE-000404,PLAYER888,ZCT2E-T7626337,Right stick drift concern,Synthetic support record for PLAYER888: Right stick drift concern.,Closed,Technical,Web
+CASE-000405,PLAYER591,ZCT2E-P5542317,Right stick drift concern,Synthetic support record for PLAYER591: Right stick drift concern.,New,Technical,Web
+CASE-000406,PLAYER912,ZCT1W-E6038921,Right stick drift concern,Synthetic support record for PLAYER912: Right stick drift concern.,Closed,Technical,Phone
+CASE-000407,PLAYER362,ZCT1W-T5963118,Intermittent disconnects,Synthetic support record for PLAYER362: Intermittent disconnects.,Closed,Technical,Web
+CASE-000408,PLAYER883,ZCT2E-E6583525,Controller not charging,Synthetic support record for PLAYER883: Controller not charging.,New,Technical,Phone
+CASE-000409,PLAYER872,ZCT1W-R3928988,Controller not charging,Synthetic support record for PLAYER872: Controller not charging.,Closed,Technical,Phone
+CASE-000410,PLAYER249,ZCT1W-E8729158,Controller not charging,Synthetic support record for PLAYER249: Controller not charging.,New,Technical,Email
+CASE-000411,PLAYER501,ZCT1W-H9505390,Controller not charging,Synthetic support record for PLAYER501: Controller not charging.,New,Technical,Phone
+CASE-000412,PLAYER397,ZCT1W-A7205454,Right stick drift concern,Synthetic support record for PLAYER397: Right stick drift concern.,New,Technical,Email
+CASE-000413,PLAYER514,ZCT2E-W4017812,Controller not charging,Synthetic support record for PLAYER514: Controller not charging.,Closed,Technical,Web
+CASE-000414,PLAYER523,ZCT2E-G9638526,Controller not charging,Synthetic support record for PLAYER523: Controller not charging.,Closed,Technical,Web
+CASE-000415,PLAYER387,ZCT2E-H3101870,Controller not charging,Synthetic support record for PLAYER387: Controller not charging.,New,Technical,Phone
+CASE-000416,PLAYER808,ZCT2E-S5788268,Trigger feels loose,Synthetic support record for PLAYER808: Trigger feels loose.,Closed,Technical,Web
+CASE-000417,PLAYER631,ZCT1W-N1825678,Trigger feels loose,Synthetic support record for PLAYER631: Trigger feels loose.,Closed,Technical,Email
+CASE-000418,PLAYER071,ZCT2E-L6005493,Controller not charging,Synthetic support record for PLAYER071: Controller not charging.,New,Technical,Email
+CASE-000419,PLAYER332,ZCT1W-U2311035,Controller not charging,Synthetic support record for PLAYER332: Controller not charging.,Closed,Technical,Web
+CASE-000420,PLAYER108,ZCT1W-B9951748,Right stick drift concern,Synthetic support record for PLAYER108: Right stick drift concern.,Closed,Technical,Email
+CASE-000421,PLAYER097,ZCT1W-E3019210,Controller not charging,Synthetic support record for PLAYER097: Controller not charging.,Closed,Technical,Web
+CASE-000422,PLAYER338,ZCT1W-P2352134,Intermittent disconnects,Synthetic support record for PLAYER338: Intermittent disconnects.,Closed,Technical,Web
+CASE-000423,PLAYER395,ZCT1W-B2237362,Intermittent disconnects,Synthetic support record for PLAYER395: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000424,PLAYER115,ZCT2E-G7634775,Input lag noticed,Synthetic support record for PLAYER115: Input lag noticed.,Closed,Technical,Web
+CASE-000425,PLAYER917,ZCT1W-U3763756,Trigger feels loose,Synthetic support record for PLAYER917: Trigger feels loose.,Closed,Technical,Email
+CASE-000426,PLAYER714,ZCT1W-A9304303,Controller not charging,Synthetic support record for PLAYER714: Controller not charging.,Closed,Technical,Phone
+CASE-000427,PLAYER031,ZCT2E-C9705716,Right stick drift concern,Synthetic support record for PLAYER031: Right stick drift concern.,Closed,Technical,Phone
+CASE-000428,PLAYER371,ZCT2E-U6323988,Right stick drift concern,Synthetic support record for PLAYER371: Right stick drift concern.,Closed,Technical,Web
+CASE-000429,PLAYER546,ZCT1W-V3797337,Trigger feels loose,Synthetic support record for PLAYER546: Trigger feels loose.,Closed,Technical,Email
+CASE-000430,PLAYER590,ZCT2E-K1161102,Intermittent disconnects,Synthetic support record for PLAYER590: Intermittent disconnects.,Closed,Technical,Email
+CASE-000431,PLAYER916,ZCT1W-S3439451,Controller not charging,Synthetic support record for PLAYER916: Controller not charging.,New,Technical,Web
+CASE-000432,PLAYER135,ZCT2E-C2898577,Controller not charging,Synthetic support record for PLAYER135: Controller not charging.,Closed,Technical,Email
+CASE-000433,PLAYER969,ZCT2E-X7627284,Trigger feels loose,Synthetic support record for PLAYER969: Trigger feels loose.,Closed,Technical,Web
+CASE-000434,PLAYER755,ZCT1W-L8363043,Right stick drift concern,Synthetic support record for PLAYER755: Right stick drift concern.,Closed,Technical,Web
+CASE-000435,PLAYER681,ZCT2E-M2394075,Controller not charging,Synthetic support record for PLAYER681: Controller not charging.,Closed,Technical,Email
+CASE-000436,PLAYER124,ZCT1W-R8454556,Right stick drift concern,Synthetic support record for PLAYER124: Right stick drift concern.,Closed,Technical,Web
+CASE-000437,PLAYER159,ZCT1W-L7553873,Right stick drift concern,Synthetic support record for PLAYER159: Right stick drift concern.,Closed,Technical,Email
+CASE-000438,PLAYER665,ZCT2E-S3546298,Input lag noticed,Synthetic support record for PLAYER665: Input lag noticed.,Closed,Technical,Phone
+CASE-000439,PLAYER009,ZCT1W-K4672603,Input lag noticed,Synthetic support record for PLAYER009: Input lag noticed.,New,Technical,Email
+CASE-000440,PLAYER890,ZCT1W-A9464291,Controller not charging,Synthetic support record for PLAYER890: Controller not charging.,Closed,Technical,Phone
+CASE-000441,PLAYER295,ZCT1W-S8413874,Controller not charging,Synthetic support record for PLAYER295: Controller not charging.,New,Technical,Email
+CASE-000442,PLAYER772,ZCT1W-N3891398,Right stick drift concern,Synthetic support record for PLAYER772: Right stick drift concern.,Closed,Technical,Email
+CASE-000443,PLAYER396,ZCT2E-E4077793,Intermittent disconnects,Synthetic support record for PLAYER396: Intermittent disconnects.,New,Technical,Web
+CASE-000444,PLAYER470,ZCT2E-P4586632,Trigger feels loose,Synthetic support record for PLAYER470: Trigger feels loose.,Closed,Technical,Phone
+CASE-000445,PLAYER726,ZCT1W-D9349199,Right stick drift concern,Synthetic support record for PLAYER726: Right stick drift concern.,Closed,Technical,Email
+CASE-000446,PLAYER707,ZCT2E-T1965457,Controller not charging,Synthetic support record for PLAYER707: Controller not charging.,Closed,Technical,Web
+CASE-000447,PLAYER952,ZCT2E-F7778101,Intermittent disconnects,Synthetic support record for PLAYER952: Intermittent disconnects.,Closed,Technical,Web
+CASE-000448,PLAYER888,ZCT2E-T7626337,Trigger feels loose,Synthetic support record for PLAYER888: Trigger feels loose.,Closed,Technical,Email
+CASE-000449,PLAYER714,ZCT1W-A9304303,Right stick drift concern,Synthetic support record for PLAYER714: Right stick drift concern.,Closed,Technical,Phone
+CASE-000450,PLAYER934,ZCT2E-T6727732,Trigger feels loose,Synthetic support record for PLAYER934: Trigger feels loose.,Closed,Technical,Web
+CASE-000451,PLAYER334,ZCT1W-K5217487,Input lag noticed,Synthetic support record for PLAYER334: Input lag noticed.,Closed,Technical,Email
+CASE-000452,PLAYER405,ZCT1W-K8155525,Controller not charging,Synthetic support record for PLAYER405: Controller not charging.,Closed,Technical,Phone
+CASE-000453,PLAYER498,ZCT1W-A8365343,Right stick drift concern,Synthetic support record for PLAYER498: Right stick drift concern.,New,Technical,Web
+CASE-000454,PLAYER399,ZCT1W-B4534635,Input lag noticed,Synthetic support record for PLAYER399: Input lag noticed.,Closed,Technical,Email
+CASE-000455,PLAYER780,ZCT2E-D1660659,Trigger feels loose,Synthetic support record for PLAYER780: Trigger feels loose.,New,Technical,Email
+CASE-000456,PLAYER113,ZCT2E-A2785812,Input lag noticed,Synthetic support record for PLAYER113: Input lag noticed.,New,Technical,Phone
+CASE-000457,PLAYER318,ZCT2E-E6437103,Input lag noticed,Synthetic support record for PLAYER318: Input lag noticed.,Closed,Technical,Email
+CASE-000458,PLAYER443,ZCT1W-G9217672,Controller not charging,Synthetic support record for PLAYER443: Controller not charging.,Closed,Technical,Email
+CASE-000459,PLAYER303,ZCT1W-X3596701,Controller not charging,Synthetic support record for PLAYER303: Controller not charging.,Closed,Technical,Phone
+CASE-000460,PLAYER173,ZCT2E-M2400738,Trigger feels loose,Synthetic support record for PLAYER173: Trigger feels loose.,Closed,Technical,Phone
+CASE-000461,PLAYER467,ZCT1W-V4588635,Controller not charging,Synthetic support record for PLAYER467: Controller not charging.,Closed,Technical,Web
+CASE-000462,PLAYER175,ZCT1W-T1133260,Trigger feels loose,Synthetic support record for PLAYER175: Trigger feels loose.,Closed,Technical,Email
+CASE-000463,PLAYER498,ZCT1W-F7006319,Trigger feels loose,Synthetic support record for PLAYER498: Trigger feels loose.,Closed,Technical,Web
+CASE-000464,PLAYER971,ZCT2E-S7839706,Controller not charging,Synthetic support record for PLAYER971: Controller not charging.,New,Technical,Web
+CASE-000465,PLAYER062,ZCT2E-T6789156,Input lag noticed,Synthetic support record for PLAYER062: Input lag noticed.,Closed,Technical,Web
+CASE-000466,PLAYER091,ZCT1W-S8165093,Trigger feels loose,Synthetic support record for PLAYER091: Trigger feels loose.,New,Technical,Email
+CASE-000467,PLAYER704,ZCT1W-T3160312,Controller not charging,Synthetic support record for PLAYER704: Controller not charging.,New,Technical,Email
+CASE-000468,PLAYER270,ZCT2E-P6604498,Controller not charging,Synthetic support record for PLAYER270: Controller not charging.,Closed,Technical,Email
+CASE-000469,PLAYER495,ZCT1W-R3345711,Intermittent disconnects,Synthetic support record for PLAYER495: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000470,PLAYER624,ZCT2E-A1143242,Controller not charging,Synthetic support record for PLAYER624: Controller not charging.,Closed,Technical,Web
+CASE-000471,PLAYER791,ZCT1W-K7386601,Controller not charging,Synthetic support record for PLAYER791: Controller not charging.,Closed,Technical,Web
+CASE-000472,PLAYER978,ZCT2E-N8270949,Controller not charging,Synthetic support record for PLAYER978: Controller not charging.,Closed,Technical,Phone
+CASE-000473,PLAYER492,ZCT2E-W3860089,Intermittent disconnects,Synthetic support record for PLAYER492: Intermittent disconnects.,Closed,Technical,Email
+CASE-000474,PLAYER359,ZCT1W-A6720097,Controller not charging,Synthetic support record for PLAYER359: Controller not charging.,Closed,Technical,Web
+CASE-000475,PLAYER294,ZCT2E-T4076474,Right stick drift concern,Synthetic support record for PLAYER294: Right stick drift concern.,Closed,Technical,Web
+CASE-000476,PLAYER059,ZCT2E-A8113264,Controller not charging,Synthetic support record for PLAYER059: Controller not charging.,Closed,Technical,Email
+CASE-000477,PLAYER890,ZCT1W-A9464291,Trigger feels loose,Synthetic support record for PLAYER890: Trigger feels loose.,Closed,Technical,Phone
+CASE-000478,PLAYER714,ZCT1W-A9304303,Intermittent disconnects,Synthetic support record for PLAYER714: Intermittent disconnects.,Closed,Technical,Web
+CASE-000479,PLAYER888,ZCT1W-H6618685,Controller not charging,Synthetic support record for PLAYER888: Controller not charging.,Closed,Technical,Web
+CASE-000480,PLAYER032,ZCT1W-X2968404,Controller not charging,Synthetic support record for PLAYER032: Controller not charging.,New,Technical,Email
+CASE-000481,PLAYER264,ZCT2E-S9281506,Input lag noticed,Synthetic support record for PLAYER264: Input lag noticed.,Closed,Technical,Web
+CASE-000482,PLAYER135,ZCT2E-C2898577,Trigger feels loose,Synthetic support record for PLAYER135: Trigger feels loose.,Closed,Technical,Phone
+CASE-000483,PLAYER186,ZCT1W-M8031349,Right stick drift concern,Synthetic support record for PLAYER186: Right stick drift concern.,Closed,Technical,Web
+CASE-000484,PLAYER728,ZCT1W-L5130922,Trigger feels loose,Synthetic support record for PLAYER728: Trigger feels loose.,Closed,Technical,Email
+CASE-000485,PLAYER840,ZCT1W-U3156470,Right stick drift concern,Synthetic support record for PLAYER840: Right stick drift concern.,Closed,Technical,Web
+CASE-000486,PLAYER234,ZCT2E-M3433361,Input lag noticed,Synthetic support record for PLAYER234: Input lag noticed.,Closed,Technical,Web
+CASE-000487,PLAYER171,ZCT1W-U9191626,Trigger feels loose,Synthetic support record for PLAYER171: Trigger feels loose.,Closed,Technical,Web
+CASE-000488,PLAYER992,ZCT2E-S3610506,Right stick drift concern,Synthetic support record for PLAYER992: Right stick drift concern.,Closed,Technical,Phone
+CASE-000489,PLAYER179,ZCT2E-V9158676,Controller not charging,Synthetic support record for PLAYER179: Controller not charging.,Closed,Technical,Email
+CASE-000490,PLAYER263,ZCT2E-G5932600,Trigger feels loose,Synthetic support record for PLAYER263: Trigger feels loose.,Closed,Technical,Email
+CASE-000491,PLAYER979,ZCT2E-S3784101,Intermittent disconnects,Synthetic support record for PLAYER979: Intermittent disconnects.,New,Technical,Web
+CASE-000492,PLAYER179,ZCT2E-V9158676,Input lag noticed,Synthetic support record for PLAYER179: Input lag noticed.,Closed,Technical,Email
+CASE-000493,PLAYER289,ZCT2E-E6875686,Right stick drift concern,Synthetic support record for PLAYER289: Right stick drift concern.,Closed,Technical,Phone
+CASE-000494,PLAYER946,ZCT1W-X6175674,Intermittent disconnects,Synthetic support record for PLAYER946: Intermittent disconnects.,Closed,Technical,Web
+CASE-000495,PLAYER079,ZCT2E-B3689597,Trigger feels loose,Synthetic support record for PLAYER079: Trigger feels loose.,Closed,Technical,Email
+CASE-000496,PLAYER676,ZCT1W-S6220408,Controller not charging,Synthetic support record for PLAYER676: Controller not charging.,Closed,Technical,Web
+CASE-000497,PLAYER121,ZCT1W-V2673190,Controller not charging,Synthetic support record for PLAYER121: Controller not charging.,New,Technical,Email
+CASE-000498,PLAYER478,ZCT1W-E2389566,Trigger feels loose,Synthetic support record for PLAYER478: Trigger feels loose.,Closed,Technical,Email
+CASE-000499,PLAYER004,ZCT2E-2M3N4O5P,Trigger feels loose,Synthetic support record for PLAYER004: Trigger feels loose.,Closed,Technical,Email
+CASE-000500,PLAYER022,ZCT2E-X3822312,Input lag noticed,Synthetic support record for PLAYER022: Input lag noticed.,Closed,Technical,Web
+CASE-000501,PLAYER267,ZCT2E-H7787380,Right stick drift concern,Synthetic support record for PLAYER267: Right stick drift concern.,New,Technical,Phone
+CASE-000502,PLAYER724,ZCT1W-Q1509048,Right stick drift concern,Synthetic support record for PLAYER724: Right stick drift concern.,New,Technical,Email
+CASE-000503,PLAYER843,ZCT1W-L1579384,Intermittent disconnects,Synthetic support record for PLAYER843: Intermittent disconnects.,Closed,Technical,Email
+CASE-000504,PLAYER677,ZCT2E-K3094878,Controller not charging,Synthetic support record for PLAYER677: Controller not charging.,Closed,Technical,Phone
+CASE-000505,PLAYER042,ZCT1W-T4418574,Controller not charging,Synthetic support record for PLAYER042: Controller not charging.,New,Technical,Email
+CASE-000506,PLAYER272,ZCT1W-R5152535,Trigger feels loose,Synthetic support record for PLAYER272: Trigger feels loose.,Closed,Technical,Email
+CASE-000507,PLAYER259,ZCT2E-D2848835,Controller not charging,Synthetic support record for PLAYER259: Controller not charging.,Closed,Technical,Web
+CASE-000508,PLAYER062,ZCT2E-T6789156,Controller not charging,Synthetic support record for PLAYER062: Controller not charging.,Closed,Technical,Email
+CASE-000509,PLAYER553,ZCT2E-P7883587,Trigger feels loose,Synthetic support record for PLAYER553: Trigger feels loose.,Closed,Technical,Web
+CASE-000510,PLAYER506,ZCT1W-F4962502,Controller not charging,Synthetic support record for PLAYER506: Controller not charging.,New,Technical,Phone
+CASE-000511,PLAYER008,ZCT1W-D7632241,Controller not charging,Synthetic support record for PLAYER008: Controller not charging.,Closed,Technical,Web
+CASE-000512,PLAYER959,ZCT2E-Q3500297,Controller not charging,Synthetic support record for PLAYER959: Controller not charging.,New,Technical,Web
+CASE-000513,PLAYER676,ZCT1W-S6220408,Input lag noticed,Synthetic support record for PLAYER676: Input lag noticed.,Closed,Technical,Email
+CASE-000514,PLAYER570,ZCT2E-A4708126,Right stick drift concern,Synthetic support record for PLAYER570: Right stick drift concern.,Closed,Technical,Phone
+CASE-000515,PLAYER161,ZCT1W-A7410771,Input lag noticed,Synthetic support record for PLAYER161: Input lag noticed.,Closed,Technical,Phone
+CASE-000516,PLAYER003,ZCT1W-8I9J0K1L,Controller not charging,Synthetic support record for PLAYER003: Controller not charging.,Closed,Technical,Phone
+CASE-000517,PLAYER675,ZCT2E-E5621624,Intermittent disconnects,Synthetic support record for PLAYER675: Intermittent disconnects.,Closed,Technical,Web
+CASE-000518,PLAYER395,ZCT1W-B2237362,Trigger feels loose,Synthetic support record for PLAYER395: Trigger feels loose.,Closed,Technical,Web
+CASE-000519,PLAYER173,ZCT2E-M2400738,Right stick drift concern,Synthetic support record for PLAYER173: Right stick drift concern.,Closed,Technical,Email
+CASE-000520,PLAYER678,ZCT1W-L5565127,Intermittent disconnects,Synthetic support record for PLAYER678: Intermittent disconnects.,New,Technical,Phone
+CASE-000521,PLAYER437,ZCT2E-Q4400182,Right stick drift concern,Synthetic support record for PLAYER437: Right stick drift concern.,Closed,Technical,Email
+CASE-000522,PLAYER997,ZCT2E-N8034544,Intermittent disconnects,Synthetic support record for PLAYER997: Intermittent disconnects.,New,Technical,Email
+CASE-000523,PLAYER694,ZCT2E-T3984802,Intermittent disconnects,Synthetic support record for PLAYER694: Intermittent disconnects.,Closed,Technical,Email
+CASE-000524,PLAYER976,ZCT2E-N5101891,Trigger feels loose,Synthetic support record for PLAYER976: Trigger feels loose.,Closed,Technical,Phone
+CASE-000525,PLAYER257,ZCT1W-N4153336,Controller not charging,Synthetic support record for PLAYER257: Controller not charging.,Closed,Technical,Email
+CASE-000526,PLAYER419,ZCT1W-X8128056,Input lag noticed,Synthetic support record for PLAYER419: Input lag noticed.,Closed,Technical,Phone
+CASE-000527,PLAYER204,ZCT2E-X5437558,Intermittent disconnects,Synthetic support record for PLAYER204: Intermittent disconnects.,New,Technical,Email
+CASE-000528,PLAYER948,ZCT2E-Q3523050,Right stick drift concern,Synthetic support record for PLAYER948: Right stick drift concern.,Closed,Technical,Phone
+CASE-000529,PLAYER534,ZCT1W-P2953294,Intermittent disconnects,Synthetic support record for PLAYER534: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000530,PLAYER988,ZCT1W-F1628491,Trigger feels loose,Synthetic support record for PLAYER988: Trigger feels loose.,Closed,Technical,Email
+CASE-000531,PLAYER352,ZCT1W-G3300684,Intermittent disconnects,Synthetic support record for PLAYER352: Intermittent disconnects.,Closed,Technical,Web
+CASE-000532,PLAYER515,ZCT2E-X9064003,Input lag noticed,Synthetic support record for PLAYER515: Input lag noticed.,New,Technical,Phone
+CASE-000533,PLAYER033,ZCT2E-L3064357,Intermittent disconnects,Synthetic support record for PLAYER033: Intermittent disconnects.,Closed,Technical,Web
+CASE-000534,PLAYER584,ZCT2E-F5111878,Controller not charging,Synthetic support record for PLAYER584: Controller not charging.,Closed,Technical,Web
+CASE-000535,PLAYER379,ZCT2E-G7355875,Trigger feels loose,Synthetic support record for PLAYER379: Trigger feels loose.,New,Technical,Email
+CASE-000536,PLAYER680,ZCT2E-H9296866,Right stick drift concern,Synthetic support record for PLAYER680: Right stick drift concern.,Closed,Technical,Phone
+CASE-000537,PLAYER440,ZCT1W-N1288778,Trigger feels loose,Synthetic support record for PLAYER440: Trigger feels loose.,Closed,Technical,Phone
+CASE-000538,PLAYER050,ZCT2E-D9874478,Input lag noticed,Synthetic support record for PLAYER050: Input lag noticed.,New,Technical,Email
+CASE-000539,PLAYER004,ZCT2E-2M3N4O5P,Input lag noticed,Synthetic support record for PLAYER004: Input lag noticed.,Closed,Technical,Phone
+CASE-000540,PLAYER923,ZCT2E-C8260198,Trigger feels loose,Synthetic support record for PLAYER923: Trigger feels loose.,Closed,Technical,Web
+CASE-000541,PLAYER302,ZCT1W-K9077690,Controller not charging,Synthetic support record for PLAYER302: Controller not charging.,Closed,Technical,Web
+CASE-000542,PLAYER763,ZCT1W-M1351266,Right stick drift concern,Synthetic support record for PLAYER763: Right stick drift concern.,Closed,Technical,Phone
+CASE-000543,PLAYER965,ZCT1W-F1811085,Right stick drift concern,Synthetic support record for PLAYER965: Right stick drift concern.,Closed,Technical,Phone
+CASE-000544,PLAYER823,ZCT1W-L6211203,Input lag noticed,Synthetic support record for PLAYER823: Input lag noticed.,Closed,Technical,Phone
+CASE-000545,PLAYER390,ZCT2E-W4323637,Input lag noticed,Synthetic support record for PLAYER390: Input lag noticed.,Closed,Technical,Phone
+CASE-000546,PLAYER826,ZCT1W-Q7207712,Right stick drift concern,Synthetic support record for PLAYER826: Right stick drift concern.,Closed,Technical,Email
+CASE-000547,PLAYER717,ZCT1W-P5228095,Input lag noticed,Synthetic support record for PLAYER717: Input lag noticed.,New,Technical,Email
+CASE-000548,PLAYER349,ZCT2E-H8441397,Controller not charging,Synthetic support record for PLAYER349: Controller not charging.,Closed,Technical,Web
+CASE-000549,PLAYER282,ZCT2E-J6189583,Trigger feels loose,Synthetic support record for PLAYER282: Trigger feels loose.,Closed,Technical,Web
+CASE-000550,PLAYER548,ZCT1W-N3071885,Input lag noticed,Synthetic support record for PLAYER548: Input lag noticed.,Closed,Technical,Phone
+CASE-000551,PLAYER214,ZCT1W-W4720435,Intermittent disconnects,Synthetic support record for PLAYER214: Intermittent disconnects.,New,Technical,Phone
+CASE-000552,PLAYER104,ZCT2E-R9933361,Right stick drift concern,Synthetic support record for PLAYER104: Right stick drift concern.,Closed,Technical,Email
+CASE-000553,PLAYER086,ZCT2E-D5421311,Trigger feels loose,Synthetic support record for PLAYER086: Trigger feels loose.,Closed,Technical,Phone
+CASE-000554,PLAYER508,ZCT1W-R7611016,Controller not charging,Synthetic support record for PLAYER508: Controller not charging.,Closed,Technical,Email
+CASE-000555,PLAYER633,ZCT2E-L7964689,Controller not charging,Synthetic support record for PLAYER633: Controller not charging.,Closed,Technical,Web
+CASE-000556,PLAYER918,ZCT2E-W7068696,Intermittent disconnects,Synthetic support record for PLAYER918: Intermittent disconnects.,Closed,Technical,Phone
+CASE-000557,PLAYER192,ZCT1W-G8049385,Right stick drift concern,Synthetic support record for PLAYER192: Right stick drift concern.,Closed,Technical,Phone
+CASE-000558,PLAYER433,ZCT2E-D7339384,Input lag noticed,Synthetic support record for PLAYER433: Input lag noticed.,Closed,Technical,Email
+CASE-000559,PLAYER832,ZCT2E-E7103256,Right stick drift concern,Synthetic support record for PLAYER832: Right stick drift concern.,New,Technical,Email
+CASE-000560,PLAYER731,ZCT2E-S9924232,Input lag noticed,Synthetic support record for PLAYER731: Input lag noticed.,Closed,Technical,Web
+CASE-000561,PLAYER196,ZCT2E-S6634235,Right stick drift concern,Synthetic support record for PLAYER196: Right stick drift concern.,Closed,Technical,Web
+CASE-000562,PLAYER470,ZCT2E-P4586632,Trigger feels loose,Synthetic support record for PLAYER470: Trigger feels loose.,Closed,Technical,Email
+CASE-000563,PLAYER955,ZCT2E-Q8115851,Right stick drift concern,Synthetic support record for PLAYER955: Right stick drift concern.,New,Technical,Phone
+CASE-000564,PLAYER234,ZCT2E-A6517512,Controller not charging,Synthetic support record for PLAYER234: Controller not charging.,New,Technical,Email
+CASE-000565,PLAYER959,ZCT2E-Q3500297,Intermittent disconnects,Synthetic support record for PLAYER959: Intermittent disconnects.,Closed,Technical,Web
+CASE-000566,PLAYER473,ZCT2E-S1218011,Intermittent disconnects,Synthetic support record for PLAYER473: Intermittent disconnects.,New,Technical,Email
+CASE-000567,PLAYER072,ZCT1W-C9876767,Right stick drift concern,Synthetic support record for PLAYER072: Right stick drift concern.,Closed,Technical,Web
+CASE-000568,PLAYER495,ZCT1W-R3345711,Trigger feels loose,Synthetic support record for PLAYER495: Trigger feels loose.,Closed,Technical,Email
+CASE-000569,PLAYER114,ZCT2E-W4458774,Intermittent disconnects,Synthetic support record for PLAYER114: Intermittent disconnects.,New,Technical,Phone
+CASE-000570,PLAYER062,ZCT2E-T6789156,Right stick drift concern,Synthetic support record for PLAYER062: Right stick drift concern.,Closed,Technical,Web
+CASE-000571,PLAYER526,ZCT2E-A5483468,Input lag noticed,Synthetic support record for PLAYER526: Input lag noticed.,Closed,Technical,Web
+CASE-000572,PLAYER857,ZCT2E-F4382050,Trigger feels loose,Synthetic support record for PLAYER857: Trigger feels loose.,Closed,Technical,Web
+CASE-000573,PLAYER179,ZCT2E-Q1642271,Right stick drift concern,Synthetic support record for PLAYER179: Right stick drift concern.,New,Technical,Phone
+CASE-000574,PLAYER569,ZCT2E-V1599695,Input lag noticed,Synthetic support record for PLAYER569: Input lag noticed.,Closed,Technical,Phone
+CASE-000575,PLAYER033,ZCT2E-L3064357,Input lag noticed,Synthetic support record for PLAYER033: Input lag noticed.,New,Technical,Web
+CASE-000576,PLAYER474,ZCT2E-W9031838,Right stick drift concern,Synthetic support record for PLAYER474: Right stick drift concern.,Closed,Technical,Phone
+CASE-000577,PLAYER314,ZCT2E-S7553588,Input lag noticed,Synthetic support record for PLAYER314: Input lag noticed.,Closed,Technical,Web
+CASE-000578,PLAYER534,ZCT1W-P2953294,Right stick drift concern,Synthetic support record for PLAYER534: Right stick drift concern.,Closed,Technical,Phone
+CASE-000579,PLAYER024,ZCT1W-D5040883,Input lag noticed,Synthetic support record for PLAYER024: Input lag noticed.,Closed,Technical,Web
+CASE-000580,PLAYER239,ZCT1W-D8596473,Right stick drift concern,Synthetic support record for PLAYER239: Right stick drift concern.,Closed,Technical,Phone
+CASE-000581,PLAYER730,ZCT2E-X2657259,Controller not charging,Synthetic support record for PLAYER730: Controller not charging.,Closed,Technical,Web
+CASE-000582,PLAYER657,ZCT1W-W1572338,Input lag noticed,Synthetic support record for PLAYER657: Input lag noticed.,New,Technical,Email
+CASE-000583,PLAYER420,ZCT2E-X2904822,Input lag noticed,Synthetic support record for PLAYER420: Input lag noticed.,Closed,Technical,Email
+CASE-000584,PLAYER420,ZCT2E-X2904822,Trigger feels loose,Synthetic support record for PLAYER420: Trigger feels loose.,Closed,Technical,Web
+CASE-000585,PLAYER848,ZCT2E-W7643612,Controller not charging,Synthetic support record for PLAYER848: Controller not charging.,New,Technical,Phone
+CASE-000586,PLAYER389,ZCT2E-D2367443,Input lag noticed,Synthetic support record for PLAYER389: Input lag noticed.,Closed,Technical,Web
+CASE-000587,PLAYER913,ZCT2E-B9559668,Controller not charging,Synthetic support record for PLAYER913: Controller not charging.,New,Technical,Email
+CASE-000588,PLAYER580,ZCT2E-Q1204695,Trigger feels loose,Synthetic support record for PLAYER580: Trigger feels loose.,Closed,Technical,Email
+CASE-000589,PLAYER835,ZCT1W-W4157389,Trigger feels loose,Synthetic support record for PLAYER835: Trigger feels loose.,New,Technical,Web
+CASE-000590,PLAYER896,ZCT2E-B9178027,Intermittent disconnects,Synthetic support record for PLAYER896: Intermittent disconnects.,New,Technical,Email
+CASE-000591,PLAYER246,ZCT1W-C4207127,Controller not charging,Synthetic support record for PLAYER246: Controller not charging.,Closed,Technical,Email
+CASE-000592,PLAYER808,ZCT2E-M5039461,Controller not charging,Synthetic support record for PLAYER808: Controller not charging.,Closed,Technical,Phone
+CASE-000593,PLAYER998,ZCT1W-F9072754,Controller not charging,Synthetic support record for PLAYER998: Controller not charging.,Closed,Technical,Phone
+CASE-000594,PLAYER738,ZCT2E-C4415979,Right stick drift concern,Synthetic support record for PLAYER738: Right stick drift concern.,Closed,Technical,Email
+CASE-000595,PLAYER754,ZCT2E-E5895685,Controller not charging,Synthetic support record for PLAYER754: Controller not charging.,Closed,Technical,Email
+CASE-000596,PLAYER130,ZCT1W-R3844728,Input lag noticed,Synthetic support record for PLAYER130: Input lag noticed.,Closed,Technical,Phone
+CASE-000597,PLAYER514,ZCT1W-K8304810,Trigger feels loose,Synthetic support record for PLAYER514: Trigger feels loose.,Closed,Technical,Web
+CASE-000598,PLAYER717,ZCT1W-P5228095,Intermittent disconnects,Synthetic support record for PLAYER717: Intermittent disconnects.,Closed,Technical,Email
+CASE-000599,PLAYER327,ZCT1W-C1406730,Input lag noticed,Synthetic support record for PLAYER327: Input lag noticed.,New,Technical,Email
+CASE-000600,PLAYER036,ZCT2E-X9960751,Controller not charging,Synthetic support record for PLAYER036: Controller not charging.,Closed,Technical,Phone

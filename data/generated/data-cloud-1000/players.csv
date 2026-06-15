@@ -1,0 +1,1001 @@
+player_id,first_name,last_name,display_name,email,phone,psn_handle,loyalty_tier,ps_plus_tier,account_created_date,city,state,postal_code,country,segment_label
+PLAYER001,Sarah,Jeffries,Sarah Jeffries,sarah.jeffries@example.com,+1-415-555-0101,sarahj_plays,Gold,Premium,2019-03-12,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER002,Marcus,Chen,Marcus Chen,marcus.chen@example.com,+1-415-555-0202,marcus_chen84,Platinum,Premium,2017-08-05,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER003,Nina,Patel,Nina Patel,nina.patel@example.com,+1-408-555-0303,nina_streams,Silver,Extra,2021-11-20,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER004,Alex,Rivera,Alex Rivera,alex.rivera@example.com,+1-650-555-0404,alex_edge,Gold,Extra,2020-06-14,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER005,Blake,Wright,Blake Wright,blake.wright5@example.com,+1-489-555-8438,bwright70,Silver,Essential,2023-12-05,Boston,MA,02108,US,DRIFT_RISK
+PLAYER006,Taylor,Johnson,Taylor Johnson,taylor.johnson6@example.com,+1-635-555-2880,tjohnson90,Silver,Premium,2018-03-21,Austin,TX,73301,US,HEALTHY
+PLAYER007,Emerson,Johnson,Emerson Johnson,emerson.johnson7@example.com,+1-514-555-5728,ejohnson44,Gold,Essential,2017-11-10,San Jose,CA,95112,US,HEALTHY
+PLAYER008,Hayden,Jeffries,Hayden Jeffries,hayden.jeffries8@example.com,+1-712-555-9847,hjeffries98,Silver,Essential,2019-01-20,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER009,Rowan,Wright,Rowan Wright,rowan.wright9@example.com,+1-818-555-5102,rwright86,Bronze,Essential,2019-08-13,San Francisco,CA,94102,US,HEALTHY
+PLAYER010,Alex,Patel,Alex Patel,alex.patel10@example.com,+1-983-555-5415,apatel96,Gold,Extra,2016-03-25,Palo Alto,CA,94301,US,HEALTHY
+PLAYER011,Kai,Chen,Kai Chen,kai.chen11@example.com,+1-385-555-8141,kchen70,Silver,Essential,2019-02-13,San Jose,CA,95112,US,HEALTHY
+PLAYER012,Rowan,Patel,Rowan Patel,rowan.patel12@example.com,+1-364-555-6403,rpatel54,Silver,Essential,2017-03-04,Miami,FL,33101,US,HEALTHY
+PLAYER013,Blake,King,Blake King,blake.king13@example.com,+1-237-555-8451,bking94,Platinum,Premium,2022-03-03,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER014,Taylor,Davis,Taylor Davis,taylor.davis14@example.com,+1-201-555-9889,tdavis51,Bronze,Extra,2021-10-08,Austin,TX,73301,US,HEALTHY
+PLAYER015,Hayden,Allen,Hayden Allen,hayden.allen15@example.com,+1-840-555-8242,hallen34,Silver,Extra,2021-08-03,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER016,Jordan,Lopez,Jordan Lopez,jordan.lopez16@example.com,+1-696-555-2989,jlopez80,Bronze,Essential,2023-10-31,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER017,Alex,Adams,Alex Adams,alex.adams17@example.com,+1-295-555-4681,aadams30,Silver,Essential,2020-07-29,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER018,Morgan,Wright,Morgan Wright,morgan.wright18@example.com,+1-498-555-9337,mwright92,Gold,Extra,2024-01-14,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER019,Cameron,Allen,Cameron Allen,cameron.allen19@example.com,+1-395-555-9327,callen70,Bronze,Extra,2020-04-20,Miami,FL,33101,US,HEALTHY
+PLAYER020,Casey,Patel,Casey Patel,casey.patel20@example.com,+1-202-555-5634,cpatel63,Silver,Extra,2018-12-30,Austin,TX,73301,US,DRIFT_RISK
+PLAYER021,Drew,Baker,Drew Baker,drew.baker21@example.com,+1-695-555-6654,dbaker94,Silver,Essential,2022-01-15,Boston,MA,02108,US,HEALTHY
+PLAYER022,Parker,Green,Parker Green,parker.green22@example.com,+1-914-555-4912,pgreen58,Silver,Essential,2018-02-11,Chicago,IL,60601,US,HEALTHY
+PLAYER023,Kai,Young,Kai Young,kai.young23@example.com,+1-590-555-7325,kyoung62,Bronze,Extra,2023-11-28,Palo Alto,CA,94301,US,HEALTHY
+PLAYER024,Casey,King,Casey King,casey.king24@example.com,+1-650-555-2633,cking26,Silver,Extra,2017-02-15,San Mateo,CA,94402,US,HEALTHY
+PLAYER025,Logan,Wright,Logan Wright,logan.wright25@example.com,+1-276-555-8692,lwright28,Silver,Extra,2017-09-24,San Mateo,CA,94402,US,HEALTHY
+PLAYER026,Cameron,Davis,Cameron Davis,cameron.davis26@example.com,+1-890-555-9742,cdavis98,Silver,Essential,2019-09-07,Boston,MA,02108,US,HEALTHY
+PLAYER027,Reese,Davis,Reese Davis,reese.davis27@example.com,+1-900-555-5708,rdavis79,Bronze,Essential,2023-01-29,Miami,FL,33101,US,DRIFT_RISK
+PLAYER028,Quinn,Patel,Quinn Patel,quinn.patel28@example.com,+1-654-555-3725,qpatel22,Gold,Extra,2017-02-15,Denver,CO,80014,US,DRIFT_RISK
+PLAYER029,Drew,Rivera,Drew Rivera,drew.rivera29@example.com,+1-641-555-3385,drivera51,Gold,Essential,2020-03-15,San Mateo,CA,94402,US,HEALTHY
+PLAYER030,Quinn,Scott,Quinn Scott,quinn.scott30@example.com,+1-280-555-7267,qscott82,Gold,Essential,2017-12-18,Denver,CO,80014,US,DRIFT_RISK
+PLAYER031,Sage,Johnson,Sage Johnson,sage.johnson31@example.com,+1-670-555-5183,sjohnson84,Bronze,Extra,2018-11-06,Miami,FL,33101,US,HEALTHY
+PLAYER032,Alex,Wright,Alex Wright,alex.wright32@example.com,+1-801-555-5901,awright96,Silver,Essential,2019-11-16,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER033,Blake,Brown,Blake Brown,blake.brown33@example.com,+1-309-555-4886,bbrown48,Bronze,Essential,2021-06-02,Miami,FL,33101,US,DRIFT_RISK
+PLAYER034,Reese,Baker,Reese Baker,reese.baker34@example.com,+1-874-555-7484,rbaker83,Silver,Extra,2016-03-30,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER035,Cameron,Rivera,Cameron Rivera,cameron.rivera35@example.com,+1-963-555-9138,crivera97,Gold,Premium,2022-10-19,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER036,Drew,Johnson,Drew Johnson,drew.johnson36@example.com,+1-894-555-3240,djohnson55,Bronze,Essential,2018-10-23,Boston,MA,02108,US,HEALTHY
+PLAYER037,Morgan,Chen,Morgan Chen,morgan.chen37@example.com,+1-292-555-5835,mchen66,Bronze,Essential,2017-06-22,Austin,TX,73301,US,HEALTHY
+PLAYER038,Parker,Allen,Parker Allen,parker.allen38@example.com,+1-743-555-9221,pallen35,Bronze,Extra,2020-02-07,San Jose,CA,95112,US,HEALTHY
+PLAYER039,Cameron,Kim,Cameron Kim,cameron.kim39@example.com,+1-317-555-8673,ckim71,Platinum,Essential,2019-10-19,Austin,TX,73301,US,DRIFT_RISK
+PLAYER040,Taylor,Nguyen,Taylor Nguyen,taylor.nguyen40@example.com,+1-574-555-2479,tnguyen96,Gold,Premium,2022-04-01,Palo Alto,CA,94301,US,HEALTHY
+PLAYER041,Reese,Rivera,Reese Rivera,reese.rivera41@example.com,+1-468-555-7242,rrivera78,Bronze,Essential,2023-07-16,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER042,Skyler,Jeffries,Skyler Jeffries,skyler.jeffries42@example.com,+1-535-555-4626,sjeffries70,Bronze,Premium,2022-04-18,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER043,Taylor,Wright,Taylor Wright,taylor.wright43@example.com,+1-511-555-9071,twright93,Silver,Essential,2016-06-01,Austin,TX,73301,US,HEALTHY
+PLAYER044,Morgan,Jeffries,Morgan Jeffries,morgan.jeffries44@example.com,+1-960-555-9850,mjeffries78,Bronze,Extra,2023-07-09,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER045,Blake,Baker,Blake Baker,blake.baker45@example.com,+1-617-555-5583,bbaker63,Gold,Premium,2022-11-26,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER046,Jordan,Clark,Jordan Clark,jordan.clark46@example.com,+1-301-555-7018,jclark66,Silver,Essential,2020-01-25,Palo Alto,CA,94301,US,HEALTHY
+PLAYER047,Emerson,Clark,Emerson Clark,emerson.clark47@example.com,+1-293-555-4475,eclark60,Silver,Premium,2021-02-05,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER048,Sage,Rivera,Sage Rivera,sage.rivera48@example.com,+1-410-555-2124,srivera52,Bronze,Essential,2022-05-01,San Mateo,CA,94402,US,BATTERY_DEGRADATION
+PLAYER049,Emerson,Lopez,Emerson Lopez,emerson.lopez49@example.com,+1-810-555-1046,elopez37,Gold,Essential,2017-08-27,Boston,MA,02108,US,HEALTHY
+PLAYER050,Cameron,Nguyen,Cameron Nguyen,cameron.nguyen50@example.com,+1-226-555-3159,cnguyen79,Silver,Essential,2023-05-31,San Jose,CA,95112,US,BATTERY_DEGRADATION
+PLAYER051,Alex,Clark,Alex Clark,alex.clark51@example.com,+1-329-555-7897,aclark85,Silver,Essential,2016-08-02,Palo Alto,CA,94301,US,HEALTHY
+PLAYER052,Logan,Jeffries,Logan Jeffries,logan.jeffries52@example.com,+1-311-555-8405,ljeffries70,Silver,Essential,2022-08-28,San Francisco,CA,94102,US,HEALTHY
+PLAYER053,Logan,Johnson,Logan Johnson,logan.johnson53@example.com,+1-733-555-5941,ljohnson15,Gold,Premium,2023-05-22,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER054,Hayden,Rivera,Hayden Rivera,hayden.rivera54@example.com,+1-702-555-8267,hrivera71,Gold,Essential,2017-03-18,San Mateo,CA,94402,US,HEALTHY
+PLAYER055,Taylor,Patel,Taylor Patel,taylor.patel55@example.com,+1-848-555-9984,tpatel87,Bronze,Essential,2023-01-01,Seattle,WA,98101,US,BATTERY_DEGRADATION
+PLAYER056,Parker,Young,Parker Young,parker.young56@example.com,+1-301-555-2874,pyoung77,Silver,Extra,2020-10-28,Boston,MA,02108,US,HEALTHY
+PLAYER057,Emerson,Lopez,Emerson Lopez,emerson.lopez57@example.com,+1-608-555-7815,elopez67,Gold,Essential,2021-01-31,Denver,CO,80014,US,HEALTHY
+PLAYER058,Morgan,Davis,Morgan Davis,morgan.davis58@example.com,+1-903-555-8770,mdavis50,Gold,Essential,2017-09-17,Denver,CO,80014,US,HEALTHY
+PLAYER059,Taylor,Patel,Taylor Patel,taylor.patel59@example.com,+1-333-555-1982,tpatel21,Silver,Extra,2020-03-06,San Francisco,CA,94102,US,HEALTHY
+PLAYER060,Kai,Green,Kai Green,kai.green60@example.com,+1-968-555-7929,kgreen52,Gold,Essential,2023-06-18,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER061,Jordan,Wilson,Jordan Wilson,jordan.wilson61@example.com,+1-358-555-8900,jwilson49,Silver,Extra,2018-05-21,Boston,MA,02108,US,HEALTHY
+PLAYER062,Quinn,Jeffries,Quinn Jeffries,quinn.jeffries62@example.com,+1-431-555-8030,qjeffries81,Silver,Extra,2022-06-09,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER063,Emerson,Adams,Emerson Adams,emerson.adams63@example.com,+1-910-555-5381,eadams96,Gold,Essential,2023-05-18,Boston,MA,02108,US,HEALTHY
+PLAYER064,Alex,Kim,Alex Kim,alex.kim64@example.com,+1-206-555-3972,akim99,Gold,Premium,2019-12-08,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER065,Casey,Baker,Casey Baker,casey.baker65@example.com,+1-293-555-9691,cbaker18,Bronze,Extra,2016-05-05,Denver,CO,80014,US,HEALTHY
+PLAYER066,Avery,Young,Avery Young,avery.young66@example.com,+1-532-555-2391,ayoung68,Silver,Essential,2024-02-03,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER067,Jordan,Nguyen,Jordan Nguyen,jordan.nguyen67@example.com,+1-877-555-7947,jnguyen89,Bronze,Essential,2020-12-19,San Jose,CA,95112,US,HEALTHY
+PLAYER068,Rowan,Adams,Rowan Adams,rowan.adams68@example.com,+1-553-555-8043,radams63,Silver,Extra,2017-04-11,Miami,FL,33101,US,DRIFT_RISK
+PLAYER069,Morgan,Wilson,Morgan Wilson,morgan.wilson69@example.com,+1-604-555-1897,mwilson72,Silver,Essential,2018-06-22,Boston,MA,02108,US,HEALTHY
+PLAYER070,Alex,Lopez,Alex Lopez,alex.lopez70@example.com,+1-535-555-2965,alopez37,Gold,Extra,2019-03-31,Austin,TX,73301,US,HEALTHY
+PLAYER071,Alex,King,Alex King,alex.king71@example.com,+1-712-555-6802,aking32,Bronze,Extra,2018-07-31,Denver,CO,80014,US,HEALTHY
+PLAYER072,Taylor,Young,Taylor Young,taylor.young72@example.com,+1-789-555-8033,tyoung65,Bronze,Premium,2019-07-06,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER073,Kai,Young,Kai Young,kai.young73@example.com,+1-375-555-8538,kyoung47,Bronze,Essential,2019-08-23,Denver,CO,80014,US,HEALTHY
+PLAYER074,Skyler,Patel,Skyler Patel,skyler.patel74@example.com,+1-280-555-7484,spatel23,Bronze,Extra,2021-11-16,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER075,Drew,Davis,Drew Davis,drew.davis75@example.com,+1-316-555-9693,ddavis52,Gold,Essential,2023-02-06,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER076,Logan,Lopez,Logan Lopez,logan.lopez76@example.com,+1-441-555-2684,llopez54,Gold,Premium,2017-08-27,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER077,Casey,Brown,Casey Brown,casey.brown77@example.com,+1-277-555-3902,cbrown32,Gold,Extra,2023-05-08,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER078,Rowan,Wright,Rowan Wright,rowan.wright78@example.com,+1-858-555-6295,rwright84,Silver,Premium,2022-05-01,Boston,MA,02108,US,EDGE_MODULE_PATH
+PLAYER079,Parker,Nguyen,Parker Nguyen,parker.nguyen79@example.com,+1-805-555-1920,pnguyen18,Silver,Extra,2019-01-30,Miami,FL,33101,US,HEALTHY
+PLAYER080,Skyler,Scott,Skyler Scott,skyler.scott80@example.com,+1-493-555-2257,sscott49,Silver,Essential,2020-02-19,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER081,Taylor,Adams,Taylor Adams,taylor.adams81@example.com,+1-660-555-4084,tadams74,Silver,Extra,2016-06-17,Boston,MA,02108,US,HEALTHY
+PLAYER082,Parker,Adams,Parker Adams,parker.adams82@example.com,+1-551-555-2381,padams74,Bronze,Essential,2017-02-27,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER083,Logan,Kim,Logan Kim,logan.kim83@example.com,+1-735-555-3600,lkim41,Gold,Premium,2021-11-16,San Mateo,CA,94402,US,HEALTHY
+PLAYER084,Skyler,Clark,Skyler Clark,skyler.clark84@example.com,+1-253-555-6482,sclark59,Silver,Essential,2022-09-14,Austin,TX,73301,US,HEALTHY
+PLAYER085,Taylor,Davis,Taylor Davis,taylor.davis85@example.com,+1-872-555-3463,tdavis81,Gold,Essential,2024-02-12,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER086,Parker,Patel,Parker Patel,parker.patel86@example.com,+1-915-555-7421,ppatel94,Bronze,Essential,2023-05-11,Boston,MA,02108,US,HEALTHY
+PLAYER087,Casey,Adams,Casey Adams,casey.adams87@example.com,+1-330-555-9624,cadams49,Silver,Extra,2019-09-07,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER088,Taylor,Allen,Taylor Allen,taylor.allen88@example.com,+1-549-555-8967,tallen56,Bronze,Essential,2018-05-27,Chicago,IL,60601,US,HEALTHY
+PLAYER089,Avery,Johnson,Avery Johnson,avery.johnson89@example.com,+1-719-555-9843,ajohnson29,Bronze,Premium,2017-02-18,San Jose,CA,95112,US,HEALTHY
+PLAYER090,Logan,Chen,Logan Chen,logan.chen90@example.com,+1-385-555-3712,lchen89,Bronze,Essential,2017-10-26,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER091,Hayden,Chen,Hayden Chen,hayden.chen91@example.com,+1-825-555-5668,hchen56,Gold,Essential,2020-12-24,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER092,Hayden,Johnson,Hayden Johnson,hayden.johnson92@example.com,+1-398-555-7026,hjohnson40,Silver,Premium,2021-04-05,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER093,Kai,Wright,Kai Wright,kai.wright93@example.com,+1-365-555-4271,kwright46,Gold,Extra,2020-09-10,Miami,FL,33101,US,HEALTHY
+PLAYER094,Sage,Nguyen,Sage Nguyen,sage.nguyen94@example.com,+1-305-555-9452,snguyen16,Gold,Premium,2022-03-21,Austin,TX,73301,US,BATTERY_DEGRADATION
+PLAYER095,Morgan,Wilson,Morgan Wilson,morgan.wilson95@example.com,+1-647-555-2502,mwilson30,Silver,Premium,2017-08-26,San Francisco,CA,94102,US,BATTERY_DEGRADATION
+PLAYER096,Quinn,Wright,Quinn Wright,quinn.wright96@example.com,+1-441-555-7326,qwright13,Silver,Essential,2020-03-11,Seattle,WA,98101,US,HEALTHY
+PLAYER097,Taylor,Clark,Taylor Clark,taylor.clark97@example.com,+1-865-555-6493,tclark13,Silver,Essential,2024-01-06,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER098,Casey,Nguyen,Casey Nguyen,casey.nguyen98@example.com,+1-977-555-8685,cnguyen46,Platinum,Extra,2017-07-22,San Mateo,CA,94402,US,EDGE_MODULE_PATH
+PLAYER099,Hayden,Adams,Hayden Adams,hayden.adams99@example.com,+1-761-555-9647,hadams20,Bronze,Essential,2017-09-04,San Mateo,CA,94402,US,HEALTHY
+PLAYER100,Blake,Jeffries,Blake Jeffries,blake.jeffries100@example.com,+1-854-555-8489,bjeffries40,Silver,Essential,2020-09-15,Austin,TX,73301,US,HEALTHY
+PLAYER101,Taylor,Jeffries,Taylor Jeffries,taylor.jeffries101@example.com,+1-447-555-3352,tjeffries86,Silver,Extra,2022-06-13,Miami,FL,33101,US,HEALTHY
+PLAYER102,Drew,Allen,Drew Allen,drew.allen102@example.com,+1-880-555-2402,dallen88,Silver,Extra,2018-02-06,San Mateo,CA,94402,US,HEALTHY
+PLAYER103,Logan,Clark,Logan Clark,logan.clark103@example.com,+1-767-555-1333,lclark77,Silver,Extra,2021-09-10,San Francisco,CA,94102,US,HEALTHY
+PLAYER104,Reese,King,Reese King,reese.king104@example.com,+1-565-555-2106,rking91,Silver,Essential,2016-03-07,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER105,Skyler,Johnson,Skyler Johnson,skyler.johnson105@example.com,+1-560-555-9945,sjohnson84,Gold,Essential,2016-06-30,San Francisco,CA,94102,US,HEALTHY
+PLAYER106,Parker,Kim,Parker Kim,parker.kim106@example.com,+1-264-555-8498,pkim99,Silver,Essential,2017-07-06,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER107,Jordan,Wilson,Jordan Wilson,jordan.wilson107@example.com,+1-517-555-9444,jwilson15,Gold,Premium,2019-07-16,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER108,Reese,Green,Reese Green,reese.green108@example.com,+1-565-555-1783,rgreen42,Bronze,Extra,2019-03-17,Miami,FL,33101,US,DRIFT_RISK
+PLAYER109,Parker,Brown,Parker Brown,parker.brown109@example.com,+1-595-555-6554,pbrown57,Silver,Essential,2020-12-06,San Francisco,CA,94102,US,HEALTHY
+PLAYER110,Riley,King,Riley King,riley.king110@example.com,+1-944-555-7955,rking57,Platinum,Extra,2016-12-04,Miami,FL,33101,US,DRIFT_RISK
+PLAYER111,Taylor,Allen,Taylor Allen,taylor.allen111@example.com,+1-535-555-5843,tallen33,Silver,Essential,2016-11-23,Boston,MA,02108,US,EDGE_MODULE_PATH
+PLAYER112,Drew,Wright,Drew Wright,drew.wright112@example.com,+1-243-555-6776,dwright64,Bronze,Essential,2021-01-05,Boston,MA,02108,US,HEALTHY
+PLAYER113,Sage,Allen,Sage Allen,sage.allen113@example.com,+1-887-555-7655,sallen91,Platinum,Premium,2016-11-03,Austin,TX,73301,US,DRIFT_RISK
+PLAYER114,Skyler,Scott,Skyler Scott,skyler.scott114@example.com,+1-235-555-3068,sscott13,Bronze,Extra,2020-11-29,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER115,Taylor,Johnson,Taylor Johnson,taylor.johnson115@example.com,+1-357-555-8371,tjohnson56,Silver,Extra,2022-10-14,Seattle,WA,98101,US,BATTERY_DEGRADATION
+PLAYER116,Skyler,Clark,Skyler Clark,skyler.clark116@example.com,+1-521-555-5566,sclark19,Silver,Extra,2020-06-18,Miami,FL,33101,US,HEALTHY
+PLAYER117,Quinn,Jeffries,Quinn Jeffries,quinn.jeffries117@example.com,+1-320-555-5288,qjeffries33,Silver,Essential,2022-04-19,San Mateo,CA,94402,US,HEALTHY
+PLAYER118,Cameron,Wright,Cameron Wright,cameron.wright118@example.com,+1-404-555-3009,cwright88,Silver,Premium,2021-07-04,Palo Alto,CA,94301,US,HEALTHY
+PLAYER119,Casey,Patel,Casey Patel,casey.patel119@example.com,+1-898-555-6236,cpatel32,Gold,Essential,2016-12-25,Miami,FL,33101,US,HEALTHY
+PLAYER120,Skyler,Patel,Skyler Patel,skyler.patel120@example.com,+1-928-555-3852,spatel79,Silver,Essential,2017-10-07,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER121,Skyler,Scott,Skyler Scott,skyler.scott121@example.com,+1-705-555-1430,sscott25,Platinum,Extra,2018-08-27,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER122,Skyler,Green,Skyler Green,skyler.green122@example.com,+1-826-555-2412,sgreen57,Silver,Premium,2017-06-15,Boston,MA,02108,US,DRIFT_RISK
+PLAYER123,Taylor,Wilson,Taylor Wilson,taylor.wilson123@example.com,+1-275-555-3053,twilson71,Silver,Extra,2022-06-12,Denver,CO,80014,US,HEALTHY
+PLAYER124,Parker,Patel,Parker Patel,parker.patel124@example.com,+1-855-555-3981,ppatel69,Gold,Essential,2022-03-08,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER125,Casey,Allen,Casey Allen,casey.allen125@example.com,+1-368-555-3653,callen17,Gold,Extra,2019-05-30,Chicago,IL,60601,US,HEALTHY
+PLAYER126,Parker,Johnson,Parker Johnson,parker.johnson126@example.com,+1-401-555-5496,pjohnson76,Gold,Premium,2018-10-23,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER127,Casey,Wilson,Casey Wilson,casey.wilson127@example.com,+1-794-555-3526,cwilson78,Bronze,Extra,2022-08-21,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER128,Riley,Adams,Riley Adams,riley.adams128@example.com,+1-283-555-1744,radams53,Gold,Extra,2016-04-26,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER129,Kai,Brown,Kai Brown,kai.brown129@example.com,+1-842-555-9938,kbrown83,Silver,Extra,2021-08-01,Palo Alto,CA,94301,US,HEALTHY
+PLAYER130,Drew,Wilson,Drew Wilson,drew.wilson130@example.com,+1-664-555-2195,dwilson41,Gold,Extra,2019-05-03,Miami,FL,33101,US,HEALTHY
+PLAYER131,Jordan,Kim,Jordan Kim,jordan.kim131@example.com,+1-347-555-6121,jkim63,Silver,Essential,2022-10-20,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER132,Parker,Clark,Parker Clark,parker.clark132@example.com,+1-526-555-4960,pclark26,Gold,Extra,2017-03-10,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER133,Hayden,Jeffries,Hayden Jeffries,hayden.jeffries133@example.com,+1-593-555-7850,hjeffries67,Bronze,Essential,2019-04-03,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER134,Quinn,Kim,Quinn Kim,quinn.kim134@example.com,+1-710-555-9433,qkim83,Gold,Essential,2017-10-14,Seattle,WA,98101,US,HEALTHY
+PLAYER135,Hayden,King,Hayden King,hayden.king135@example.com,+1-668-555-4944,hking73,Bronze,Premium,2021-09-01,Austin,TX,73301,US,HEALTHY
+PLAYER136,Avery,Baker,Avery Baker,avery.baker136@example.com,+1-888-555-8710,abaker16,Bronze,Extra,2023-05-03,Seattle,WA,98101,US,HEALTHY
+PLAYER137,Drew,Green,Drew Green,drew.green137@example.com,+1-574-555-7606,dgreen23,Silver,Premium,2024-02-27,San Mateo,CA,94402,US,HEALTHY
+PLAYER138,Skyler,Chen,Skyler Chen,skyler.chen138@example.com,+1-495-555-2204,schen16,Silver,Essential,2022-03-16,Denver,CO,80014,US,HEALTHY
+PLAYER139,Reese,Scott,Reese Scott,reese.scott139@example.com,+1-825-555-2946,rscott80,Silver,Premium,2023-08-18,Miami,FL,33101,US,DRIFT_RISK
+PLAYER140,Casey,Jeffries,Casey Jeffries,casey.jeffries140@example.com,+1-973-555-3363,cjeffries57,Gold,Essential,2020-02-06,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER141,Avery,Adams,Avery Adams,avery.adams141@example.com,+1-930-555-6456,aadams61,Silver,Essential,2017-07-15,Chicago,IL,60601,US,HEALTHY
+PLAYER142,Rowan,Scott,Rowan Scott,rowan.scott142@example.com,+1-827-555-6218,rscott29,Gold,Extra,2019-09-05,Miami,FL,33101,US,HEALTHY
+PLAYER143,Riley,Young,Riley Young,riley.young143@example.com,+1-745-555-9025,ryoung48,Silver,Extra,2021-09-18,Boston,MA,02108,US,DRIFT_RISK
+PLAYER144,Kai,Wilson,Kai Wilson,kai.wilson144@example.com,+1-797-555-6040,kwilson12,Silver,Extra,2020-09-02,Miami,FL,33101,US,DRIFT_RISK
+PLAYER145,Alex,Adams,Alex Adams,alex.adams145@example.com,+1-791-555-4728,aadams43,Platinum,Extra,2022-06-27,Miami,FL,33101,US,HEALTHY
+PLAYER146,Jordan,Baker,Jordan Baker,jordan.baker146@example.com,+1-351-555-4968,jbaker31,Silver,Extra,2020-04-06,Miami,FL,33101,US,DRIFT_RISK
+PLAYER147,Jordan,Baker,Jordan Baker,jordan.baker147@example.com,+1-622-555-4340,jbaker34,Bronze,Essential,2017-09-12,San Francisco,CA,94102,US,HEALTHY
+PLAYER148,Blake,Scott,Blake Scott,blake.scott148@example.com,+1-922-555-3262,bscott70,Gold,Extra,2016-09-12,Boston,MA,02108,US,HEALTHY
+PLAYER149,Logan,Lopez,Logan Lopez,logan.lopez149@example.com,+1-521-555-3837,llopez51,Platinum,Extra,2020-03-23,Chicago,IL,60601,US,HEALTHY
+PLAYER150,Hayden,Green,Hayden Green,hayden.green150@example.com,+1-897-555-5331,hgreen79,Silver,Extra,2024-01-31,Seattle,WA,98101,US,BATTERY_DEGRADATION
+PLAYER151,Sage,King,Sage King,sage.king151@example.com,+1-989-555-5735,sking41,Silver,Essential,2019-05-04,Palo Alto,CA,94301,US,HEALTHY
+PLAYER152,Avery,King,Avery King,avery.king152@example.com,+1-480-555-5715,aking71,Silver,Premium,2024-02-03,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER153,Morgan,Baker,Morgan Baker,morgan.baker153@example.com,+1-991-555-3399,mbaker58,Gold,Essential,2019-11-14,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER154,Drew,Chen,Drew Chen,drew.chen154@example.com,+1-965-555-8849,dchen20,Silver,Essential,2018-11-16,Austin,TX,73301,US,DRIFT_RISK
+PLAYER155,Avery,Lopez,Avery Lopez,avery.lopez155@example.com,+1-311-555-4920,alopez44,Platinum,Extra,2017-07-16,Chicago,IL,60601,US,HEALTHY
+PLAYER156,Quinn,Chen,Quinn Chen,quinn.chen156@example.com,+1-538-555-8739,qchen38,Gold,Essential,2020-08-19,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER157,Morgan,Nguyen,Morgan Nguyen,morgan.nguyen157@example.com,+1-687-555-8822,mnguyen80,Platinum,Essential,2023-04-28,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER158,Avery,Wilson,Avery Wilson,avery.wilson158@example.com,+1-867-555-4804,awilson46,Gold,Premium,2017-01-01,Seattle,WA,98101,US,HEALTHY
+PLAYER159,Emerson,Chen,Emerson Chen,emerson.chen159@example.com,+1-606-555-9116,echen63,Gold,Essential,2016-05-28,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER160,Riley,Wilson,Riley Wilson,riley.wilson160@example.com,+1-491-555-8444,rwilson11,Silver,Extra,2019-10-04,San Mateo,CA,94402,US,HEALTHY
+PLAYER161,Emerson,Scott,Emerson Scott,emerson.scott161@example.com,+1-315-555-6417,escott27,Gold,Extra,2018-02-28,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER162,Riley,Wright,Riley Wright,riley.wright162@example.com,+1-781-555-4164,rwright33,Bronze,Essential,2019-04-23,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER163,Riley,Adams,Riley Adams,riley.adams163@example.com,+1-297-555-4027,radams64,Silver,Essential,2023-07-04,Denver,CO,80014,US,HEALTHY
+PLAYER164,Casey,King,Casey King,casey.king164@example.com,+1-971-555-5374,cking41,Bronze,Essential,2021-01-03,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER165,Parker,Wilson,Parker Wilson,parker.wilson165@example.com,+1-441-555-2017,pwilson83,Bronze,Extra,2023-10-08,Boston,MA,02108,US,DRIFT_RISK
+PLAYER166,Morgan,Wright,Morgan Wright,morgan.wright166@example.com,+1-988-555-6095,mwright30,Silver,Extra,2023-11-21,Austin,TX,73301,US,HEALTHY
+PLAYER167,Morgan,Wilson,Morgan Wilson,morgan.wilson167@example.com,+1-356-555-8454,mwilson88,Bronze,Premium,2021-05-12,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER168,Sage,Clark,Sage Clark,sage.clark168@example.com,+1-880-555-4578,sclark99,Silver,Extra,2022-01-10,Denver,CO,80014,US,HEALTHY
+PLAYER169,Quinn,Adams,Quinn Adams,quinn.adams169@example.com,+1-777-555-2838,qadams77,Silver,Extra,2016-11-15,San Francisco,CA,94102,US,HEALTHY
+PLAYER170,Jordan,Green,Jordan Green,jordan.green170@example.com,+1-732-555-8239,jgreen35,Silver,Essential,2019-09-05,Chicago,IL,60601,US,HEALTHY
+PLAYER171,Morgan,Lopez,Morgan Lopez,morgan.lopez171@example.com,+1-664-555-3161,mlopez72,Bronze,Extra,2016-08-15,Boston,MA,02108,US,DRIFT_RISK
+PLAYER172,Logan,Allen,Logan Allen,logan.allen172@example.com,+1-940-555-1356,lallen82,Bronze,Extra,2019-06-16,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER173,Reese,Brown,Reese Brown,reese.brown173@example.com,+1-917-555-2044,rbrown37,Silver,Essential,2019-11-12,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER174,Emerson,Chen,Emerson Chen,emerson.chen174@example.com,+1-984-555-7887,echen70,Bronze,Essential,2017-07-08,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER175,Skyler,Young,Skyler Young,skyler.young175@example.com,+1-752-555-3178,syoung58,Silver,Extra,2023-06-03,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER176,Skyler,Jeffries,Skyler Jeffries,skyler.jeffries176@example.com,+1-203-555-1372,sjeffries78,Silver,Essential,2018-07-01,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER177,Drew,Wright,Drew Wright,drew.wright177@example.com,+1-671-555-6671,dwright64,Silver,Premium,2018-10-10,Chicago,IL,60601,US,HEALTHY
+PLAYER178,Casey,Brown,Casey Brown,casey.brown178@example.com,+1-984-555-1256,cbrown24,Bronze,Extra,2022-11-23,Palo Alto,CA,94301,US,HEALTHY
+PLAYER179,Quinn,Lopez,Quinn Lopez,quinn.lopez179@example.com,+1-920-555-1797,qlopez22,Silver,Essential,2023-07-15,San Francisco,CA,94102,US,HEALTHY
+PLAYER180,Quinn,Chen,Quinn Chen,quinn.chen180@example.com,+1-343-555-9255,qchen66,Bronze,Essential,2016-08-19,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER181,Drew,Johnson,Drew Johnson,drew.johnson181@example.com,+1-442-555-5944,djohnson50,Silver,Extra,2019-08-06,Boston,MA,02108,US,DRIFT_RISK
+PLAYER182,Casey,Scott,Casey Scott,casey.scott182@example.com,+1-952-555-3869,cscott62,Silver,Essential,2022-08-20,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER183,Blake,Green,Blake Green,blake.green183@example.com,+1-590-555-9592,bgreen16,Platinum,Premium,2023-07-12,Miami,FL,33101,US,HEALTHY
+PLAYER184,Parker,Allen,Parker Allen,parker.allen184@example.com,+1-684-555-4948,pallen29,Silver,Essential,2022-01-12,Denver,CO,80014,US,DRIFT_RISK
+PLAYER185,Quinn,Wilson,Quinn Wilson,quinn.wilson185@example.com,+1-770-555-9683,qwilson69,Platinum,Extra,2020-09-02,San Jose,CA,95112,US,HEALTHY
+PLAYER186,Casey,Young,Casey Young,casey.young186@example.com,+1-579-555-2514,cyoung42,Bronze,Extra,2021-01-16,Palo Alto,CA,94301,US,BATTERY_DEGRADATION
+PLAYER187,Emerson,Lopez,Emerson Lopez,emerson.lopez187@example.com,+1-274-555-4082,elopez44,Silver,Extra,2016-06-10,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER188,Kai,Green,Kai Green,kai.green188@example.com,+1-215-555-4470,kgreen71,Bronze,Premium,2019-05-26,Palo Alto,CA,94301,US,HEALTHY
+PLAYER189,Avery,Jeffries,Avery Jeffries,avery.jeffries189@example.com,+1-445-555-6269,ajeffries41,Gold,Extra,2020-06-12,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER190,Drew,Young,Drew Young,drew.young190@example.com,+1-725-555-9147,dyoung78,Gold,Essential,2020-01-13,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER191,Hayden,Jeffries,Hayden Jeffries,hayden.jeffries191@example.com,+1-246-555-4625,hjeffries50,Platinum,Essential,2020-08-22,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER192,Casey,Rivera,Casey Rivera,casey.rivera192@example.com,+1-502-555-3497,crivera80,Platinum,Extra,2020-09-06,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER193,Avery,Davis,Avery Davis,avery.davis193@example.com,+1-870-555-6530,adavis58,Silver,Essential,2022-03-05,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER194,Cameron,King,Cameron King,cameron.king194@example.com,+1-343-555-9954,cking68,Bronze,Extra,2017-11-24,Miami,FL,33101,US,DRIFT_RISK
+PLAYER195,Rowan,Kim,Rowan Kim,rowan.kim195@example.com,+1-884-555-1794,rkim92,Platinum,Extra,2016-10-31,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER196,Alex,Allen,Alex Allen,alex.allen196@example.com,+1-423-555-9285,aallen90,Bronze,Extra,2016-02-07,San Jose,CA,95112,US,BATTERY_DEGRADATION
+PLAYER197,Hayden,Clark,Hayden Clark,hayden.clark197@example.com,+1-875-555-8993,hclark89,Gold,Premium,2021-06-02,San Mateo,CA,94402,US,BATTERY_DEGRADATION
+PLAYER198,Alex,Rivera,Alex Rivera,alex.rivera198@example.com,+1-481-555-9777,arivera80,Silver,Essential,2024-02-06,Chicago,IL,60601,US,HEALTHY
+PLAYER199,Drew,Rivera,Drew Rivera,drew.rivera199@example.com,+1-309-555-2578,drivera99,Gold,Premium,2018-01-04,Chicago,IL,60601,US,HEALTHY
+PLAYER200,Logan,Nguyen,Logan Nguyen,logan.nguyen200@example.com,+1-473-555-7502,lnguyen34,Gold,Essential,2019-12-22,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER201,Taylor,Clark,Taylor Clark,taylor.clark201@example.com,+1-507-555-2320,tclark68,Silver,Premium,2018-07-14,Denver,CO,80014,US,HEALTHY
+PLAYER202,Jordan,Patel,Jordan Patel,jordan.patel202@example.com,+1-209-555-3807,jpatel58,Silver,Extra,2023-02-21,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER203,Taylor,King,Taylor King,taylor.king203@example.com,+1-740-555-1697,tking92,Gold,Extra,2017-01-25,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER204,Quinn,Lopez,Quinn Lopez,quinn.lopez204@example.com,+1-487-555-9897,qlopez70,Silver,Premium,2023-09-04,Boston,MA,02108,US,EDGE_MODULE_PATH
+PLAYER205,Kai,Chen,Kai Chen,kai.chen205@example.com,+1-970-555-7525,kchen50,Bronze,Essential,2017-08-13,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER206,Taylor,Wilson,Taylor Wilson,taylor.wilson206@example.com,+1-893-555-9856,twilson82,Bronze,Premium,2020-05-12,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER207,Parker,Young,Parker Young,parker.young207@example.com,+1-254-555-2600,pyoung98,Gold,Extra,2019-11-17,San Jose,CA,95112,US,HEALTHY
+PLAYER208,Blake,Johnson,Blake Johnson,blake.johnson208@example.com,+1-606-555-6347,bjohnson53,Gold,Extra,2022-09-05,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER209,Alex,Brown,Alex Brown,alex.brown209@example.com,+1-642-555-4043,abrown72,Bronze,Extra,2020-03-17,Miami,FL,33101,US,HEALTHY
+PLAYER210,Kai,Young,Kai Young,kai.young210@example.com,+1-284-555-5390,kyoung89,Silver,Essential,2016-10-28,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER211,Casey,Young,Casey Young,casey.young211@example.com,+1-515-555-8286,cyoung59,Silver,Essential,2016-01-22,San Jose,CA,95112,US,HEALTHY
+PLAYER212,Skyler,Brown,Skyler Brown,skyler.brown212@example.com,+1-768-555-9395,sbrown26,Bronze,Essential,2022-03-31,San Francisco,CA,94102,US,BATTERY_DEGRADATION
+PLAYER213,Blake,Jeffries,Blake Jeffries,blake.jeffries213@example.com,+1-532-555-7311,bjeffries21,Silver,Essential,2022-09-15,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER214,Alex,Wilson,Alex Wilson,alex.wilson214@example.com,+1-448-555-9537,awilson59,Gold,Extra,2022-04-10,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER215,Riley,Young,Riley Young,riley.young215@example.com,+1-264-555-3739,ryoung27,Silver,Essential,2017-08-20,San Jose,CA,95112,US,BATTERY_DEGRADATION
+PLAYER216,Blake,Brown,Blake Brown,blake.brown216@example.com,+1-452-555-9123,bbrown48,Silver,Essential,2018-10-27,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER217,Sage,Adams,Sage Adams,sage.adams217@example.com,+1-540-555-7224,sadams68,Bronze,Essential,2020-06-08,Palo Alto,CA,94301,US,HEALTHY
+PLAYER218,Parker,Wright,Parker Wright,parker.wright218@example.com,+1-339-555-5922,pwright65,Gold,Premium,2022-08-31,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER219,Parker,Adams,Parker Adams,parker.adams219@example.com,+1-498-555-9044,padams71,Silver,Premium,2019-07-31,Palo Alto,CA,94301,US,HEALTHY
+PLAYER220,Kai,Johnson,Kai Johnson,kai.johnson220@example.com,+1-316-555-4273,kjohnson58,Silver,Extra,2020-02-04,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER221,Kai,Green,Kai Green,kai.green221@example.com,+1-672-555-4434,kgreen97,Gold,Essential,2024-02-26,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER222,Hayden,Wilson,Hayden Wilson,hayden.wilson222@example.com,+1-447-555-5139,hwilson62,Gold,Essential,2019-05-25,San Francisco,CA,94102,US,HEALTHY
+PLAYER223,Casey,Allen,Casey Allen,casey.allen223@example.com,+1-610-555-9755,callen19,Silver,Extra,2022-07-12,Denver,CO,80014,US,DRIFT_RISK
+PLAYER224,Logan,Allen,Logan Allen,logan.allen224@example.com,+1-808-555-2392,lallen14,Gold,Essential,2022-01-08,Chicago,IL,60601,US,HEALTHY
+PLAYER225,Morgan,Johnson,Morgan Johnson,morgan.johnson225@example.com,+1-893-555-7547,mjohnson31,Gold,Essential,2023-03-27,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER226,Parker,Allen,Parker Allen,parker.allen226@example.com,+1-771-555-4621,pallen11,Bronze,Essential,2021-10-25,San Francisco,CA,94102,US,HEALTHY
+PLAYER227,Hayden,Clark,Hayden Clark,hayden.clark227@example.com,+1-354-555-6651,hclark69,Gold,Extra,2021-08-11,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER228,Alex,King,Alex King,alex.king228@example.com,+1-947-555-3321,aking47,Silver,Premium,2017-04-20,San Francisco,CA,94102,US,HEALTHY
+PLAYER229,Skyler,Wilson,Skyler Wilson,skyler.wilson229@example.com,+1-687-555-2599,swilson68,Gold,Extra,2019-11-27,Seattle,WA,98101,US,HEALTHY
+PLAYER230,Hayden,Wright,Hayden Wright,hayden.wright230@example.com,+1-223-555-6620,hwright18,Silver,Premium,2017-04-16,Seattle,WA,98101,US,HEALTHY
+PLAYER231,Morgan,Kim,Morgan Kim,morgan.kim231@example.com,+1-636-555-8570,mkim76,Bronze,Essential,2022-04-12,Palo Alto,CA,94301,US,HEALTHY
+PLAYER232,Quinn,Young,Quinn Young,quinn.young232@example.com,+1-955-555-4232,qyoung33,Gold,Essential,2016-04-29,San Jose,CA,95112,US,HEALTHY
+PLAYER233,Hayden,Baker,Hayden Baker,hayden.baker233@example.com,+1-970-555-2025,hbaker59,Bronze,Essential,2019-02-14,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER234,Kai,Jeffries,Kai Jeffries,kai.jeffries234@example.com,+1-468-555-9019,kjeffries33,Silver,Essential,2017-04-11,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER235,Logan,Davis,Logan Davis,logan.davis235@example.com,+1-560-555-8501,ldavis59,Gold,Extra,2019-11-26,Boston,MA,02108,US,HEALTHY
+PLAYER236,Sage,Kim,Sage Kim,sage.kim236@example.com,+1-320-555-4908,skim88,Silver,Extra,2019-07-06,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER237,Drew,Jeffries,Drew Jeffries,drew.jeffries237@example.com,+1-810-555-3258,djeffries57,Gold,Extra,2020-09-09,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER238,Kai,Young,Kai Young,kai.young238@example.com,+1-377-555-3733,kyoung33,Silver,Extra,2023-03-27,Denver,CO,80014,US,HEALTHY
+PLAYER239,Rowan,Wilson,Rowan Wilson,rowan.wilson239@example.com,+1-567-555-1157,rwilson33,Silver,Extra,2016-08-07,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER240,Rowan,Nguyen,Rowan Nguyen,rowan.nguyen240@example.com,+1-618-555-9056,rnguyen59,Platinum,Extra,2021-07-20,Palo Alto,CA,94301,US,HEALTHY
+PLAYER241,Blake,Wright,Blake Wright,blake.wright241@example.com,+1-499-555-1535,bwright31,Bronze,Essential,2018-06-22,Miami,FL,33101,US,HEALTHY
+PLAYER242,Cameron,Johnson,Cameron Johnson,cameron.johnson242@example.com,+1-762-555-9369,cjohnson46,Bronze,Extra,2021-07-21,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER243,Morgan,Baker,Morgan Baker,morgan.baker243@example.com,+1-755-555-1681,mbaker44,Gold,Premium,2020-02-11,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER244,Hayden,Green,Hayden Green,hayden.green244@example.com,+1-504-555-1528,hgreen64,Bronze,Premium,2018-10-10,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER245,Hayden,Brown,Hayden Brown,hayden.brown245@example.com,+1-414-555-6744,hbrown21,Silver,Premium,2018-08-28,Seattle,WA,98101,US,HEALTHY
+PLAYER246,Sage,Allen,Sage Allen,sage.allen246@example.com,+1-260-555-6747,sallen88,Bronze,Essential,2018-04-27,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER247,Emerson,Brown,Emerson Brown,emerson.brown247@example.com,+1-496-555-5380,ebrown78,Bronze,Premium,2019-04-13,Boston,MA,02108,US,DRIFT_RISK
+PLAYER248,Logan,Jeffries,Logan Jeffries,logan.jeffries248@example.com,+1-329-555-3174,ljeffries62,Platinum,Premium,2023-05-10,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER249,Quinn,Nguyen,Quinn Nguyen,quinn.nguyen249@example.com,+1-345-555-5402,qnguyen41,Gold,Extra,2021-06-27,Seattle,WA,98101,US,HEALTHY
+PLAYER250,Blake,Young,Blake Young,blake.young250@example.com,+1-612-555-9447,byoung19,Gold,Premium,2017-01-16,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER251,Cameron,Clark,Cameron Clark,cameron.clark251@example.com,+1-948-555-8511,cclark72,Silver,Essential,2017-01-16,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER252,Skyler,Patel,Skyler Patel,skyler.patel252@example.com,+1-706-555-5399,spatel60,Bronze,Essential,2018-05-17,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER253,Parker,Wilson,Parker Wilson,parker.wilson253@example.com,+1-551-555-1793,pwilson80,Silver,Extra,2021-06-10,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER254,Jordan,Jeffries,Jordan Jeffries,jordan.jeffries254@example.com,+1-667-555-1011,jjeffries12,Bronze,Premium,2020-12-12,Miami,FL,33101,US,HEALTHY
+PLAYER255,Blake,Lopez,Blake Lopez,blake.lopez255@example.com,+1-295-555-6905,blopez93,Silver,Premium,2019-01-27,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER256,Cameron,Patel,Cameron Patel,cameron.patel256@example.com,+1-840-555-6005,cpatel95,Platinum,Essential,2020-06-11,Seattle,WA,98101,US,HEALTHY
+PLAYER257,Quinn,Allen,Quinn Allen,quinn.allen257@example.com,+1-807-555-4705,qallen22,Bronze,Extra,2017-06-27,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER258,Logan,Wright,Logan Wright,logan.wright258@example.com,+1-910-555-3165,lwright11,Gold,Premium,2020-09-25,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER259,Rowan,Patel,Rowan Patel,rowan.patel259@example.com,+1-520-555-7022,rpatel59,Bronze,Premium,2017-02-26,Palo Alto,CA,94301,US,BATTERY_DEGRADATION
+PLAYER260,Drew,Nguyen,Drew Nguyen,drew.nguyen260@example.com,+1-743-555-1138,dnguyen27,Gold,Extra,2016-10-07,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER261,Sage,Kim,Sage Kim,sage.kim261@example.com,+1-621-555-8248,skim54,Gold,Extra,2017-09-12,Miami,FL,33101,US,HEALTHY
+PLAYER262,Avery,Patel,Avery Patel,avery.patel262@example.com,+1-559-555-8035,apatel27,Gold,Extra,2020-04-21,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER263,Parker,Nguyen,Parker Nguyen,parker.nguyen263@example.com,+1-814-555-5668,pnguyen45,Gold,Essential,2022-09-27,Palo Alto,CA,94301,US,HEALTHY
+PLAYER264,Alex,Wilson,Alex Wilson,alex.wilson264@example.com,+1-502-555-1894,awilson76,Gold,Essential,2020-05-23,Palo Alto,CA,94301,US,HEALTHY
+PLAYER265,Quinn,King,Quinn King,quinn.king265@example.com,+1-740-555-1197,qking24,Bronze,Extra,2016-10-17,Denver,CO,80014,US,HEALTHY
+PLAYER266,Skyler,Davis,Skyler Davis,skyler.davis266@example.com,+1-759-555-3830,sdavis59,Gold,Extra,2020-02-05,San Jose,CA,95112,US,HEALTHY
+PLAYER267,Rowan,Patel,Rowan Patel,rowan.patel267@example.com,+1-261-555-7520,rpatel85,Bronze,Essential,2016-06-12,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER268,Logan,Wilson,Logan Wilson,logan.wilson268@example.com,+1-749-555-9808,lwilson63,Silver,Essential,2023-03-08,Chicago,IL,60601,US,HEALTHY
+PLAYER269,Sage,Nguyen,Sage Nguyen,sage.nguyen269@example.com,+1-359-555-9788,snguyen20,Silver,Extra,2018-04-12,Austin,TX,73301,US,HEALTHY
+PLAYER270,Parker,Young,Parker Young,parker.young270@example.com,+1-267-555-6081,pyoung91,Gold,Extra,2023-03-19,Boston,MA,02108,US,DRIFT_RISK
+PLAYER271,Blake,Johnson,Blake Johnson,blake.johnson271@example.com,+1-826-555-1901,bjohnson41,Bronze,Essential,2021-01-31,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER272,Drew,Kim,Drew Kim,drew.kim272@example.com,+1-708-555-6680,dkim11,Gold,Extra,2017-11-02,San Francisco,CA,94102,US,HEALTHY
+PLAYER273,Logan,Scott,Logan Scott,logan.scott273@example.com,+1-950-555-2934,lscott31,Silver,Extra,2019-01-05,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER274,Alex,Davis,Alex Davis,alex.davis274@example.com,+1-842-555-2262,adavis44,Silver,Essential,2022-06-19,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER275,Rowan,Wright,Rowan Wright,rowan.wright275@example.com,+1-576-555-3577,rwright56,Bronze,Premium,2017-11-14,Chicago,IL,60601,US,HEALTHY
+PLAYER276,Cameron,Jeffries,Cameron Jeffries,cameron.jeffries276@example.com,+1-202-555-1721,cjeffries96,Gold,Essential,2021-09-15,Boston,MA,02108,US,HEALTHY
+PLAYER277,Alex,Johnson,Alex Johnson,alex.johnson277@example.com,+1-236-555-7870,ajohnson70,Silver,Premium,2018-01-03,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER278,Quinn,Davis,Quinn Davis,quinn.davis278@example.com,+1-785-555-7108,qdavis63,Platinum,Essential,2016-11-15,Palo Alto,CA,94301,US,HEALTHY
+PLAYER279,Morgan,Scott,Morgan Scott,morgan.scott279@example.com,+1-610-555-2129,mscott32,Bronze,Extra,2016-07-07,San Mateo,CA,94402,US,EDGE_MODULE_PATH
+PLAYER280,Hayden,Wilson,Hayden Wilson,hayden.wilson280@example.com,+1-405-555-5777,hwilson51,Bronze,Extra,2020-02-20,Austin,TX,73301,US,HEALTHY
+PLAYER281,Kai,Wilson,Kai Wilson,kai.wilson281@example.com,+1-991-555-4201,kwilson41,Silver,Extra,2021-07-13,Boston,MA,02108,US,EDGE_MODULE_PATH
+PLAYER282,Emerson,Johnson,Emerson Johnson,emerson.johnson282@example.com,+1-554-555-1157,ejohnson10,Platinum,Essential,2022-01-27,San Jose,CA,95112,US,HEALTHY
+PLAYER283,Parker,Rivera,Parker Rivera,parker.rivera283@example.com,+1-629-555-9061,privera49,Bronze,Extra,2018-09-02,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER284,Jordan,Nguyen,Jordan Nguyen,jordan.nguyen284@example.com,+1-622-555-7102,jnguyen21,Bronze,Essential,2021-10-29,Austin,TX,73301,US,DRIFT_RISK
+PLAYER285,Hayden,Patel,Hayden Patel,hayden.patel285@example.com,+1-276-555-2020,hpatel22,Silver,Extra,2020-06-03,Boston,MA,02108,US,HEALTHY
+PLAYER286,Blake,Nguyen,Blake Nguyen,blake.nguyen286@example.com,+1-917-555-6345,bnguyen47,Silver,Essential,2020-05-28,Palo Alto,CA,94301,US,HEALTHY
+PLAYER287,Parker,Wright,Parker Wright,parker.wright287@example.com,+1-311-555-3546,pwright39,Bronze,Essential,2022-07-22,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER288,Morgan,Kim,Morgan Kim,morgan.kim288@example.com,+1-988-555-4401,mkim69,Silver,Essential,2020-01-07,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER289,Hayden,Wilson,Hayden Wilson,hayden.wilson289@example.com,+1-511-555-1660,hwilson43,Gold,Essential,2023-09-11,Miami,FL,33101,US,HEALTHY
+PLAYER290,Avery,Davis,Avery Davis,avery.davis290@example.com,+1-725-555-1802,adavis21,Gold,Premium,2020-06-11,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER291,Drew,Brown,Drew Brown,drew.brown291@example.com,+1-966-555-5093,dbrown13,Platinum,Premium,2022-03-27,San Jose,CA,95112,US,HEALTHY
+PLAYER292,Morgan,Wright,Morgan Wright,morgan.wright292@example.com,+1-333-555-4246,mwright27,Bronze,Essential,2018-06-29,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER293,Reese,Clark,Reese Clark,reese.clark293@example.com,+1-222-555-2056,rclark84,Silver,Premium,2016-11-03,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER294,Avery,Wright,Avery Wright,avery.wright294@example.com,+1-325-555-1699,awright21,Platinum,Premium,2019-09-20,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER295,Hayden,Chen,Hayden Chen,hayden.chen295@example.com,+1-230-555-7270,hchen83,Silver,Extra,2021-07-25,San Jose,CA,95112,US,HEALTHY
+PLAYER296,Blake,Kim,Blake Kim,blake.kim296@example.com,+1-352-555-1567,bkim37,Platinum,Essential,2020-12-31,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER297,Sage,Adams,Sage Adams,sage.adams297@example.com,+1-690-555-1999,sadams41,Gold,Extra,2022-03-05,Boston,MA,02108,US,HEALTHY
+PLAYER298,Taylor,Brown,Taylor Brown,taylor.brown298@example.com,+1-455-555-9907,tbrown27,Silver,Extra,2021-11-23,Denver,CO,80014,US,HEALTHY
+PLAYER299,Alex,Young,Alex Young,alex.young299@example.com,+1-714-555-6269,ayoung71,Silver,Extra,2022-05-05,Seattle,WA,98101,US,HEALTHY
+PLAYER300,Reese,Brown,Reese Brown,reese.brown300@example.com,+1-259-555-8728,rbrown13,Silver,Essential,2019-02-24,San Jose,CA,95112,US,BATTERY_DEGRADATION
+PLAYER301,Logan,Clark,Logan Clark,logan.clark301@example.com,+1-446-555-5366,lclark39,Platinum,Essential,2023-05-14,Boston,MA,02108,US,DRIFT_RISK
+PLAYER302,Emerson,Chen,Emerson Chen,emerson.chen302@example.com,+1-377-555-3885,echen83,Gold,Extra,2019-12-24,Palo Alto,CA,94301,US,HEALTHY
+PLAYER303,Quinn,Baker,Quinn Baker,quinn.baker303@example.com,+1-917-555-6761,qbaker99,Silver,Extra,2023-11-21,Seattle,WA,98101,US,HEALTHY
+PLAYER304,Kai,Baker,Kai Baker,kai.baker304@example.com,+1-755-555-6063,kbaker82,Platinum,Premium,2021-07-09,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER305,Riley,King,Riley King,riley.king305@example.com,+1-739-555-8831,rking21,Bronze,Extra,2016-03-22,San Mateo,CA,94402,US,HEALTHY
+PLAYER306,Alex,Davis,Alex Davis,alex.davis306@example.com,+1-531-555-1975,adavis35,Gold,Essential,2017-12-27,Boston,MA,02108,US,DRIFT_RISK
+PLAYER307,Alex,Nguyen,Alex Nguyen,alex.nguyen307@example.com,+1-274-555-7120,anguyen28,Gold,Premium,2020-02-03,Boston,MA,02108,US,HEALTHY
+PLAYER308,Reese,Baker,Reese Baker,reese.baker308@example.com,+1-949-555-8157,rbaker53,Silver,Essential,2017-10-07,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER309,Rowan,Davis,Rowan Davis,rowan.davis309@example.com,+1-428-555-3872,rdavis81,Gold,Premium,2020-01-01,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER310,Reese,Wilson,Reese Wilson,reese.wilson310@example.com,+1-786-555-7415,rwilson26,Bronze,Essential,2023-11-15,Austin,TX,73301,US,DRIFT_RISK
+PLAYER311,Kai,Chen,Kai Chen,kai.chen311@example.com,+1-426-555-2705,kchen87,Silver,Premium,2022-11-09,San Jose,CA,95112,US,HEALTHY
+PLAYER312,Rowan,Nguyen,Rowan Nguyen,rowan.nguyen312@example.com,+1-851-555-2453,rnguyen19,Bronze,Premium,2017-11-18,Seattle,WA,98101,US,HEALTHY
+PLAYER313,Parker,Wright,Parker Wright,parker.wright313@example.com,+1-462-555-2770,pwright43,Bronze,Extra,2019-12-06,San Mateo,CA,94402,US,HEALTHY
+PLAYER314,Alex,Chen,Alex Chen,alex.chen314@example.com,+1-704-555-7204,achen66,Gold,Premium,2020-08-22,Denver,CO,80014,US,HEALTHY
+PLAYER315,Skyler,Green,Skyler Green,skyler.green315@example.com,+1-866-555-4695,sgreen22,Gold,Extra,2022-06-25,Denver,CO,80014,US,HEALTHY
+PLAYER316,Riley,Wright,Riley Wright,riley.wright316@example.com,+1-275-555-6600,rwright14,Silver,Essential,2017-03-04,San Francisco,CA,94102,US,HEALTHY
+PLAYER317,Riley,Young,Riley Young,riley.young317@example.com,+1-546-555-8909,ryoung19,Silver,Premium,2017-01-16,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER318,Alex,Allen,Alex Allen,alex.allen318@example.com,+1-539-555-4367,aallen87,Gold,Essential,2017-02-18,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER319,Avery,Allen,Avery Allen,avery.allen319@example.com,+1-298-555-1813,aallen79,Silver,Essential,2018-08-30,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER320,Reese,Baker,Reese Baker,reese.baker320@example.com,+1-289-555-5825,rbaker72,Bronze,Essential,2020-10-17,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER321,Sage,King,Sage King,sage.king321@example.com,+1-283-555-8758,sking22,Bronze,Essential,2019-04-10,Palo Alto,CA,94301,US,HEALTHY
+PLAYER322,Morgan,Wilson,Morgan Wilson,morgan.wilson322@example.com,+1-857-555-9914,mwilson70,Silver,Extra,2017-01-08,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER323,Reese,Kim,Reese Kim,reese.kim323@example.com,+1-650-555-8619,rkim58,Silver,Essential,2018-12-14,Seattle,WA,98101,US,HEALTHY
+PLAYER324,Cameron,Johnson,Cameron Johnson,cameron.johnson324@example.com,+1-299-555-2404,cjohnson82,Bronze,Extra,2023-06-26,Austin,TX,73301,US,BATTERY_DEGRADATION
+PLAYER325,Skyler,Green,Skyler Green,skyler.green325@example.com,+1-735-555-7858,sgreen85,Bronze,Essential,2020-05-04,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER326,Emerson,King,Emerson King,emerson.king326@example.com,+1-235-555-9226,eking40,Silver,Essential,2024-01-04,Boston,MA,02108,US,HEALTHY
+PLAYER327,Kai,Scott,Kai Scott,kai.scott327@example.com,+1-377-555-3738,kscott96,Platinum,Essential,2021-01-13,Boston,MA,02108,US,HEALTHY
+PLAYER328,Avery,Lopez,Avery Lopez,avery.lopez328@example.com,+1-406-555-3422,alopez15,Silver,Premium,2020-11-18,San Jose,CA,95112,US,HEALTHY
+PLAYER329,Sage,Brown,Sage Brown,sage.brown329@example.com,+1-533-555-5525,sbrown18,Bronze,Extra,2022-03-11,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER330,Logan,Wright,Logan Wright,logan.wright330@example.com,+1-315-555-7790,lwright99,Gold,Extra,2020-09-14,San Mateo,CA,94402,US,BATTERY_DEGRADATION
+PLAYER331,Casey,Nguyen,Casey Nguyen,casey.nguyen331@example.com,+1-308-555-2654,cnguyen85,Silver,Premium,2017-02-14,Boston,MA,02108,US,HEALTHY
+PLAYER332,Drew,Green,Drew Green,drew.green332@example.com,+1-823-555-8750,dgreen62,Silver,Extra,2022-06-01,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER333,Jordan,Kim,Jordan Kim,jordan.kim333@example.com,+1-611-555-1635,jkim61,Bronze,Extra,2023-10-12,Austin,TX,73301,US,DRIFT_RISK
+PLAYER334,Reese,Davis,Reese Davis,reese.davis334@example.com,+1-220-555-6535,rdavis16,Gold,Premium,2020-03-05,Palo Alto,CA,94301,US,HEALTHY
+PLAYER335,Drew,Wilson,Drew Wilson,drew.wilson335@example.com,+1-337-555-5923,dwilson72,Gold,Extra,2018-07-22,Austin,TX,73301,US,BATTERY_DEGRADATION
+PLAYER336,Hayden,Davis,Hayden Davis,hayden.davis336@example.com,+1-416-555-7671,hdavis63,Gold,Essential,2020-12-14,Austin,TX,73301,US,HEALTHY
+PLAYER337,Rowan,Scott,Rowan Scott,rowan.scott337@example.com,+1-926-555-9303,rscott17,Silver,Essential,2019-06-28,Seattle,WA,98101,US,HEALTHY
+PLAYER338,Reese,Nguyen,Reese Nguyen,reese.nguyen338@example.com,+1-259-555-5087,rnguyen82,Bronze,Essential,2018-04-02,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER339,Jordan,Wright,Jordan Wright,jordan.wright339@example.com,+1-717-555-7503,jwright56,Gold,Essential,2021-03-16,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER340,Morgan,Rivera,Morgan Rivera,morgan.rivera340@example.com,+1-800-555-6730,mrivera57,Silver,Essential,2021-04-27,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER341,Skyler,Kim,Skyler Kim,skyler.kim341@example.com,+1-366-555-4511,skim98,Bronze,Essential,2016-07-22,Austin,TX,73301,US,HEALTHY
+PLAYER342,Quinn,Johnson,Quinn Johnson,quinn.johnson342@example.com,+1-209-555-8767,qjohnson44,Gold,Extra,2023-08-26,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER343,Casey,Kim,Casey Kim,casey.kim343@example.com,+1-929-555-5511,ckim11,Bronze,Extra,2019-06-05,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER344,Blake,Young,Blake Young,blake.young344@example.com,+1-733-555-7506,byoung68,Silver,Extra,2023-08-05,Seattle,WA,98101,US,HEALTHY
+PLAYER345,Kai,Jeffries,Kai Jeffries,kai.jeffries345@example.com,+1-774-555-5631,kjeffries75,Platinum,Premium,2020-03-12,San Mateo,CA,94402,US,EDGE_MODULE_PATH
+PLAYER346,Drew,Jeffries,Drew Jeffries,drew.jeffries346@example.com,+1-483-555-5278,djeffries18,Silver,Essential,2019-08-24,Miami,FL,33101,US,HEALTHY
+PLAYER347,Drew,Lopez,Drew Lopez,drew.lopez347@example.com,+1-613-555-6236,dlopez76,Gold,Premium,2022-09-23,San Jose,CA,95112,US,HEALTHY
+PLAYER348,Casey,Rivera,Casey Rivera,casey.rivera348@example.com,+1-954-555-1578,crivera47,Silver,Essential,2020-05-09,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER349,Kai,Baker,Kai Baker,kai.baker349@example.com,+1-853-555-8794,kbaker53,Gold,Essential,2021-12-29,Palo Alto,CA,94301,US,HEALTHY
+PLAYER350,Skyler,Scott,Skyler Scott,skyler.scott350@example.com,+1-500-555-2599,sscott31,Gold,Premium,2018-01-11,Austin,TX,73301,US,HEALTHY
+PLAYER351,Rowan,Nguyen,Rowan Nguyen,rowan.nguyen351@example.com,+1-543-555-2463,rnguyen81,Gold,Essential,2023-08-16,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER352,Quinn,Clark,Quinn Clark,quinn.clark352@example.com,+1-466-555-5817,qclark49,Silver,Premium,2020-03-02,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER353,Hayden,Jeffries,Hayden Jeffries,hayden.jeffries353@example.com,+1-272-555-8736,hjeffries16,Gold,Extra,2022-12-17,Miami,FL,33101,US,DRIFT_RISK
+PLAYER354,Avery,Scott,Avery Scott,avery.scott354@example.com,+1-354-555-3250,ascott97,Silver,Essential,2016-08-09,San Francisco,CA,94102,US,HEALTHY
+PLAYER355,Avery,Davis,Avery Davis,avery.davis355@example.com,+1-523-555-3954,adavis82,Gold,Premium,2017-08-09,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER356,Taylor,King,Taylor King,taylor.king356@example.com,+1-204-555-8406,tking90,Platinum,Essential,2016-08-25,Seattle,WA,98101,US,HEALTHY
+PLAYER357,Cameron,Lopez,Cameron Lopez,cameron.lopez357@example.com,+1-332-555-8105,clopez83,Gold,Extra,2016-12-26,San Jose,CA,95112,US,HEALTHY
+PLAYER358,Blake,Young,Blake Young,blake.young358@example.com,+1-948-555-7112,byoung71,Silver,Essential,2018-03-27,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER359,Alex,Davis,Alex Davis,alex.davis359@example.com,+1-431-555-6641,adavis34,Bronze,Essential,2018-10-16,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER360,Drew,Nguyen,Drew Nguyen,drew.nguyen360@example.com,+1-246-555-5885,dnguyen59,Silver,Essential,2016-09-24,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER361,Drew,Wright,Drew Wright,drew.wright361@example.com,+1-337-555-6615,dwright86,Silver,Essential,2023-09-14,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER362,Rowan,Clark,Rowan Clark,rowan.clark362@example.com,+1-219-555-4742,rclark31,Platinum,Premium,2020-07-10,Palo Alto,CA,94301,US,HEALTHY
+PLAYER363,Quinn,Nguyen,Quinn Nguyen,quinn.nguyen363@example.com,+1-928-555-1612,qnguyen12,Silver,Essential,2020-02-10,Palo Alto,CA,94301,US,HEALTHY
+PLAYER364,Reese,Brown,Reese Brown,reese.brown364@example.com,+1-310-555-1323,rbrown89,Bronze,Premium,2023-06-04,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER365,Jordan,Jeffries,Jordan Jeffries,jordan.jeffries365@example.com,+1-918-555-3508,jjeffries66,Silver,Extra,2021-04-27,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER366,Avery,Rivera,Avery Rivera,avery.rivera366@example.com,+1-837-555-3247,arivera63,Gold,Extra,2019-01-10,Austin,TX,73301,US,DRIFT_RISK
+PLAYER367,Blake,Jeffries,Blake Jeffries,blake.jeffries367@example.com,+1-709-555-4254,bjeffries89,Bronze,Essential,2017-03-11,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER368,Sage,Lopez,Sage Lopez,sage.lopez368@example.com,+1-502-555-3627,slopez76,Platinum,Essential,2020-08-05,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER369,Jordan,Green,Jordan Green,jordan.green369@example.com,+1-202-555-1208,jgreen36,Gold,Extra,2018-08-18,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER370,Taylor,Jeffries,Taylor Jeffries,taylor.jeffries370@example.com,+1-276-555-2659,tjeffries95,Silver,Premium,2021-09-26,Boston,MA,02108,US,DRIFT_RISK
+PLAYER371,Cameron,Johnson,Cameron Johnson,cameron.johnson371@example.com,+1-240-555-5760,cjohnson47,Silver,Essential,2017-12-16,Miami,FL,33101,US,DRIFT_RISK
+PLAYER372,Skyler,Davis,Skyler Davis,skyler.davis372@example.com,+1-209-555-3267,sdavis24,Bronze,Extra,2016-07-06,Denver,CO,80014,US,HEALTHY
+PLAYER373,Riley,Davis,Riley Davis,riley.davis373@example.com,+1-581-555-6615,rdavis66,Platinum,Essential,2017-01-15,Seattle,WA,98101,US,HEALTHY
+PLAYER374,Riley,Jeffries,Riley Jeffries,riley.jeffries374@example.com,+1-906-555-8835,rjeffries61,Platinum,Essential,2020-04-28,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER375,Blake,Kim,Blake Kim,blake.kim375@example.com,+1-306-555-7816,bkim26,Gold,Essential,2017-10-14,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER376,Kai,King,Kai King,kai.king376@example.com,+1-826-555-1472,kking96,Silver,Extra,2020-01-08,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER377,Casey,King,Casey King,casey.king377@example.com,+1-467-555-6148,cking24,Gold,Essential,2016-09-16,Miami,FL,33101,US,HEALTHY
+PLAYER378,Alex,Scott,Alex Scott,alex.scott378@example.com,+1-731-555-9570,ascott82,Bronze,Premium,2019-10-17,Boston,MA,02108,US,HEALTHY
+PLAYER379,Sage,Jeffries,Sage Jeffries,sage.jeffries379@example.com,+1-892-555-7305,sjeffries94,Gold,Extra,2023-06-11,Denver,CO,80014,US,HEALTHY
+PLAYER380,Casey,Green,Casey Green,casey.green380@example.com,+1-680-555-9123,cgreen16,Bronze,Premium,2021-09-01,Boston,MA,02108,US,DRIFT_RISK
+PLAYER381,Riley,Patel,Riley Patel,riley.patel381@example.com,+1-719-555-4648,rpatel51,Bronze,Premium,2016-07-25,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER382,Emerson,Young,Emerson Young,emerson.young382@example.com,+1-658-555-2442,eyoung40,Bronze,Essential,2022-06-05,Denver,CO,80014,US,DRIFT_RISK
+PLAYER383,Rowan,Wright,Rowan Wright,rowan.wright383@example.com,+1-305-555-7609,rwright25,Platinum,Extra,2016-03-13,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER384,Blake,Chen,Blake Chen,blake.chen384@example.com,+1-833-555-5990,bchen80,Bronze,Essential,2022-10-10,Chicago,IL,60601,US,HEALTHY
+PLAYER385,Logan,Green,Logan Green,logan.green385@example.com,+1-255-555-4652,lgreen93,Gold,Premium,2020-01-28,Palo Alto,CA,94301,US,HEALTHY
+PLAYER386,Hayden,Davis,Hayden Davis,hayden.davis386@example.com,+1-933-555-8414,hdavis89,Silver,Extra,2020-01-28,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER387,Morgan,Jeffries,Morgan Jeffries,morgan.jeffries387@example.com,+1-760-555-9552,mjeffries10,Silver,Premium,2019-04-10,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER388,Skyler,Jeffries,Skyler Jeffries,skyler.jeffries388@example.com,+1-619-555-2752,sjeffries31,Silver,Premium,2024-02-03,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER389,Cameron,Adams,Cameron Adams,cameron.adams389@example.com,+1-668-555-4122,cadams34,Bronze,Premium,2018-06-02,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER390,Parker,Jeffries,Parker Jeffries,parker.jeffries390@example.com,+1-326-555-8381,pjeffries15,Platinum,Premium,2022-08-08,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER391,Hayden,Baker,Hayden Baker,hayden.baker391@example.com,+1-766-555-8091,hbaker27,Platinum,Essential,2016-07-17,Chicago,IL,60601,US,HEALTHY
+PLAYER392,Kai,King,Kai King,kai.king392@example.com,+1-306-555-7347,kking32,Gold,Essential,2017-06-09,Chicago,IL,60601,US,HEALTHY
+PLAYER393,Sage,Adams,Sage Adams,sage.adams393@example.com,+1-909-555-5067,sadams74,Gold,Essential,2022-10-30,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER394,Cameron,Young,Cameron Young,cameron.young394@example.com,+1-816-555-9393,cyoung47,Silver,Essential,2020-08-17,Seattle,WA,98101,US,HEALTHY
+PLAYER395,Drew,Green,Drew Green,drew.green395@example.com,+1-931-555-5760,dgreen80,Gold,Essential,2022-12-31,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER396,Skyler,Nguyen,Skyler Nguyen,skyler.nguyen396@example.com,+1-318-555-6771,snguyen74,Silver,Extra,2023-12-19,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER397,Emerson,King,Emerson King,emerson.king397@example.com,+1-965-555-9747,eking83,Platinum,Extra,2023-07-24,Boston,MA,02108,US,HEALTHY
+PLAYER398,Drew,Allen,Drew Allen,drew.allen398@example.com,+1-886-555-1927,dallen76,Bronze,Essential,2016-08-05,San Mateo,CA,94402,US,HEALTHY
+PLAYER399,Avery,Brown,Avery Brown,avery.brown399@example.com,+1-907-555-5835,abrown46,Gold,Essential,2016-09-11,San Jose,CA,95112,US,HEALTHY
+PLAYER400,Avery,Green,Avery Green,avery.green400@example.com,+1-957-555-4675,agreen55,Gold,Essential,2023-07-29,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER401,Emerson,Young,Emerson Young,emerson.young401@example.com,+1-909-555-1769,eyoung75,Gold,Extra,2019-03-24,Palo Alto,CA,94301,US,HEALTHY
+PLAYER402,Reese,Young,Reese Young,reese.young402@example.com,+1-961-555-5117,ryoung97,Silver,Extra,2016-02-23,Denver,CO,80014,US,HEALTHY
+PLAYER403,Avery,Adams,Avery Adams,avery.adams403@example.com,+1-576-555-9955,aadams38,Platinum,Extra,2023-04-06,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER404,Sage,Lopez,Sage Lopez,sage.lopez404@example.com,+1-391-555-3847,slopez47,Silver,Premium,2016-11-01,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER405,Logan,Jeffries,Logan Jeffries,logan.jeffries405@example.com,+1-364-555-5178,ljeffries15,Silver,Extra,2017-06-16,Denver,CO,80014,US,HEALTHY
+PLAYER406,Alex,Davis,Alex Davis,alex.davis406@example.com,+1-252-555-5934,adavis29,Bronze,Premium,2022-09-10,Miami,FL,33101,US,HEALTHY
+PLAYER407,Rowan,Baker,Rowan Baker,rowan.baker407@example.com,+1-425-555-4012,rbaker55,Bronze,Extra,2021-11-22,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER408,Logan,Patel,Logan Patel,logan.patel408@example.com,+1-557-555-4624,lpatel30,Silver,Extra,2017-01-11,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER409,Avery,Davis,Avery Davis,avery.davis409@example.com,+1-743-555-8780,adavis56,Silver,Premium,2022-12-07,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER410,Emerson,Rivera,Emerson Rivera,emerson.rivera410@example.com,+1-828-555-4994,erivera95,Silver,Essential,2023-03-15,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER411,Jordan,Davis,Jordan Davis,jordan.davis411@example.com,+1-225-555-9468,jdavis24,Silver,Extra,2019-03-04,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER412,Skyler,Scott,Skyler Scott,skyler.scott412@example.com,+1-397-555-6248,sscott67,Silver,Essential,2023-04-22,Chicago,IL,60601,US,HEALTHY
+PLAYER413,Logan,Patel,Logan Patel,logan.patel413@example.com,+1-207-555-2072,lpatel31,Platinum,Extra,2021-12-24,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER414,Avery,Lopez,Avery Lopez,avery.lopez414@example.com,+1-862-555-2181,alopez23,Bronze,Premium,2020-11-17,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER415,Casey,Rivera,Casey Rivera,casey.rivera415@example.com,+1-457-555-2154,crivera52,Bronze,Essential,2017-12-30,Miami,FL,33101,US,HEALTHY
+PLAYER416,Kai,Johnson,Kai Johnson,kai.johnson416@example.com,+1-523-555-1276,kjohnson62,Silver,Extra,2020-11-08,Austin,TX,73301,US,HEALTHY
+PLAYER417,Reese,Jeffries,Reese Jeffries,reese.jeffries417@example.com,+1-246-555-2189,rjeffries10,Gold,Extra,2022-07-26,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER418,Skyler,Scott,Skyler Scott,skyler.scott418@example.com,+1-488-555-8170,sscott47,Gold,Essential,2016-12-20,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER419,Reese,Young,Reese Young,reese.young419@example.com,+1-758-555-5832,ryoung70,Bronze,Essential,2020-05-20,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER420,Casey,Wilson,Casey Wilson,casey.wilson420@example.com,+1-242-555-1082,cwilson11,Silver,Extra,2017-05-19,Seattle,WA,98101,US,HEALTHY
+PLAYER421,Kai,Adams,Kai Adams,kai.adams421@example.com,+1-966-555-6633,kadams78,Silver,Essential,2018-05-10,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER422,Avery,Allen,Avery Allen,avery.allen422@example.com,+1-398-555-2877,aallen28,Bronze,Essential,2018-11-01,Chicago,IL,60601,US,HEALTHY
+PLAYER423,Riley,Baker,Riley Baker,riley.baker423@example.com,+1-887-555-2103,rbaker80,Silver,Extra,2019-04-05,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER424,Cameron,Jeffries,Cameron Jeffries,cameron.jeffries424@example.com,+1-887-555-4842,cjeffries84,Silver,Essential,2017-06-09,Palo Alto,CA,94301,US,HEALTHY
+PLAYER425,Morgan,Wilson,Morgan Wilson,morgan.wilson425@example.com,+1-536-555-6008,mwilson18,Platinum,Essential,2021-01-19,Boston,MA,02108,US,HEALTHY
+PLAYER426,Kai,Nguyen,Kai Nguyen,kai.nguyen426@example.com,+1-372-555-1079,knguyen82,Silver,Essential,2020-10-20,Boston,MA,02108,US,HEALTHY
+PLAYER427,Parker,Johnson,Parker Johnson,parker.johnson427@example.com,+1-895-555-6432,pjohnson92,Silver,Premium,2017-07-04,Palo Alto,CA,94301,US,BATTERY_DEGRADATION
+PLAYER428,Rowan,Wright,Rowan Wright,rowan.wright428@example.com,+1-379-555-2343,rwright55,Gold,Extra,2017-03-21,Miami,FL,33101,US,HEALTHY
+PLAYER429,Cameron,Nguyen,Cameron Nguyen,cameron.nguyen429@example.com,+1-944-555-2235,cnguyen35,Silver,Premium,2016-11-09,Chicago,IL,60601,US,HEALTHY
+PLAYER430,Alex,Scott,Alex Scott,alex.scott430@example.com,+1-237-555-5269,ascott84,Silver,Extra,2018-05-21,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER431,Emerson,Green,Emerson Green,emerson.green431@example.com,+1-990-555-5767,egreen93,Gold,Essential,2018-07-03,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER432,Casey,Wright,Casey Wright,casey.wright432@example.com,+1-878-555-4913,cwright75,Bronze,Essential,2016-02-13,Chicago,IL,60601,US,HEALTHY
+PLAYER433,Sage,Kim,Sage Kim,sage.kim433@example.com,+1-875-555-3395,skim27,Silver,Essential,2022-05-06,Chicago,IL,60601,US,HEALTHY
+PLAYER434,Rowan,Clark,Rowan Clark,rowan.clark434@example.com,+1-578-555-4834,rclark38,Gold,Essential,2018-12-18,San Mateo,CA,94402,US,HEALTHY
+PLAYER435,Jordan,Lopez,Jordan Lopez,jordan.lopez435@example.com,+1-240-555-6309,jlopez56,Silver,Premium,2016-07-09,Chicago,IL,60601,US,HEALTHY
+PLAYER436,Morgan,Scott,Morgan Scott,morgan.scott436@example.com,+1-869-555-7201,mscott43,Silver,Extra,2020-03-22,Austin,TX,73301,US,HEALTHY
+PLAYER437,Skyler,Baker,Skyler Baker,skyler.baker437@example.com,+1-728-555-7649,sbaker76,Silver,Premium,2018-07-01,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER438,Skyler,Clark,Skyler Clark,skyler.clark438@example.com,+1-650-555-3713,sclark71,Gold,Essential,2017-07-23,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER439,Quinn,Patel,Quinn Patel,quinn.patel439@example.com,+1-570-555-2938,qpatel92,Silver,Essential,2017-10-06,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER440,Quinn,Allen,Quinn Allen,quinn.allen440@example.com,+1-804-555-3641,qallen24,Silver,Extra,2018-05-13,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER441,Blake,Rivera,Blake Rivera,blake.rivera441@example.com,+1-844-555-9399,brivera15,Bronze,Extra,2017-07-05,Palo Alto,CA,94301,US,HEALTHY
+PLAYER442,Jordan,Baker,Jordan Baker,jordan.baker442@example.com,+1-615-555-1305,jbaker17,Bronze,Premium,2021-10-17,San Jose,CA,95112,US,BATTERY_DEGRADATION
+PLAYER443,Drew,Patel,Drew Patel,drew.patel443@example.com,+1-374-555-4594,dpatel67,Gold,Extra,2021-05-26,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER444,Blake,Adams,Blake Adams,blake.adams444@example.com,+1-723-555-5333,badams84,Gold,Essential,2023-05-25,San Jose,CA,95112,US,HEALTHY
+PLAYER445,Riley,Davis,Riley Davis,riley.davis445@example.com,+1-335-555-2778,rdavis86,Silver,Essential,2020-04-27,Miami,FL,33101,US,HEALTHY
+PLAYER446,Alex,Lopez,Alex Lopez,alex.lopez446@example.com,+1-298-555-3906,alopez74,Gold,Premium,2022-10-16,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER447,Rowan,Adams,Rowan Adams,rowan.adams447@example.com,+1-295-555-8901,radams14,Gold,Extra,2017-04-26,Boston,MA,02108,US,HEALTHY
+PLAYER448,Casey,Adams,Casey Adams,casey.adams448@example.com,+1-641-555-9553,cadams10,Gold,Extra,2023-04-13,Chicago,IL,60601,US,HEALTHY
+PLAYER449,Blake,Clark,Blake Clark,blake.clark449@example.com,+1-987-555-7246,bclark99,Silver,Essential,2021-05-28,San Mateo,CA,94402,US,HEALTHY
+PLAYER450,Skyler,Baker,Skyler Baker,skyler.baker450@example.com,+1-285-555-5641,sbaker22,Silver,Essential,2018-08-10,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER451,Sage,Green,Sage Green,sage.green451@example.com,+1-791-555-9561,sgreen42,Bronze,Extra,2016-01-30,Denver,CO,80014,US,HEALTHY
+PLAYER452,Morgan,Scott,Morgan Scott,morgan.scott452@example.com,+1-618-555-6935,mscott58,Gold,Extra,2019-07-17,San Mateo,CA,94402,US,HEALTHY
+PLAYER453,Morgan,Nguyen,Morgan Nguyen,morgan.nguyen453@example.com,+1-633-555-6990,mnguyen93,Silver,Essential,2022-01-04,Denver,CO,80014,US,DRIFT_RISK
+PLAYER454,Sage,Brown,Sage Brown,sage.brown454@example.com,+1-383-555-7065,sbrown36,Silver,Extra,2021-05-30,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER455,Emerson,Green,Emerson Green,emerson.green455@example.com,+1-607-555-3262,egreen42,Platinum,Extra,2023-11-29,Miami,FL,33101,US,DRIFT_RISK
+PLAYER456,Morgan,Johnson,Morgan Johnson,morgan.johnson456@example.com,+1-610-555-6544,mjohnson99,Platinum,Essential,2021-09-13,Miami,FL,33101,US,HEALTHY
+PLAYER457,Emerson,Adams,Emerson Adams,emerson.adams457@example.com,+1-348-555-8727,eadams30,Silver,Extra,2017-01-08,San Mateo,CA,94402,US,HEALTHY
+PLAYER458,Sage,Allen,Sage Allen,sage.allen458@example.com,+1-238-555-7296,sallen18,Silver,Essential,2022-10-30,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER459,Reese,Adams,Reese Adams,reese.adams459@example.com,+1-855-555-9099,radams46,Gold,Extra,2017-12-18,Chicago,IL,60601,US,HEALTHY
+PLAYER460,Hayden,Rivera,Hayden Rivera,hayden.rivera460@example.com,+1-234-555-9364,hrivera94,Platinum,Extra,2018-03-08,Palo Alto,CA,94301,US,HEALTHY
+PLAYER461,Logan,Johnson,Logan Johnson,logan.johnson461@example.com,+1-200-555-3579,ljohnson31,Gold,Essential,2023-05-06,Boston,MA,02108,US,HEALTHY
+PLAYER462,Taylor,Brown,Taylor Brown,taylor.brown462@example.com,+1-730-555-1251,tbrown55,Gold,Essential,2018-03-31,Denver,CO,80014,US,HEALTHY
+PLAYER463,Taylor,Patel,Taylor Patel,taylor.patel463@example.com,+1-556-555-6693,tpatel46,Gold,Extra,2022-07-15,Chicago,IL,60601,US,HEALTHY
+PLAYER464,Cameron,Johnson,Cameron Johnson,cameron.johnson464@example.com,+1-467-555-3867,cjohnson34,Silver,Essential,2016-01-20,Boston,MA,02108,US,EDGE_MODULE_PATH
+PLAYER465,Blake,Scott,Blake Scott,blake.scott465@example.com,+1-725-555-5222,bscott81,Bronze,Essential,2017-04-24,San Francisco,CA,94102,US,BATTERY_DEGRADATION
+PLAYER466,Emerson,Baker,Emerson Baker,emerson.baker466@example.com,+1-988-555-4985,ebaker98,Silver,Essential,2021-06-03,Austin,TX,73301,US,HEALTHY
+PLAYER467,Parker,Wright,Parker Wright,parker.wright467@example.com,+1-269-555-7269,pwright85,Gold,Extra,2018-11-22,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER468,Quinn,Johnson,Quinn Johnson,quinn.johnson468@example.com,+1-917-555-5314,qjohnson62,Platinum,Extra,2016-02-09,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER469,Quinn,Wilson,Quinn Wilson,quinn.wilson469@example.com,+1-767-555-3924,qwilson61,Gold,Premium,2016-11-07,San Francisco,CA,94102,US,HEALTHY
+PLAYER470,Rowan,Davis,Rowan Davis,rowan.davis470@example.com,+1-394-555-9175,rdavis37,Gold,Essential,2023-08-30,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER471,Avery,Johnson,Avery Johnson,avery.johnson471@example.com,+1-833-555-6833,ajohnson43,Bronze,Essential,2018-10-19,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER472,Casey,Jeffries,Casey Jeffries,casey.jeffries472@example.com,+1-206-555-9871,cjeffries20,Gold,Extra,2022-11-19,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER473,Jordan,King,Jordan King,jordan.king473@example.com,+1-481-555-9041,jking89,Silver,Premium,2022-06-11,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER474,Riley,Scott,Riley Scott,riley.scott474@example.com,+1-738-555-7933,rscott60,Bronze,Extra,2016-08-09,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER475,Rowan,Green,Rowan Green,rowan.green475@example.com,+1-668-555-2972,rgreen74,Silver,Premium,2017-12-16,San Mateo,CA,94402,US,HEALTHY
+PLAYER476,Logan,Wright,Logan Wright,logan.wright476@example.com,+1-794-555-2650,lwright98,Bronze,Extra,2020-04-03,Seattle,WA,98101,US,HEALTHY
+PLAYER477,Parker,Clark,Parker Clark,parker.clark477@example.com,+1-682-555-6621,pclark43,Bronze,Essential,2019-01-08,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER478,Skyler,Kim,Skyler Kim,skyler.kim478@example.com,+1-573-555-7563,skim64,Bronze,Extra,2020-03-04,Miami,FL,33101,US,HEALTHY
+PLAYER479,Cameron,Wright,Cameron Wright,cameron.wright479@example.com,+1-302-555-5422,cwright83,Bronze,Extra,2018-07-25,San Jose,CA,95112,US,HEALTHY
+PLAYER480,Quinn,Green,Quinn Green,quinn.green480@example.com,+1-684-555-1159,qgreen58,Bronze,Premium,2017-09-04,Denver,CO,80014,US,HEALTHY
+PLAYER481,Riley,Allen,Riley Allen,riley.allen481@example.com,+1-746-555-6172,rallen27,Platinum,Premium,2021-10-18,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER482,Rowan,Wilson,Rowan Wilson,rowan.wilson482@example.com,+1-907-555-3676,rwilson81,Gold,Essential,2017-02-09,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER483,Jordan,Lopez,Jordan Lopez,jordan.lopez483@example.com,+1-466-555-6914,jlopez70,Gold,Essential,2019-10-02,Austin,TX,73301,US,BATTERY_DEGRADATION
+PLAYER484,Skyler,Green,Skyler Green,skyler.green484@example.com,+1-895-555-4259,sgreen42,Silver,Essential,2019-12-09,Chicago,IL,60601,US,HEALTHY
+PLAYER485,Kai,Baker,Kai Baker,kai.baker485@example.com,+1-889-555-9363,kbaker32,Platinum,Essential,2019-08-24,Chicago,IL,60601,US,HEALTHY
+PLAYER486,Rowan,Wright,Rowan Wright,rowan.wright486@example.com,+1-371-555-6527,rwright58,Gold,Extra,2017-08-16,San Francisco,CA,94102,US,HEALTHY
+PLAYER487,Blake,Adams,Blake Adams,blake.adams487@example.com,+1-551-555-4739,badams61,Gold,Essential,2017-10-25,Boston,MA,02108,US,DRIFT_RISK
+PLAYER488,Parker,Davis,Parker Davis,parker.davis488@example.com,+1-999-555-6950,pdavis44,Gold,Essential,2020-12-27,Austin,TX,73301,US,HEALTHY
+PLAYER489,Kai,Scott,Kai Scott,kai.scott489@example.com,+1-945-555-4844,kscott62,Bronze,Premium,2017-05-27,Miami,FL,33101,US,HEALTHY
+PLAYER490,Cameron,Patel,Cameron Patel,cameron.patel490@example.com,+1-761-555-1881,cpatel31,Silver,Essential,2021-04-22,Palo Alto,CA,94301,US,HEALTHY
+PLAYER491,Alex,Young,Alex Young,alex.young491@example.com,+1-870-555-7387,ayoung20,Bronze,Extra,2016-12-11,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER492,Drew,Johnson,Drew Johnson,drew.johnson492@example.com,+1-374-555-1468,djohnson46,Silver,Essential,2021-11-27,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER493,Jordan,Clark,Jordan Clark,jordan.clark493@example.com,+1-761-555-8288,jclark70,Silver,Premium,2019-01-20,Seattle,WA,98101,US,HEALTHY
+PLAYER494,Casey,Green,Casey Green,casey.green494@example.com,+1-777-555-8126,cgreen85,Silver,Extra,2023-02-17,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER495,Logan,Green,Logan Green,logan.green495@example.com,+1-652-555-6044,lgreen54,Silver,Essential,2017-01-01,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER496,Skyler,Allen,Skyler Allen,skyler.allen496@example.com,+1-552-555-5698,sallen29,Silver,Essential,2017-07-12,Austin,TX,73301,US,HEALTHY
+PLAYER497,Rowan,Green,Rowan Green,rowan.green497@example.com,+1-506-555-1149,rgreen98,Platinum,Premium,2021-05-08,San Mateo,CA,94402,US,HEALTHY
+PLAYER498,Blake,Wilson,Blake Wilson,blake.wilson498@example.com,+1-621-555-8161,bwilson39,Gold,Extra,2018-02-11,Boston,MA,02108,US,HEALTHY
+PLAYER499,Reese,Johnson,Reese Johnson,reese.johnson499@example.com,+1-281-555-7917,rjohnson92,Silver,Essential,2018-12-13,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER500,Quinn,Scott,Quinn Scott,quinn.scott500@example.com,+1-475-555-7765,qscott98,Gold,Essential,2021-12-18,Boston,MA,02108,US,HEALTHY
+PLAYER501,Avery,Patel,Avery Patel,avery.patel501@example.com,+1-663-555-5458,apatel27,Silver,Extra,2022-12-05,San Jose,CA,95112,US,HEALTHY
+PLAYER502,Sage,King,Sage King,sage.king502@example.com,+1-222-555-4046,sking51,Bronze,Essential,2021-12-31,Palo Alto,CA,94301,US,HEALTHY
+PLAYER503,Morgan,Wilson,Morgan Wilson,morgan.wilson503@example.com,+1-292-555-3468,mwilson26,Gold,Extra,2018-08-11,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER504,Alex,King,Alex King,alex.king504@example.com,+1-580-555-8597,aking53,Silver,Extra,2021-08-03,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER505,Jordan,Davis,Jordan Davis,jordan.davis505@example.com,+1-756-555-8702,jdavis28,Bronze,Extra,2016-10-19,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER506,Riley,Lopez,Riley Lopez,riley.lopez506@example.com,+1-454-555-7304,rlopez58,Gold,Essential,2024-01-06,Austin,TX,73301,US,HEALTHY
+PLAYER507,Hayden,Johnson,Hayden Johnson,hayden.johnson507@example.com,+1-881-555-4415,hjohnson35,Silver,Extra,2021-11-04,San Mateo,CA,94402,US,HEALTHY
+PLAYER508,Rowan,Young,Rowan Young,rowan.young508@example.com,+1-733-555-3001,ryoung51,Bronze,Extra,2022-03-01,Austin,TX,73301,US,HEALTHY
+PLAYER509,Cameron,King,Cameron King,cameron.king509@example.com,+1-423-555-2850,cking35,Silver,Essential,2023-06-23,Austin,TX,73301,US,DRIFT_RISK
+PLAYER510,Quinn,Allen,Quinn Allen,quinn.allen510@example.com,+1-605-555-4982,qallen11,Bronze,Essential,2017-05-05,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER511,Alex,Chen,Alex Chen,alex.chen511@example.com,+1-989-555-2466,achen98,Silver,Extra,2020-03-01,Boston,MA,02108,US,HEALTHY
+PLAYER512,Quinn,Kim,Quinn Kim,quinn.kim512@example.com,+1-261-555-1979,qkim21,Gold,Essential,2023-01-04,Miami,FL,33101,US,HEALTHY
+PLAYER513,Skyler,Nguyen,Skyler Nguyen,skyler.nguyen513@example.com,+1-860-555-6690,snguyen23,Bronze,Essential,2022-04-06,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER514,Hayden,Lopez,Hayden Lopez,hayden.lopez514@example.com,+1-240-555-8951,hlopez98,Silver,Extra,2018-10-23,San Mateo,CA,94402,US,EDGE_MODULE_PATH
+PLAYER515,Hayden,Green,Hayden Green,hayden.green515@example.com,+1-756-555-6696,hgreen79,Gold,Essential,2018-02-03,Austin,TX,73301,US,HEALTHY
+PLAYER516,Parker,Wright,Parker Wright,parker.wright516@example.com,+1-743-555-3539,pwright86,Platinum,Extra,2016-10-09,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER517,Hayden,Wilson,Hayden Wilson,hayden.wilson517@example.com,+1-718-555-7210,hwilson79,Silver,Essential,2023-02-26,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER518,Riley,Rivera,Riley Rivera,riley.rivera518@example.com,+1-264-555-9830,rrivera56,Gold,Essential,2024-02-01,Boston,MA,02108,US,DRIFT_RISK
+PLAYER519,Reese,Lopez,Reese Lopez,reese.lopez519@example.com,+1-489-555-6285,rlopez97,Silver,Extra,2022-11-16,Chicago,IL,60601,US,HEALTHY
+PLAYER520,Blake,Davis,Blake Davis,blake.davis520@example.com,+1-382-555-1512,bdavis22,Silver,Essential,2017-06-15,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER521,Avery,Jeffries,Avery Jeffries,avery.jeffries521@example.com,+1-873-555-9026,ajeffries34,Bronze,Extra,2020-05-10,Miami,FL,33101,US,HEALTHY
+PLAYER522,Logan,Adams,Logan Adams,logan.adams522@example.com,+1-272-555-1214,ladams42,Bronze,Essential,2024-01-19,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER523,Avery,King,Avery King,avery.king523@example.com,+1-961-555-7814,aking69,Gold,Essential,2022-04-04,San Francisco,CA,94102,US,HEALTHY
+PLAYER524,Skyler,Chen,Skyler Chen,skyler.chen524@example.com,+1-279-555-4537,schen44,Silver,Extra,2019-05-29,Boston,MA,02108,US,HEALTHY
+PLAYER525,Logan,Jeffries,Logan Jeffries,logan.jeffries525@example.com,+1-872-555-5075,ljeffries39,Silver,Essential,2021-11-25,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER526,Kai,Kim,Kai Kim,kai.kim526@example.com,+1-790-555-6864,kkim81,Silver,Essential,2023-02-28,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER527,Hayden,Allen,Hayden Allen,hayden.allen527@example.com,+1-545-555-3591,hallen31,Gold,Extra,2021-08-29,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER528,Emerson,Adams,Emerson Adams,emerson.adams528@example.com,+1-580-555-7755,eadams55,Platinum,Extra,2019-08-22,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER529,Blake,Davis,Blake Davis,blake.davis529@example.com,+1-962-555-5162,bdavis40,Silver,Essential,2022-03-03,Boston,MA,02108,US,EDGE_MODULE_PATH
+PLAYER530,Skyler,Wright,Skyler Wright,skyler.wright530@example.com,+1-810-555-1267,swright60,Bronze,Essential,2019-03-11,Miami,FL,33101,US,HEALTHY
+PLAYER531,Logan,Nguyen,Logan Nguyen,logan.nguyen531@example.com,+1-222-555-5521,lnguyen10,Silver,Essential,2019-07-13,Austin,TX,73301,US,DRIFT_RISK
+PLAYER532,Emerson,Scott,Emerson Scott,emerson.scott532@example.com,+1-671-555-6827,escott83,Platinum,Essential,2016-06-03,Chicago,IL,60601,US,HEALTHY
+PLAYER533,Casey,Nguyen,Casey Nguyen,casey.nguyen533@example.com,+1-507-555-2505,cnguyen56,Gold,Essential,2018-11-15,Austin,TX,73301,US,HEALTHY
+PLAYER534,Kai,Young,Kai Young,kai.young534@example.com,+1-377-555-8999,kyoung37,Gold,Extra,2021-05-30,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER535,Kai,Jeffries,Kai Jeffries,kai.jeffries535@example.com,+1-590-555-2285,kjeffries92,Silver,Extra,2022-06-18,Boston,MA,02108,US,HEALTHY
+PLAYER536,Jordan,Davis,Jordan Davis,jordan.davis536@example.com,+1-965-555-1187,jdavis65,Silver,Premium,2018-07-17,Seattle,WA,98101,US,HEALTHY
+PLAYER537,Reese,Chen,Reese Chen,reese.chen537@example.com,+1-534-555-9231,rchen77,Bronze,Extra,2017-09-04,Austin,TX,73301,US,DRIFT_RISK
+PLAYER538,Quinn,Nguyen,Quinn Nguyen,quinn.nguyen538@example.com,+1-970-555-9269,qnguyen96,Gold,Essential,2020-12-30,San Mateo,CA,94402,US,HEALTHY
+PLAYER539,Taylor,Johnson,Taylor Johnson,taylor.johnson539@example.com,+1-284-555-8796,tjohnson47,Gold,Essential,2019-10-08,Denver,CO,80014,US,HEALTHY
+PLAYER540,Kai,Chen,Kai Chen,kai.chen540@example.com,+1-992-555-3136,kchen61,Silver,Essential,2020-11-14,Chicago,IL,60601,US,HEALTHY
+PLAYER541,Casey,King,Casey King,casey.king541@example.com,+1-774-555-9589,cking35,Silver,Extra,2018-03-14,Chicago,IL,60601,US,HEALTHY
+PLAYER542,Quinn,Johnson,Quinn Johnson,quinn.johnson542@example.com,+1-291-555-2843,qjohnson44,Gold,Essential,2022-06-17,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER543,Blake,Allen,Blake Allen,blake.allen543@example.com,+1-224-555-5994,ballen54,Bronze,Essential,2023-05-08,Seattle,WA,98101,US,HEALTHY
+PLAYER544,Riley,Clark,Riley Clark,riley.clark544@example.com,+1-404-555-7124,rclark66,Gold,Essential,2018-08-14,Boston,MA,02108,US,DRIFT_RISK
+PLAYER545,Casey,Patel,Casey Patel,casey.patel545@example.com,+1-494-555-1225,cpatel16,Bronze,Extra,2017-08-27,San Francisco,CA,94102,US,HEALTHY
+PLAYER546,Parker,Jeffries,Parker Jeffries,parker.jeffries546@example.com,+1-416-555-4339,pjeffries67,Silver,Essential,2022-01-12,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER547,Emerson,Scott,Emerson Scott,emerson.scott547@example.com,+1-911-555-1301,escott80,Silver,Extra,2017-08-01,Austin,TX,73301,US,HEALTHY
+PLAYER548,Reese,Baker,Reese Baker,reese.baker548@example.com,+1-913-555-5444,rbaker15,Silver,Essential,2018-04-02,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER549,Jordan,Wright,Jordan Wright,jordan.wright549@example.com,+1-568-555-2767,jwright18,Silver,Essential,2023-05-27,San Mateo,CA,94402,US,HEALTHY
+PLAYER550,Alex,Wilson,Alex Wilson,alex.wilson550@example.com,+1-301-555-6168,awilson39,Platinum,Extra,2023-12-16,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER551,Rowan,Adams,Rowan Adams,rowan.adams551@example.com,+1-774-555-1352,radams21,Bronze,Extra,2021-02-18,Chicago,IL,60601,US,HEALTHY
+PLAYER552,Jordan,Johnson,Jordan Johnson,jordan.johnson552@example.com,+1-218-555-6681,jjohnson49,Silver,Essential,2017-10-05,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER553,Skyler,Clark,Skyler Clark,skyler.clark553@example.com,+1-263-555-5221,sclark40,Platinum,Premium,2019-02-03,Austin,TX,73301,US,HEALTHY
+PLAYER554,Reese,Rivera,Reese Rivera,reese.rivera554@example.com,+1-872-555-3248,rrivera45,Bronze,Essential,2020-05-28,Chicago,IL,60601,US,HEALTHY
+PLAYER555,Taylor,Young,Taylor Young,taylor.young555@example.com,+1-627-555-4938,tyoung96,Gold,Extra,2018-07-20,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER556,Kai,Nguyen,Kai Nguyen,kai.nguyen556@example.com,+1-334-555-4387,knguyen49,Platinum,Essential,2022-01-29,Denver,CO,80014,US,HEALTHY
+PLAYER557,Casey,Baker,Casey Baker,casey.baker557@example.com,+1-905-555-9582,cbaker97,Gold,Premium,2019-06-19,Chicago,IL,60601,US,BATTERY_DEGRADATION
+PLAYER558,Casey,Allen,Casey Allen,casey.allen558@example.com,+1-269-555-9732,callen93,Platinum,Premium,2019-07-24,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER559,Morgan,Kim,Morgan Kim,morgan.kim559@example.com,+1-621-555-5970,mkim28,Gold,Extra,2020-08-22,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER560,Hayden,Brown,Hayden Brown,hayden.brown560@example.com,+1-831-555-5372,hbrown34,Bronze,Essential,2022-11-11,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER561,Sage,Baker,Sage Baker,sage.baker561@example.com,+1-567-555-2302,sbaker39,Silver,Essential,2016-04-16,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER562,Rowan,Nguyen,Rowan Nguyen,rowan.nguyen562@example.com,+1-596-555-9051,rnguyen87,Silver,Extra,2018-01-23,Chicago,IL,60601,US,HEALTHY
+PLAYER563,Rowan,Nguyen,Rowan Nguyen,rowan.nguyen563@example.com,+1-476-555-7767,rnguyen34,Bronze,Essential,2016-03-02,San Jose,CA,95112,US,HEALTHY
+PLAYER564,Quinn,Lopez,Quinn Lopez,quinn.lopez564@example.com,+1-831-555-9027,qlopez18,Bronze,Premium,2020-12-04,Palo Alto,CA,94301,US,HEALTHY
+PLAYER565,Parker,Wright,Parker Wright,parker.wright565@example.com,+1-937-555-6126,pwright64,Silver,Essential,2020-04-07,Palo Alto,CA,94301,US,HEALTHY
+PLAYER566,Reese,Adams,Reese Adams,reese.adams566@example.com,+1-239-555-9530,radams86,Silver,Extra,2023-11-24,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER567,Morgan,Wright,Morgan Wright,morgan.wright567@example.com,+1-605-555-1643,mwright15,Gold,Essential,2022-01-12,Miami,FL,33101,US,HEALTHY
+PLAYER568,Emerson,Young,Emerson Young,emerson.young568@example.com,+1-607-555-5989,eyoung90,Platinum,Essential,2020-12-05,Chicago,IL,60601,US,HEALTHY
+PLAYER569,Drew,Wright,Drew Wright,drew.wright569@example.com,+1-729-555-3330,dwright64,Silver,Premium,2023-09-27,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER570,Hayden,Wright,Hayden Wright,hayden.wright570@example.com,+1-759-555-3216,hwright74,Bronze,Extra,2023-10-22,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER571,Reese,Allen,Reese Allen,reese.allen571@example.com,+1-406-555-8449,rallen67,Bronze,Extra,2023-12-28,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER572,Taylor,Brown,Taylor Brown,taylor.brown572@example.com,+1-935-555-3024,tbrown98,Gold,Extra,2017-11-02,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER573,Taylor,Jeffries,Taylor Jeffries,taylor.jeffries573@example.com,+1-944-555-9383,tjeffries91,Silver,Extra,2020-04-22,Miami,FL,33101,US,HEALTHY
+PLAYER574,Sage,Kim,Sage Kim,sage.kim574@example.com,+1-779-555-3459,skim80,Silver,Extra,2019-10-04,Denver,CO,80014,US,HEALTHY
+PLAYER575,Riley,Nguyen,Riley Nguyen,riley.nguyen575@example.com,+1-495-555-3960,rnguyen16,Silver,Essential,2021-01-01,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER576,Morgan,Nguyen,Morgan Nguyen,morgan.nguyen576@example.com,+1-709-555-9169,mnguyen10,Gold,Essential,2021-02-21,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER577,Emerson,Rivera,Emerson Rivera,emerson.rivera577@example.com,+1-664-555-7719,erivera73,Bronze,Extra,2021-05-02,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER578,Hayden,Patel,Hayden Patel,hayden.patel578@example.com,+1-834-555-4401,hpatel86,Bronze,Premium,2019-02-13,Boston,MA,02108,US,DRIFT_RISK
+PLAYER579,Jordan,Kim,Jordan Kim,jordan.kim579@example.com,+1-883-555-5889,jkim17,Gold,Essential,2016-05-12,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER580,Parker,Patel,Parker Patel,parker.patel580@example.com,+1-491-555-3906,ppatel23,Silver,Essential,2023-07-15,San Mateo,CA,94402,US,EDGE_MODULE_PATH
+PLAYER581,Hayden,Baker,Hayden Baker,hayden.baker581@example.com,+1-588-555-2108,hbaker14,Bronze,Essential,2020-02-18,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER582,Blake,Green,Blake Green,blake.green582@example.com,+1-537-555-9635,bgreen47,Silver,Essential,2019-01-29,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER583,Blake,Scott,Blake Scott,blake.scott583@example.com,+1-947-555-9666,bscott99,Bronze,Essential,2022-05-29,Palo Alto,CA,94301,US,HEALTHY
+PLAYER584,Taylor,King,Taylor King,taylor.king584@example.com,+1-738-555-6797,tking46,Silver,Premium,2018-11-29,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER585,Casey,Adams,Casey Adams,casey.adams585@example.com,+1-384-555-4812,cadams73,Silver,Extra,2021-07-10,Boston,MA,02108,US,DRIFT_RISK
+PLAYER586,Drew,Lopez,Drew Lopez,drew.lopez586@example.com,+1-955-555-4396,dlopez25,Bronze,Extra,2017-04-28,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER587,Sage,Allen,Sage Allen,sage.allen587@example.com,+1-417-555-1185,sallen15,Silver,Extra,2023-02-24,Denver,CO,80014,US,HEALTHY
+PLAYER588,Avery,Wilson,Avery Wilson,avery.wilson588@example.com,+1-985-555-1100,awilson18,Silver,Extra,2019-08-19,Austin,TX,73301,US,HEALTHY
+PLAYER589,Morgan,Davis,Morgan Davis,morgan.davis589@example.com,+1-379-555-4178,mdavis60,Gold,Extra,2016-04-29,Seattle,WA,98101,US,HEALTHY
+PLAYER590,Parker,Davis,Parker Davis,parker.davis590@example.com,+1-359-555-8546,pdavis70,Gold,Extra,2021-05-26,Miami,FL,33101,US,HEALTHY
+PLAYER591,Emerson,Davis,Emerson Davis,emerson.davis591@example.com,+1-506-555-6169,edavis62,Platinum,Essential,2021-11-04,Miami,FL,33101,US,HEALTHY
+PLAYER592,Emerson,Green,Emerson Green,emerson.green592@example.com,+1-267-555-3446,egreen36,Silver,Essential,2019-12-19,San Mateo,CA,94402,US,EDGE_MODULE_PATH
+PLAYER593,Cameron,Rivera,Cameron Rivera,cameron.rivera593@example.com,+1-820-555-7382,crivera58,Gold,Premium,2022-05-27,Seattle,WA,98101,US,HEALTHY
+PLAYER594,Riley,Adams,Riley Adams,riley.adams594@example.com,+1-478-555-7780,radams49,Gold,Essential,2016-05-09,San Francisco,CA,94102,US,HEALTHY
+PLAYER595,Taylor,King,Taylor King,taylor.king595@example.com,+1-737-555-5953,tking57,Silver,Premium,2018-06-04,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER596,Riley,Jeffries,Riley Jeffries,riley.jeffries596@example.com,+1-718-555-1408,rjeffries14,Gold,Premium,2020-12-22,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER597,Rowan,Scott,Rowan Scott,rowan.scott597@example.com,+1-517-555-6363,rscott34,Silver,Extra,2021-11-14,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER598,Casey,Jeffries,Casey Jeffries,casey.jeffries598@example.com,+1-670-555-7350,cjeffries96,Platinum,Essential,2016-05-29,Chicago,IL,60601,US,HEALTHY
+PLAYER599,Logan,Jeffries,Logan Jeffries,logan.jeffries599@example.com,+1-289-555-6460,ljeffries49,Platinum,Extra,2022-08-31,San Mateo,CA,94402,US,HEALTHY
+PLAYER600,Hayden,Chen,Hayden Chen,hayden.chen600@example.com,+1-791-555-6114,hchen76,Gold,Extra,2016-04-02,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER601,Avery,Davis,Avery Davis,avery.davis601@example.com,+1-887-555-2927,adavis34,Silver,Extra,2020-12-11,Palo Alto,CA,94301,US,HEALTHY
+PLAYER602,Cameron,Nguyen,Cameron Nguyen,cameron.nguyen602@example.com,+1-726-555-2677,cnguyen45,Bronze,Premium,2022-04-11,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER603,Avery,Green,Avery Green,avery.green603@example.com,+1-490-555-5011,agreen80,Silver,Essential,2023-11-25,Seattle,WA,98101,US,HEALTHY
+PLAYER604,Riley,Patel,Riley Patel,riley.patel604@example.com,+1-333-555-1475,rpatel88,Gold,Extra,2016-07-26,Austin,TX,73301,US,DRIFT_RISK
+PLAYER605,Rowan,Chen,Rowan Chen,rowan.chen605@example.com,+1-921-555-8304,rchen59,Bronze,Essential,2018-01-03,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER606,Sage,Clark,Sage Clark,sage.clark606@example.com,+1-746-555-2286,sclark52,Gold,Extra,2023-07-10,Austin,TX,73301,US,DRIFT_RISK
+PLAYER607,Hayden,Baker,Hayden Baker,hayden.baker607@example.com,+1-299-555-8464,hbaker21,Gold,Premium,2021-04-02,San Jose,CA,95112,US,HEALTHY
+PLAYER608,Drew,Wright,Drew Wright,drew.wright608@example.com,+1-464-555-6954,dwright39,Platinum,Essential,2022-12-01,Miami,FL,33101,US,HEALTHY
+PLAYER609,Reese,Kim,Reese Kim,reese.kim609@example.com,+1-315-555-6758,rkim51,Silver,Essential,2021-04-30,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER610,Rowan,Wright,Rowan Wright,rowan.wright610@example.com,+1-720-555-2686,rwright46,Gold,Extra,2017-06-05,San Jose,CA,95112,US,HEALTHY
+PLAYER611,Reese,Jeffries,Reese Jeffries,reese.jeffries611@example.com,+1-672-555-7566,rjeffries81,Gold,Extra,2021-12-22,Seattle,WA,98101,US,HEALTHY
+PLAYER612,Kai,Allen,Kai Allen,kai.allen612@example.com,+1-593-555-2082,kallen89,Bronze,Essential,2021-05-29,Palo Alto,CA,94301,US,HEALTHY
+PLAYER613,Parker,Lopez,Parker Lopez,parker.lopez613@example.com,+1-757-555-4869,plopez65,Gold,Essential,2019-11-02,Boston,MA,02108,US,DRIFT_RISK
+PLAYER614,Riley,Patel,Riley Patel,riley.patel614@example.com,+1-768-555-2599,rpatel72,Bronze,Extra,2019-08-25,Boston,MA,02108,US,HEALTHY
+PLAYER615,Hayden,Kim,Hayden Kim,hayden.kim615@example.com,+1-989-555-7208,hkim61,Bronze,Essential,2022-09-08,Austin,TX,73301,US,HEALTHY
+PLAYER616,Parker,King,Parker King,parker.king616@example.com,+1-973-555-1003,pking21,Bronze,Essential,2022-07-06,San Mateo,CA,94402,US,HEALTHY
+PLAYER617,Casey,Nguyen,Casey Nguyen,casey.nguyen617@example.com,+1-400-555-4369,cnguyen78,Silver,Extra,2021-01-05,Miami,FL,33101,US,HEALTHY
+PLAYER618,Parker,Wilson,Parker Wilson,parker.wilson618@example.com,+1-935-555-6640,pwilson96,Silver,Premium,2020-11-15,Boston,MA,02108,US,HEALTHY
+PLAYER619,Taylor,Baker,Taylor Baker,taylor.baker619@example.com,+1-501-555-2022,tbaker88,Platinum,Essential,2017-06-06,San Mateo,CA,94402,US,BATTERY_DEGRADATION
+PLAYER620,Skyler,Green,Skyler Green,skyler.green620@example.com,+1-312-555-5623,sgreen10,Gold,Premium,2020-01-11,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER621,Alex,Johnson,Alex Johnson,alex.johnson621@example.com,+1-591-555-7652,ajohnson99,Silver,Extra,2023-12-25,Denver,CO,80014,US,HEALTHY
+PLAYER622,Reese,Allen,Reese Allen,reese.allen622@example.com,+1-768-555-7301,rallen37,Gold,Extra,2018-02-09,Chicago,IL,60601,US,HEALTHY
+PLAYER623,Skyler,Allen,Skyler Allen,skyler.allen623@example.com,+1-211-555-2175,sallen46,Platinum,Extra,2017-07-04,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER624,Alex,Nguyen,Alex Nguyen,alex.nguyen624@example.com,+1-340-555-7813,anguyen94,Silver,Premium,2016-12-12,Miami,FL,33101,US,DRIFT_RISK
+PLAYER625,Hayden,Adams,Hayden Adams,hayden.adams625@example.com,+1-660-555-7303,hadams89,Bronze,Extra,2022-03-11,Denver,CO,80014,US,HEALTHY
+PLAYER626,Skyler,Johnson,Skyler Johnson,skyler.johnson626@example.com,+1-442-555-9220,sjohnson64,Gold,Extra,2024-03-12,San Jose,CA,95112,US,HEALTHY
+PLAYER627,Cameron,Allen,Cameron Allen,cameron.allen627@example.com,+1-694-555-7038,callen83,Silver,Premium,2022-05-16,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER628,Morgan,Baker,Morgan Baker,morgan.baker628@example.com,+1-968-555-5578,mbaker98,Bronze,Extra,2021-11-26,Miami,FL,33101,US,HEALTHY
+PLAYER629,Hayden,Scott,Hayden Scott,hayden.scott629@example.com,+1-845-555-2279,hscott76,Gold,Essential,2021-04-19,San Francisco,CA,94102,US,HEALTHY
+PLAYER630,Emerson,Baker,Emerson Baker,emerson.baker630@example.com,+1-680-555-8438,ebaker88,Bronze,Essential,2016-02-14,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER631,Logan,King,Logan King,logan.king631@example.com,+1-496-555-3744,lking52,Silver,Premium,2019-04-21,Boston,MA,02108,US,HEALTHY
+PLAYER632,Jordan,Adams,Jordan Adams,jordan.adams632@example.com,+1-373-555-1845,jadams82,Silver,Extra,2022-06-26,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER633,Drew,Adams,Drew Adams,drew.adams633@example.com,+1-484-555-5129,dadams46,Silver,Essential,2016-11-10,San Mateo,CA,94402,US,HEALTHY
+PLAYER634,Casey,Adams,Casey Adams,casey.adams634@example.com,+1-818-555-3860,cadams45,Gold,Essential,2017-04-01,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER635,Kai,Nguyen,Kai Nguyen,kai.nguyen635@example.com,+1-441-555-8944,knguyen57,Gold,Essential,2023-11-10,Miami,FL,33101,US,HEALTHY
+PLAYER636,Riley,Scott,Riley Scott,riley.scott636@example.com,+1-357-555-9125,rscott53,Platinum,Premium,2022-09-05,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER637,Blake,Young,Blake Young,blake.young637@example.com,+1-791-555-6653,byoung94,Silver,Extra,2018-05-13,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER638,Jordan,Brown,Jordan Brown,jordan.brown638@example.com,+1-687-555-9724,jbrown16,Bronze,Essential,2019-05-19,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER639,Quinn,Young,Quinn Young,quinn.young639@example.com,+1-212-555-5731,qyoung70,Silver,Extra,2020-11-15,Denver,CO,80014,US,HEALTHY
+PLAYER640,Hayden,Young,Hayden Young,hayden.young640@example.com,+1-852-555-6797,hyoung77,Gold,Essential,2021-12-16,Seattle,WA,98101,US,HEALTHY
+PLAYER641,Blake,Adams,Blake Adams,blake.adams641@example.com,+1-870-555-7408,badams52,Silver,Premium,2018-11-11,Austin,TX,73301,US,BATTERY_DEGRADATION
+PLAYER642,Hayden,Johnson,Hayden Johnson,hayden.johnson642@example.com,+1-520-555-9972,hjohnson34,Silver,Extra,2018-01-06,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER643,Alex,Rivera,Alex Rivera,alex.rivera643@example.com,+1-656-555-6759,arivera11,Silver,Extra,2023-09-08,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER644,Quinn,Wilson,Quinn Wilson,quinn.wilson644@example.com,+1-808-555-4552,qwilson34,Bronze,Extra,2016-08-20,Austin,TX,73301,US,HEALTHY
+PLAYER645,Sage,Jeffries,Sage Jeffries,sage.jeffries645@example.com,+1-982-555-4027,sjeffries21,Gold,Essential,2023-05-12,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER646,Morgan,Kim,Morgan Kim,morgan.kim646@example.com,+1-664-555-5528,mkim47,Silver,Premium,2023-03-01,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER647,Blake,Davis,Blake Davis,blake.davis647@example.com,+1-591-555-7366,bdavis30,Gold,Essential,2016-09-12,Austin,TX,73301,US,HEALTHY
+PLAYER648,Parker,Chen,Parker Chen,parker.chen648@example.com,+1-824-555-7432,pchen43,Bronze,Essential,2018-04-01,Austin,TX,73301,US,HEALTHY
+PLAYER649,Riley,King,Riley King,riley.king649@example.com,+1-858-555-2740,rking28,Silver,Essential,2022-11-19,San Francisco,CA,94102,US,HEALTHY
+PLAYER650,Hayden,Brown,Hayden Brown,hayden.brown650@example.com,+1-995-555-8305,hbrown14,Bronze,Extra,2018-10-23,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER651,Alex,King,Alex King,alex.king651@example.com,+1-599-555-5365,aking93,Gold,Premium,2023-06-15,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER652,Casey,Davis,Casey Davis,casey.davis652@example.com,+1-689-555-8144,cdavis83,Bronze,Extra,2021-07-02,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER653,Reese,Patel,Reese Patel,reese.patel653@example.com,+1-324-555-9770,rpatel38,Bronze,Premium,2021-05-28,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER654,Skyler,Davis,Skyler Davis,skyler.davis654@example.com,+1-292-555-6985,sdavis61,Bronze,Premium,2023-04-04,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER655,Emerson,Davis,Emerson Davis,emerson.davis655@example.com,+1-380-555-1644,edavis68,Gold,Essential,2018-04-11,San Francisco,CA,94102,US,HEALTHY
+PLAYER656,Reese,Lopez,Reese Lopez,reese.lopez656@example.com,+1-567-555-8970,rlopez99,Silver,Essential,2023-09-22,Austin,TX,73301,US,HEALTHY
+PLAYER657,Taylor,Wright,Taylor Wright,taylor.wright657@example.com,+1-444-555-9015,twright27,Bronze,Essential,2022-08-25,Palo Alto,CA,94301,US,HEALTHY
+PLAYER658,Reese,Patel,Reese Patel,reese.patel658@example.com,+1-216-555-1606,rpatel92,Silver,Extra,2021-01-14,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER659,Parker,Chen,Parker Chen,parker.chen659@example.com,+1-883-555-9570,pchen15,Silver,Essential,2023-05-02,Seattle,WA,98101,US,HEALTHY
+PLAYER660,Hayden,Green,Hayden Green,hayden.green660@example.com,+1-700-555-1312,hgreen84,Bronze,Essential,2017-08-02,San Jose,CA,95112,US,HEALTHY
+PLAYER661,Rowan,Adams,Rowan Adams,rowan.adams661@example.com,+1-847-555-1818,radams41,Gold,Essential,2017-12-06,San Mateo,CA,94402,US,HEALTHY
+PLAYER662,Drew,Jeffries,Drew Jeffries,drew.jeffries662@example.com,+1-316-555-9145,djeffries88,Bronze,Extra,2017-03-11,Miami,FL,33101,US,HEALTHY
+PLAYER663,Sage,Adams,Sage Adams,sage.adams663@example.com,+1-611-555-6312,sadams18,Gold,Essential,2023-08-10,Palo Alto,CA,94301,US,HEALTHY
+PLAYER664,Morgan,Baker,Morgan Baker,morgan.baker664@example.com,+1-982-555-1746,mbaker27,Silver,Premium,2018-05-23,Chicago,IL,60601,US,HEALTHY
+PLAYER665,Kai,Kim,Kai Kim,kai.kim665@example.com,+1-372-555-7060,kkim18,Bronze,Essential,2020-08-27,Seattle,WA,98101,US,BATTERY_DEGRADATION
+PLAYER666,Emerson,Kim,Emerson Kim,emerson.kim666@example.com,+1-847-555-7162,ekim41,Platinum,Essential,2017-02-13,Miami,FL,33101,US,HEALTHY
+PLAYER667,Riley,Rivera,Riley Rivera,riley.rivera667@example.com,+1-923-555-5648,rrivera20,Bronze,Essential,2016-12-31,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER668,Blake,King,Blake King,blake.king668@example.com,+1-621-555-4919,bking36,Bronze,Essential,2021-01-18,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER669,Riley,Adams,Riley Adams,riley.adams669@example.com,+1-842-555-5934,radams86,Bronze,Extra,2016-12-26,San Mateo,CA,94402,US,BATTERY_DEGRADATION
+PLAYER670,Skyler,Allen,Skyler Allen,skyler.allen670@example.com,+1-297-555-6929,sallen81,Bronze,Essential,2021-12-11,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER671,Emerson,Scott,Emerson Scott,emerson.scott671@example.com,+1-254-555-4173,escott69,Gold,Extra,2019-02-06,Palo Alto,CA,94301,US,HEALTHY
+PLAYER672,Morgan,Nguyen,Morgan Nguyen,morgan.nguyen672@example.com,+1-255-555-6966,mnguyen73,Bronze,Extra,2016-06-25,Miami,FL,33101,US,HEALTHY
+PLAYER673,Drew,Lopez,Drew Lopez,drew.lopez673@example.com,+1-244-555-2710,dlopez42,Silver,Premium,2021-01-30,Denver,CO,80014,US,HEALTHY
+PLAYER674,Jordan,Green,Jordan Green,jordan.green674@example.com,+1-272-555-4855,jgreen30,Gold,Extra,2017-04-20,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER675,Hayden,Baker,Hayden Baker,hayden.baker675@example.com,+1-435-555-2804,hbaker51,Silver,Extra,2019-08-27,Boston,MA,02108,US,DRIFT_RISK
+PLAYER676,Parker,Johnson,Parker Johnson,parker.johnson676@example.com,+1-425-555-2204,pjohnson40,Gold,Premium,2020-03-18,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER677,Rowan,Baker,Rowan Baker,rowan.baker677@example.com,+1-665-555-3917,rbaker16,Gold,Essential,2022-11-01,Miami,FL,33101,US,HEALTHY
+PLAYER678,Reese,Clark,Reese Clark,reese.clark678@example.com,+1-407-555-6503,rclark68,Gold,Extra,2019-01-09,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER679,Casey,Chen,Casey Chen,casey.chen679@example.com,+1-669-555-7852,cchen17,Silver,Essential,2021-03-21,Boston,MA,02108,US,HEALTHY
+PLAYER680,Riley,Davis,Riley Davis,riley.davis680@example.com,+1-826-555-3784,rdavis47,Gold,Extra,2023-02-26,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER681,Kai,Green,Kai Green,kai.green681@example.com,+1-805-555-8757,kgreen21,Silver,Extra,2018-06-05,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER682,Hayden,Brown,Hayden Brown,hayden.brown682@example.com,+1-644-555-4643,hbrown64,Gold,Essential,2019-09-02,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER683,Kai,Nguyen,Kai Nguyen,kai.nguyen683@example.com,+1-951-555-9261,knguyen10,Silver,Essential,2021-04-11,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER684,Jordan,Allen,Jordan Allen,jordan.allen684@example.com,+1-663-555-9114,jallen60,Silver,Extra,2017-02-05,Chicago,IL,60601,US,HEALTHY
+PLAYER685,Quinn,Patel,Quinn Patel,quinn.patel685@example.com,+1-335-555-6872,qpatel11,Gold,Essential,2018-06-11,Chicago,IL,60601,US,HEALTHY
+PLAYER686,Drew,Johnson,Drew Johnson,drew.johnson686@example.com,+1-670-555-1399,djohnson12,Silver,Essential,2023-11-20,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER687,Hayden,Wright,Hayden Wright,hayden.wright687@example.com,+1-675-555-1022,hwright61,Bronze,Premium,2023-01-11,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER688,Taylor,Young,Taylor Young,taylor.young688@example.com,+1-914-555-9887,tyoung77,Bronze,Essential,2019-01-10,Seattle,WA,98101,US,HEALTHY
+PLAYER689,Kai,Lopez,Kai Lopez,kai.lopez689@example.com,+1-727-555-6963,klopez89,Gold,Extra,2016-08-12,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER690,Jordan,Jeffries,Jordan Jeffries,jordan.jeffries690@example.com,+1-379-555-2097,jjeffries56,Silver,Essential,2020-02-09,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER691,Emerson,Lopez,Emerson Lopez,emerson.lopez691@example.com,+1-955-555-4437,elopez52,Bronze,Essential,2021-05-13,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER692,Quinn,Davis,Quinn Davis,quinn.davis692@example.com,+1-264-555-7108,qdavis44,Silver,Essential,2016-08-11,Seattle,WA,98101,US,HEALTHY
+PLAYER693,Skyler,Wright,Skyler Wright,skyler.wright693@example.com,+1-744-555-9730,swright74,Silver,Essential,2023-12-17,Miami,FL,33101,US,HEALTHY
+PLAYER694,Drew,Wright,Drew Wright,drew.wright694@example.com,+1-392-555-8501,dwright57,Gold,Premium,2016-09-25,Boston,MA,02108,US,HEALTHY
+PLAYER695,Taylor,Patel,Taylor Patel,taylor.patel695@example.com,+1-368-555-5521,tpatel32,Silver,Premium,2017-03-23,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER696,Morgan,Nguyen,Morgan Nguyen,morgan.nguyen696@example.com,+1-223-555-5803,mnguyen29,Gold,Extra,2023-01-13,Miami,FL,33101,US,HEALTHY
+PLAYER697,Blake,Green,Blake Green,blake.green697@example.com,+1-221-555-5776,bgreen70,Silver,Essential,2023-03-25,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER698,Avery,Patel,Avery Patel,avery.patel698@example.com,+1-621-555-6616,apatel39,Gold,Extra,2019-10-07,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER699,Parker,King,Parker King,parker.king699@example.com,+1-668-555-5982,pking95,Gold,Premium,2020-12-28,Boston,MA,02108,US,HEALTHY
+PLAYER700,Kai,Nguyen,Kai Nguyen,kai.nguyen700@example.com,+1-495-555-1775,knguyen31,Gold,Essential,2020-03-03,Austin,TX,73301,US,HEALTHY
+PLAYER701,Casey,Clark,Casey Clark,casey.clark701@example.com,+1-928-555-9770,cclark68,Platinum,Extra,2017-10-20,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER702,Drew,Kim,Drew Kim,drew.kim702@example.com,+1-443-555-2915,dkim98,Platinum,Extra,2017-10-22,San Jose,CA,95112,US,HEALTHY
+PLAYER703,Jordan,Davis,Jordan Davis,jordan.davis703@example.com,+1-775-555-1568,jdavis26,Silver,Essential,2018-04-20,Boston,MA,02108,US,DRIFT_RISK
+PLAYER704,Parker,Clark,Parker Clark,parker.clark704@example.com,+1-508-555-2990,pclark57,Silver,Premium,2021-12-25,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER705,Alex,Young,Alex Young,alex.young705@example.com,+1-204-555-9948,ayoung28,Platinum,Premium,2017-10-01,Miami,FL,33101,US,HEALTHY
+PLAYER706,Logan,Davis,Logan Davis,logan.davis706@example.com,+1-882-555-3409,ldavis70,Gold,Premium,2022-06-07,Austin,TX,73301,US,HEALTHY
+PLAYER707,Kai,Wright,Kai Wright,kai.wright707@example.com,+1-342-555-2914,kwright98,Bronze,Extra,2016-06-13,Seattle,WA,98101,US,HEALTHY
+PLAYER708,Drew,Rivera,Drew Rivera,drew.rivera708@example.com,+1-534-555-1901,drivera89,Gold,Essential,2017-01-13,Denver,CO,80014,US,DRIFT_RISK
+PLAYER709,Sage,Lopez,Sage Lopez,sage.lopez709@example.com,+1-400-555-1369,slopez77,Bronze,Premium,2019-02-12,Boston,MA,02108,US,DRIFT_RISK
+PLAYER710,Taylor,Green,Taylor Green,taylor.green710@example.com,+1-603-555-4185,tgreen96,Gold,Essential,2021-09-27,Miami,FL,33101,US,HEALTHY
+PLAYER711,Rowan,Davis,Rowan Davis,rowan.davis711@example.com,+1-569-555-7513,rdavis87,Silver,Essential,2023-06-24,Boston,MA,02108,US,DRIFT_RISK
+PLAYER712,Casey,Allen,Casey Allen,casey.allen712@example.com,+1-515-555-8300,callen59,Silver,Essential,2019-12-10,Seattle,WA,98101,US,HEALTHY
+PLAYER713,Emerson,Patel,Emerson Patel,emerson.patel713@example.com,+1-495-555-3683,epatel66,Gold,Essential,2020-12-17,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER714,Blake,Allen,Blake Allen,blake.allen714@example.com,+1-686-555-9606,ballen85,Silver,Essential,2019-05-27,San Jose,CA,95112,US,HEALTHY
+PLAYER715,Parker,Patel,Parker Patel,parker.patel715@example.com,+1-624-555-3865,ppatel58,Bronze,Essential,2019-01-24,Boston,MA,02108,US,HEALTHY
+PLAYER716,Emerson,Wright,Emerson Wright,emerson.wright716@example.com,+1-767-555-9037,ewright27,Bronze,Premium,2019-03-31,Boston,MA,02108,US,HEALTHY
+PLAYER717,Jordan,Wilson,Jordan Wilson,jordan.wilson717@example.com,+1-227-555-1040,jwilson48,Silver,Extra,2018-07-08,Boston,MA,02108,US,HEALTHY
+PLAYER718,Casey,Brown,Casey Brown,casey.brown718@example.com,+1-881-555-5713,cbrown91,Gold,Extra,2023-05-02,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER719,Blake,Kim,Blake Kim,blake.kim719@example.com,+1-704-555-2093,bkim98,Gold,Essential,2019-02-09,Miami,FL,33101,US,HEALTHY
+PLAYER720,Sage,Clark,Sage Clark,sage.clark720@example.com,+1-902-555-8799,sclark71,Silver,Premium,2023-01-16,Boston,MA,02108,US,HEALTHY
+PLAYER721,Morgan,Clark,Morgan Clark,morgan.clark721@example.com,+1-259-555-3394,mclark83,Bronze,Essential,2022-07-10,Chicago,IL,60601,US,HEALTHY
+PLAYER722,Parker,Wright,Parker Wright,parker.wright722@example.com,+1-851-555-6832,pwright55,Bronze,Essential,2020-09-14,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER723,Jordan,Wilson,Jordan Wilson,jordan.wilson723@example.com,+1-984-555-4002,jwilson77,Gold,Essential,2018-03-04,Austin,TX,73301,US,DRIFT_RISK
+PLAYER724,Morgan,Adams,Morgan Adams,morgan.adams724@example.com,+1-508-555-5447,madams79,Silver,Essential,2023-09-06,San Jose,CA,95112,US,HEALTHY
+PLAYER725,Skyler,Jeffries,Skyler Jeffries,skyler.jeffries725@example.com,+1-730-555-5610,sjeffries84,Silver,Essential,2017-07-14,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER726,Skyler,King,Skyler King,skyler.king726@example.com,+1-358-555-9247,sking53,Platinum,Essential,2018-06-11,Denver,CO,80014,US,HEALTHY
+PLAYER727,Quinn,Lopez,Quinn Lopez,quinn.lopez727@example.com,+1-929-555-2867,qlopez88,Gold,Premium,2021-12-19,Chicago,IL,60601,US,HEALTHY
+PLAYER728,Blake,Wright,Blake Wright,blake.wright728@example.com,+1-556-555-6104,bwright24,Gold,Premium,2021-05-18,San Francisco,CA,94102,US,HEALTHY
+PLAYER729,Skyler,Nguyen,Skyler Nguyen,skyler.nguyen729@example.com,+1-926-555-5991,snguyen86,Silver,Premium,2017-12-06,Miami,FL,33101,US,HEALTHY
+PLAYER730,Alex,Jeffries,Alex Jeffries,alex.jeffries730@example.com,+1-514-555-3053,ajeffries26,Gold,Essential,2018-07-17,Palo Alto,CA,94301,US,HEALTHY
+PLAYER731,Avery,Nguyen,Avery Nguyen,avery.nguyen731@example.com,+1-219-555-8934,anguyen64,Gold,Extra,2016-11-14,San Francisco,CA,94102,US,HEALTHY
+PLAYER732,Blake,Chen,Blake Chen,blake.chen732@example.com,+1-260-555-8685,bchen23,Bronze,Extra,2022-08-26,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER733,Morgan,Brown,Morgan Brown,morgan.brown733@example.com,+1-326-555-4365,mbrown18,Silver,Essential,2017-01-30,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER734,Kai,Lopez,Kai Lopez,kai.lopez734@example.com,+1-793-555-6698,klopez95,Silver,Essential,2019-02-10,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER735,Skyler,Kim,Skyler Kim,skyler.kim735@example.com,+1-792-555-1229,skim88,Bronze,Extra,2017-02-09,Chicago,IL,60601,US,HEALTHY
+PLAYER736,Logan,Lopez,Logan Lopez,logan.lopez736@example.com,+1-942-555-2616,llopez46,Bronze,Extra,2016-01-18,Palo Alto,CA,94301,US,EDGE_MODULE_PATH
+PLAYER737,Avery,Scott,Avery Scott,avery.scott737@example.com,+1-309-555-3963,ascott56,Gold,Essential,2023-07-21,Miami,FL,33101,US,HEALTHY
+PLAYER738,Skyler,Young,Skyler Young,skyler.young738@example.com,+1-326-555-8633,syoung37,Silver,Essential,2019-07-11,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER739,Morgan,Scott,Morgan Scott,morgan.scott739@example.com,+1-939-555-1665,mscott73,Gold,Extra,2022-04-01,San Jose,CA,95112,US,HEALTHY
+PLAYER740,Taylor,Davis,Taylor Davis,taylor.davis740@example.com,+1-903-555-8273,tdavis24,Silver,Extra,2019-07-01,Miami,FL,33101,US,HEALTHY
+PLAYER741,Quinn,Green,Quinn Green,quinn.green741@example.com,+1-687-555-7020,qgreen47,Platinum,Essential,2016-10-12,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER742,Riley,Rivera,Riley Rivera,riley.rivera742@example.com,+1-892-555-2392,rrivera96,Bronze,Essential,2023-05-21,Miami,FL,33101,US,HEALTHY
+PLAYER743,Morgan,Nguyen,Morgan Nguyen,morgan.nguyen743@example.com,+1-266-555-6959,mnguyen61,Gold,Premium,2017-11-22,Denver,CO,80014,US,DRIFT_RISK
+PLAYER744,Avery,Davis,Avery Davis,avery.davis744@example.com,+1-634-555-9177,adavis86,Gold,Essential,2018-08-11,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER745,Cameron,Baker,Cameron Baker,cameron.baker745@example.com,+1-564-555-8795,cbaker44,Gold,Premium,2020-06-27,Boston,MA,02108,US,DRIFT_RISK
+PLAYER746,Sage,Young,Sage Young,sage.young746@example.com,+1-325-555-5107,syoung75,Silver,Extra,2017-03-18,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER747,Rowan,King,Rowan King,rowan.king747@example.com,+1-269-555-9161,rking90,Platinum,Essential,2016-08-04,Palo Alto,CA,94301,US,HEALTHY
+PLAYER748,Alex,Kim,Alex Kim,alex.kim748@example.com,+1-838-555-2578,akim87,Gold,Essential,2022-12-22,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER749,Taylor,Scott,Taylor Scott,taylor.scott749@example.com,+1-716-555-5287,tscott69,Bronze,Extra,2021-07-01,Miami,FL,33101,US,HEALTHY
+PLAYER750,Emerson,Davis,Emerson Davis,emerson.davis750@example.com,+1-321-555-7285,edavis79,Bronze,Extra,2020-10-28,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER751,Hayden,Davis,Hayden Davis,hayden.davis751@example.com,+1-875-555-5965,hdavis66,Silver,Essential,2022-03-30,Denver,CO,80014,US,HEALTHY
+PLAYER752,Riley,King,Riley King,riley.king752@example.com,+1-782-555-9037,rking27,Silver,Essential,2017-03-24,Denver,CO,80014,US,HEALTHY
+PLAYER753,Emerson,Green,Emerson Green,emerson.green753@example.com,+1-257-555-7412,egreen70,Silver,Premium,2021-09-06,Boston,MA,02108,US,HEALTHY
+PLAYER754,Cameron,King,Cameron King,cameron.king754@example.com,+1-528-555-2006,cking58,Gold,Essential,2019-03-11,Boston,MA,02108,US,HEALTHY
+PLAYER755,Alex,Baker,Alex Baker,alex.baker755@example.com,+1-227-555-6591,abaker26,Gold,Essential,2022-07-19,San Mateo,CA,94402,US,HEALTHY
+PLAYER756,Reese,Jeffries,Reese Jeffries,reese.jeffries756@example.com,+1-877-555-5001,rjeffries54,Platinum,Essential,2016-08-19,Denver,CO,80014,US,HEALTHY
+PLAYER757,Quinn,Johnson,Quinn Johnson,quinn.johnson757@example.com,+1-317-555-6531,qjohnson85,Bronze,Extra,2019-06-02,Austin,TX,73301,US,HEALTHY
+PLAYER758,Riley,Rivera,Riley Rivera,riley.rivera758@example.com,+1-781-555-9433,rrivera51,Bronze,Extra,2020-09-26,Chicago,IL,60601,US,FIRMWARE_DISCONNECT_RISK
+PLAYER759,Blake,Brown,Blake Brown,blake.brown759@example.com,+1-586-555-7394,bbrown99,Silver,Essential,2019-07-20,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER760,Parker,Baker,Parker Baker,parker.baker760@example.com,+1-708-555-9237,pbaker72,Bronze,Extra,2019-10-08,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER761,Parker,Kim,Parker Kim,parker.kim761@example.com,+1-850-555-2234,pkim48,Silver,Essential,2021-07-28,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER762,Emerson,Lopez,Emerson Lopez,emerson.lopez762@example.com,+1-431-555-2506,elopez43,Bronze,Premium,2020-07-04,Austin,TX,73301,US,HEALTHY
+PLAYER763,Kai,Jeffries,Kai Jeffries,kai.jeffries763@example.com,+1-686-555-7997,kjeffries53,Silver,Extra,2021-12-15,Boston,MA,02108,US,HEALTHY
+PLAYER764,Avery,Clark,Avery Clark,avery.clark764@example.com,+1-643-555-9846,aclark93,Gold,Extra,2019-05-13,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER765,Parker,Lopez,Parker Lopez,parker.lopez765@example.com,+1-981-555-9971,plopez61,Silver,Extra,2023-07-13,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER766,Riley,Rivera,Riley Rivera,riley.rivera766@example.com,+1-474-555-9728,rrivera33,Silver,Essential,2021-03-29,Chicago,IL,60601,US,HEALTHY
+PLAYER767,Sage,Allen,Sage Allen,sage.allen767@example.com,+1-351-555-4938,sallen90,Bronze,Essential,2021-03-09,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER768,Casey,Wilson,Casey Wilson,casey.wilson768@example.com,+1-849-555-4335,cwilson62,Silver,Premium,2016-09-20,Denver,CO,80014,US,HEALTHY
+PLAYER769,Blake,Brown,Blake Brown,blake.brown769@example.com,+1-615-555-4907,bbrown92,Bronze,Extra,2018-08-25,Austin,TX,73301,US,DRIFT_RISK
+PLAYER770,Morgan,Nguyen,Morgan Nguyen,morgan.nguyen770@example.com,+1-697-555-8145,mnguyen13,Bronze,Premium,2021-03-16,Palo Alto,CA,94301,US,HEALTHY
+PLAYER771,Blake,Chen,Blake Chen,blake.chen771@example.com,+1-874-555-3883,bchen30,Silver,Essential,2019-02-11,Palo Alto,CA,94301,US,HEALTHY
+PLAYER772,Jordan,King,Jordan King,jordan.king772@example.com,+1-505-555-2041,jking17,Gold,Essential,2022-09-30,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER773,Blake,Clark,Blake Clark,blake.clark773@example.com,+1-441-555-2833,bclark60,Platinum,Extra,2017-07-29,San Francisco,CA,94102,US,HEALTHY
+PLAYER774,Kai,Scott,Kai Scott,kai.scott774@example.com,+1-457-555-9133,kscott76,Gold,Extra,2021-11-21,San Francisco,CA,94102,US,HEALTHY
+PLAYER775,Taylor,Johnson,Taylor Johnson,taylor.johnson775@example.com,+1-954-555-7388,tjohnson25,Gold,Essential,2022-07-21,Boston,MA,02108,US,HEALTHY
+PLAYER776,Quinn,Allen,Quinn Allen,quinn.allen776@example.com,+1-650-555-7690,qallen28,Bronze,Essential,2019-01-29,Palo Alto,CA,94301,US,HEALTHY
+PLAYER777,Cameron,Baker,Cameron Baker,cameron.baker777@example.com,+1-524-555-9941,cbaker72,Silver,Extra,2017-04-07,San Mateo,CA,94402,US,HEALTHY
+PLAYER778,Blake,King,Blake King,blake.king778@example.com,+1-686-555-7025,bking45,Gold,Premium,2020-01-26,Palo Alto,CA,94301,US,HEALTHY
+PLAYER779,Drew,Rivera,Drew Rivera,drew.rivera779@example.com,+1-907-555-4926,drivera14,Gold,Extra,2016-08-11,Boston,MA,02108,US,HEALTHY
+PLAYER780,Cameron,Green,Cameron Green,cameron.green780@example.com,+1-324-555-9763,cgreen49,Gold,Extra,2023-09-07,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER781,Quinn,Wright,Quinn Wright,quinn.wright781@example.com,+1-508-555-2478,qwright11,Platinum,Essential,2018-11-12,Denver,CO,80014,US,HEALTHY
+PLAYER782,Quinn,Wilson,Quinn Wilson,quinn.wilson782@example.com,+1-616-555-1555,qwilson30,Platinum,Extra,2023-03-24,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER783,Cameron,Patel,Cameron Patel,cameron.patel783@example.com,+1-934-555-7920,cpatel70,Gold,Premium,2019-09-24,Miami,FL,33101,US,HEALTHY
+PLAYER784,Morgan,Kim,Morgan Kim,morgan.kim784@example.com,+1-760-555-6353,mkim74,Bronze,Essential,2024-03-05,Austin,TX,73301,US,HEALTHY
+PLAYER785,Hayden,Rivera,Hayden Rivera,hayden.rivera785@example.com,+1-339-555-1050,hrivera92,Gold,Extra,2023-03-10,San Mateo,CA,94402,US,BATTERY_DEGRADATION
+PLAYER786,Reese,Lopez,Reese Lopez,reese.lopez786@example.com,+1-728-555-3131,rlopez50,Silver,Essential,2018-10-19,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER787,Sage,Allen,Sage Allen,sage.allen787@example.com,+1-377-555-6367,sallen67,Silver,Extra,2018-12-03,Seattle,WA,98101,US,HEALTHY
+PLAYER788,Drew,Lopez,Drew Lopez,drew.lopez788@example.com,+1-784-555-4677,dlopez63,Silver,Essential,2020-03-25,San Francisco,CA,94102,US,HEALTHY
+PLAYER789,Alex,Rivera,Alex Rivera,alex.rivera789@example.com,+1-673-555-4248,arivera92,Gold,Essential,2016-12-30,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER790,Cameron,Kim,Cameron Kim,cameron.kim790@example.com,+1-291-555-7028,ckim61,Gold,Extra,2017-09-03,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER791,Riley,Baker,Riley Baker,riley.baker791@example.com,+1-889-555-9096,rbaker11,Gold,Essential,2021-02-01,San Francisco,CA,94102,US,HEALTHY
+PLAYER792,Morgan,Johnson,Morgan Johnson,morgan.johnson792@example.com,+1-494-555-9096,mjohnson34,Platinum,Premium,2018-12-26,Palo Alto,CA,94301,US,HEALTHY
+PLAYER793,Reese,Nguyen,Reese Nguyen,reese.nguyen793@example.com,+1-944-555-4102,rnguyen36,Gold,Premium,2019-03-05,Denver,CO,80014,US,HEALTHY
+PLAYER794,Blake,Kim,Blake Kim,blake.kim794@example.com,+1-832-555-8388,bkim28,Bronze,Premium,2018-08-22,Denver,CO,80014,US,HEALTHY
+PLAYER795,Quinn,Clark,Quinn Clark,quinn.clark795@example.com,+1-336-555-6296,qclark97,Gold,Essential,2021-04-04,Boston,MA,02108,US,BATTERY_DEGRADATION
+PLAYER796,Reese,Lopez,Reese Lopez,reese.lopez796@example.com,+1-770-555-1962,rlopez64,Gold,Essential,2017-01-25,Denver,CO,80014,US,HEALTHY
+PLAYER797,Jordan,Davis,Jordan Davis,jordan.davis797@example.com,+1-812-555-1745,jdavis70,Platinum,Premium,2023-07-10,Palo Alto,CA,94301,US,BATTERY_DEGRADATION
+PLAYER798,Alex,Brown,Alex Brown,alex.brown798@example.com,+1-579-555-3166,abrown89,Silver,Premium,2023-07-12,Chicago,IL,60601,US,HEALTHY
+PLAYER799,Emerson,Chen,Emerson Chen,emerson.chen799@example.com,+1-679-555-3161,echen32,Silver,Extra,2019-10-21,Boston,MA,02108,US,HEALTHY
+PLAYER800,Taylor,Davis,Taylor Davis,taylor.davis800@example.com,+1-330-555-9179,tdavis65,Bronze,Essential,2016-06-29,Chicago,IL,60601,US,HEALTHY
+PLAYER801,Cameron,Clark,Cameron Clark,cameron.clark801@example.com,+1-729-555-6128,cclark46,Platinum,Essential,2018-12-16,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER802,Blake,Kim,Blake Kim,blake.kim802@example.com,+1-851-555-8208,bkim72,Gold,Essential,2023-05-16,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER803,Jordan,Lopez,Jordan Lopez,jordan.lopez803@example.com,+1-367-555-8653,jlopez16,Bronze,Essential,2018-12-01,San Jose,CA,95112,US,HEALTHY
+PLAYER804,Blake,Jeffries,Blake Jeffries,blake.jeffries804@example.com,+1-696-555-8499,bjeffries15,Silver,Premium,2022-04-16,Miami,FL,33101,US,HEALTHY
+PLAYER805,Rowan,Jeffries,Rowan Jeffries,rowan.jeffries805@example.com,+1-384-555-3757,rjeffries25,Silver,Essential,2019-03-09,San Jose,CA,95112,US,HEALTHY
+PLAYER806,Logan,Brown,Logan Brown,logan.brown806@example.com,+1-738-555-3958,lbrown94,Silver,Extra,2016-01-17,Boston,MA,02108,US,HEALTHY
+PLAYER807,Blake,Patel,Blake Patel,blake.patel807@example.com,+1-491-555-2998,bpatel73,Gold,Premium,2016-04-16,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER808,Reese,Clark,Reese Clark,reese.clark808@example.com,+1-671-555-8861,rclark23,Gold,Essential,2016-11-28,Boston,MA,02108,US,EDGE_MODULE_PATH
+PLAYER809,Hayden,Brown,Hayden Brown,hayden.brown809@example.com,+1-837-555-8423,hbrown94,Bronze,Premium,2023-05-11,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER810,Parker,Baker,Parker Baker,parker.baker810@example.com,+1-530-555-1909,pbaker37,Gold,Premium,2019-03-04,San Jose,CA,95112,US,HEALTHY
+PLAYER811,Taylor,Green,Taylor Green,taylor.green811@example.com,+1-989-555-7535,tgreen58,Bronze,Essential,2018-09-10,Boston,MA,02108,US,HEALTHY
+PLAYER812,Taylor,Rivera,Taylor Rivera,taylor.rivera812@example.com,+1-970-555-3525,trivera30,Silver,Essential,2023-04-04,Palo Alto,CA,94301,US,HEALTHY
+PLAYER813,Morgan,Wilson,Morgan Wilson,morgan.wilson813@example.com,+1-817-555-3151,mwilson65,Gold,Premium,2023-09-06,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER814,Skyler,Jeffries,Skyler Jeffries,skyler.jeffries814@example.com,+1-687-555-5398,sjeffries75,Bronze,Essential,2020-05-08,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER815,Kai,Adams,Kai Adams,kai.adams815@example.com,+1-390-555-8112,kadams21,Gold,Premium,2022-11-19,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER816,Blake,Patel,Blake Patel,blake.patel816@example.com,+1-863-555-3540,bpatel75,Silver,Extra,2018-07-07,San Mateo,CA,94402,US,HEALTHY
+PLAYER817,Rowan,Scott,Rowan Scott,rowan.scott817@example.com,+1-507-555-3434,rscott20,Silver,Essential,2021-05-10,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER818,Casey,Wilson,Casey Wilson,casey.wilson818@example.com,+1-278-555-1738,cwilson76,Silver,Extra,2022-03-06,Palo Alto,CA,94301,US,HEALTHY
+PLAYER819,Logan,Jeffries,Logan Jeffries,logan.jeffries819@example.com,+1-782-555-5151,ljeffries64,Silver,Extra,2024-01-29,Chicago,IL,60601,US,HEALTHY
+PLAYER820,Skyler,Brown,Skyler Brown,skyler.brown820@example.com,+1-673-555-3941,sbrown20,Gold,Essential,2023-06-02,Boston,MA,02108,US,DRIFT_RISK
+PLAYER821,Riley,Young,Riley Young,riley.young821@example.com,+1-801-555-8454,ryoung20,Silver,Extra,2019-07-09,San Mateo,CA,94402,US,HEALTHY
+PLAYER822,Hayden,Adams,Hayden Adams,hayden.adams822@example.com,+1-416-555-4032,hadams53,Platinum,Premium,2018-02-05,Austin,TX,73301,US,HEALTHY
+PLAYER823,Taylor,Adams,Taylor Adams,taylor.adams823@example.com,+1-604-555-2911,tadams96,Bronze,Extra,2016-01-24,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER824,Alex,Kim,Alex Kim,alex.kim824@example.com,+1-943-555-8974,akim68,Gold,Premium,2022-10-01,Miami,FL,33101,US,HEALTHY
+PLAYER825,Drew,Adams,Drew Adams,drew.adams825@example.com,+1-604-555-5958,dadams56,Gold,Premium,2023-07-28,Boston,MA,02108,US,DRIFT_RISK
+PLAYER826,Taylor,Nguyen,Taylor Nguyen,taylor.nguyen826@example.com,+1-392-555-1439,tnguyen11,Bronze,Premium,2023-10-21,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER827,Avery,King,Avery King,avery.king827@example.com,+1-395-555-2410,aking93,Bronze,Premium,2022-01-15,San Jose,CA,95112,US,HEALTHY
+PLAYER828,Drew,Wright,Drew Wright,drew.wright828@example.com,+1-956-555-8295,dwright70,Silver,Essential,2017-09-16,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER829,Rowan,King,Rowan King,rowan.king829@example.com,+1-601-555-1834,rking67,Silver,Essential,2022-05-21,San Mateo,CA,94402,US,HEALTHY
+PLAYER830,Parker,Rivera,Parker Rivera,parker.rivera830@example.com,+1-707-555-5764,privera90,Gold,Essential,2020-08-29,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER831,Jordan,King,Jordan King,jordan.king831@example.com,+1-699-555-4799,jking72,Silver,Extra,2023-08-11,Denver,CO,80014,US,DRIFT_RISK
+PLAYER832,Jordan,Scott,Jordan Scott,jordan.scott832@example.com,+1-863-555-7834,jscott64,Silver,Extra,2019-01-02,San Mateo,CA,94402,US,HEALTHY
+PLAYER833,Rowan,Jeffries,Rowan Jeffries,rowan.jeffries833@example.com,+1-646-555-1340,rjeffries89,Platinum,Essential,2023-10-28,Miami,FL,33101,US,BATTERY_DEGRADATION
+PLAYER834,Riley,Wilson,Riley Wilson,riley.wilson834@example.com,+1-801-555-6556,rwilson70,Silver,Essential,2018-06-18,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER835,Sage,Wright,Sage Wright,sage.wright835@example.com,+1-889-555-6902,swright47,Gold,Essential,2020-09-03,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER836,Rowan,Kim,Rowan Kim,rowan.kim836@example.com,+1-694-555-3115,rkim36,Silver,Extra,2023-06-25,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER837,Riley,Lopez,Riley Lopez,riley.lopez837@example.com,+1-510-555-4845,rlopez87,Silver,Extra,2021-07-15,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER838,Avery,Green,Avery Green,avery.green838@example.com,+1-362-555-3862,agreen12,Silver,Essential,2023-08-04,San Mateo,CA,94402,US,HEALTHY
+PLAYER839,Logan,Chen,Logan Chen,logan.chen839@example.com,+1-775-555-4671,lchen53,Silver,Extra,2017-05-09,San Francisco,CA,94102,US,HEALTHY
+PLAYER840,Rowan,Brown,Rowan Brown,rowan.brown840@example.com,+1-473-555-3476,rbrown55,Gold,Extra,2022-03-31,Seattle,WA,98101,US,HEALTHY
+PLAYER841,Logan,Adams,Logan Adams,logan.adams841@example.com,+1-973-555-2817,ladams16,Platinum,Essential,2021-02-15,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER842,Morgan,Adams,Morgan Adams,morgan.adams842@example.com,+1-371-555-2934,madams23,Gold,Essential,2017-03-07,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER843,Avery,Clark,Avery Clark,avery.clark843@example.com,+1-950-555-2626,aclark47,Gold,Extra,2021-08-03,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER844,Casey,Clark,Casey Clark,casey.clark844@example.com,+1-987-555-1107,cclark27,Bronze,Essential,2020-08-29,Seattle,WA,98101,US,HEALTHY
+PLAYER845,Quinn,King,Quinn King,quinn.king845@example.com,+1-932-555-7799,qking46,Silver,Essential,2020-03-05,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER846,Skyler,Johnson,Skyler Johnson,skyler.johnson846@example.com,+1-623-555-7706,sjohnson77,Silver,Essential,2020-10-22,San Jose,CA,95112,US,HEALTHY
+PLAYER847,Hayden,Scott,Hayden Scott,hayden.scott847@example.com,+1-729-555-2140,hscott13,Silver,Extra,2024-01-18,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER848,Taylor,Davis,Taylor Davis,taylor.davis848@example.com,+1-602-555-1607,tdavis61,Platinum,Essential,2016-09-08,Seattle,WA,98101,US,HEALTHY
+PLAYER849,Casey,Baker,Casey Baker,casey.baker849@example.com,+1-502-555-7869,cbaker90,Platinum,Extra,2021-10-30,San Mateo,CA,94402,US,HEALTHY
+PLAYER850,Reese,Green,Reese Green,reese.green850@example.com,+1-740-555-3406,rgreen50,Platinum,Essential,2019-02-19,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER851,Reese,Wright,Reese Wright,reese.wright851@example.com,+1-914-555-6656,rwright79,Gold,Extra,2020-12-16,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER852,Reese,Lopez,Reese Lopez,reese.lopez852@example.com,+1-936-555-3064,rlopez20,Bronze,Essential,2024-02-18,Austin,TX,73301,US,HEALTHY
+PLAYER853,Logan,Green,Logan Green,logan.green853@example.com,+1-548-555-3621,lgreen37,Bronze,Extra,2021-11-05,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER854,Alex,Rivera,Alex Rivera,alex.rivera854@example.com,+1-943-555-7926,arivera85,Silver,Premium,2019-05-29,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER855,Logan,Jeffries,Logan Jeffries,logan.jeffries855@example.com,+1-248-555-3043,ljeffries57,Silver,Extra,2017-05-22,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER856,Hayden,Wilson,Hayden Wilson,hayden.wilson856@example.com,+1-779-555-9737,hwilson10,Silver,Premium,2022-07-10,Boston,MA,02108,US,HEALTHY
+PLAYER857,Sage,Johnson,Sage Johnson,sage.johnson857@example.com,+1-786-555-3293,sjohnson48,Silver,Extra,2024-01-07,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER858,Reese,Scott,Reese Scott,reese.scott858@example.com,+1-665-555-2605,rscott23,Silver,Extra,2020-01-19,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER859,Casey,Allen,Casey Allen,casey.allen859@example.com,+1-687-555-4519,callen20,Bronze,Essential,2017-06-16,Denver,CO,80014,US,DRIFT_RISK
+PLAYER860,Hayden,Patel,Hayden Patel,hayden.patel860@example.com,+1-997-555-7468,hpatel96,Silver,Extra,2021-10-26,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER861,Cameron,Baker,Cameron Baker,cameron.baker861@example.com,+1-949-555-7830,cbaker91,Silver,Essential,2021-06-28,Miami,FL,33101,US,HEALTHY
+PLAYER862,Riley,Nguyen,Riley Nguyen,riley.nguyen862@example.com,+1-725-555-9669,rnguyen26,Silver,Extra,2023-11-25,Chicago,IL,60601,US,HEALTHY
+PLAYER863,Morgan,Lopez,Morgan Lopez,morgan.lopez863@example.com,+1-578-555-2945,mlopez70,Bronze,Essential,2022-04-08,Miami,FL,33101,US,HEALTHY
+PLAYER864,Sage,Allen,Sage Allen,sage.allen864@example.com,+1-356-555-2929,sallen25,Silver,Essential,2021-11-11,San Francisco,CA,94102,US,HEALTHY
+PLAYER865,Skyler,Wilson,Skyler Wilson,skyler.wilson865@example.com,+1-345-555-7910,swilson48,Silver,Essential,2017-08-08,Seattle,WA,98101,US,HEALTHY
+PLAYER866,Jordan,Wilson,Jordan Wilson,jordan.wilson866@example.com,+1-325-555-9970,jwilson37,Bronze,Extra,2016-01-09,Austin,TX,73301,US,HEALTHY
+PLAYER867,Skyler,Patel,Skyler Patel,skyler.patel867@example.com,+1-545-555-7181,spatel63,Silver,Essential,2021-01-26,San Mateo,CA,94402,US,HEALTHY
+PLAYER868,Rowan,Adams,Rowan Adams,rowan.adams868@example.com,+1-883-555-8357,radams27,Silver,Extra,2021-01-16,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER869,Casey,Davis,Casey Davis,casey.davis869@example.com,+1-604-555-6554,cdavis89,Gold,Essential,2018-08-11,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER870,Emerson,Chen,Emerson Chen,emerson.chen870@example.com,+1-225-555-6060,echen45,Gold,Premium,2023-12-06,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER871,Emerson,Jeffries,Emerson Jeffries,emerson.jeffries871@example.com,+1-975-555-1866,ejeffries20,Bronze,Extra,2022-06-20,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER872,Kai,Scott,Kai Scott,kai.scott872@example.com,+1-744-555-3944,kscott70,Silver,Essential,2023-05-20,Palo Alto,CA,94301,US,BATTERY_DEGRADATION
+PLAYER873,Alex,Brown,Alex Brown,alex.brown873@example.com,+1-654-555-2386,abrown41,Gold,Premium,2022-07-01,Palo Alto,CA,94301,US,HEALTHY
+PLAYER874,Emerson,Adams,Emerson Adams,emerson.adams874@example.com,+1-548-555-8160,eadams61,Silver,Extra,2016-04-05,Seattle,WA,98101,US,BATTERY_DEGRADATION
+PLAYER875,Riley,Allen,Riley Allen,riley.allen875@example.com,+1-301-555-9876,rallen77,Silver,Essential,2017-04-14,San Mateo,CA,94402,US,HEALTHY
+PLAYER876,Riley,Wilson,Riley Wilson,riley.wilson876@example.com,+1-617-555-3772,rwilson33,Silver,Essential,2019-06-10,San Jose,CA,95112,US,HEALTHY
+PLAYER877,Jordan,Adams,Jordan Adams,jordan.adams877@example.com,+1-301-555-6243,jadams33,Bronze,Essential,2020-05-16,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER878,Casey,Allen,Casey Allen,casey.allen878@example.com,+1-253-555-4318,callen43,Silver,Premium,2017-05-10,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER879,Quinn,Adams,Quinn Adams,quinn.adams879@example.com,+1-317-555-5412,qadams40,Silver,Extra,2020-04-26,Boston,MA,02108,US,HEALTHY
+PLAYER880,Jordan,Davis,Jordan Davis,jordan.davis880@example.com,+1-848-555-4829,jdavis80,Silver,Extra,2020-07-27,Miami,FL,33101,US,HEALTHY
+PLAYER881,Alex,Brown,Alex Brown,alex.brown881@example.com,+1-867-555-3057,abrown85,Gold,Essential,2022-03-22,Chicago,IL,60601,US,HEALTHY
+PLAYER882,Drew,Baker,Drew Baker,drew.baker882@example.com,+1-345-555-7116,dbaker67,Bronze,Extra,2018-04-13,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER883,Emerson,Kim,Emerson Kim,emerson.kim883@example.com,+1-662-555-1684,ekim78,Platinum,Premium,2022-03-23,Palo Alto,CA,94301,US,HEALTHY
+PLAYER884,Alex,Wright,Alex Wright,alex.wright884@example.com,+1-693-555-5477,awright47,Gold,Essential,2016-09-03,Boston,MA,02108,US,HEALTHY
+PLAYER885,Sage,Brown,Sage Brown,sage.brown885@example.com,+1-488-555-1745,sbrown54,Gold,Essential,2021-09-21,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER886,Riley,Green,Riley Green,riley.green886@example.com,+1-343-555-5578,rgreen18,Silver,Essential,2017-05-18,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER887,Blake,Lopez,Blake Lopez,blake.lopez887@example.com,+1-550-555-5282,blopez74,Platinum,Essential,2023-08-25,Boston,MA,02108,US,HEALTHY
+PLAYER888,Hayden,Brown,Hayden Brown,hayden.brown888@example.com,+1-813-555-6381,hbrown94,Platinum,Essential,2021-02-26,Palo Alto,CA,94301,US,HEALTHY
+PLAYER889,Alex,Nguyen,Alex Nguyen,alex.nguyen889@example.com,+1-377-555-7769,anguyen87,Silver,Premium,2023-07-18,San Mateo,CA,94402,US,HEALTHY
+PLAYER890,Emerson,King,Emerson King,emerson.king890@example.com,+1-279-555-9825,eking78,Bronze,Premium,2023-04-21,Denver,CO,80014,US,HEALTHY
+PLAYER891,Alex,Wright,Alex Wright,alex.wright891@example.com,+1-566-555-7336,awright55,Platinum,Essential,2022-09-28,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER892,Riley,Rivera,Riley Rivera,riley.rivera892@example.com,+1-426-555-1324,rrivera69,Silver,Essential,2016-02-08,San Francisco,CA,94102,US,EDGE_MODULE_PATH
+PLAYER893,Cameron,Clark,Cameron Clark,cameron.clark893@example.com,+1-426-555-4838,cclark21,Gold,Extra,2024-01-19,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER894,Rowan,Clark,Rowan Clark,rowan.clark894@example.com,+1-414-555-1116,rclark45,Silver,Extra,2022-10-18,San Mateo,CA,94402,US,HEALTHY
+PLAYER895,Avery,Young,Avery Young,avery.young895@example.com,+1-398-555-3875,ayoung45,Silver,Extra,2022-03-10,San Francisco,CA,94102,US,HEALTHY
+PLAYER896,Taylor,Baker,Taylor Baker,taylor.baker896@example.com,+1-735-555-5494,tbaker18,Bronze,Premium,2018-07-22,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER897,Avery,Rivera,Avery Rivera,avery.rivera897@example.com,+1-202-555-7997,arivera88,Silver,Extra,2021-02-02,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER898,Jordan,Davis,Jordan Davis,jordan.davis898@example.com,+1-707-555-6922,jdavis62,Silver,Extra,2021-03-26,Denver,CO,80014,US,BATTERY_DEGRADATION
+PLAYER899,Logan,Chen,Logan Chen,logan.chen899@example.com,+1-523-555-1084,lchen16,Silver,Essential,2021-01-12,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER900,Reese,Lopez,Reese Lopez,reese.lopez900@example.com,+1-906-555-7943,rlopez20,Gold,Premium,2018-07-13,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER901,Taylor,Johnson,Taylor Johnson,taylor.johnson901@example.com,+1-299-555-1456,tjohnson31,Silver,Essential,2023-01-05,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER902,Rowan,Allen,Rowan Allen,rowan.allen902@example.com,+1-453-555-2766,rallen85,Gold,Premium,2018-10-22,San Mateo,CA,94402,US,HEALTHY
+PLAYER903,Rowan,Johnson,Rowan Johnson,rowan.johnson903@example.com,+1-274-555-8184,rjohnson16,Gold,Extra,2018-08-27,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER904,Morgan,Wright,Morgan Wright,morgan.wright904@example.com,+1-586-555-6132,mwright25,Bronze,Essential,2016-05-16,Boston,MA,02108,US,HEALTHY
+PLAYER905,Taylor,Nguyen,Taylor Nguyen,taylor.nguyen905@example.com,+1-267-555-2668,tnguyen66,Bronze,Extra,2020-11-03,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER906,Jordan,Green,Jordan Green,jordan.green906@example.com,+1-970-555-7735,jgreen47,Gold,Essential,2022-12-03,San Mateo,CA,94402,US,HEALTHY
+PLAYER907,Quinn,Adams,Quinn Adams,quinn.adams907@example.com,+1-835-555-2659,qadams11,Silver,Extra,2020-10-19,Boston,MA,02108,US,HEALTHY
+PLAYER908,Parker,Rivera,Parker Rivera,parker.rivera908@example.com,+1-212-555-2106,privera76,Silver,Essential,2017-02-24,Miami,FL,33101,US,DRIFT_RISK
+PLAYER909,Kai,Lopez,Kai Lopez,kai.lopez909@example.com,+1-692-555-8284,klopez26,Gold,Essential,2020-09-20,Boston,MA,02108,US,DRIFT_RISK
+PLAYER910,Riley,Johnson,Riley Johnson,riley.johnson910@example.com,+1-725-555-6861,rjohnson15,Bronze,Essential,2020-11-20,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER911,Drew,Baker,Drew Baker,drew.baker911@example.com,+1-498-555-7042,dbaker28,Bronze,Essential,2019-11-05,Chicago,IL,60601,US,HEALTHY
+PLAYER912,Alex,Scott,Alex Scott,alex.scott912@example.com,+1-772-555-1894,ascott94,Gold,Essential,2021-09-08,Boston,MA,02108,US,DRIFT_RISK
+PLAYER913,Blake,Clark,Blake Clark,blake.clark913@example.com,+1-549-555-4102,bclark35,Gold,Essential,2016-10-07,Palo Alto,CA,94301,US,HEALTHY
+PLAYER914,Rowan,Wright,Rowan Wright,rowan.wright914@example.com,+1-830-555-5909,rwright98,Silver,Extra,2019-10-06,Boston,MA,02108,US,DRIFT_RISK
+PLAYER915,Blake,Davis,Blake Davis,blake.davis915@example.com,+1-707-555-4594,bdavis23,Silver,Extra,2016-06-21,San Jose,CA,95112,US,HEALTHY
+PLAYER916,Alex,Johnson,Alex Johnson,alex.johnson916@example.com,+1-957-555-7158,ajohnson69,Gold,Essential,2019-09-19,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER917,Avery,Young,Avery Young,avery.young917@example.com,+1-768-555-2887,ayoung10,Silver,Essential,2016-05-02,San Jose,CA,95112,US,EDGE_MODULE_PATH
+PLAYER918,Casey,Wilson,Casey Wilson,casey.wilson918@example.com,+1-244-555-1486,cwilson34,Gold,Premium,2020-01-14,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER919,Avery,Lopez,Avery Lopez,avery.lopez919@example.com,+1-547-555-5029,alopez32,Bronze,Essential,2017-12-14,Austin,TX,73301,US,DRIFT_RISK
+PLAYER920,Riley,Lopez,Riley Lopez,riley.lopez920@example.com,+1-893-555-3248,rlopez32,Gold,Premium,2016-03-26,San Mateo,CA,94402,US,HEALTHY
+PLAYER921,Reese,Jeffries,Reese Jeffries,reese.jeffries921@example.com,+1-876-555-3807,rjeffries36,Silver,Essential,2020-03-05,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER922,Logan,Adams,Logan Adams,logan.adams922@example.com,+1-394-555-4140,ladams18,Bronze,Premium,2017-06-19,Denver,CO,80014,US,HEALTHY
+PLAYER923,Emerson,Young,Emerson Young,emerson.young923@example.com,+1-247-555-4098,eyoung50,Silver,Premium,2018-09-28,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER924,Emerson,Wilson,Emerson Wilson,emerson.wilson924@example.com,+1-329-555-9327,ewilson51,Bronze,Extra,2019-02-21,San Jose,CA,95112,US,HEALTHY
+PLAYER925,Kai,King,Kai King,kai.king925@example.com,+1-266-555-3743,kking20,Gold,Extra,2022-11-23,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER926,Logan,Young,Logan Young,logan.young926@example.com,+1-929-555-7125,lyoung57,Silver,Extra,2019-08-11,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER927,Logan,King,Logan King,logan.king927@example.com,+1-865-555-1599,lking70,Silver,Essential,2022-07-19,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER928,Avery,Johnson,Avery Johnson,avery.johnson928@example.com,+1-635-555-7178,ajohnson67,Gold,Essential,2019-06-07,Palo Alto,CA,94301,US,DRIFT_RISK
+PLAYER929,Kai,Kim,Kai Kim,kai.kim929@example.com,+1-502-555-8282,kkim42,Silver,Essential,2016-12-10,Seattle,WA,98101,US,HEALTHY
+PLAYER930,Logan,Clark,Logan Clark,logan.clark930@example.com,+1-636-555-8391,lclark84,Bronze,Extra,2019-10-09,Palo Alto,CA,94301,US,HEALTHY
+PLAYER931,Hayden,Allen,Hayden Allen,hayden.allen931@example.com,+1-225-555-3942,hallen57,Gold,Essential,2020-04-15,Denver,CO,80014,US,HEALTHY
+PLAYER932,Hayden,Johnson,Hayden Johnson,hayden.johnson932@example.com,+1-713-555-9401,hjohnson92,Bronze,Premium,2019-04-21,Austin,TX,73301,US,HEALTHY
+PLAYER933,Emerson,Patel,Emerson Patel,emerson.patel933@example.com,+1-759-555-4281,epatel39,Bronze,Essential,2016-06-05,Austin,TX,73301,US,HEALTHY
+PLAYER934,Parker,Lopez,Parker Lopez,parker.lopez934@example.com,+1-481-555-4123,plopez42,Silver,Premium,2023-08-31,Seattle,WA,98101,US,EDGE_MODULE_PATH
+PLAYER935,Sage,Nguyen,Sage Nguyen,sage.nguyen935@example.com,+1-613-555-7647,snguyen43,Bronze,Essential,2019-11-20,Chicago,IL,60601,US,HEALTHY
+PLAYER936,Kai,Rivera,Kai Rivera,kai.rivera936@example.com,+1-607-555-4728,krivera93,Silver,Extra,2017-09-03,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER937,Quinn,Lopez,Quinn Lopez,quinn.lopez937@example.com,+1-939-555-8559,qlopez39,Silver,Extra,2021-04-03,Miami,FL,33101,US,HEALTHY
+PLAYER938,Parker,Patel,Parker Patel,parker.patel938@example.com,+1-414-555-8187,ppatel34,Silver,Premium,2020-09-06,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER939,Hayden,Green,Hayden Green,hayden.green939@example.com,+1-955-555-1158,hgreen57,Bronze,Premium,2019-06-05,San Mateo,CA,94402,US,HEALTHY
+PLAYER940,Rowan,Clark,Rowan Clark,rowan.clark940@example.com,+1-981-555-9808,rclark38,Silver,Extra,2020-07-10,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER941,Drew,Davis,Drew Davis,drew.davis941@example.com,+1-357-555-6410,ddavis12,Silver,Essential,2017-07-23,Boston,MA,02108,US,DRIFT_RISK
+PLAYER942,Kai,Adams,Kai Adams,kai.adams942@example.com,+1-600-555-2043,kadams83,Gold,Premium,2018-04-16,Boston,MA,02108,US,HEALTHY
+PLAYER943,Emerson,Young,Emerson Young,emerson.young943@example.com,+1-854-555-5991,eyoung70,Bronze,Extra,2021-01-23,Palo Alto,CA,94301,US,BATTERY_DEGRADATION
+PLAYER944,Taylor,Kim,Taylor Kim,taylor.kim944@example.com,+1-817-555-9005,tkim96,Silver,Essential,2023-09-23,San Francisco,CA,94102,US,HEALTHY
+PLAYER945,Alex,Kim,Alex Kim,alex.kim945@example.com,+1-438-555-5769,akim18,Platinum,Essential,2018-04-23,Palo Alto,CA,94301,US,HEALTHY
+PLAYER946,Logan,Patel,Logan Patel,logan.patel946@example.com,+1-620-555-7407,lpatel17,Silver,Essential,2019-08-31,Miami,FL,33101,US,EDGE_MODULE_PATH
+PLAYER947,Riley,Jeffries,Riley Jeffries,riley.jeffries947@example.com,+1-411-555-3128,rjeffries78,Silver,Extra,2020-05-12,San Jose,CA,95112,US,HEALTHY
+PLAYER948,Avery,Wilson,Avery Wilson,avery.wilson948@example.com,+1-801-555-4325,awilson95,Silver,Extra,2019-06-25,Denver,CO,80014,US,HEALTHY
+PLAYER949,Logan,Wright,Logan Wright,logan.wright949@example.com,+1-608-555-5044,lwright35,Bronze,Essential,2016-09-19,Austin,TX,73301,US,BATTERY_DEGRADATION
+PLAYER950,Logan,Davis,Logan Davis,logan.davis950@example.com,+1-494-555-8476,ldavis72,Silver,Extra,2017-01-08,Boston,MA,02108,US,HEALTHY
+PLAYER951,Skyler,Wilson,Skyler Wilson,skyler.wilson951@example.com,+1-455-555-3942,swilson88,Gold,Premium,2020-08-27,Denver,CO,80014,US,HEALTHY
+PLAYER952,Sage,Allen,Sage Allen,sage.allen952@example.com,+1-297-555-7447,sallen59,Platinum,Essential,2022-05-18,Miami,FL,33101,US,HEALTHY
+PLAYER953,Jordan,Johnson,Jordan Johnson,jordan.johnson953@example.com,+1-268-555-4559,jjohnson45,Gold,Extra,2023-06-23,San Jose,CA,95112,US,HEALTHY
+PLAYER954,Rowan,Allen,Rowan Allen,rowan.allen954@example.com,+1-716-555-6341,rallen25,Platinum,Essential,2017-03-06,Chicago,IL,60601,US,HEALTHY
+PLAYER955,Blake,Wright,Blake Wright,blake.wright955@example.com,+1-274-555-8567,bwright42,Bronze,Essential,2016-04-19,San Jose,CA,95112,US,HEALTHY
+PLAYER956,Reese,Davis,Reese Davis,reese.davis956@example.com,+1-926-555-3236,rdavis34,Silver,Essential,2017-04-14,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER957,Parker,Wright,Parker Wright,parker.wright957@example.com,+1-930-555-8171,pwright69,Bronze,Extra,2018-09-19,Miami,FL,33101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER958,Casey,King,Casey King,casey.king958@example.com,+1-381-555-5819,cking30,Bronze,Essential,2017-02-15,Austin,TX,73301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER959,Morgan,Green,Morgan Green,morgan.green959@example.com,+1-479-555-3514,mgreen31,Bronze,Extra,2023-08-06,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER960,Hayden,Clark,Hayden Clark,hayden.clark960@example.com,+1-421-555-8242,hclark37,Gold,Premium,2021-12-20,San Jose,CA,95112,US,HEALTHY
+PLAYER961,Jordan,Scott,Jordan Scott,jordan.scott961@example.com,+1-204-555-1797,jscott59,Gold,Essential,2022-09-16,San Francisco,CA,94102,US,DRIFT_RISK
+PLAYER962,Reese,Lopez,Reese Lopez,reese.lopez962@example.com,+1-631-555-1457,rlopez57,Platinum,Essential,2016-03-06,Palo Alto,CA,94301,US,HEALTHY
+PLAYER963,Alex,Davis,Alex Davis,alex.davis963@example.com,+1-880-555-3750,adavis97,Gold,Essential,2017-01-30,Palo Alto,CA,94301,US,FIRMWARE_DISCONNECT_RISK
+PLAYER964,Riley,Chen,Riley Chen,riley.chen964@example.com,+1-841-555-4105,rchen75,Bronze,Essential,2022-04-21,Denver,CO,80014,US,DRIFT_RISK
+PLAYER965,Sage,Lopez,Sage Lopez,sage.lopez965@example.com,+1-308-555-6842,slopez60,Platinum,Essential,2018-05-25,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER966,Parker,Kim,Parker Kim,parker.kim966@example.com,+1-669-555-4606,pkim61,Gold,Essential,2018-05-21,San Mateo,CA,94402,US,HEALTHY
+PLAYER967,Taylor,Brown,Taylor Brown,taylor.brown967@example.com,+1-508-555-9185,tbrown57,Bronze,Premium,2020-08-10,Boston,MA,02108,US,HEALTHY
+PLAYER968,Morgan,Green,Morgan Green,morgan.green968@example.com,+1-846-555-7366,mgreen31,Silver,Essential,2019-08-21,Boston,MA,02108,US,HEALTHY
+PLAYER969,Casey,Davis,Casey Davis,casey.davis969@example.com,+1-693-555-2106,cdavis91,Gold,Extra,2023-06-22,San Jose,CA,95112,US,FIRMWARE_DISCONNECT_RISK
+PLAYER970,Parker,Rivera,Parker Rivera,parker.rivera970@example.com,+1-715-555-1217,privera84,Silver,Extra,2018-08-10,Boston,MA,02108,US,HEALTHY
+PLAYER971,Quinn,Rivera,Quinn Rivera,quinn.rivera971@example.com,+1-834-555-2300,qrivera25,Silver,Extra,2018-09-24,Boston,MA,02108,US,FIRMWARE_DISCONNECT_RISK
+PLAYER972,Jordan,Nguyen,Jordan Nguyen,jordan.nguyen972@example.com,+1-857-555-1621,jnguyen73,Silver,Essential,2018-04-17,Seattle,WA,98101,US,FIRMWARE_DISCONNECT_RISK
+PLAYER973,Quinn,Adams,Quinn Adams,quinn.adams973@example.com,+1-733-555-7797,qadams52,Bronze,Essential,2016-06-11,Miami,FL,33101,US,HEALTHY
+PLAYER974,Drew,Rivera,Drew Rivera,drew.rivera974@example.com,+1-880-555-5068,drivera52,Silver,Essential,2016-08-09,Palo Alto,CA,94301,US,HEALTHY
+PLAYER975,Quinn,Adams,Quinn Adams,quinn.adams975@example.com,+1-266-555-9055,qadams76,Silver,Essential,2016-01-25,Denver,CO,80014,US,DRIFT_RISK
+PLAYER976,Taylor,Lopez,Taylor Lopez,taylor.lopez976@example.com,+1-293-555-3845,tlopez91,Platinum,Premium,2017-05-29,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER977,Kai,Green,Kai Green,kai.green977@example.com,+1-518-555-3689,kgreen40,Silver,Essential,2021-03-28,Palo Alto,CA,94301,US,HEALTHY
+PLAYER978,Avery,Johnson,Avery Johnson,avery.johnson978@example.com,+1-659-555-4299,ajohnson32,Gold,Essential,2022-06-19,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER979,Cameron,King,Cameron King,cameron.king979@example.com,+1-632-555-9278,cking56,Silver,Essential,2020-12-12,San Francisco,CA,94102,US,FIRMWARE_DISCONNECT_RISK
+PLAYER980,Sage,Allen,Sage Allen,sage.allen980@example.com,+1-977-555-5918,sallen71,Bronze,Essential,2016-12-06,San Jose,CA,95112,US,DRIFT_RISK
+PLAYER981,Sage,Green,Sage Green,sage.green981@example.com,+1-513-555-8431,sgreen80,Gold,Essential,2021-03-14,San Jose,CA,95112,US,HEALTHY
+PLAYER982,Drew,Young,Drew Young,drew.young982@example.com,+1-680-555-4206,dyoung87,Silver,Essential,2024-01-07,Chicago,IL,60601,US,DRIFT_RISK
+PLAYER983,Casey,Lopez,Casey Lopez,casey.lopez983@example.com,+1-703-555-7628,clopez11,Gold,Extra,2020-03-12,San Mateo,CA,94402,US,HEALTHY
+PLAYER984,Blake,Young,Blake Young,blake.young984@example.com,+1-272-555-7697,byoung59,Silver,Extra,2022-08-06,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER985,Jordan,Jeffries,Jordan Jeffries,jordan.jeffries985@example.com,+1-989-555-6711,jjeffries82,Bronze,Extra,2018-11-11,Denver,CO,80014,US,DRIFT_RISK
+PLAYER986,Logan,King,Logan King,logan.king986@example.com,+1-953-555-5043,lking99,Bronze,Essential,2020-10-02,Seattle,WA,98101,US,DRIFT_RISK
+PLAYER987,Quinn,King,Quinn King,quinn.king987@example.com,+1-881-555-3422,qking56,Gold,Extra,2023-10-27,San Mateo,CA,94402,US,DRIFT_RISK
+PLAYER988,Cameron,Adams,Cameron Adams,cameron.adams988@example.com,+1-878-555-3644,cadams97,Bronze,Essential,2022-06-26,Miami,FL,33101,US,DRIFT_RISK
+PLAYER989,Alex,Jeffries,Alex Jeffries,alex.jeffries989@example.com,+1-800-555-2316,ajeffries92,Gold,Essential,2023-12-02,San Francisco,CA,94102,US,HEALTHY
+PLAYER990,Logan,Lopez,Logan Lopez,logan.lopez990@example.com,+1-712-555-9735,llopez31,Gold,Essential,2019-05-22,Denver,CO,80014,US,FIRMWARE_DISCONNECT_RISK
+PLAYER991,Reese,Baker,Reese Baker,reese.baker991@example.com,+1-311-555-6642,rbaker62,Gold,Premium,2016-12-30,Austin,TX,73301,US,EDGE_MODULE_PATH
+PLAYER992,Casey,Brown,Casey Brown,casey.brown992@example.com,+1-703-555-1025,cbrown60,Gold,Essential,2017-11-20,Palo Alto,CA,94301,US,HEALTHY
+PLAYER993,Morgan,Patel,Morgan Patel,morgan.patel993@example.com,+1-374-555-3890,mpatel77,Silver,Essential,2020-10-31,Denver,CO,80014,US,EDGE_MODULE_PATH
+PLAYER994,Skyler,Kim,Skyler Kim,skyler.kim994@example.com,+1-661-555-4482,skim35,Silver,Extra,2017-03-27,San Jose,CA,95112,US,HEALTHY
+PLAYER995,Riley,Lopez,Riley Lopez,riley.lopez995@example.com,+1-651-555-2789,rlopez33,Gold,Essential,2020-08-01,San Mateo,CA,94402,US,FIRMWARE_DISCONNECT_RISK
+PLAYER996,Riley,Patel,Riley Patel,riley.patel996@example.com,+1-230-555-4846,rpatel20,Silver,Essential,2019-11-02,Austin,TX,73301,US,HEALTHY
+PLAYER997,Rowan,King,Rowan King,rowan.king997@example.com,+1-881-555-1685,rking11,Bronze,Extra,2016-01-30,San Francisco,CA,94102,US,HEALTHY
+PLAYER998,Morgan,Lopez,Morgan Lopez,morgan.lopez998@example.com,+1-697-555-8753,mlopez10,Silver,Extra,2018-12-24,Chicago,IL,60601,US,EDGE_MODULE_PATH
+PLAYER999,Parker,Adams,Parker Adams,parker.adams999@example.com,+1-445-555-6918,padams53,Silver,Premium,2019-07-15,Denver,CO,80014,US,DRIFT_RISK
+PLAYER1000,Reese,Young,Reese Young,reese.young1000@example.com,+1-203-555-8486,ryoung17,Platinum,Premium,2017-02-14,Boston,MA,02108,US,EDGE_MODULE_PATH
