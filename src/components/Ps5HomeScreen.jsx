@@ -9,14 +9,21 @@ import welcomeBackground from "../../assets/PS5_Welcome_background-c2fb8859-4d49
 import spiderManArt from "../../assets/Spider-Man_Miles_Morales-7809d6ce-8c11-455d-b1be-a3f34d1bc0e9.png";
 import astroBotArt from "../../assets/astro_bot-788ff256-67f0-461a-b09e-981f24683a15.png";
 import godOfWarArt from "../../assets/God_of_War-ddf6f85f-5bc4-4a38-b6e7-6dcf244e9568.png";
-import psStoreArt from "../../assets/Playstation_store-ef2939a6-5eb9-4ff4-85a0-8220484dbf06.png";
-import plusBgArt from "../../assets/plus-last-of-us-bg.png";
-import overlayArt from "../../assets/welcome-widgets-overlay.png";
+import psStoreArt from "../../assets/playstation-store-nav.png";
+import plusBgArt from "../../assets/playstation-plus-nav.png";
+import overlayArt from "../../assets/media-gallery-nav.png";
 import controllerHealthIcon from "../../assets/controller-health-icon.png";
 import backgroundParticles from "../../assets/Background_image-ee73d65f-96bd-4296-ada4-8270e78c5c26.png";
 import ps5WordmarkBadge from "../../assets/ps5-wordmark-badge.png";
 import searchIconCustom from "../../assets/search-icon-custom.png";
 import ps5ControllerImage from "../../assets/ps5-controller-stick-drift.png";
+import recommendedArcRaidersArt from "../../assets/recommended-arc-raiders.png";
+import recommendedDyingLightArt from "../../assets/recommended-dying-light.png";
+import recommendedNba2k26Art from "../../assets/recommended-nba2k26.png";
+import recommendedResidentEvilArt from "../../assets/recommended-resident-evil.png";
+import playstationPlusPremiumLogoCard from "../../assets/playstation-plus-premium-logo-discovery.png";
+import playstationPortableCloudImage from "../../assets/playstation-portable-cloud.png";
+import gameLibraryNavArt from "../../assets/game-library-nav.png";
 
 const HOME_TILES = [
   {
@@ -37,10 +44,11 @@ const HOME_TILES = [
     image: spiderManArt,
     badge: "NEW",
     backgroundImage: spiderManArt,
-    news: "Official News from PlayStation · Yesterday",
-    title: "Marvel's Spider-Man 2",
-    subtitle: "Continue your latest adventure.",
-    cta: "Play Game"
+    news: "PlayStation Cloud Streaming  |  Available Now",
+    title: "Spider-Man 2",
+    subtitle: "Swing into action instantly - no download, no wait. Stream the full Marvel's Spider-Man 2 experience included with your PS Plus Premium membership.",
+    cta: "Start Streaming Now",
+    ctaSecondary: "More Info"
   },
   {
     id: "astro",
@@ -99,7 +107,6 @@ const HOME_TILES = [
     label: "Controller Health",
     sub: "Support",
     image: controllerHealthIcon,
-    logoTile: true,
     backgroundImage: backgroundParticles,
     news: "DualSense Wireless Controller",
     title: "Controller health check",
@@ -109,8 +116,8 @@ const HOME_TILES = [
     id: "library",
     label: "Game Library",
     sub: "Collection",
-    image: welcomeBackground,
-    backgroundImage: welcomeBackground,
+    image: gameLibraryNavArt,
+    backgroundImage: gameLibraryNavArt,
     news: "Collection",
     title: "Game Library",
     subtitle: "Browse your full game collection."
@@ -118,6 +125,16 @@ const HOME_TILES = [
 ];
 
 const VISIBLE_TILE_COUNT = 8;
+const WELCOME_RECOMMENDED_GAMES = [
+  { id: "spiderman", label: "Spider-Man 2", image: spiderManArt },
+  { id: "astro", label: "ASTRO BOT", image: astroBotArt },
+  { id: "gow", label: "God of War", image: godOfWarArt },
+  { id: "arc-raiders", label: "ARC Raiders", image: recommendedArcRaidersArt },
+  // Keep right-side image positions fixed; labels are intentionally remapped per Sarah welcome direction.
+  { id: "resident-evil", label: "Dying Light: The Beast", image: recommendedResidentEvilArt },
+  { id: "dying-light", label: "NBA 2K26", image: recommendedDyingLightArt },
+  { id: "nba2k26", label: "Resident Evil Requiem", image: recommendedNba2k26Art }
+];
 
 export function Ps5HomeScreen({
   persona,
@@ -186,6 +203,10 @@ export function Ps5HomeScreen({
   useEffect(() => {
     const moveSelection = (delta, source = "arrow") => {
       setSelectedIndex((previous) => {
+        // Hard stop tile movement while proactive toast is open.
+        if (proactiveStateRef.current.isVisible) {
+          return previous;
+        }
         const next = Math.max(0, Math.min(HOME_TILES.length - 1, previous + delta));
         const changed = next !== previous;
         if (changed && source === "arrow") {
@@ -296,6 +317,10 @@ export function Ps5HomeScreen({
     left: `calc(${selectedVisualSlot} * var(--tile-compact-size) + ${selectedVisualSlot} * var(--tile-gap) + var(--tile-selected-size) + 14px)`
   };
   const showWelcomeWidgets = scene.id === "welcome";
+  const useSarahWelcomeStreamingLayout = showWelcomeWidgets && persona.ownerId === "PLAYER001";
+  const homeBackdropGradient = useSarahWelcomeStreamingLayout
+    ? "linear-gradient(180deg, rgba(6, 13, 27, 0.14), rgba(6, 13, 27, 0.28) 42%, rgba(6, 13, 27, 0.46) 72%, rgba(6, 13, 27, 0.56))"
+    : "linear-gradient(180deg, rgba(6, 13, 27, 0.2), rgba(6, 13, 27, 0.5) 38%, rgba(6, 13, 27, 0.84) 70%, rgba(6, 13, 27, 0.95))";
   const showLowerContext = scene.id !== "welcome";
   const lowerContextCards =
     scene.id === "controller-health"
@@ -346,9 +371,9 @@ export function Ps5HomeScreen({
 
   return (
     <section
-      className="ps5-home-screen"
+      className={`ps5-home-screen ${useSarahWelcomeStreamingLayout ? "sarah-welcome-mode" : ""}`}
       style={{
-        backgroundImage: `linear-gradient(180deg, rgba(6, 13, 27, 0.2), rgba(6, 13, 27, 0.5) 38%, rgba(6, 13, 27, 0.84) 70%, rgba(6, 13, 27, 0.95)), radial-gradient(circle at 22% 66%, rgba(5, 14, 31, 0.24), rgba(5, 14, 31, 0) 34%), url(${backgroundImage})`,
+        backgroundImage: `${homeBackdropGradient}, radial-gradient(circle at 22% 66%, rgba(5, 14, 31, 0.24), rgba(5, 14, 31, 0) 34%), url(${backgroundImage})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center"
@@ -392,14 +417,35 @@ export function Ps5HomeScreen({
         </div>
       </section>
 
-      <section className={`ps5-home-hero ${scene.id === "controller-health" ? "health-hero" : ""}`}>
-        <p className="hero-news">{scene.news}</p>
-        <h1>{scene.title}</h1>
-        <p>
-          {scene.id === "controller-health"
-            ? `${persona.issueTitle}. ${journey.overlay.subtitle}`
-            : scene.subtitle}
-        </p>
+      {useSarahWelcomeStreamingLayout ? null : (
+        <section className={`ps5-home-hero ${scene.id === "controller-health" ? "health-hero" : ""} ${scene.id === "spiderman" ? "spiderman-hero" : ""}`}>
+        {scene.id === "spiderman" ? (
+          <>
+            <div className="spiderman-pill-row">
+              <span className="spiderman-pill">TRY CLOUD STREAMING</span>
+              <span className="spiderman-pill premium">PS Plus Premium</span>
+            </div>
+            <p className="hero-news">{scene.news}</p>
+            <h1>{scene.title}</h1>
+            <p className="spiderman-subhead">STREAM INSTANTLY</p>
+            <p>{scene.subtitle}</p>
+            <ul className="spiderman-bullet-row" aria-label="Streaming highlights">
+              <li>No download required</li>
+              <li>Included with Premium</li>
+              <li>Start in seconds</li>
+            </ul>
+          </>
+        ) : (
+          <>
+            <p className="hero-news">{scene.news}</p>
+            <h1>{scene.title}</h1>
+            <p>
+              {scene.id === "controller-health"
+                ? `${persona.issueTitle}. ${journey.overlay.subtitle}`
+                : scene.subtitle}
+            </p>
+          </>
+        )}
         {scene.id === "controller-health" ? (
           <div className="ps5-feature-actions">
             <button type="button" onClick={onOpenHealthPanel}>
@@ -411,16 +457,78 @@ export function Ps5HomeScreen({
           </div>
         ) : null}
         {scene.cta ? (
-          <div className="ps5-feature-actions">
+          <div className={`ps5-feature-actions ${scene.id === "spiderman" ? "spiderman-actions" : ""}`}>
             <button type="button">{scene.cta}</button>
             <button type="button" className="ghost">
-              ...
+              {scene.ctaSecondary || "..."}
             </button>
           </div>
         ) : null}
-      </section>
+        </section>
+      )}
 
-      {showWelcomeWidgets ? (
+      {useSarahWelcomeStreamingLayout ? (
+        <section className="welcome-stream-layout" aria-label="Cloud streaming welcome layout">
+          <div className="welcome-stream-main-card">
+            <div className="spiderman-pill-row">
+              <span className="spiderman-pill">TRY CLOUD STREAMING</span>
+              <span className="spiderman-pill premium">PS Plus Premium</span>
+            </div>
+            <p className="hero-news">PlayStation Cloud Streaming  |  Available Now</p>
+            <h2>Spider-Man 2</h2>
+            <p className="spiderman-subhead">STREAM INSTANTLY</p>
+            <p className="welcome-stream-copy">
+              Swing into action instantly - no download, no wait. Stream the full Marvel&apos;s Spider-Man 2 experience
+              included with your PS Plus Premium membership.
+            </p>
+            <ul className="spiderman-bullet-row" aria-label="Streaming highlights">
+              <li>No download required</li>
+              <li>Included with Premium</li>
+              <li>Start in seconds</li>
+            </ul>
+            <div className="ps5-feature-actions spiderman-actions welcome-stream-actions">
+              <button type="button">Start Streaming Now</button>
+              <button type="button" className="ghost">More Info</button>
+            </div>
+          </div>
+
+          <aside className="welcome-stream-side-card" aria-label="Cloud gaming discovery panel">
+            <img
+              className="welcome-plus-logo"
+              src={playstationPlusPremiumLogoCard}
+              alt="PlayStation Plus Premium"
+            />
+            <h3>Discover Cloud Streaming on PlayStation</h3>
+            <img
+              className="welcome-side-device-image"
+              src={playstationPortableCloudImage}
+              alt="PlayStation portable cloud streaming"
+            />
+            <p>
+              As a Premium member, you have access to hundreds of games - stream instantly, no download, no waiting,
+              just press play.
+            </p>
+            <div className="welcome-side-actions">
+              <button type="button">Stream Games</button>
+              <button type="button">Game Catalog</button>
+              <button type="button">Classics</button>
+            </div>
+          </aside>
+
+          <div className="welcome-recommended-row" aria-label="Recommended for you">
+            <p className="welcome-row-label">RECOMMENDED FOR YOU</p>
+            <div className="welcome-row-track">
+              {WELCOME_RECOMMENDED_GAMES.map((game) => (
+                <article key={game.id} className="welcome-reco-card">
+                  <img src={game.image} alt={game.label} />
+                  <span className="welcome-reco-badge">Stream</span>
+                  <p>{game.label}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : showWelcomeWidgets ? (
         <HomeWidgets
           persona={persona}
           selectedTileId={scene.id}
