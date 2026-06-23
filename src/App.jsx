@@ -185,6 +185,104 @@ function App() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [screen, selectedProfileIndex, activePersonaIndex, movePickerSelection, openSelectedPickerItem, handleResetSession]);
 
+  // Bridge DualSense gamepad buttons to existing keyboard controls.
+  useEffect(() => {
+    let frameId;
+    const pressedState = new Map();
+    const axisState = { left: false, right: false };
+    let lastHorizontalDispatchAt = 0;
+    const HORIZONTAL_COOLDOWN_MS = 140;
+    const AXIS_THRESHOLD = 0.5;
+    const buttonToKeyMap = {
+      0: "Enter", // X / Cross
+      12: "ArrowUp",
+      13: "ArrowDown",
+      14: "ArrowLeft",
+      15: "ArrowRight"
+    };
+
+    const dispatchKeyEvent = (type, key) => {
+      window.dispatchEvent(new KeyboardEvent(type, { key, bubbles: true, cancelable: true }));
+    };
+
+    const dispatchHorizontalPress = (key) => {
+      const now = Date.now();
+      if (now - lastHorizontalDispatchAt < HORIZONTAL_COOLDOWN_MS) return;
+      lastHorizontalDispatchAt = now;
+      dispatchKeyEvent("keydown", key);
+      dispatchKeyEvent("keyup", key);
+    };
+
+    const releaseHorizontalAxisState = () => {
+      axisState.left = false;
+      axisState.right = false;
+    };
+
+    const pollGamepad = () => {
+      // Ignore polling while tab is hidden.
+      if (document.visibilityState !== "visible") {
+        releaseHorizontalAxisState();
+        frameId = window.requestAnimationFrame(pollGamepad);
+        return;
+      }
+
+      const gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
+      const gamepad = Array.from(gamepads).find((pad) => pad && pad.connected);
+
+      if (!gamepad) {
+        releaseHorizontalAxisState();
+      }
+
+      Object.entries(buttonToKeyMap).forEach(([buttonIndexText, key]) => {
+        const buttonIndex = Number(buttonIndexText);
+        const isPressed = Boolean(gamepad?.buttons?.[buttonIndex]?.pressed);
+        const wasPressed = Boolean(pressedState.get(buttonIndex));
+
+        if (isPressed && !wasPressed) {
+          dispatchKeyEvent("keydown", key);
+        } else if (!isPressed && wasPressed) {
+          dispatchKeyEvent("keyup", key);
+        }
+
+        pressedState.set(buttonIndex, isPressed);
+      });
+
+      const axisX = Number.isFinite(gamepad?.axes?.[0]) ? gamepad.axes[0] : 0;
+      const wantsLeft = axisX < -AXIS_THRESHOLD;
+      const wantsRight = axisX > AXIS_THRESHOLD;
+
+      // Analog fallback for Bluetooth mappings where D-pad buttons are absent/inconsistent.
+      if (wantsLeft && !axisState.left) {
+        dispatchHorizontalPress("ArrowLeft");
+      } else if (wantsRight && !axisState.right) {
+        dispatchHorizontalPress("ArrowRight");
+      }
+
+      axisState.left = wantsLeft;
+      axisState.right = wantsRight;
+
+      frameId = window.requestAnimationFrame(pollGamepad);
+    };
+
+    const onGamepadDisconnected = () => {
+      releaseHorizontalAxisState();
+    };
+
+    window.addEventListener("gamepaddisconnected", onGamepadDisconnected);
+    frameId = window.requestAnimationFrame(pollGamepad);
+    return () => {
+      window.removeEventListener("gamepaddisconnected", onGamepadDisconnected);
+      window.cancelAnimationFrame(frameId);
+      Object.entries(buttonToKeyMap).forEach(([buttonIndexText, key]) => {
+        if (pressedState.get(Number(buttonIndexText))) {
+          dispatchKeyEvent("keyup", key);
+        }
+      });
+      releaseHorizontalAxisState();
+      pressedState.clear();
+    };
+  }, []);
+
   const handlePickerItemClick = (index) => {
     if (index === selectedProfileIndex) {
       openSelectedPickerItem(index);
