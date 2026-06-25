@@ -492,6 +492,26 @@ export function Ps5HomeScreen({
             </div>
           </div>
 
+          <aside className="welcome-stream-wishlist-card" aria-label="Marvel's Wolverine wishlist pre-order">
+            <div className="welcome-wishlist-content">
+              <div className="welcome-wishlist-top">
+                <span className="welcome-wishlist-badge">WISHLISTED</span>
+                <p className="welcome-wishlist-context">Recommended from your wishlist</p>
+              </div>
+              <div className="welcome-wishlist-body">
+                <h3>Marvel&apos;s Wolverine</h3>
+                <p className="welcome-wishlist-headline">Pre-order available now</p>
+                <p className="welcome-wishlist-copy">
+                  You added Wolverine to your wishlist. Pre-order today and be ready to play at launch.
+                </p>
+                <div className="welcome-wishlist-actions">
+                  <button type="button" className="welcome-wishlist-primary">Pre-order Now</button>
+                  <button type="button" className="welcome-wishlist-secondary">View Details</button>
+                </div>
+              </div>
+            </div>
+          </aside>
+
           <aside className="welcome-stream-side-card" aria-label="Cloud gaming discovery panel">
             <img
               className="welcome-plus-logo"
