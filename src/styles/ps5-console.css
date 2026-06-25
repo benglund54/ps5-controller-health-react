@@ -1642,15 +1642,18 @@
 
 .welcome-wishlist-media {
   position: relative;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
+  min-height: 0;
   width: 100%;
+  display: flex;
+  overflow: hidden;
   background: #08090c;
 }
 
 .welcome-wishlist-media img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
   object-position: top center;
 }
@@ -1679,8 +1682,8 @@
   flex-direction: column;
   gap: 0.34rem;
   width: 100%;
-  flex: 1 1 auto;
-  padding: 0.34rem 1.04rem 2.4rem;
+  flex: 0 0 auto;
+  padding: 0.34rem 1.04rem 2.2rem;
   background: #08090c;
 }
 
