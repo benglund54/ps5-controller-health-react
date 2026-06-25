@@ -1,7 +1,7 @@
 import heroSofia from "../../assets/hero-sofia.png";
 import heroIsabella from "../../assets/hero-isabella.png";
 import heroChloe from "../../assets/hero-chloe.png";
-import heroPronto from "../../assets/pronto-hero-new.png";
+import heroAlex from "../../assets/hero-alex.png";
 
 export const playerPersonas = [
   {
@@ -72,7 +72,7 @@ export const playerPersonas = [
       "Your right stick module may need attention. Options are available.",
     issueTitle: "Your right stick module may need attention.",
     accent: "sarah",
-    avatarImage: heroPronto,
-    avatarPosition: "50% 22%"
+    avatarImage: heroAlex,
+    avatarPosition: "50% 28%"
   }
 ];
