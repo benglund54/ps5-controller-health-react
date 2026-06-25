@@ -1,0 +1,78 @@
+<template>
+    <div class="bvs-card">
+        <div class="bvs-header">
+            <div class="bvs-header__left">
+                <div class="bvs-header__icon-wrap">
+                    <lightning-icon icon-name="utility:metrics" size="x-small" variant="inverse" alternative-text="Value Scorecard" class="bvs-header__icon"></lightning-icon>
+                </div>
+                <h2 class="bvs-header__title">{resolvedTitle}</h2>
+            </div>
+            <div class="bvs-header__right">
+                <lightning-icon icon-name="utility:trending" size="xx-small" alternative-text="Trending up" class="bvs-header__trend-icon"></lightning-icon>
+                <span class="bvs-header__label">Modeled outcomes · confidence ranges</span>
+            </div>
+        </div>
+
+        <!-- ═══ SUMMARY MODE: 4 executive value cards ═══ -->
+        <template if:true={isSummary}>
+            <ul class="bvs-highlight-grid" aria-label="Executive value summary">
+                <template for:each={summaryCards} for:item="card">
+                    <li key={card.id} class="bvs-highlight-card">
+                        <div class="bvs-highlight-card__accent" style={card.accentStyle} aria-hidden="true"></div>
+                        <div class="bvs-highlight-card__body">
+                            <span class="bvs-highlight-value" style={card.valueStyle}>{card.value}</span>
+                            <span class="bvs-highlight-label">{card.label}</span>
+                            <span class="bvs-highlight-explanation">{card.explanation}</span>
+                        </div>
+                        <span class="bvs-highlight-owner">{card.owner}</span>
+                    </li>
+                </template>
+            </ul>
+            <div class="bvs-summary-footer">
+                <lightning-icon icon-name="utility:chevronright" size="xx-small" alternative-text="" class="bvs-footer-icon"></lightning-icon>
+                <span>View full value model</span>
+            </div>
+        </template>
+
+        <!-- ═══ DETAIL MODE: Full 7-row scorecard ═══ -->
+        <template if:true={isDetail}>
+            <div class="bvs-col-headers" aria-hidden="true">
+                <span></span>
+                <span>Outcome</span>
+                <span>Current Opportunity</span>
+                <span>Expected Impact</span>
+                <span>Confidence</span>
+                <span>Owner</span>
+            </div>
+            <ul class="bvs-list" aria-label="Business Value Scorecard">
+                <template for:each={enrichedMetrics} for:item="metric">
+                    <li key={metric.id} class="bvs-row">
+                        <div class="bvs-row__accent" style={metric.accentStyle} aria-hidden="true"></div>
+                        <div class="bvs-row__outcome">
+                            <div class="bvs-row__icon-wrap" style={metric.iconBgStyle}>
+                                <lightning-icon icon-name={metric.icon} size="xx-small" variant="inverse" alternative-text={metric.outcomeName}></lightning-icon>
+                            </div>
+                            <span class="bvs-outcome-name">{metric.outcomeName}</span>
+                        </div>
+                        <div class="bvs-row__opp">
+                            <span class="bvs-opportunity">{metric.opportunity}</span>
+                        </div>
+                        <div class="bvs-row__impact">
+                            <span class="bvs-impact-value">{metric.expectedImpact}</span>
+                        </div>
+                        <div class="bvs-row__conf">
+                            <span class={metric.confClass}>{metric.confidence}</span>
+                        </div>
+                        <div class="bvs-row__owner">
+                            <span class="bvs-owner-text">{metric.owner}</span>
+                        </div>
+                    </li>
+                </template>
+            </ul>
+            <div class="bvs-footer">
+                <lightning-icon icon-name="utility:info" size="xx-small" alternative-text="Note" class="bvs-footer__icon"></lightning-icon>
+                <span class="bvs-footer__text">Estimates based on Salesforce benchmark data and PlayStation lifecycle model. Actuals subject to pilot validation.</span>
+            </div>
+        </template>
+    </div>
+</template>

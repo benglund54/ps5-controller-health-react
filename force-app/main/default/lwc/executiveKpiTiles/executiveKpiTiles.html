@@ -1,0 +1,54 @@
+<template>
+    <div class="kpi-wrap">
+        <template if:true={resolvedSectionTitle}>
+            <h2 class="slds-text-heading_small slds-m-bottom_small kpi-section-title">{resolvedSectionTitle}</h2>
+        </template>
+        <ul class="kpi-grid" aria-label="Executive KPI Summary">
+            <template for:each={resolvedTiles} for:item="tile">
+                <li key={tile.id} class="kpi-tile">
+                    <div class={tile.innerClass}>
+                        <div class="kpi-tile__header">
+                            <div class="kpi-tile__icon-wrap" style={tile.iconBgStyle}>
+                                <lightning-icon
+                                    icon-name={tile.icon}
+                                    size="x-small"
+                                    alternative-text={tile.label}
+                                    style={tile.iconColorStyle}
+                                ></lightning-icon>
+                            </div>
+                            <span class="kpi-tile__label slds-text-body_small">{tile.label}</span>
+                        </div>
+                        <div class="kpi-tile__value" aria-label={tile.label}>{tile.value}</div>
+                        <div class="kpi-tile__footer">
+                            <template if:true={showTrends}>
+                                <template if:true={tile.trend}>
+                                    <span class={tile.trendClass} aria-label={tile.trendAriaLabel}>
+                                        <lightning-icon
+                                            icon-name={tile.trendIcon}
+                                            size="xx-small"
+                                            alternative-text={tile.trendAriaLabel}
+                                            class="slds-m-right_xx-small"
+                                        ></lightning-icon>
+                                        {tile.trend}
+                                    </span>
+                                </template>
+                            </template>
+                            <template if:true={tile.highlighted}>
+                                <span class="kpi-tile__highlight-badge" aria-label="Top value driver">
+                                    <lightning-icon
+                                        icon-name="utility:priority"
+                                        size="xx-small"
+                                        alternative-text="Top value driver"
+                                        class="slds-m-right_xx-small"
+                                    ></lightning-icon>
+                                    Top Value Driver
+                                </span>
+                            </template>
+                            <p class="kpi-tile__explanation slds-text-body_small">{tile.explanation}</p>
+                        </div>
+                    </div>
+                </li>
+            </template>
+        </ul>
+    </div>
+</template>

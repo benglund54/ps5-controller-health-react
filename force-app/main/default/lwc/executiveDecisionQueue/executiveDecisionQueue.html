@@ -1,0 +1,77 @@
+<template>
+    <div class="edq-card">
+        <!-- Header -->
+        <div class="edq-header">
+            <div class="edq-header__left">
+                <div class="edq-header__icon-wrap">
+                    <lightning-icon icon-name="utility:approval" size="x-small" variant="inverse" alternative-text="Decision Queue" class="edq-header__icon"></lightning-icon>
+                </div>
+                <div class="edq-header__text">
+                    <h2 class="edq-header__title">{resolvedTitle}</h2>
+                    <p class="edq-header__subtitle">Actions required from Sony leadership to advance from insight to outcome.</p>
+                </div>
+            </div>
+            <span class="edq-header__count slds-badge slds-badge_lightest">{pendingCount} pending</span>
+        </div>
+
+        <!-- ═══ SUMMARY MODE: Compact action rows ═══ -->
+        <template if:true={isSummary}>
+            <p class="edq-summary-subtitle">What should Sony do next?</p>
+            <ol class="edq-summary-list" aria-label="Executive action queue">
+                <template for:each={enrichedDecisions} for:item="decision">
+                    <li key={decision.id} class={decision.summaryRowClass}>
+                        <div class="edq-summary-row__num" style={decision.numBgStyle} aria-hidden="true">{decision.rank}</div>
+                        <button class="edq-summary-title-btn" data-id={decision.id} onclick={handleDecisionSelect} aria-label={decision.title}>{decision.title}</button>
+                        <span class="edq-summary-owner">{decision.owner}</span>
+                        <span class={decision.statusClass}>{decision.status}</span>
+                        <button class={decision.ctaClass} data-id={decision.id} onclick={handleDecisionAction} aria-label={decision.ctaAriaLabel}>
+                            {decision.ctaLabel}
+                            <lightning-icon icon-name="utility:forward" size="xx-small" alternative-text="" class="edq-cta-icon"></lightning-icon>
+                        </button>
+                    </li>
+                </template>
+            </ol>
+        </template>
+
+        <!-- ═══ DETAIL MODE: Full decision cards ═══ -->
+        <template if:true={isDetail}>
+            <ol class="edq-list" aria-label="Executive Decision Queue">
+                <template for:each={enrichedDecisions} for:item="decision">
+                    <li key={decision.id} class={decision.cardClass}>
+                        <div class="edq-decision__top">
+                            <div class="edq-decision__num-wrap" style={decision.numBgStyle} aria-hidden="true">
+                                <span class="edq-decision__num">{decision.rank}</span>
+                            </div>
+                            <button class="edq-title-btn" data-id={decision.id} onclick={handleDecisionSelect} aria-label={decision.title}>{decision.title}</button>
+                            <span class={decision.statusClass}>{decision.status}</span>
+                        </div>
+                        <div class="edq-decision__body">
+                            <div class="edq-detail-col">
+                                <span class="edq-detail-label">Why It Matters</span>
+                                <p class="edq-detail-value">{decision.whyItMatters}</p>
+                            </div>
+                            <div class="edq-detail-col">
+                                <span class="edq-detail-label">The Ask</span>
+                                <p class="edq-detail-value edq-detail-value_bold">{decision.ask}</p>
+                            </div>
+                            <div class="edq-detail-col">
+                                <span class="edq-detail-label">Expected Outcome</span>
+                                <p class="edq-detail-value">{decision.expectedOutcome}</p>
+                            </div>
+                            <div class="edq-detail-col edq-detail-col_meta">
+                                <div class="edq-owner-row">
+                                    <lightning-icon icon-name="utility:groups" size="xx-small" alternative-text="Owner" class="edq-meta-icon"></lightning-icon>
+                                    <span class="edq-owner-text">{decision.owner}</span>
+                                </div>
+                                <button class={decision.ctaClass} data-id={decision.id} onclick={handleDecisionAction} aria-label={decision.ctaAriaLabel}>
+                                    {decision.ctaLabel}
+                                    <lightning-icon icon-name="utility:forward" size="xx-small" alternative-text="" class="edq-cta-icon"></lightning-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </template>
+            </ol>
+        </template>
+    </div>
+</template>

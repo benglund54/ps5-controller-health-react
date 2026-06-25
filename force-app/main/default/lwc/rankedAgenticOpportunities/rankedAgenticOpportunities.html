@@ -1,0 +1,74 @@
+<template>
+    <div class="rao-card">
+        <!-- Shared header -->
+        <div class="rao-header">
+            <div class="rao-header__left">
+                <div class="rao-header__icon-wrap">
+                    <lightning-icon icon-name="utility:einstein" size="x-small" variant="inverse" alternative-text="Agentforce" class="rao-header__icon"></lightning-icon>
+                </div>
+                <h2 class="rao-header__title">{resolvedTitle}</h2>
+            </div>
+            <span class="slds-badge slds-badge_lightest rao-header__count">{rowCount} opportunities</span>
+        </div>
+
+        <!-- ═══ SUMMARY MODE ═══ -->
+        <template if:true={isSummary}>
+            <ul class="rao-summary-list" aria-label="Top Agentic Opportunities">
+                <template for:each={summaryRows} for:item="row">
+                    <li key={row.id} class="rao-summary-row">
+                        <div class="rao-rank-circle rao-rank-circle_sm" style={row.rankCircleStyle}>{row.rank}</div>
+                        <div class="rao-summary-row__icon" style={row.iconBgStyle}>
+                            <lightning-icon icon-name={row.icon} size="xx-small" variant="inverse" alternative-text={row.opportunity}></lightning-icon>
+                        </div>
+                        <button class="rao-summary-title-btn" data-id={row.id} onclick={handleRowClick} aria-label={row.opportunity}>{row.opportunity}</button>
+                        <span class="rao-summary-value">{row.valueAtStake}</span>
+                        <span class={row.priorityClass}>{row.priority}</span>
+                        <button class="rao-decision-btn rao-decision-btn_sm" data-id={row.id} onclick={handleDecisionClick} aria-label={row.decisionAriaLabel}>{row.recommendedDecision}</button>
+                    </li>
+                </template>
+            </ul>
+            <div class="rao-summary-footer">
+                <lightning-icon icon-name="utility:chevronright" size="xx-small" alternative-text="" class="rao-footer-icon"></lightning-icon>
+                <span>Showing top 3 of {totalCount} ranked opportunities</span>
+            </div>
+        </template>
+
+        <!-- ═══ DETAIL MODE ═══ -->
+        <template if:true={isDetail}>
+            <!-- Column headers -->
+            <div class="rao-col-headers" aria-hidden="true">
+                <span class="rao-col-rank">#</span>
+                <span class="rao-col-opp">Opportunity</span>
+                <span class="rao-col-value">Value at Stake</span>
+                <span class="rao-col-conf">Confidence</span>
+                <span class="rao-col-owner">Owner</span>
+                <span class="rao-col-decision">Recommended Decision</span>
+                <span class="rao-col-priority">Priority</span>
+            </div>
+            <ul class="rao-list" aria-label="Ranked Agentic Opportunities">
+                <template for:each={enrichedRows} for:item="row">
+                    <li key={row.id} class={row.rowClass}>
+                        <div class="rao-col-rank rao-rank-wrap" aria-label={row.rankAriaLabel}>
+                            <div class="rao-rank-circle" style={row.rankCircleStyle}>{row.rank}</div>
+                        </div>
+                        <div class="rao-col-opp">
+                            <button class="rao-row-btn" data-id={row.id} onclick={handleRowClick} aria-label={row.opportunity}>
+                                <div class="rao-row-icon-wrap" style={row.iconBgStyle}>
+                                    <lightning-icon icon-name={row.icon} size="xx-small" variant="inverse" alternative-text={row.opportunity}></lightning-icon>
+                                </div>
+                                <span class="rao-row-title">{row.opportunity}</span>
+                            </button>
+                        </div>
+                        <div class="rao-col-value"><span class="rao-value-text">{row.valueAtStake}</span></div>
+                        <div class="rao-col-conf"><span class={row.confClass}>{row.confidence}</span></div>
+                        <div class="rao-col-owner"><span class="rao-owner-text">{row.owner}</span></div>
+                        <div class="rao-col-decision">
+                            <button class="rao-decision-btn" data-id={row.id} onclick={handleDecisionClick} aria-label={row.decisionAriaLabel}>{row.recommendedDecision}</button>
+                        </div>
+                        <div class="rao-col-priority"><span class={row.priorityClass}>{row.priority}</span></div>
+                    </li>
+                </template>
+            </ul>
+        </template>
+    </div>
+</template>

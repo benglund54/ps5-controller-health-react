@@ -1,0 +1,52 @@
+<template>
+    <div class="lhm-card">
+        <div class="lhm-header">
+            <div class="lhm-header__left">
+                <div class="lhm-header__icon-wrap">
+                    <lightning-icon icon-name="utility:flow" size="x-small" alternative-text="Lifecycle" class="lhm-header__icon"></lightning-icon>
+                </div>
+                <h2 class="lhm-header__title">{resolvedTitle}</h2>
+            </div>
+            <span class="lhm-header__count slds-badge slds-badge_lightest">{stageCount} stages</span>
+        </div>
+
+        <div class="lhm-stages" role="list" aria-label="Player lifecycle stages">
+            <template for:each={enrichedStages} for:item="stage">
+                <button
+                    key={stage.id}
+                    class={stage.cardClass}
+                    role="listitem"
+                    aria-label={stage.ariaLabel}
+                    data-id={stage.id}
+                    onclick={handleStageClick}
+                >
+                    <!-- Stage icon and name row -->
+                    <div class="lhm-stage__top">
+                        <div class="lhm-stage__icon-wrap" style={stage.iconBgStyle}>
+                            <lightning-icon
+                                icon-name={stage.icon}
+                                size="xx-small"
+                                alternative-text={stage.name}
+                                style={stage.iconColorStyle}
+                            ></lightning-icon>
+                        </div>
+                        <span class="lhm-stage__name">{stage.name}</span>
+                        <span class={stage.statusClass}>{stage.status}</span>
+                    </div>
+
+                    <!-- Opportunity count -->
+                    <div class="lhm-stage__count">{stage.opportunityCount}</div>
+
+                    <!-- Owner pill -->
+                    <div class="lhm-stage__owner">
+                        <lightning-icon icon-name="utility:groups" size="xx-small" alternative-text="Owner" class="lhm-stage__owner-icon"></lightning-icon>
+                        <span>{stage.owner}</span>
+                    </div>
+
+                    <!-- Recommended action -->
+                    <p class="lhm-stage__action">{stage.recommendedAction}</p>
+                </button>
+            </template>
+        </div>
+    </div>
+</template>

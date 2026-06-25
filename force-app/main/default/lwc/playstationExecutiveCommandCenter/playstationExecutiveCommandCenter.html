@@ -1,0 +1,559 @@
+<template>
+<div class="pecc-root">
+
+    <!-- ══════════════════════════════════════════════════════════
+         HEADER
+    ══════════════════════════════════════════════════════════ -->
+    <div class="pecc-header">
+        <div class="pecc-header__ps-bar" aria-hidden="true"></div>
+        <div class="pecc-header__main">
+            <div class="pecc-header__logo-wrap">
+                <img src={psLogoUrl} alt="PlayStation" class="pecc-header__ps-logo" />
+            </div>
+            <div class="pecc-header__text">
+                <h1 class="pecc-header__title">{resolvedTitle}</h1>
+                <p class="pecc-header__subtitle">{resolvedSubtitle}</p>
+            </div>
+            <div class="pecc-header__right">
+                <span class="pecc-context-pill">{resolvedContext}</span>
+                <span class="pecc-meta-text">{resolvedMetadata}</span>
+            </div>
+        </div>
+        <template if:true={showBadges}>
+            <div class="pecc-header__badges" aria-label="Capability badges">
+                <template for:each={resolvedBadges} for:item="badge">
+                    <span key={badge.id} class="pecc-badge" style={badge.badgeStyle}>
+                        <span class="pecc-badge__icon-tile" style={badge.iconTileStyle}>
+                            <lightning-icon icon-name={badge.icon} size="xx-small" variant="inverse" alternative-text={badge.label}></lightning-icon>
+                        </span>
+                        {badge.label}
+                    </span>
+                </template>
+            </div>
+        </template>
+    </div>
+
+    <div class="pecc-body">
+
+        <!-- ══════════════════════════════════════════════════════════
+             EXECUTIVE DECISION SNAPSHOT
+        ══════════════════════════════════════════════════════════ -->
+        <section class="pecc-section pecc-section_snapshot">
+            <h2 class="pecc-section__title">Executive Decision Snapshot</h2>
+            <ul class="pecc-snapshot" role="tablist" aria-label="Executive snapshot — click a card to explore details below">
+                <template for:each={enrichedKpis} for:item="kpi">
+                    <li key={kpi.id} role="presentation" class="pecc-snapshot__item">
+                        <button
+                            role="tab"
+                            class={kpi.cardClass}
+                            data-id={kpi.id}
+                            onclick={handleKpiClick}
+                            aria-selected={kpi.isSelected}
+                            aria-controls="pecc-detail"
+                            aria-label={kpi.ariaLabel}
+                        >
+                            <template if:true={kpi.isTopValue}>
+                                <span class="pecc-kpi__top-badge">Top Value Driver</span>
+                            </template>
+                            <div class="pecc-kpi__accent" style={kpi.accentStyle} aria-hidden="true"></div>
+                            <div class="pecc-kpi__icon-wrap" style={kpi.iconBgStyle}>
+                                <lightning-icon
+                                    icon-name={kpi.icon}
+                                    size="x-small"
+                                    variant="inverse"
+                                    alternative-text={kpi.label}
+                                ></lightning-icon>
+                            </div>
+                            <div class="pecc-kpi__value">{kpi.value}</div>
+                            <div class="pecc-kpi__label">{kpi.label}</div>
+                            <div class="pecc-kpi__trend" style={kpi.trendStyle}>{kpi.trend}</div>
+                            <p class="pecc-kpi__desc">{kpi.desc}</p>
+                        </button>
+                    </li>
+                </template>
+            </ul>
+        </section>
+
+        <!-- ══════════════════════════════════════════════════════════
+             LIFECYCLE HEALTH TIMELINE  (dark PS navy section)
+        ══════════════════════════════════════════════════════════ -->
+        <section class="pecc-section pecc-section_lifecycle">
+            <div class="pecc-lifecycle-hdr">
+                <div class="pecc-lifecycle-hdr__left">
+                    <lightning-icon icon-name="utility:flow" size="xx-small" variant="inverse" alternative-text="Lifecycle" class="pecc-lifecycle-hdr__icon"></lightning-icon>
+                    <h2 class="pecc-section__title pecc-section__title_inline pecc-lifecycle-hdr__title">Lifecycle Health</h2>
+                    <span class="pecc-lifecycle-hdr__hint">Hover or focus a stage to see details</span>
+                </div>
+            </div>
+
+            <div class="pecc-lifecycle-wrap">
+                <div class="pecc-lifecycle-track" aria-label="Player lifecycle stages">
+                    <div class="pecc-track-line" aria-hidden="true"></div>
+                    <div class="pecc-stages">
+                        <template for:each={enrichedStages} for:item="stage">
+                            <div
+                                key={stage.id}
+                                class="pecc-stage-wrap"
+                                data-id={stage.id}
+                                onmouseenter={handleStageHover}
+                                onmouseleave={handleStageLeave}
+                            >
+                                <div class="pecc-stage-dot-zone">
+                                    <button
+                                        class={stage.dotClass}
+                                        style={stage.dotStyle}
+                                        data-id={stage.id}
+                                        onclick={handleStageClick}
+                                        onfocus={handleStageFocus}
+                                        onblur={handleStageBlur}
+                                        aria-label={stage.ariaLabel}
+                                        aria-haspopup="true"
+                                    ></button>
+                                </div>
+                                <div class="pecc-stage-label">{stage.label}</div>
+                                <div class={stage.statusBadgeClass}>{stage.status}</div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ══════════════════════════════════════════════════════════
+             DYNAMIC DETAIL REGION
+        ══════════════════════════════════════════════════════════ -->
+        <section class="pecc-section pecc-detail-section" id="pecc-detail" role="tabpanel" aria-live="polite">
+
+            <!-- Detail header: shown for inline panels only.
+                 Child LWC panels already carry their own title. -->
+            <template if:true={isInlinePanel}>
+                <div class="pecc-detail-hdr">
+                    <div class={detailHeaderIconClass}>
+                        <lightning-icon
+                            icon-name={activePanelMeta.icon}
+                            size="small"
+                            variant="inverse"
+                            alternative-text={activePanelMeta.label}
+                        ></lightning-icon>
+                    </div>
+                    <h2 class="pecc-detail-hdr__title">{activePanelMeta.label}</h2>
+                </div>
+            </template>
+
+            <!-- ── Panel 1: Players Analyzed ── -->
+            <template if:true={isPanelPlayers}>
+                <div class="pecc-panel">
+                    <p class="pecc-panel__subtitle">How Sony moves from player population to actionable agentic opportunities.</p>
+                    <div class="pecc-chart-4col">
+
+                        <!-- Chart 1: PS Plus Tier Mix — doughnut (large left, legend right) -->
+                        <div class="pecc-chart-card">
+                            <h3 class="pecc-chart-card__title">PS Plus Tier Mix</h3>
+                            <div class="pecc-tier-donut-wrap">
+                                <!-- r=38, C=238.76 | Premium 34%=81.2 | Extra 41%=97.9 | Essential 25%=59.7 -->
+                                <svg class="pecc-tier-donut-svg" viewBox="0 0 100 100" aria-label="PS Plus tier mix: Premium 34%, Extra 41%, Essential 25%">
+                                    <circle cx="50" cy="50" r="38" fill="none" stroke="#e5e7eb" stroke-width="12"/>
+                                    <circle cx="50" cy="50" r="38" fill="none" stroke="#2F6DB4" stroke-width="12"
+                                        stroke-dasharray="81.2 238.8" stroke-dashoffset="0"
+                                        transform="rotate(-90 50 50)"/>
+                                    <circle cx="50" cy="50" r="38" fill="none" stroke="#00AB9F" stroke-width="12"
+                                        stroke-dasharray="97.9 238.8" stroke-dashoffset="-81.2"
+                                        transform="rotate(-90 50 50)"/>
+                                    <circle cx="50" cy="50" r="38" fill="none" stroke="#F3C43A" stroke-width="12"
+                                        stroke-dasharray="59.7 238.8" stroke-dashoffset="-179.1"
+                                        transform="rotate(-90 50 50)"/>
+                                    <text x="50" y="45" text-anchor="middle" class="pecc-donut-ctr">PS Plus</text>
+                                    <text x="50" y="58" text-anchor="middle" class="pecc-donut-ctr-sub">Tier Mix</text>
+                                </svg>
+                                <div class="pecc-tier-legend">
+                                    <div class="pecc-tier-leg-item">
+                                        <span class="pecc-tier-dot" style="background:#2F6DB4;"></span>
+                                        <span class="pecc-tier-leg-name">Premium</span>
+                                        <span class="pecc-tier-leg-pct">34%</span>
+                                    </div>
+                                    <div class="pecc-tier-leg-item">
+                                        <span class="pecc-tier-dot" style="background:#00AB9F;"></span>
+                                        <span class="pecc-tier-leg-name">Extra</span>
+                                        <span class="pecc-tier-leg-pct">41%</span>
+                                    </div>
+                                    <div class="pecc-tier-leg-item">
+                                        <span class="pecc-tier-dot" style="background:#F3C43A;"></span>
+                                        <span class="pecc-tier-leg-name">Essential</span>
+                                        <span class="pecc-tier-leg-pct">25%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chart 2: Target Cohort Funnel — fat centered bars, text inside -->
+                        <div class="pecc-chart-card">
+                            <h3 class="pecc-chart-card__title">Target Cohort Funnel</h3>
+                            <p class="pecc-chart-card__subtitle">From player universe to actionable Premium adoption cohort.</p>
+                            <div class="pecc-funnel">
+                                <template for:each={funnelStages} for:item="stage">
+                                    <div key={stage.id} class="pecc-funnel-bar-row" style={stage.wrapStyle}>
+                                        <span class="pecc-funnel-bar-text" style={stage.textStyle}>
+                                            {stage.label} &middot; {stage.count}
+                                        </span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Chart 3: Lifecycle Signal Coverage — radar with per-axis labels + hover tooltips -->
+                        <div class="pecc-chart-card">
+                            <h3 class="pecc-chart-card__title">Lifecycle Signal Coverage</h3>
+                            <p class="pecc-chart-card__subtitle">Signal coverage across the lifecycle intelligence layer.</p>
+                            <div class="pecc-radar-wrap">
+                                <!--
+                                    viewBox 260×260, r=80, center=(130,130).
+                                    Axis text labels at r×1.4=112 from center — positioned with overflow:visible.
+                                    Vertex dot id mapping (for tooltip): sub game mktg commerce service controller oms
+                                    SVG text uses paint-order="stroke fill" with white stroke for crisp readability.
+                                -->
+                                <svg class="pecc-radar-svg" viewBox="0 0 260 260" aria-label="Lifecycle signal coverage radar chart"
+                                    onmouseover={handleRadarMouseOver}
+                                    onmouseleave={handleRadarMouseLeave}
+                                    onfocusin={handleRadarFocusIn}
+                                    onfocusout={handleRadarFocusOut}>
+                                    <!-- Grid rings at 25 / 50 / 75 / 100% -->
+                                    <polygon points="130,110 145.6,117.5 149.5,134.5 138.7,148.0 121.3,148.0 110.5,134.5 114.4,117.5"
+                                        fill="none" stroke="#e5e7eb" stroke-width="0.8"/>
+                                    <polygon points="130,90 161.3,105.1 169.0,138.9 147.4,166.0 112.6,166.0 91.0,138.9 98.7,105.1"
+                                        fill="none" stroke="#e5e7eb" stroke-width="0.8"/>
+                                    <polygon points="130,70 176.9,92.6 188.5,143.4 156.0,184.1 74.0,184.1 71.5,143.4 83.1,92.6"
+                                        fill="none" stroke="#d1d5db" stroke-width="0.8"/>
+                                    <polygon points="130,50 192.5,80.1 208.0,147.8 164.7,202.1 95.3,202.1 52.0,147.8 67.5,80.1"
+                                        fill="none" stroke="#d1d5db" stroke-width="1"/>
+                                    <!-- Axis lines center→vertex -->
+                                    <line x1="130" y1="130" x2="130"   y2="50"    stroke="#d1d5db" stroke-width="0.8"/>
+                                    <line x1="130" y1="130" x2="192.5" y2="80.1"  stroke="#d1d5db" stroke-width="0.8"/>
+                                    <line x1="130" y1="130" x2="208.0" y2="147.8" stroke="#d1d5db" stroke-width="0.8"/>
+                                    <line x1="130" y1="130" x2="164.7" y2="202.1" stroke="#d1d5db" stroke-width="0.8"/>
+                                    <line x1="130" y1="130" x2="95.3"  y2="202.1" stroke="#d1d5db" stroke-width="0.8"/>
+                                    <line x1="130" y1="130" x2="52.0"  y2="147.8" stroke="#d1d5db" stroke-width="0.8"/>
+                                    <line x1="130" y1="130" x2="67.5"  y2="80.1"  stroke="#d1d5db" stroke-width="0.8"/>
+                                    <!-- Data polygon — (92,84,77,71,68,54,49)% of r=80 from center -->
+                                    <polygon points="130,56.4 182.5,88.1 190.1,143.7 154.6,181.2 106.4,179.0 87.9,139.6 99.4,105.6"
+                                        fill="rgba(47,109,180,0.15)" stroke="#2F6DB4" stroke-width="1.5" stroke-linejoin="round"/>
+                                    <!--
+                                        Interactive vertex dots — rendered AFTER the polygon so they appear on top.
+                                        stroke="#ffffff" stroke-width="2" creates a white ring that makes every dot
+                                        pop against the blue polygon edge and the chart background.
+                                        Color scheme (all 4 PS palette colors distributed clockwise from top):
+                                          sub=#2F6DB4  game=#2F6DB4  mktg=#00AB9F  commerce=#00AB9F
+                                          service=#DE0024  controller=#DE0024  oms=#F3C43A
+                                    -->
+                                    <!-- Dots have NO per-element LWC event handlers — all interaction is
+                                         delegated to the parent <svg> via onmouseover / onfocusin.
+                                         Per-element handlers on multiple SVG siblings cause LWC to only
+                                         adopt the first element into the virtual DOM. -->
+                                    <circle cx="130"   cy="56.4"  r="7" fill="#2F6DB4" stroke="#ffffff" stroke-width="2" class="pecc-radar-dot"
+                                        data-radar-id="sub"        tabindex="0" role="img"
+                                        aria-label="Subscription Signals coverage 92 percent"/>
+                                    <circle cx="182.5" cy="88.1"  r="7" fill="#2F6DB4" stroke="#ffffff" stroke-width="2" class="pecc-radar-dot"
+                                        data-radar-id="game"       tabindex="0" role="img"
+                                        aria-label="Gameplay Signals coverage 84 percent"/>
+                                    <circle cx="190.1" cy="143.7" r="7" fill="#00AB9F" stroke="#ffffff" stroke-width="2" class="pecc-radar-dot"
+                                        data-radar-id="mktg"       tabindex="0" role="img"
+                                        aria-label="Marketing Engagement coverage 77 percent"/>
+                                    <circle cx="154.6" cy="181.2" r="7" fill="#00AB9F" stroke="#ffffff" stroke-width="2" class="pecc-radar-dot"
+                                        data-radar-id="commerce"   tabindex="0" role="img"
+                                        aria-label="Commerce Signals coverage 71 percent"/>
+                                    <circle cx="106.4" cy="179.0" r="7" fill="#DE0024" stroke="#ffffff" stroke-width="2" class="pecc-radar-dot"
+                                        data-radar-id="service"    tabindex="0" role="img"
+                                        aria-label="Service Signals coverage 68 percent"/>
+                                    <circle cx="87.9"  cy="139.6" r="7" fill="#DE0024" stroke="#ffffff" stroke-width="2" class="pecc-radar-dot"
+                                        data-radar-id="controller" tabindex="0" role="img"
+                                        aria-label="Controller Telemetry coverage 54 percent"/>
+                                    <circle cx="99.4"  cy="105.6" r="7" fill="#F3C43A" stroke="#ffffff" stroke-width="2" class="pecc-radar-dot"
+                                        data-radar-id="oms"        tabindex="0" role="img"
+                                        aria-label="OMS / Fulfillment coverage 49 percent"/>
+                                    <!--
+                                        Axis labels at r×1.4=112 from center.
+                                        paint-order="stroke fill" with white stroke ensures readability on any bg.
+                                        Colors match the vertex dot fill above.
+                                    -->
+                                    <!-- i=0 Subscription (top, #2F6DB4) -->
+                                    <text x="130" y="14" text-anchor="middle"
+                                        fill="#2F6DB4" font-size="11" font-weight="700"
+                                        stroke="#fff" stroke-width="3" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">Subscription</text>
+                                    <text x="130" y="26" text-anchor="middle"
+                                        fill="#2F6DB4" font-size="9" font-weight="400"
+                                        stroke="#fff" stroke-width="2.5" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">92%</text>
+                                    <!-- i=1 Gameplay (upper-right, #2F6DB4) -->
+                                    <text x="220" y="57" text-anchor="start"
+                                        fill="#2F6DB4" font-size="11" font-weight="700"
+                                        stroke="#fff" stroke-width="3" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">Gameplay</text>
+                                    <text x="220" y="69" text-anchor="start"
+                                        fill="#2F6DB4" font-size="9" font-weight="400"
+                                        stroke="#fff" stroke-width="2.5" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">84%</text>
+                                    <!-- i=2 Marketing (right, #00AB9F — matches dot) -->
+                                    <text x="241" y="150" text-anchor="start"
+                                        fill="#00AB9F" font-size="11" font-weight="700"
+                                        stroke="#fff" stroke-width="3" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">Marketing</text>
+                                    <text x="241" y="162" text-anchor="start"
+                                        fill="#00AB9F" font-size="9" font-weight="400"
+                                        stroke="#fff" stroke-width="2.5" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">77%</text>
+                                    <!-- i=3 Commerce (lower-right, #00AB9F) -->
+                                    <text x="179" y="228" text-anchor="middle"
+                                        fill="#00AB9F" font-size="11" font-weight="700"
+                                        stroke="#fff" stroke-width="3" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">Commerce</text>
+                                    <text x="179" y="240" text-anchor="middle"
+                                        fill="#00AB9F" font-size="9" font-weight="400"
+                                        stroke="#fff" stroke-width="2.5" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">71%</text>
+                                    <!-- i=4 Service (lower-left, #DE0024 — matches dot) -->
+                                    <text x="81" y="228" text-anchor="middle"
+                                        fill="#DE0024" font-size="11" font-weight="700"
+                                        stroke="#fff" stroke-width="3" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">Service</text>
+                                    <text x="81" y="240" text-anchor="middle"
+                                        fill="#DE0024" font-size="9" font-weight="400"
+                                        stroke="#fff" stroke-width="2.5" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">68%</text>
+                                    <!-- i=5 Controller (left, #DE0024 — matches dot) -->
+                                    <text x="19" y="150" text-anchor="end"
+                                        fill="#DE0024" font-size="11" font-weight="700"
+                                        stroke="#fff" stroke-width="3" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">Controller</text>
+                                    <text x="19" y="162" text-anchor="end"
+                                        fill="#DE0024" font-size="9" font-weight="400"
+                                        stroke="#fff" stroke-width="2.5" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">54%</text>
+                                    <!-- i=6 OMS (upper-left, #F3C43A dot — use #8A6500 for text on white bg) -->
+                                    <text x="40" y="57" text-anchor="end"
+                                        fill="#8A6500" font-size="11" font-weight="700"
+                                        stroke="#fff" stroke-width="3" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">OMS</text>
+                                    <text x="40" y="69" text-anchor="end"
+                                        fill="#8A6500" font-size="9" font-weight="400"
+                                        stroke="#fff" stroke-width="2.5" paint-order="stroke fill"
+                                        class="pecc-radar-axis-lbl">49%</text>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Chart 4: Agentic Opportunity Bubble Map — dynamic, interactive bubbles -->
+                        <div class="pecc-chart-card">
+                            <h3 class="pecc-chart-card__title">Agentic Opportunity Map</h3>
+                            <p class="pecc-chart-card__subtitle">Prioritize by value, readiness, and player reach.</p>
+                            <div class="pecc-bubble-wrap">
+                                <svg class="pecc-bubble-svg" viewBox="0 0 280 210" aria-label="Agentic opportunity bubble map">
+                                    <!-- Axes -->
+                                    <line x1="45" y1="10" x2="45" y2="165" stroke="#d1d5db" stroke-width="0.75"/>
+                                    <line x1="45" y1="165" x2="265" y2="165" stroke="#d1d5db" stroke-width="0.75"/>
+                                    <!-- Y grid -->
+                                    <line x1="45" y1="126" x2="265" y2="126" stroke="#f3f4f6" stroke-width="0.5" stroke-dasharray="3 3"/>
+                                    <line x1="45" y1="88"  x2="265" y2="88"  stroke="#f3f4f6" stroke-width="0.5" stroke-dasharray="3 3"/>
+                                    <line x1="45" y1="49"  x2="265" y2="49"  stroke="#f3f4f6" stroke-width="0.5" stroke-dasharray="3 3"/>
+                                    <!-- X grid -->
+                                    <line x1="133" y1="10" x2="133" y2="165" stroke="#f3f4f6" stroke-width="0.5" stroke-dasharray="3 3"/>
+                                    <line x1="221" y1="10" x2="221" y2="165" stroke="#f3f4f6" stroke-width="0.5" stroke-dasharray="3 3"/>
+                                    <!-- Y tick labels -->
+                                    <text x="42" y="168" text-anchor="end" class="pecc-bubble-tick">$0</text>
+                                    <text x="42" y="129" text-anchor="end" class="pecc-bubble-tick">$20M</text>
+                                    <text x="42" y="91"  text-anchor="end" class="pecc-bubble-tick">$40M</text>
+                                    <text x="42" y="52"  text-anchor="end" class="pecc-bubble-tick">$60M</text>
+                                    <text x="42" y="13"  text-anchor="end" class="pecc-bubble-tick">$80M</text>
+                                    <!-- X tick labels -->
+                                    <text x="133" y="178" text-anchor="middle" class="pecc-bubble-tick">40</text>
+                                    <text x="177" y="178" text-anchor="middle" class="pecc-bubble-tick">60</text>
+                                    <text x="221" y="178" text-anchor="middle" class="pecc-bubble-tick">80</text>
+                                    <text x="265" y="178" text-anchor="middle" class="pecc-bubble-tick">100</text>
+                                    <!-- Axis labels -->
+                                    <text x="155" y="196" text-anchor="middle" class="pecc-bubble-axis-lbl">Readiness</text>
+                                    <text x="12"  y="88"  text-anchor="middle" class="pecc-bubble-axis-lbl" transform="rotate(-90 12 88)">Value</text>
+                                    <!-- Interactive bubbles — hover/focus shows tooltip -->
+                                    <template for:each={bubbleMapItems} for:item="bubble">
+                                        <g key={bubble.id}
+                                           data-bubble-id={bubble.id}
+                                           class="pecc-bubble-group"
+                                           role="img"
+                                           tabindex="0"
+                                           aria-label={bubble.ariaLabel}
+                                           onmouseenter={handleBubbleEnter}
+                                           onmouseleave={handleBubbleLeave}
+                                           onfocus={handleBubbleFocus}
+                                           onblur={handleBubbleBlur}>
+                                            <circle cx={bubble.cx} cy={bubble.cy} r={bubble.r} style={bubble.circleStyle}/>
+                                            <text cx={bubble.cx} cy={bubble.cy}
+                                                x={bubble.cx} y={bubble.cy}
+                                                text-anchor="middle" dominant-baseline="middle"
+                                                class="pecc-bubble-inner-lbl"
+                                                fill={bubble.labelFill}>{bubble.labelText}</text>
+                                        </g>
+                                    </template>
+                                </svg>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </template>
+
+            <!-- ── Panel 2: Agentic Opportunities (child LWC — detail view) ── -->
+            <template if:true={isPanelOpportunities}>
+                <div class="pecc-child-panel">
+                    <c-ranked-agentic-opportunities variant="detail"></c-ranked-agentic-opportunities>
+                </div>
+            </template>
+
+            <!-- ── Panel 3: Value at Stake (child LWC — detail view) ── -->
+            <template if:true={isPanelValue}>
+                <div class="pecc-child-panel">
+                    <c-business-value-scorecard variant="detail"></c-business-value-scorecard>
+                </div>
+            </template>
+
+            <!-- ── Panel 4: High-Priority Decisions (child LWC — detail view) ── -->
+            <template if:true={isPanelDecisions}>
+                <div class="pecc-child-panel">
+                    <c-executive-decision-queue variant="detail"></c-executive-decision-queue>
+                </div>
+            </template>
+
+            <!-- ── Panel 5: AI / Data Readiness ── -->
+            <template if:true={isPanelReadiness}>
+                <div class="pecc-panel">
+                    <p class="pecc-panel__subtitle">What must be connected and governed to operationalize Agentforce at scale.</p>
+
+                    <!-- Two-column visual: donut (left) + vertical bars (right) -->
+                    <div class="pecc-readiness-viz">
+
+                        <!-- Donut chart -->
+                        <div class="pecc-donut-wrap" aria-label="Overall AI / Data Readiness: 68%">
+                            <svg class="pecc-donut-svg" viewBox="0 0 100 100" aria-hidden="true">
+                                <!-- Background track -->
+                                <circle class="pecc-donut-bg" cx="50" cy="50" r="40"/>
+                                <!-- Progress arc: circumference ≈ 251.3, 68% ≈ 170.9 -->
+                                <circle class="pecc-donut-prog" cx="50" cy="50" r="40"
+                                    stroke-dasharray="170.9 251.3"
+                                    transform="rotate(-90 50 50)"/>
+                                <!-- Center pct -->
+                                <text x="50" y="47" class="pecc-donut-num" text-anchor="middle" dominant-baseline="middle">68%</text>
+                                <text x="50" y="63" class="pecc-donut-sub" text-anchor="middle">Ready</text>
+                            </svg>
+                            <div class="pecc-donut-caption">Overall AI / Data Readiness</div>
+                        </div>
+
+                        <!-- Horizontal bar chart -->
+                        <div class="pecc-rhbars-wrap" aria-label="Readiness by capability">
+                            <template for:each={enrichedReadiness} for:item="cap">
+                                <div key={cap.id} class="pecc-rhbar-row">
+                                    <span class="pecc-rhbar-label">{cap.shortLabel}</span>
+                                    <div class="pecc-rhbar-track">
+                                        <div class="pecc-rhbar-fill" style={cap.fillStyle}></div>
+                                    </div>
+                                    <span class="pecc-rhbar-pct">{cap.pct}%</span>
+                                    <span class={cap.statusClass}>{cap.status}</span>
+                                </div>
+                            </template>
+                        </div>
+
+                    </div>
+
+                    <!-- Next steps -->
+                    <div class="pecc-next-steps">
+                        <div class="pecc-next-steps__hdr">
+                            <div class="pecc-icon-tile pecc-icon-tile_blue">
+                                <lightning-icon icon-name="utility:list" size="xx-small" variant="inverse" alternative-text="Next Steps"></lightning-icon>
+                            </div>
+                            <span class="pecc-next-steps__title">Recommended Next Steps</span>
+                        </div>
+                        <ul class="pecc-next-steps__list">
+                            <template for:each={readinessNextSteps} for:item="step">
+                                <li key={step.id} class="pecc-next-steps__item">
+                                    <lightning-icon icon-name="utility:chevronright" size="xx-small" alternative-text="" class="pecc-next-steps__bullet"></lightning-icon>
+                                    {step.text}
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
+                </div>
+            </template>
+
+        </section>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════
+         BUBBLE TOOLTIP OVERLAY  (fixed-position, above all content)
+    ══════════════════════════════════════════════════════════ -->
+    <template if:true={bubbleTip.visible}>
+        <div class="pecc-bubble-tip" style={bubbleTip.style} role="tooltip" aria-live="polite">
+            <div class="pecc-bubble-tip__hdr" style={bubbleTip.headerStyle}>{bubbleTip.data.label}</div>
+            <dl class="pecc-bubble-tip__body">
+                <div class="pecc-bubble-tip__row"><dt>Value</dt><dd>{bubbleTip.data.value}</dd></div>
+                <div class="pecc-bubble-tip__row"><dt>Readiness</dt><dd>{bubbleTip.data.readiness}</dd></div>
+                <div class="pecc-bubble-tip__row"><dt>Players</dt><dd>{bubbleTip.data.players}</dd></div>
+                <div class="pecc-bubble-tip__row"><dt>Owner</dt><dd>{bubbleTip.data.owner}</dd></div>
+                <div class="pecc-bubble-tip__row"><dt>Action</dt><dd>{bubbleTip.data.action}</dd></div>
+            </dl>
+        </div>
+    </template>
+
+    <!-- ══════════════════════════════════════════════════════════
+         RADAR TOOLTIP OVERLAY  (fixed-position, above all content)
+    ══════════════════════════════════════════════════════════ -->
+    <template if:true={radarTip.visible}>
+        <div class="pecc-radar-tip" style={radarTip.style} role="tooltip" aria-live="polite">
+            <div class="pecc-bubble-tip__hdr" style={radarTip.headerStyle}>{radarTip.data.label} — {radarTip.data.pct}</div>
+            <dl class="pecc-bubble-tip__body">
+                <div class="pecc-bubble-tip__row"><dt>Meaning</dt><dd>{radarTip.data.meaning}</dd></div>
+                <div class="pecc-bubble-tip__row"><dt>Source</dt><dd>{radarTip.data.source}</dd></div>
+                <div class="pecc-bubble-tip__row"><dt>Implication</dt><dd>{radarTip.data.implication}</dd></div>
+            </dl>
+        </div>
+    </template>
+
+    <!-- ══════════════════════════════════════════════════════════
+         LIFECYCLE POPOVER OVERLAY  (fixed-position, above all content)
+         Rendered here at root level so it is never clipped by section overflow.
+    ══════════════════════════════════════════════════════════ -->
+    <template if:true={hasPopover}>
+        <div class="pecc-floating-popover" style={popoverStyle} role="tooltip" aria-live="polite"
+            onmouseenter={handlePopoverMouseEnter}
+            onmouseleave={handlePopoverMouseLeave}
+            onfocusin={handlePopoverFocusIn}
+            onfocusout={handlePopoverFocusOut}
+            onkeydown={handlePopoverKeydown}>
+            <div class="pecc-popover__hdr">
+                <span class="pecc-popover__title">{activePopoverStage.label}</span>
+                <span class={activePopoverStage.statusBadgeClass}>{activePopoverStage.status}</span>
+            </div>
+            <template if:true={activePopoverStage.description}>
+                <p class="pecc-popover__desc">{activePopoverStage.description}</p>
+            </template>
+            <div class="pecc-popover__row">
+                <span class="pecc-popover__key">Opportunity</span>
+                <span class="pecc-popover__val">{activePopoverStage.detail.count}</span>
+            </div>
+            <div class="pecc-popover__row">
+                <span class="pecc-popover__key">Owner</span>
+                <span class="pecc-popover__val">{activePopoverStage.detail.owner}</span>
+            </div>
+            <div class="pecc-popover__row">
+                <span class="pecc-popover__key">Action</span>
+                <span class="pecc-popover__val">{activePopoverStage.detail.action}</span>
+            </div>
+            <div class="pecc-popover__footer">
+                <button type="button"
+                    class="pecc-popover__btn"
+                    onclick={handleLifecycleStageDetailClick}
+                    aria-label={activePopoverStage.viewDetailsAriaLabel}>
+                    View Details
+                </button>
+            </div>
+        </div>
+    </template>
+
+</div>
+</template>
