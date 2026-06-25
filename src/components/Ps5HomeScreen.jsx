@@ -492,48 +492,49 @@ export function Ps5HomeScreen({
             </div>
           </div>
 
-          <aside className="welcome-stream-wishlist-card" aria-label="Marvel's Wolverine wishlist pre-order">
-            <div className="welcome-wishlist-content">
-              <div className="welcome-wishlist-top">
-                <span className="welcome-wishlist-badge">WISHLISTED</span>
-                <p className="welcome-wishlist-context">Recommended from your wishlist</p>
+          <div className="welcome-right-rail">
+            <aside className="welcome-stream-side-card" aria-label="Cloud gaming discovery panel">
+              <img
+                className="welcome-plus-logo"
+                src={playstationPlusPremiumLogoCard}
+                alt="PlayStation Plus Premium"
+              />
+              <h3>Discover Cloud Streaming on PlayStation</h3>
+              <img
+                className="welcome-side-device-image"
+                src={playstationPortableCloudImage}
+                alt="PlayStation portable cloud streaming"
+              />
+              <p>
+                As a Premium member, stream hundreds of games instantly - no download required.
+              </p>
+              <div className="welcome-side-actions">
+                <button type="button">Stream Games</button>
+                <button type="button">Game Catalog</button>
+                <button type="button">Classics</button>
               </div>
-              <div className="welcome-wishlist-body">
-                <h3>Marvel&apos;s Wolverine</h3>
-                <p className="welcome-wishlist-headline">Pre-order available now</p>
-                <p className="welcome-wishlist-copy">
-                  You added Wolverine to your wishlist. Pre-order today and be ready to play at launch.
-                </p>
-                <div className="welcome-wishlist-actions">
-                  <button type="button" className="welcome-wishlist-primary">Pre-order Now</button>
-                  <button type="button" className="welcome-wishlist-secondary">View Details</button>
+            </aside>
+
+            <aside className="welcome-stream-wishlist-card" aria-label="Marvel's Wolverine wishlist pre-order">
+              <div className="welcome-wishlist-content">
+                <div className="welcome-wishlist-top">
+                  <span className="welcome-wishlist-badge">WISHLISTED</span>
+                  <p className="welcome-wishlist-context">Recommended from your wishlist</p>
+                </div>
+                <div className="welcome-wishlist-body">
+                  <h3>Marvel&apos;s Wolverine</h3>
+                  <p className="welcome-wishlist-headline">Pre-order available now</p>
+                  <p className="welcome-wishlist-copy">
+                    You added Wolverine to your wishlist. Pre-order today and be ready to play at launch.
+                  </p>
+                  <div className="welcome-wishlist-actions">
+                    <button type="button" className="welcome-wishlist-primary">Pre-order Now</button>
+                    <button type="button" className="welcome-wishlist-secondary">View Details</button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </aside>
-
-          <aside className="welcome-stream-side-card" aria-label="Cloud gaming discovery panel">
-            <img
-              className="welcome-plus-logo"
-              src={playstationPlusPremiumLogoCard}
-              alt="PlayStation Plus Premium"
-            />
-            <h3>Discover Cloud Streaming on PlayStation</h3>
-            <img
-              className="welcome-side-device-image"
-              src={playstationPortableCloudImage}
-              alt="PlayStation portable cloud streaming"
-            />
-            <p>
-              As a Premium member, you have access to hundreds of games - stream instantly, no download, no waiting,
-              just press play.
-            </p>
-            <div className="welcome-side-actions">
-              <button type="button">Stream Games</button>
-              <button type="button">Game Catalog</button>
-              <button type="button">Classics</button>
-            </div>
-          </aside>
+            </aside>
+          </div>
 
           <div className="welcome-recommended-row" aria-label="Recommended for you">
             <p className="welcome-row-label">RECOMMENDED FOR YOU</p>
