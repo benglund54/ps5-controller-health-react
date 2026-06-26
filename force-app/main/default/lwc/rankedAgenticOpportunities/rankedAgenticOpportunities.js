@@ -100,7 +100,7 @@ const DEFAULT_ROWS = [
         id: 'oms',
         rank: 6,
         opportunity: 'OMS-Enabled Replacement & Fulfillment',
-        valueAtStake: '$23M NRR',
+        valueAtStake: '$23M fulfillment impact',
         confidence: 'Medium',
         owner: 'OMS / Fulfillment',
         recommendedDecision: 'Validate OMS path',

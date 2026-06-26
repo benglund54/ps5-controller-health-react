@@ -4,7 +4,7 @@ import psLogoUrl from '@salesforce/resourceUrl/playstationLogo';
 
 const DEFAULT_TITLE      = 'PlayStation Agentic Lifecycle Command Center';
 const DEFAULT_SUBTITLE   = 'Turning player signals into trusted actions, measurable outcomes, and executive decisions.';
-const DEFAULT_CONTEXT    = 'Sony QBR | July 7 London';
+const DEFAULT_CONTEXT    = 'Sony SBR | July 7 London';
 const DEFAULT_METADATA   = 'Executive View \u2022 Last Refreshed: Today';
 const DEFAULT_BADGES_CSV = 'Data Cloud,Agentforce,Tableau,Slack,Service Cloud,OMS';
 const DEFAULT_PANEL      = 'opportunities';
@@ -186,7 +186,7 @@ const DEFAULT_READINESS = [
     { id: 'mapping',   label: 'Data model mapping',                   shortLabel: 'Data Model',  pct: 71, status: 'In progress'              },
     { id: 'graphs',    label: 'Data Graphs',                          shortLabel: 'Data Graphs', pct: 59, status: 'Needs buildout'           },
     { id: 'knowledge', label: 'Knowledge grounding',                  shortLabel: 'Knowledge',   pct: 62, status: 'Needs content owners'     },
-    { id: 'oms',       label: 'OMS / fulfillment',                    shortLabel: 'OMS',         pct: 49, status: 'Needs arch path'          },
+    { id: 'oms',       label: 'OMS / fulfillment',                    shortLabel: 'OMS',         pct: 49, status: 'Needs architecture path'  },
     { id: 'slack',     label: 'Slack Enterprise AI',                  shortLabel: 'Slack AI',    pct: 42, status: 'Needs sponsor'            },
 ];
 

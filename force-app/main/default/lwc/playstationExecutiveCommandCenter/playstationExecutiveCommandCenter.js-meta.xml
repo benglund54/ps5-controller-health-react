@@ -11,7 +11,7 @@
         <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage">
             <property name="title"              type="String"  label="Title"                default="PlayStation Agentic Lifecycle Command Center" />
             <property name="subtitle"           type="String"  label="Subtitle"             default="Turning player signals into trusted actions, measurable outcomes, and executive decisions." />
-            <property name="contextLabel"       type="String"  label="Context Pill Label"   default="Sony QBR | July 7 London" />
+            <property name="contextLabel"       type="String"  label="Context Pill Label"   default="Sony SBR | July 7 London" />
             <property name="metadataLabel"      type="String"  label="Metadata Text"        default="Executive View • Last Refreshed: Today" />
             <property name="showBadges"         type="Boolean" label="Show Capability Badges" default="false" description="Show the capability badge row under the header." />
             <property name="badgeCsv"           type="String"  label="Capability Badges (comma-separated)" default="Data Cloud,Agentforce,Tableau,Slack,Service Cloud,OMS" />
