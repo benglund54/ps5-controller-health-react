@@ -5202,12 +5202,6 @@
   background: linear-gradient(180deg, #0a1230, #050913);
 }
 
-.wolverine-email-header img {
-  height: 34px;
-  width: auto;
-  border-radius: 6px;
-}
-
 .wolverine-email-hero {
   position: relative;
   min-height: 240px;

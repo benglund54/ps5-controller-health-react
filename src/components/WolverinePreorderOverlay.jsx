@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import psStoreLogo from "../../assets/Playstation_store-ef2939a6-5eb9-4ff4-85a0-8220484dbf06.png";
 import psStoreLogoMark from "../../assets/ps-store-logo-mark.png";
 import wolverineArt from "../../assets/wolverine-wishlist-card.png";
 
@@ -238,7 +237,9 @@ export function WolverinePreorderOverlay({ visible, initialStage = "purchase", o
               </div>
 
               <header className="wolverine-email-header">
-                <img src={psStoreLogo} alt="PlayStation Store" />
+                <span className="wolverine-store-logo-badge">
+                  <img className="wolverine-store-logo" src={psStoreLogoMark} alt="PlayStation Store" />
+                </span>
               </header>
 
               <section
