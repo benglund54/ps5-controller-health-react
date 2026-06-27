@@ -4,6 +4,7 @@ import { GameTileRow } from "./GameTileRow";
 import { HomeWidgets } from "./HomeWidgets";
 import { ProactiveHealthToast } from "./ProactiveHealthToast";
 import { ControllerHealthOverlay } from "./ControllerHealthOverlay";
+import { WolverinePreorderOverlay } from "./WolverinePreorderOverlay";
 import { getControllerHealthJourney } from "../data/controllerHealthJourneys";
 import welcomeBackground from "../../assets/PS5_Welcome_background-c2fb8859-4d49-4f6e-9620-7868bb34da1a.png";
 import spiderManArt from "../../assets/Spider-Man_Miles_Morales-7809d6ce-8c11-455d-b1be-a3f34d1bc0e9.png";
@@ -146,6 +147,10 @@ export function Ps5HomeScreen({
 }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showActivatePulse, setShowActivatePulse] = useState(false);
+  // Wolverine wishlist-to-purchase demo state (local; resets per persona / via helper).
+  const [wolverinePreordered, setWolverinePreordered] = useState(false);
+  const [wolverineFlowOpen, setWolverineFlowOpen] = useState(false);
+  const [wolverineInitialStage, setWolverineInitialStage] = useState("purchase");
   const [proactiveState, setProactiveState] = useState({
     navigationCount: 0,
     hasTriggered: false,
@@ -180,8 +185,24 @@ export function Ps5HomeScreen({
     });
     setToastFocusedAction("viewOptions");
     setSelectedIndex(0);
+    setWolverinePreordered(false);
+    setWolverineFlowOpen(false);
+    setWolverineInitialStage("purchase");
     /* eslint-enable react-hooks/set-state-in-effect */
   }, [persona.ownerId]);
+
+  // Lightweight demo rehearsal helper — resets the Wolverine card to its pre-order
+  // state without a page refresh. Intentionally not surfaced in the UI.
+  useEffect(() => {
+    window.resetWolverinePreorderDemo = () => {
+      setWolverinePreordered(false);
+      setWolverineFlowOpen(false);
+      setWolverineInitialStage("purchase");
+    };
+    return () => {
+      delete window.resetWolverinePreorderDemo;
+    };
+  }, []);
 
   const handleArrowNavigation = () => {
     setProactiveState((previous) => {
@@ -493,26 +514,66 @@ export function Ps5HomeScreen({
             </div>
           </div>
 
-          <aside className="welcome-stream-wishlist-card" aria-label="Marvel's Wolverine wishlist pre-order">
+          <aside
+            className={`welcome-stream-wishlist-card ${wolverinePreordered ? "wolverine-card-confirmed" : ""}`}
+            aria-label="Marvel's Wolverine wishlist pre-order"
+          >
             <div className="welcome-wishlist-media">
               <img src={wolverineWishlistImage} alt="Marvel's Wolverine key art" />
             </div>
             <div className="welcome-wishlist-content">
-              <div className="welcome-wishlist-top">
-                <span className="welcome-wishlist-badge">WISHLISTED</span>
-                <p className="welcome-wishlist-context">Recommended from your wishlist</p>
-              </div>
-              <div className="welcome-wishlist-body">
-                <h3>Marvel&apos;s Wolverine</h3>
-                <p className="welcome-wishlist-headline">Pre-order available now</p>
-                <p className="welcome-wishlist-copy">
-                  You added Wolverine to your wishlist. Pre-order today and be ready to play at launch.
-                </p>
-                <div className="welcome-wishlist-actions">
-                  <button type="button" className="welcome-wishlist-primary">Pre-order Now</button>
-                  <button type="button" className="welcome-wishlist-secondary">View Details</button>
-                </div>
-              </div>
+              {wolverinePreordered ? (
+                <>
+                  <div className="welcome-wishlist-top">
+                    <span className="welcome-wishlist-badge confirmed">PRE-ORDER CONFIRMED</span>
+                    <p className="welcome-wishlist-context">In your library</p>
+                  </div>
+                  <div className="welcome-wishlist-body">
+                    <h3>Marvel&apos;s Wolverine</h3>
+                    <p className="welcome-wishlist-headline confirmed">You&apos;re ready for launch</p>
+                    <p className="welcome-wishlist-copy">We&apos;ll notify you when pre-load begins.</p>
+                    <div className="welcome-wishlist-actions">
+                      <button
+                        type="button"
+                        className="welcome-wishlist-primary"
+                        onClick={() => {
+                          setWolverineInitialStage("confirmation");
+                          setWolverineFlowOpen(true);
+                        }}
+                      >
+                        View Order
+                      </button>
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="welcome-wishlist-top">
+                    <span className="welcome-wishlist-badge">WISHLISTED</span>
+                    <p className="welcome-wishlist-context">Recommended from your wishlist</p>
+                  </div>
+                  <div className="welcome-wishlist-body">
+                    <h3>Marvel&apos;s Wolverine</h3>
+                    <p className="welcome-wishlist-headline">Pre-order available now</p>
+                    <p className="welcome-wishlist-copy">
+                      You added Wolverine to your wishlist. Pre-order today and be ready to play at launch.
+                    </p>
+                    <div className="welcome-wishlist-actions">
+                      <button
+                        type="button"
+                        className="welcome-wishlist-primary"
+                        onClick={() => {
+                          setWolverineInitialStage("purchase");
+                          setWolverineFlowOpen(true);
+                        }}
+                      >
+                        Pre-order Now
+                      </button>
+                      <button type="button" className="welcome-wishlist-secondary">View Details</button>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </aside>
 
@@ -597,6 +658,16 @@ export function Ps5HomeScreen({
         visible={Boolean(homeSession?.panelOpen)}
         onClose={onCloseHealthPanel}
         onLater={dismissForSession}
+      />
+
+      <WolverinePreorderOverlay
+        visible={wolverineFlowOpen}
+        initialStage={wolverineInitialStage}
+        onCancel={() => setWolverineFlowOpen(false)}
+        onComplete={() => {
+          setWolverinePreordered(true);
+          setWolverineFlowOpen(false);
+        }}
       />
       <footer className="ps5-home-footer">
         <span>Arrow keys: Navigate</span>
